@@ -61,15 +61,15 @@ export default function HeroSection() {
         </div>
 
         {/* Tagline */}
-        <p className="hero-reveal text-[10px] sm:text-[11px] uppercase tracking-[0.4em] text-gold font-medium mb-4 sm:mb-6 px-4">
+        <p className="hero-tagline text-[10px] sm:text-[11px] uppercase tracking-[0.4em] text-gold font-medium mb-4 sm:mb-6 px-4">
           Elite Real Estate Networking &middot; Market Protocol Activated
         </p>
         
-        <h1 className="hero-reveal font-script text-gold text-4xl sm:text-6xl md:text-7xl lg:text-8xl italic mb-6 sm:mb-8 leading-[1.1] sm:leading-[1.05] tracking-tight px-2">
+        <h1 className="hero-title font-script text-gold text-4xl sm:text-6xl md:text-7xl lg:text-8xl italic mb-6 sm:mb-8 leading-[1.1] sm:leading-[1.05] tracking-tight px-2">
           Real Estate Dates
         </h1>
 
-        <div className="hero-reveal max-w-[600px] mx-auto mb-10 sm:mb-12 px-6">
+        <div className="hero-desc max-w-[600px] mx-auto mb-10 sm:mb-12 px-6">
           <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed font-light">
             A dating app for real estate professionals who share similar interests and who are looking for that special someone to <span className="text-gold font-bold uppercase tracking-wider">build an empire</span> with.
           </p>
