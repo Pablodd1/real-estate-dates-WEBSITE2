@@ -9,43 +9,43 @@ gsap.registerPlugin(ScrollTrigger);
 const features = [
   {
     icon: <KeyRound className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Submit Key',
-    desc: 'Our signature gesture. Submit a key to show interest in a profile — like swiping right, but with real estate flair.',
+    title: 'Turn Key',
+    desc: 'Our signature interaction. Express institutional interest with a single gesture — like a swipe, but professional.',
   },
   {
     icon: <Lock className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
     title: 'Lock Asset',
-    desc: 'Found the one? Lock the asset to go exclusive. No more browsing — just building together.',
+    desc: 'Found the right partner? Lock the asset to go exclusive. No more browsing — just building together.',
   },
   {
     icon: <Video className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Video Showings',
-    desc: '5-minute video speed dates. Meet face-to-face virtually before committing to an in-person walkthrough.',
-  },
-  {
-    icon: <CalendarDays className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Play Dates',
-    desc: 'Schedule real-world meetups at properties, galleries, or your favorite spots. We call them play dates.',
-  },
-  {
-    icon: <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Open Escrow Chat',
-    desc: 'Secure messaging built for real estate professionals. Discuss deals, share comps, plan dates.',
+    title: 'Virtual Ballroom',
+    desc: 'Automated 3-minute video networking rounds during Happy Hour events, governed by the Market Master.',
   },
   {
     icon: <Shield className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Verified Agents Only',
-    desc: 'Every profile is verified. License checks, portfolio validation, and background screening included.',
+    title: 'Market Protocol',
+    desc: 'A formalized deal flow (Pending > Active > Inspection) that reflects real-world real estate interactions.',
   },
   {
     icon: <BadgeCheck className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Elite Tier',
-    desc: 'Upgrade to Elite for priority matching, unlimited video showings, and exclusive networking events.',
+    title: 'Synergy Ratings',
+    desc: 'Automated compatibility scores (e.g., 88% Business / 12% Fun) to ensure high-synergy partnerships.',
+  },
+  {
+    icon: <Building2 className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Institutional Profiles',
+    desc: 'Pre-seeded with high-AUM executives, featuring architectural galleries and professional intel.',
   },
   {
     icon: <Eye className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
     title: 'Portfolio View',
-    desc: 'Browse their professional portfolio alongside their dating profile. See their work before you swipe.',
+    desc: 'Browse their professional assets alongside their profile. See their work before you Turn Key.',
+  },
+  {
+    icon: <Lock className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Verified Only',
+    desc: 'Every profile undergoes 12-step executive accreditation. License and portfolio validation included.',
   },
 ];
 

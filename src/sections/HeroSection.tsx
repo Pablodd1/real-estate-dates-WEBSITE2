@@ -60,21 +60,20 @@ export default function HeroSection() {
           <p className="hero-logo-text text-gold font-script text-sm sm:text-base italic mt-2">Real Estate Dates</p>
         </div>
 
-        {/* Main Title with Decode */}
-        <h1 className="hero-title font-script text-gold text-3xl sm:text-4xl md:text-5xl lg:text-6xl italic leading-tight mb-3">
-          <TextDecode text="Real Estate Dates" delay={400} speed={40} />
+        {/* Tagline */}
+        <p className="hero-reveal text-[10px] sm:text-[11px] uppercase tracking-[0.4em] text-gold font-medium mb-4 sm:mb-6 px-4">
+          Elite Real Estate Networking &middot; Market Protocol Activated
+        </p>
+        
+        <h1 className="hero-reveal font-script text-gold text-4xl sm:text-6xl md:text-7xl lg:text-8xl italic mb-6 sm:mb-8 leading-[1.1] sm:leading-[1.05] tracking-tight px-2">
+          Real Estate Dates
         </h1>
 
-        {/* Tagline */}
-        <p className="hero-tagline text-[10px] sm:text-[11px] uppercase tracking-[0.3em] text-white/40 font-medium mb-8 sm:mb-10">
-          Elite Real Estate Networking
-        </p>
-
-        {/* Description */}
-        <p className="hero-desc font-script text-white/50 text-base sm:text-lg md:text-xl italic leading-relaxed mb-8 sm:mb-10 px-2">
-          A dating app for real estate professionals who share similar interests and who are looking for that special someone to{" "}
-          <span className="text-gold">Build an Empire</span> with.
-        </p>
+        <div className="hero-reveal max-w-[600px] mx-auto mb-10 sm:mb-12 px-6">
+          <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed font-light">
+            A high-security, deal-driven ecosystem for real estate professionals. Share interests, connect via the <span className="text-gold font-medium">Market Protocol</span>, and find that special someone to Build an Empire with.
+          </p>
+        </div>
 
         {/* Primary CTA */}
         <button className="hero-cta-main group relative w-full max-w-[300px] sm:max-w-[320px] flex items-center justify-center gap-3 px-6 sm:px-8 py-3.5 sm:py-4 bg-gold text-dark font-semibold text-xs sm:text-sm uppercase tracking-wider rounded-full hover:bg-gold-light transition-all duration-300 overflow-hidden">

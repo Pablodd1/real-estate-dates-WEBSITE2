@@ -326,7 +326,7 @@ export default function DiscoverSection() {
                       className="flex-1 flex items-center justify-center gap-2 py-3 bg-gold rounded-xl text-dark hover:bg-gold-light transition-all duration-200 border border-gold hover:shadow-glow group"
                     >
                       <KeyRound className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform" />
-                      <span className="text-[10px] sm:text-xs font-bold uppercase tracking-widest">Submit Key</span>
+                      <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest">Turn Key</span>
                     </button>
                   </div>
                 </div>

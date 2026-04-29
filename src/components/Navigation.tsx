@@ -46,7 +46,9 @@ export default function Navigation() {
           {/* Desktop CTA */}
           <button
             onClick={() => scrollToSection('#download')}
-            Get the App
+            className="hidden md:inline-flex items-center px-5 sm:px-6 py-2 sm:py-2.5 bg-gold text-dark text-xs sm:text-sm font-bold rounded-full hover:bg-gold-light transition-colors duration-200 uppercase tracking-wider"
+          >
+            GET THE APP
           </button>
 
           {/* Mobile Hamburger */}
