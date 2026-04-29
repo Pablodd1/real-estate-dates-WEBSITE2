@@ -3,7 +3,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { Globe, Shield, User, KeyRound } from 'lucide-react';
 import { LogoIcon } from '@/components/Logo';
-import TextDecode from '@/components/TextDecode';
+
 
 export default function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);

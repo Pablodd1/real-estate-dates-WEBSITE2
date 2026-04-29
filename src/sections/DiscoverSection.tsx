@@ -2,7 +2,7 @@ import { useRef, useState, useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { X, KeyRound, MapPin, Building2, Quote } from 'lucide-react';
+import { X, KeyRound, MapPin } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
