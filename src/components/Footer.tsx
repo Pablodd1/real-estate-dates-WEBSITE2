@@ -20,6 +20,14 @@ export default function Footer() {
               {id.replace(/-/g, ' ')}
             </a>
           ))}
+          <a
+            href="https://realestatedates.net"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-[9px] sm:text-[10px] uppercase tracking-[0.15em] text-gold/50 hover:text-gold transition-colors"
+          >
+            realestatedates.net
+          </a>
         </div>
       </div>
     </footer>
