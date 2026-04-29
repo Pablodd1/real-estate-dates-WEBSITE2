@@ -32,9 +32,6 @@ export function LogoFull({ className = "" }: { className?: string }) {
         <span className="font-script text-gold text-xl leading-none italic">
           Real Estate Dates
         </span>
-        <span className="text-[10px] uppercase tracking-[0.2em] text-white/40 font-medium mt-0.5">
-          Elite Real Estate Networking
-        </span>
       </div>
     </div>
   );

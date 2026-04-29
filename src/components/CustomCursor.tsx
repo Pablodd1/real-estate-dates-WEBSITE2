@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
+import { KeyRound } from 'lucide-react';
 
 export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
@@ -62,17 +63,19 @@ export default function CustomCursor() {
 
   return (
     <>
-      {/* Inner dot */}
+      {/* Inner Key */}
       <div
         ref={cursorRef}
-        className="fixed top-0 left-0 z-[9998] pointer-events-none mix-blend-difference"
+        className="fixed top-0 left-0 z-[9998] pointer-events-none"
         style={{ willChange: 'transform' }}
       >
         <div
-          className={`rounded-full bg-gold transition-all duration-200 -translate-x-1/2 -translate-y-1/2 ${
-            isHovering ? 'w-2 h-2 opacity-0' : 'w-2 h-2 opacity-100'
+          className={`transition-all duration-200 -translate-x-1/2 -translate-y-1/2 ${
+            isHovering ? 'scale-75 opacity-50' : 'scale-100 opacity-100'
           }`}
-        />
+        >
+          <KeyRound className="w-5 h-5 text-gold" strokeWidth={2.5} />
+        </div>
       </div>
 
       {/* Outer ring */}
