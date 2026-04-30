@@ -17,28 +17,20 @@ export default function HeroSection() {
   useGSAP(() => {
     if (!sectionRef.current || !loaded) return;
 
-    // Set initial states explicitly
-    gsap.set(['.hero-logo-icon', '.hero-logo-text', '.hero-title', '.hero-tagline', '.hero-desc', '.hero-cta-main', '.hero-demo-btn', '.hero-divider', '.hero-footer'], {
-      opacity: 0,
-      y: 20
-    });
-    gsap.set('.hero-logo-icon', { scale: 0.5 });
-    gsap.set('.hero-divider', { scaleX: 0 });
-
     const tl = gsap.timeline({ 
       defaults: { ease: 'power3.out', duration: 0.8 },
       delay: 0.2
     });
 
-    tl.to('.hero-logo-icon', { scale: 1, opacity: 1, duration: 1, ease: 'back.out(1.7)' })
-      .to('.hero-logo-text', { y: 0, opacity: 1 }, '-=0.6')
-      .to('.hero-tagline', { y: 0, opacity: 1 }, '-=0.6')
-      .to('.hero-title', { y: 0, opacity: 1 }, '-=0.6')
-      .to('.hero-desc', { y: 0, opacity: 1 }, '-=0.6')
-      .to('.hero-cta-main', { y: 0, opacity: 1 }, '-=0.6')
-      .to('.hero-divider', { scaleX: 1, opacity: 1, duration: 0.4 }, '-=0.4')
-      .to('.hero-demo-btn', { y: 0, opacity: 1, stagger: 0.1 }, '-=0.3')
-      .to('.hero-footer', { opacity: 1, duration: 0.5 }, '-=0.2');
+    tl.from('.hero-logo-icon', { scale: 0.5, opacity: 0, duration: 1, ease: 'back.out(1.7)' })
+      .from('.hero-logo-text', { y: 20, opacity: 0 }, '-=0.6')
+      .from('.hero-tagline', { y: 15, opacity: 0 }, '-=0.6')
+      .from('.hero-title', { y: 40, opacity: 0, duration: 1 }, '-=0.6')
+      .from('.hero-desc', { y: 20, opacity: 0 }, '-=0.6')
+      .from('.hero-cta-main', { y: 20, opacity: 0 }, '-=0.6')
+      .from('.hero-divider', { scaleX: 0, opacity: 0, duration: 0.4 }, '-=0.4')
+      .from('.hero-demo-btn', { y: 15, opacity: 0, stagger: 0.1 }, '-=0.3')
+      .from('.hero-footer', { opacity: 0, duration: 0.5 }, '-=0.2');
 
     // Floating animation for logo
     gsap.to('.hero-logo-icon', {
@@ -64,7 +56,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 max-w-[520px] mx-auto w-full pt-[100px] sm:pt-[120px] pb-16">
+      <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 max-w-[600px] mx-auto w-full pt-[100px] sm:pt-[120px] pb-16">
         {/* Logo */}
         <div className="hero-logo-icon mb-4 sm:mb-6">
           <LogoIcon className="w-14 h-14 sm:w-20 sm:h-20 text-gold mx-auto" />
@@ -81,7 +73,7 @@ export default function HeroSection() {
         </h1>
 
         <div className="hero-desc max-w-[600px] mx-auto mb-10 sm:mb-12 px-6">
-          <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed font-light">
+          <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed font-light">
             A dating app for real estate professionals who share similar interests and who are looking for that special someone to <span className="bg-gold text-dark px-1.5 py-0.5 rounded-sm font-bold uppercase tracking-wider mx-1">build an empire</span> with.
           </p>
         </div>
