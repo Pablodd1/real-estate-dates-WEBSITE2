@@ -11,13 +11,13 @@ export default function Footer() {
           </span>
         </div>
         <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-          {['home', 'discover', 'how-it-works', 'features', 'download'].map((id) => (
+          {['about', 'contact', 'terms', 'privacy'].map((id) => (
             <a
               key={id}
-              href={`#${id === 'home' ? 'hero' : id}`}
+              href={`#${id}`}
               className="text-[9px] sm:text-[10px] uppercase tracking-[0.15em] text-white/30 hover:text-gold transition-colors"
             >
-              {id.replace(/-/g, ' ')}
+              {id}
             </a>
           ))}
           <a

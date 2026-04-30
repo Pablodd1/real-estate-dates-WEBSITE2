@@ -8,44 +8,44 @@ gsap.registerPlugin(ScrollTrigger);
 
 const features = [
   {
-    icon: <KeyRound className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Submit Key',
-    desc: 'Our signature gesture. Submit a key to show interest in a profile — like swiping right, but with real estate flair.',
-  },
-  {
-    icon: <Lock className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Lock Asset',
-    desc: 'Found the one? Lock the asset to go exclusive. No more browsing — just building together.',
-  },
-  {
-    icon: <Video className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Video Showings',
-    desc: '5-minute video speed dates. Meet face-to-face virtually before committing to an in-person walkthrough.',
-  },
-  {
-    icon: <CalendarDays className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Play Dates',
-    desc: 'Schedule real-world meetups at properties, galleries, or your favorite spots. We call them play dates.',
-  },
-  {
-    icon: <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Open Escrow Chat',
-    desc: 'Secure messaging built for real estate professionals. Discuss deals, share comps, plan dates.',
-  },
-  {
-    icon: <Shield className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Verified Agents Only',
-    desc: 'Every profile is verified. License checks, portfolio validation, and background screening included.',
-  },
-  {
     icon: <BadgeCheck className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Elite Tier',
-    desc: 'Upgrade to Elite for priority matching, unlimited video showings, and exclusive networking events.',
+    title: 'Luxury Profiles',
+    desc: 'View hand-picked luxury listings and verified elite professionals in your local market.',
   },
   {
     icon: <Eye className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
-    title: 'Portfolio View',
-    desc: 'Browse their professional portfolio alongside their dating profile. See their work before you swipe.',
+    title: 'Market Intel',
+    desc: 'Analyze real-time market data, past performance, and specialized asset classes before connecting.',
+  },
+  {
+    icon: <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Encrypted Logic',
+    desc: 'Share leads and discuss high-level synergies in our ultra-secure messaging environment.',
+  },
+  {
+    icon: <CalendarDays className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Property Dating',
+    desc: 'Matches coordinate meet-ups at local listings, coffee shops, or exclusive professional hubs.',
+  },
+  {
+    icon: <KeyRound className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Empire Building',
+    desc: 'Our algorithm pairs you with professionals who share your investment vision and goals.',
+  },
+  {
+    icon: <Video className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Video Intro',
+    desc: 'Conduct private 5-minute video intro calls to gauge chemistry before meeting in person.',
+  },
+  {
+    icon: <Shield className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Protocol Sync',
+    desc: 'Synchronize your market protocol across all your real estate assets and connections.',
+  },
+  {
+    icon: <Lock className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />,
+    title: 'Closed Deal',
+    desc: 'The ultimate professional partnership. Go from matched to closed on your empire.',
   },
 ];
 

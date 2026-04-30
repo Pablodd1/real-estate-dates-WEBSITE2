@@ -3,10 +3,10 @@ import { Menu, X } from 'lucide-react';
 import { LogoFull } from './Logo';
 
 const navLinks = [
-  { label: 'Discover', href: '#discover' },
-  { label: 'How It Works', href: '#how-it-works' },
-  { label: 'Features', href: '#features' },
-  { label: 'Download', href: '#download' },
+  { label: 'Select Browse', href: '#discover' },
+  { label: 'Build an Empire', href: '#how-it-works' },
+  { label: 'Investment', href: '#features' },
+  { label: 'Information', href: '#download' },
 ];
 
 export default function Navigation() {
