@@ -17,17 +17,28 @@ export default function HeroSection() {
   useGSAP(() => {
     if (!sectionRef.current || !loaded) return;
 
-    const tl = gsap.timeline({ defaults: { ease: 'power3.out' } });
+    // Set initial states explicitly
+    gsap.set(['.hero-logo-icon', '.hero-logo-text', '.hero-title', '.hero-tagline', '.hero-desc', '.hero-cta-main', '.hero-demo-btn', '.hero-divider', '.hero-footer'], {
+      opacity: 0,
+      y: 20
+    });
+    gsap.set('.hero-logo-icon', { scale: 0.5 });
+    gsap.set('.hero-divider', { scaleX: 0 });
 
-    tl.from('.hero-logo-icon', { scale: 0.5, opacity: 0, duration: 1, ease: 'back.out(1.7)' })
-      .from('.hero-logo-text', { y: 20, opacity: 0, duration: 0.6 }, 0.3)
-      .from('.hero-title', { y: 40, opacity: 0, duration: 0.8 }, 0.5)
-      .from('.hero-tagline', { y: 15, opacity: 0, duration: 0.5 }, 0.7)
-      .from('.hero-desc', { y: 20, opacity: 0, duration: 0.6 }, 0.9)
-      .from('.hero-cta-main', { y: 20, opacity: 0, duration: 0.6 }, 1.1)
-      .from('.hero-divider', { scaleX: 0, opacity: 0, duration: 0.4, transformOrigin: 'center' }, 1.3)
-      .from('.hero-demo-btn', { y: 15, opacity: 0, duration: 0.5, stagger: 0.1 }, 1.4)
-      .from('.hero-footer', { opacity: 0, duration: 0.5 }, 1.8);
+    const tl = gsap.timeline({ 
+      defaults: { ease: 'power3.out', duration: 0.8 },
+      delay: 0.2
+    });
+
+    tl.to('.hero-logo-icon', { scale: 1, opacity: 1, duration: 1, ease: 'back.out(1.7)' })
+      .to('.hero-logo-text', { y: 0, opacity: 1 }, '-=0.6')
+      .to('.hero-tagline', { y: 0, opacity: 1 }, '-=0.6')
+      .to('.hero-title', { y: 0, opacity: 1 }, '-=0.6')
+      .to('.hero-desc', { y: 0, opacity: 1 }, '-=0.6')
+      .to('.hero-cta-main', { y: 0, opacity: 1 }, '-=0.6')
+      .to('.hero-divider', { scaleX: 1, opacity: 1, duration: 0.4 }, '-=0.4')
+      .to('.hero-demo-btn', { y: 0, opacity: 1, stagger: 0.1 }, '-=0.3')
+      .to('.hero-footer', { opacity: 1, duration: 0.5 }, '-=0.2');
 
     // Floating animation for logo
     gsap.to('.hero-logo-icon', {
