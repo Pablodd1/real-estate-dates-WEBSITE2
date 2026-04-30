@@ -17,21 +17,8 @@ export default function HeroSection() {
   useGSAP(() => {
     if (!sectionRef.current || !loaded) return;
 
-    const tl = gsap.timeline({ 
-      defaults: { ease: 'power3.out', duration: 0.8 },
-      delay: 0.2
-    });
-
-    tl.from('.hero-logo-icon', { scale: 0.5, opacity: 0, duration: 1, ease: 'back.out(1.7)' })
-      .from('.hero-logo-text', { y: 20, opacity: 0 }, '-=0.6')
-      .from('.hero-tagline', { y: 15, opacity: 0 }, '-=0.6')
-      .from('.hero-title', { y: 40, opacity: 0, duration: 1 }, '-=0.6')
-      .from('.hero-desc', { y: 20, opacity: 0 }, '-=0.6')
-      .from('.hero-cta-main', { y: 20, opacity: 0 }, '-=0.6')
-      .from('.hero-divider', { scaleX: 0, opacity: 0, duration: 0.4 }, '-=0.4')
-      .from('.hero-demo-btn', { y: 15, opacity: 0, stagger: 0.1 }, '-=0.3')
-      .from('.hero-footer', { opacity: 0, duration: 0.5 }, '-=0.2');
-
+    // Removed entrance animations to ensure visibility even if browser hangs
+    
     // Floating animation for logo
     gsap.to('.hero-logo-icon', {
       y: -5,
