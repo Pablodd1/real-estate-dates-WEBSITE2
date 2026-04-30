@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Search, Eye, KeyRound, Heart, MessageCircle, Video, CalendarCheck, Lock } from 'lucide-react';
+import { Search, Eye, KeyRound, Video, CalendarCheck, Lock, Shield } from 'lucide-react';
 
 gsap.registerPlugin(ScrollTrigger);
 
