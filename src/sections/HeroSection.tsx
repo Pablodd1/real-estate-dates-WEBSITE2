@@ -71,7 +71,7 @@ export default function HeroSection() {
 
         <div className="hero-desc max-w-[600px] mx-auto mb-10 sm:mb-12 px-6">
           <p className="text-base sm:text-lg md:text-xl text-white/70 leading-relaxed font-light">
-            A dating app for real estate professionals who share similar interests and who are looking for that special someone to <span className="text-gold font-bold uppercase tracking-wider">build an empire</span> with.
+            A dating app for real estate professionals who share similar interests and who are looking for that special someone to <span className="bg-gold text-dark px-1.5 py-0.5 rounded-sm font-bold uppercase tracking-wider mx-1">build an empire</span> with.
           </p>
         </div>
 
