@@ -2,7 +2,7 @@ import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Apple, Play, Check, Search, Heart, MessageSquare, User, KeyRound } from 'lucide-react';
+import { Apple, Play, Search, Heart, MessageSquare, User, KeyRound } from 'lucide-react';
 import { LogoIcon } from '@/components/Logo';
 
 gsap.registerPlugin(ScrollTrigger);
