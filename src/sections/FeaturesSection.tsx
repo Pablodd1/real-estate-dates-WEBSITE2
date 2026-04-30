@@ -103,6 +103,8 @@ export default function FeaturesSection() {
     if (!sectionRef.current) return;
 
     const header = sectionRef.current.querySelectorAll('.feat-reveal');
+    const cards = sectionRef.current.querySelectorAll('.feat-card');
+
     gsap.from(header, {
       y: 40,
       opacity: 0,
@@ -111,12 +113,11 @@ export default function FeaturesSection() {
       ease: 'power3.out',
       scrollTrigger: {
         trigger: sectionRef.current,
-        start: 'top 80%',
+        start: 'top 85%',
         toggleActions: 'play none none none',
       },
     });
 
-    const cards = sectionRef.current.querySelectorAll('.feat-card');
     gsap.from(cards, {
       y: 30,
       opacity: 0,
@@ -124,7 +125,7 @@ export default function FeaturesSection() {
       stagger: 0.06,
       ease: 'power3.out',
       scrollTrigger: {
-        trigger: sectionRef.current.querySelector('.feat-grid'),
+        trigger: sectionRef.current,
         start: 'top 75%',
         toggleActions: 'play none none none',
       },
