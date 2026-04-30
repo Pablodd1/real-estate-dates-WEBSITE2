@@ -43,7 +43,7 @@ export default function HeroSection() {
         }}
       />
 
-      <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 max-w-[600px] mx-auto w-full pt-[100px] sm:pt-[120px] pb-16">
+      <div className="relative z-10 flex flex-col items-center text-center px-4 sm:px-6 max-w-[600px] mx-auto w-full pt-[60px] sm:pt-[80px] pb-12 sm:pb-16">
         {/* Logo */}
         <div className="hero-logo-icon mb-4 sm:mb-6">
           <LogoIcon className="w-14 h-14 sm:w-20 sm:h-20 text-gold mx-auto" />
@@ -59,7 +59,7 @@ export default function HeroSection() {
           Real Estate Dates
         </h1>
 
-        <div className="hero-desc max-w-[600px] mx-auto mb-10 sm:mb-12 px-6">
+        <div className="hero-desc max-w-[600px] mx-auto mb-8 sm:mb-10 px-6">
           <p className="text-base sm:text-lg md:text-xl text-white/90 leading-relaxed font-light">
             A dating app for real estate professionals who share similar interests and who are looking for that special someone to <span className="bg-gold text-dark px-1.5 py-0.5 rounded-sm font-bold uppercase tracking-wider mx-1">build an empire</span> with.
           </p>

@@ -100,12 +100,12 @@ export default function DownloadSection() {
             </div>
 
             {/* Benefits Legend */}
-            <div className="dl-reveal mt-8 sm:mt-10 pt-6 sm:pt-8 border-t border-white/5 flex flex-wrap items-center justify-center lg:justify-start gap-x-4 sm:gap-x-6 gap-y-2 sm:gap-y-3">
-              <span className="text-[9px] uppercase tracking-widest text-white/20 w-full mb-1">App Status Legend</span>
+            <div className="dl-reveal mt-10 sm:mt-12 pt-8 sm:pt-10 border-t border-white/5 flex flex-wrap items-center justify-start gap-x-6 sm:gap-x-8 gap-y-3 sm:gap-y-4">
+              <span className="text-[10px] uppercase tracking-[0.3em] text-gold/40 w-full mb-2">App Status Legend</span>
               {benefits.map((benefit) => (
-                <div key={benefit} className="flex items-center gap-1.5 sm:gap-2">
-                  <div className="w-1 h-1 rounded-full bg-gold/40" />
-                  <span className="text-[10px] sm:text-xs text-white/40">{benefit}</span>
+                <div key={benefit} className="flex items-center gap-2 sm:gap-3">
+                  <div className="w-1.5 h-1.5 rounded-full bg-gold/50 shadow-[0_0_8px_rgba(212,175,55,0.4)]" />
+                  <span className="text-[11px] sm:text-xs text-white/50 font-medium">{benefit}</span>
                 </div>
               ))}
             </div>
