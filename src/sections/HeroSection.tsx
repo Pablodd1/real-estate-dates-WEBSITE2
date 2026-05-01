@@ -7,15 +7,9 @@ import { LogoIcon } from '@/components/Logo';
 
 export default function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);
-  const [loaded, setLoaded] = useState(false);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoaded(true), 100);
-    return () => clearTimeout(timer);
-  }, []);
 
   useGSAP(() => {
-    if (!sectionRef.current || !loaded) return;
+    if (!sectionRef.current) return;
 
     // Removed entrance animations to ensure visibility even if browser hangs
     
