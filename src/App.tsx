@@ -1,7 +1,6 @@
-import { useEffect, useRef, useState } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Lenis from 'lenis';
+
 import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import GoldParticles from '@/components/GoldParticles';
@@ -11,7 +10,7 @@ import DiscoverSection from '@/sections/DiscoverSection';
 import HowItWorksSection from '@/sections/HowItWorksSection';
 import FeaturesSection from '@/sections/FeaturesSection';
 import DownloadSection from '@/sections/DownloadSection';
-import { LogoIcon } from '@/components/Logo';
+
 
 gsap.registerPlugin(ScrollTrigger);
 

@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react';
+import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { Globe, Shield, User, KeyRound } from 'lucide-react';
@@ -21,7 +21,7 @@ export default function HeroSection() {
       yoyo: true,
       ease: 'sine.inOut',
     });
-  }, { scope: sectionRef, dependencies: [loaded] });
+  }, { scope: sectionRef });
 
   return (
     <section
