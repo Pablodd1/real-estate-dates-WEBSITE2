@@ -1,6 +1,8 @@
 import { useState, useCallback } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, LogOut, User as UserIcon, LogIn } from 'lucide-react';
 import { LogoFull } from './Logo';
+import { useAuth } from '@/hooks/useAuth';
+import AuthModal from '@/components/AuthModal';
 
 const navLinks = [
   { label: 'Select Browse', href: '#discover' },
@@ -11,6 +13,8 @@ const navLinks = [
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const { user, profile, logout } = useAuth();
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   const scrollToSection = useCallback((href: string) => {
     setMobileOpen(false);
@@ -43,13 +47,36 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Desktop CTA */}
-          <button
-            onClick={() => scrollToSection('#download')}
-            className="hidden md:inline-flex items-center px-5 sm:px-6 py-2 sm:py-2.5 bg-gold text-dark text-xs sm:text-sm font-bold rounded-full hover:bg-gold-light transition-colors duration-200 uppercase tracking-wider"
-          >
-            GET THE APP
-          </button>
+          {/* Desktop Auth CTA */}
+          <div className="hidden md:flex items-center gap-4">
+            {user ? (
+              <div className="flex items-center gap-4">
+                <div className="flex flex-col items-end">
+                  <span className="text-[10px] text-gold uppercase tracking-widest font-bold">
+                    {profile?.role || 'Standard'}
+                  </span>
+                  <span className="text-xs text-white/60 lowercase">
+                    {user.displayName?.split(' ')[0] || 'User'}
+                  </span>
+                </div>
+                <button
+                  onClick={logout}
+                  className="p-2 text-white/40 hover:text-gold transition-colors"
+                  title="Logout"
+                >
+                  <LogOut className="w-5 h-5" />
+                </button>
+              </div>
+            ) : (
+              <button
+                onClick={() => setIsAuthModalOpen(true)}
+                className="inline-flex items-center gap-2 px-5 sm:px-6 py-2 sm:py-2.5 bg-gold text-dark text-xs sm:text-sm font-bold rounded-full hover:bg-gold-light transition-colors duration-200 uppercase tracking-wider"
+              >
+                <LogIn className="w-4 h-4" />
+                Login
+              </button>
+            )}
+          </div>
 
           {/* Mobile Hamburger */}
           <button
@@ -68,11 +95,22 @@ export default function Navigation() {
         }`}
       >
         <div className="flex flex-col items-center justify-center h-full gap-6 sm:gap-8 px-6">
+          {user && (
+            <div className="flex flex-col items-center mb-4">
+              <span className="text-[10px] text-gold uppercase tracking-[0.3em] font-bold mb-1">
+                {profile?.role || 'Standard'}
+              </span>
+              <span className="text-xl text-white font-medium italic">
+                {user.displayName || 'User'}
+              </span>
+            </div>
+          )}
+          
           {navLinks.map((link, i) => (
             <button
               key={link.href}
               onClick={() => scrollToSection(link.href)}
-              className="text-white text-xl sm:text-2xl font-medium hover:text-gold transition-colors duration-200 uppercase tracking-wider"
+              className="text-sm font-medium text-white/60 hover:text-gold transition-colors duration-200 uppercase tracking-wider"
               style={{
                 transitionDelay: mobileOpen ? `${i * 80}ms` : '0ms',
                 opacity: mobileOpen ? 1 : 0,
@@ -83,9 +121,17 @@ export default function Navigation() {
               {link.label}
             </button>
           ))}
+          
           <button
-            onClick={() => scrollToSection('#download')}
-            className="mt-4 px-8 py-3 bg-gold text-dark text-base sm:text-lg font-semibold rounded-full hover:bg-gold-light transition-all duration-200"
+            onClick={() => {
+              if (user) {
+                logout();
+              } else {
+                setMobileOpen(false);
+                setIsAuthModalOpen(true);
+              }
+            }}
+            className="mt-4 px-8 py-3 bg-gold text-dark text-base sm:text-lg font-semibold rounded-full hover:bg-gold-light transition-all duration-200 uppercase tracking-widest"
             style={{
               transitionDelay: mobileOpen ? `${navLinks.length * 80}ms` : '0ms',
               opacity: mobileOpen ? 1 : 0,
@@ -93,10 +139,15 @@ export default function Navigation() {
               transition: 'opacity 0.5s ease, transform 0.5s ease',
             }}
           >
-            GET THE APP
+            {user ? 'Logout Account' : 'Secure Login'}
           </button>
         </div>
       </div>
+
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)} 
+      />
     </>
   );
 }

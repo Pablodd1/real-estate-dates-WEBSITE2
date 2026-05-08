@@ -10,7 +10,7 @@ import DiscoverSection from '@/sections/DiscoverSection';
 import HowItWorksSection from '@/sections/HowItWorksSection';
 import FeaturesSection from '@/sections/FeaturesSection';
 import DownloadSection from '@/sections/DownloadSection';
-
+import { Toaster } from 'sonner';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -35,6 +35,7 @@ function App() {
         </main>
         <Footer />
       </div>
+      <Toaster theme="dark" position="top-center" />
     </>
   );
 }

@@ -2,50 +2,55 @@ import { useRef, useState, useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { X, KeyRound, MapPin } from 'lucide-react';
+import { X, KeyRound, MapPin, Lock } from 'lucide-react';
+import { useAuth } from '@/hooks/useAuth';
+import { useMatching } from '@/hooks/useMatching';
+import AuthModal from '@/components/AuthModal';
+import { db } from '@/lib/firebase';
+import { 
+  collection, 
+  query, 
+  where, 
+  onSnapshot, 
+} from 'firebase/firestore';
 
 gsap.registerPlugin(ScrollTrigger);
-
-const profiles = [
-  {
-    id: 1,
-    name: 'Valentina Rossi',
-    role: 'Luxury Broker',
-    location: 'Miami / Milan',
-    image: '/assets/avatar-sarah.jpg',
-    bio: 'Specializing in off-market hospitality assets across the Atlantic. When I am not closing, I am at the gallery. Searching for a secure partnership to Build an Empire with.',
-    intel: ['5 closings', 'Elite tier'],
-    turnKey: true,
-  },
-  {
-    id: 2,
-    name: 'Marcus Chen',
-    role: 'Development Director',
-    location: 'New York / London',
-    image: '/assets/avatar-michael.jpg',
-    bio: 'I turn raw land into landmark addresses. Looking for a co-investor with vision — and maybe a dinner date to discuss cap rates over wine.',
-    intel: ['12 deals', 'Turn-key ready'],
-    turnKey: true,
-  },
-  {
-    id: 3,
-    name: 'Priya Sharma',
-    role: 'Commercial Agent',
-    location: 'Dubai / Singapore',
-    image: '/assets/avatar-priya.jpg',
-    bio: 'Multilingual negotiator with a portfolio spanning three continents. Seeking someone who understands that location is everything — in love and in real estate.',
-    intel: ['8 assets', 'Global reach'],
-    turnKey: false,
-  },
-];
 
 export default function DiscoverSection() {
   const sectionRef = useRef<HTMLElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
+  const { user } = useAuth();
+  const [profiles, setProfiles] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [dragDirection, setDragDirection] = useState<'left' | 'right' | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
-  const current = profiles[currentIndex % profiles.length];
+  // Fetch profiles from Firestore
+  useEffect(() => {
+    const q = query(collection(db, 'profiles'), where('active', '==', true));
+    
+    const unsubscribe = onSnapshot(q, (snapshot) => {
+      const data = snapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      }));
+      setProfiles(data);
+      setLoading(false);
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  const current = profiles[currentIndex % profiles.length] || {
+    id: 'placeholder',
+    name: 'Syncing Market...',
+    role: 'Protocol Active',
+    location: 'Searching...',
+    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
+    bio: 'Synchronizing with the global real estate database. Elite synergies are loading...',
+    intel: ['Analyzing', 'Verified'],
+  };
 
   // Touch swipe support
   useEffect(() => {
@@ -194,9 +199,16 @@ export default function DiscoverSection() {
     });
   }, { scope: sectionRef });
 
-  const handlePass = () => {
+  const { submitKey, passProfile, isMatching } = useMatching();
+
+  const handlePass = async () => {
+    if (!user) return setIsAuthModalOpen(true);
+    
     const card = cardRef.current;
     if (!card) return;
+
+    await passProfile(current.id);
+
     gsap.to(card, {
       x: -window.innerWidth,
       rotation: -25,
@@ -210,21 +222,29 @@ export default function DiscoverSection() {
     });
   };
 
-  const handleSubmitKey = () => {
+  const handleSubmitKey = async () => {
+    if (!user) return setIsAuthModalOpen(true);
+
     const card = cardRef.current;
-    if (!card) return;
-    gsap.to(card, {
-      x: window.innerWidth,
-      rotation: 25,
-      opacity: 0,
-      duration: 0.5,
-      ease: 'power3.out',
-      onComplete: () => {
-        setCurrentIndex((prev) => prev + 1);
-        gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
-      },
-    });
+    if (!card || isMatching) return;
+
+    const success = await submitKey(current.id);
+
+    if (success) {
+      gsap.to(card, {
+        x: window.innerWidth,
+        rotation: 25,
+        opacity: 0,
+        duration: 0.5,
+        ease: 'power3.out',
+        onComplete: () => {
+          setCurrentIndex((prev) => prev + 1);
+          gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
+        },
+      });
+    }
   };
+
 
   return (
     <section ref={sectionRef} id="discover" className="relative w-full py-20 sm:py-[120px] bg-dark overflow-hidden">
@@ -250,8 +270,24 @@ export default function DiscoverSection() {
         </div>
 
         {/* Card Stack */}
-        <div className="discover-reveal flex justify-center mb-6 sm:mb-8 select-none">
-          <div className="relative w-full max-w-[320px] sm:max-w-[380px]" style={{ perspective: '1000px' }}>
+        <div className="discover-reveal flex justify-center mb-6 sm:mb-8 select-none relative">
+          {!user && (
+            <div className="absolute inset-0 z-20 flex items-center justify-center">
+              <div className="p-8 bg-dark/40 backdrop-blur-xl border border-gold/20 rounded-2xl text-center max-w-[280px]">
+                <Lock className="w-10 h-10 text-gold mx-auto mb-4" />
+                <h4 className="text-white font-bold mb-2">Elite Access Only</h4>
+                <p className="text-white/40 text-xs mb-6">Login to browse verified professionals and submit keys.</p>
+                <button 
+                  onClick={() => setIsAuthModalOpen(true)}
+                  className="w-full py-3 bg-gold text-dark font-bold uppercase tracking-widest text-[10px] rounded-lg hover:bg-gold-light transition-all"
+                >
+                  Secure Login
+                </button>
+              </div>
+            </div>
+          )}
+          
+          <div className={`relative w-full max-w-[320px] sm:max-w-[380px] transition-all duration-700 ${!user ? 'blur-2xl grayscale scale-95 opacity-50 pointer-events-none' : ''}`} style={{ perspective: '1000px' }}>
             {/* Background cards (stack effect) */}
             <div className="absolute top-2 sm:top-3 left-2 sm:left-3 right-2 sm:right-3 h-full bg-dark-card rounded-2xl border border-white/5 opacity-60" />
             <div className="absolute top-4 sm:top-6 left-4 sm:left-6 right-4 sm:right-6 h-full bg-dark-elevated rounded-2xl border border-white/5 opacity-40" />
@@ -341,6 +377,11 @@ export default function DiscoverSection() {
           Submit a key to express interest. Lock the asset when you are ready to close.
         </p>
       </div>
+      
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)} 
+      />
     </section>
   );
 }
