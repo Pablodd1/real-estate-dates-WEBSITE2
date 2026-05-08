@@ -1,5 +1,5 @@
 import { useState, useCallback } from 'react';
-import { Menu, X, LogOut, User as UserIcon, LogIn } from 'lucide-react';
+import { Menu, X, LogOut, LogIn } from 'lucide-react';
 import { LogoFull } from './Logo';
 import { useAuth } from '@/hooks/useAuth';
 import AuthModal from '@/components/AuthModal';

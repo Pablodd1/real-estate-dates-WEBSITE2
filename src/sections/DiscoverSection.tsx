@@ -23,7 +23,6 @@ export default function DiscoverSection() {
   const [profiles, setProfiles] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [dragDirection, setDragDirection] = useState<'left' | 'right' | null>(null);
-  const [loading, setLoading] = useState(true);
   const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   // Fetch profiles from Firestore
@@ -36,7 +35,6 @@ export default function DiscoverSection() {
         ...doc.data()
       }));
       setProfiles(data);
-      setLoading(false);
     });
 
     return () => unsubscribe();
@@ -331,7 +329,7 @@ export default function DiscoverSection() {
                     <span className="px-2.5 py-1 bg-gold/10 rounded-md text-[10px] uppercase tracking-wider text-gold font-bold border border-gold/20">
                       {current.role}
                     </span>
-                    {current.intel.map((item) => (
+                    {current.intel.map((item: string) => (
                       <span
                         key={item}
                         className="px-2.5 py-1 bg-white/5 rounded-md text-[10px] uppercase tracking-wider text-white/60 font-bold border border-white/10"

@@ -30,7 +30,7 @@ export function useMatching() {
     
     if (!snapshot.empty) {
       // It's a match! (Inspection Period)
-      const matchDoc = await addDoc(collection(db, 'matches'), {
+      await addDoc(collection(db, 'matches'), {
         users: [senderId, receiverId],
         createdAt: serverTimestamp(),
         status: 'inspection_period'
