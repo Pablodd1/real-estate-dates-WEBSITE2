@@ -177,7 +177,7 @@ export const LegalProtectionSection: React.FC = () => {
                   One-time setup cost for full legal protection vs. $40M-$60M per major settlement.
                 </p>
                 <div className="text-xs text-gold/60 uppercase tracking-widest">
-                  Prevention {'>'} Cure
+                  {'Prevention > Cure'}
                 </div>
               </div>
             </div>
