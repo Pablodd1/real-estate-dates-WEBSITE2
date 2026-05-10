@@ -77,19 +77,19 @@ export default function BlogSection() {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} id="blog" className="w-full py-[120px] bg-warm-white border-t border-beige-dark">
+    <section ref={sectionRef} id="blog" className="w-full py-[120px] bg-dark border-t border-white/10">
       <div className="max-w-[1280px] mx-auto px-6">
         {/* Section Header */}
         <div className="blog-header flex flex-col sm:flex-row sm:items-end sm:justify-between mb-12 gap-4">
           <div>
-            <p className="text-xs font-medium uppercase tracking-[0.1em] text-sage mb-3">
+            <p className="text-xs font-medium uppercase tracking-[0.1em] text-gold mb-3">
               Insights & Tips
             </p>
-            <h2 className="text-4xl md:text-[42px] font-semibold text-text-primary leading-tight tracking-tight">
+            <h2 className="text-4xl md:text-[42px] font-semibold text-white leading-tight tracking-tight">
               From the Blog
             </h2>
           </div>
-          <span className="inline-flex items-center gap-2 text-sage font-medium hover:underline cursor-pointer">
+          <span className="inline-flex items-center gap-2 text-gold font-medium hover:underline cursor-pointer">
             View All Articles
             <ArrowRight className="w-4 h-4" />
           </span>
@@ -100,7 +100,7 @@ export default function BlogSection() {
           {blogPosts.map((post) => (
             <article
               key={post.title}
-              className="blog-card group bg-warm-white rounded-xl overflow-hidden shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 border border-beige-dark/50 cursor-pointer"
+              className="blog-card group bg-dark-card rounded-xl overflow-hidden hover:border-gold/20 transition-all duration-300 border border-white/10 cursor-pointer"
             >
               <div className="aspect-video overflow-hidden">
                 <img
@@ -111,13 +111,13 @@ export default function BlogSection() {
               </div>
               <div className="p-6">
                 <TagBadge variant="category" className="mb-3">{post.category}</TagBadge>
-                <h4 className="text-xl font-medium text-text-primary mb-3 leading-snug group-hover:text-sage transition-colors duration-200">
+                <h4 className="text-xl font-medium text-white mb-3 leading-snug group-hover:text-gold transition-colors duration-200">
                   {post.title}
                 </h4>
-                <p className="text-base text-text-secondary leading-relaxed mb-4 line-clamp-2">
+                <p className="text-base text-white/60 leading-relaxed mb-4 line-clamp-2">
                   {post.excerpt}
                 </p>
-                <span className="inline-flex items-center gap-2 text-sage font-medium text-sm">
+                <span className="inline-flex items-center gap-2 text-gold font-medium text-sm">
                   Read More
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
                 </span>
@@ -127,11 +127,11 @@ export default function BlogSection() {
         </div>
 
         {/* Newsletter Signup */}
-        <div className="newsletter mt-20 bg-beige rounded-xl p-8 md:p-12 text-center">
-          <h3 className="text-2xl font-semibold text-text-primary mb-3">
+        <div className="newsletter mt-20 bg-dark-card rounded-xl p-8 md:p-12 text-center border border-white/10">
+          <h3 className="text-2xl font-semibold text-white mb-3">
             Get Market Insights Delivered
           </h3>
-          <p className="text-text-secondary mb-6 max-w-[480px] mx-auto">
+          <p className="text-white/60 mb-6 max-w-[480px] mx-auto">
             Weekly tips, market updates, and exclusive property alerts. No spam, just value.
           </p>
           <form
@@ -141,16 +141,16 @@ export default function BlogSection() {
             <input
               type="email"
               placeholder="Enter your email address"
-              className="w-full sm:w-[320px] h-12 px-4 bg-white border border-beige-dark rounded-xl text-base text-text-primary placeholder:text-text-muted outline-none focus:border-sage focus:shadow-[0_0_0_3px_rgba(143,188,143,0.15)] transition-all duration-200"
+              className="w-full sm:w-[320px] h-12 px-4 bg-dark border border-white/20 rounded-xl text-base text-white placeholder:text-white/40 outline-none focus:border-gold focus:shadow-[0_0_0_3px_rgba(212,175,55,0.15)] transition-all duration-200"
             />
             <button
               type="submit"
-              className="w-full sm:w-auto h-12 px-8 bg-sage hover:bg-sage-dark text-white font-semibold text-sm rounded-xl transition-all duration-200 hover:shadow-glow-sage shrink-0"
+              className="w-full sm:w-auto h-12 px-8 bg-gold hover:bg-gold-light text-dark font-semibold text-sm rounded-xl transition-all duration-200 hover:shadow-glow shrink-0"
             >
               Subscribe
             </button>
           </form>
-          <p className="text-xs text-text-muted mt-4">
+          <p className="text-xs text-white/40 mt-4">
             By subscribing, you agree to our Privacy Policy.
           </p>
         </div>

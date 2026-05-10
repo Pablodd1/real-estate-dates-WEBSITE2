@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 const dateFeatures = [
   {
     icon: <Calendar className="w-full h-full" strokeWidth={1.5} />,
-    iconColor: 'text-sage-light',
+    iconColor: 'text-gold',
     title: 'Play Dates (Open Homes)',
     description: 'Skip the awkward phone tag. Browse available open home \'play dates,\' RSVP with a single tap, and add them straight to your calendar. Get reminders so you never miss a chance to meet your match.',
     tags: ['One-Tap RSVP', 'Calendar Sync', 'Reminders'],
@@ -19,7 +19,7 @@ const dateFeatures = [
   },
   {
     icon: <Video className="w-full h-full" strokeWidth={1.5} />,
-    iconColor: 'text-coral',
+    iconColor: 'text-gold',
     title: 'Video Speed Dates',
     description: 'Go on a 5-minute video \'speed date\' with a property and its agent. Perfect for interstate buyers, busy schedules, or initial vetting. No pressure, no commitment — just a quick chemistry check.',
     tags: ['5-Min Calls', 'Live Agent Walkthrough', 'No Booking Hassle'],
@@ -78,11 +78,11 @@ export default function DatesSection() {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} id="dates" data-theme="dark" className="relative w-full py-[120px] bg-charcoal overflow-hidden">
-      {/* Subtle sage glow */}
+    <section ref={sectionRef} id="dates" data-theme="dark" className="relative w-full py-[120px] bg-dark overflow-hidden">
+      {/* Subtle gold glow */}
       <div
         className="absolute left-[30%] top-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full opacity-[0.06] pointer-events-none"
-        style={{ background: 'radial-gradient(ellipse at center, #8FBC8F 0%, transparent 60%)' }}
+        style={{ background: 'radial-gradient(ellipse at center, #D4AF37 0%, transparent 60%)' }}
       />
 
       <div className="max-w-[1280px] mx-auto px-6 relative z-10">
@@ -118,7 +118,7 @@ export default function DatesSection() {
               ))}
             </div>
 
-            <button className="dates-text mt-8 inline-flex items-center px-8 py-3 bg-sage hover:bg-sage-dark text-white font-semibold text-sm rounded-lg transition-all duration-200 hover:shadow-glow-sage">
+            <button className="dates-text mt-8 inline-flex items-center px-8 py-3 bg-gold hover:bg-gold-light text-dark font-semibold text-sm rounded-lg transition-all duration-200 hover:shadow-glow">
               Book Your First Play Date
             </button>
           </div>

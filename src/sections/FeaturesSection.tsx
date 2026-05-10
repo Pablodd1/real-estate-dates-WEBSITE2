@@ -167,6 +167,78 @@ export default function FeaturesSection() {
             </div>
           ))}
         </div>
+
+        {/* Compliance Features */}
+        <div className="mt-16 sm:mt-20">
+          <div className="text-center mb-10 sm:mb-12">
+            <p className="feat-reveal text-[10px] sm:text-[11px] uppercase tracking-[0.3em] text-gold font-medium mb-3">
+              Compliance & Safety
+            </p>
+            <h3 className="feat-reveal font-script text-gold text-2xl sm:text-3xl md:text-4xl italic mb-4">
+              Lessons from $136.5M in Lawsuits
+            </h3>
+            <p className="feat-reveal text-white/50 text-sm sm:text-base max-w-[600px] mx-auto px-2">
+              We studied every major dating app lawsuit to build compliance into our DNA. From Tinder's $60.5M age discrimination to Bumble's $40M biometric fine.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 sm:gap-4">
+            <div className="feat-card">
+              <TiltCard>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gold/10 flex items-center justify-center text-gold mb-3 sm:mb-4 group-hover:bg-gold/20 transition-colors duration-300">
+                  <Shield className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />
+                </div>
+                <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">Age Verification</h4>
+                <p className="text-xs sm:text-sm text-white/40 leading-relaxed">18+ only with multi-layer verification. COPPA compliant by design.</p>
+              </TiltCard>
+            </div>
+            <div className="feat-card">
+              <TiltCard>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gold/10 flex items-center justify-center text-gold mb-3 sm:mb-4 group-hover:bg-gold/20 transition-colors duration-300">
+                  <Lock className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />
+                </div>
+                <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">Biometric Consent</h4>
+                <p className="text-xs sm:text-sm text-white/40 leading-relaxed">Separate consent flow for facial data with retention/destruction policies. BIPA compliant.</p>
+              </TiltCard>
+            </div>
+            <div className="feat-card">
+              <TiltCard>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gold/10 flex items-center justify-center text-gold mb-3 sm:mb-4 group-hover:bg-gold/20 transition-colors duration-300">
+                  <BadgeCheck className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />
+                </div>
+                <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">Fair Housing</h4>
+                <p className="text-xs sm:text-sm text-white/40 leading-relaxed">Algorithm uses property preferences only. Zero tolerance for discriminatory behavior. FHA compliant.</p>
+              </TiltCard>
+            </div>
+            <div className="feat-card">
+              <TiltCard>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gold/10 flex items-center justify-center text-gold mb-3 sm:mb-4 group-hover:bg-gold/20 transition-colors duration-300">
+                  <Eye className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />
+                </div>
+                <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">Transparent Pricing</h4>
+                <p className="text-xs sm:text-sm text-white/40 leading-relaxed">No demographic-based tiers. Simple cancellation (2 clicks max). No hidden fees.</p>
+              </TiltCard>
+            </div>
+            <div className="feat-card">
+              <TiltCard>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gold/10 flex items-center justify-center text-gold mb-3 sm:mb-4 group-hover:bg-gold/20 transition-colors duration-300">
+                  <MessageSquare className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />
+                </div>
+                <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">Notification Integrity</h4>
+                <p className="text-xs sm:text-sm text-white/40 leading-relaxed">Verified notifications only. No fake engagement alerts. FTC compliant marketing.</p>
+              </TiltCard>
+            </div>
+            <div className="feat-card">
+              <TiltCard>
+                <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gold/10 flex items-center justify-center text-gold mb-3 sm:mb-4 group-hover:bg-gold/20 transition-colors duration-300">
+                  <CalendarDays className="w-5 h-5 sm:w-6 sm:h-6" strokeWidth={1.5} />
+                </div>
+                <h4 className="text-sm sm:text-base font-semibold text-white mb-1 sm:mb-2">50-State Compliance</h4>
+                <p className="text-xs sm:text-sm text-white/40 leading-relaxed">Dating Service Refund Act compliant in all states. Automatic refund policy.</p>
+              </TiltCard>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

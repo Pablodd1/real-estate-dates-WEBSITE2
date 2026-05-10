@@ -64,9 +64,9 @@ export default function MatchingSection() {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} id="matching" className="relative w-full py-[120px] bg-warm-white overflow-hidden">
+    <section ref={sectionRef} id="matching" className="relative w-full py-[120px] bg-dark overflow-hidden">
       {/* Decorative watermark */}
-      <div className="absolute left-0 top-1/2 -translate-y-1/2 text-[200px] font-bold text-charcoal/[0.03] -rotate-90 select-none pointer-events-none whitespace-nowrap">
+      <div className="absolute left-0 top-1/2 -translate-y-1/2 text-[200px] font-bold text-white/[0.03] -rotate-90 select-none pointer-events-none whitespace-nowrap">
         SWIPE
       </div>
 
@@ -80,12 +80,12 @@ export default function MatchingSection() {
                 className="absolute top-5 left-5 w-[280px] sm:w-[340px] lg:w-[400px] rounded-2xl overflow-hidden shadow-xl opacity-30 blur-[2px]"
                 style={{ transform: 'translate(20px, 20px)' }}
               >
-                <div className="aspect-[4/5] bg-beige" />
+                <div className="aspect-[4/5] bg-dark-card" />
               </div>
 
               {/* Main card */}
               <div
-                className="matching-card-main relative w-[280px] sm:w-[340px] lg:w-[400px] rounded-2xl overflow-hidden shadow-xl bg-warm-white"
+                className="matching-card-main relative w-[280px] sm:w-[340px] lg:w-[400px] rounded-2xl overflow-hidden shadow-xl bg-dark-card border border-white/10"
                 style={{ transform: 'rotateY(-5deg)' }}
               >
                 {/* Image area */}
@@ -98,17 +98,17 @@ export default function MatchingSection() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
                   {/* Heart overlay */}
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 hover:opacity-80 transition-opacity duration-400">
-                    <div className="w-16 h-16 rounded-full bg-sage flex items-center justify-center">
-                      <Heart className="w-8 h-8 text-white fill-white" />
+                    <div className="w-16 h-16 rounded-full bg-gold flex items-center justify-center">
+                      <Heart className="w-8 h-8 text-dark fill-dark" />
                     </div>
                   </div>
                 </div>
 
                 {/* Content area */}
-                <div className="p-5 bg-white">
-                  <h4 className="text-lg font-medium text-text-primary mb-1">Modern Scandinavian Home</h4>
-                  <p className="text-xs text-text-secondary uppercase tracking-wide mb-3">Richmond, Melbourne</p>
-                  <p className="text-xl font-semibold text-sage mb-3">$1,250,000</p>
+                <div className="p-5 bg-dark-card">
+                  <h4 className="text-lg font-medium text-white mb-1">Modern Scandinavian Home</h4>
+                  <p className="text-xs text-white/50 uppercase tracking-wide mb-3">Richmond, Melbourne</p>
+                  <p className="text-xl font-semibold text-gold mb-3">$1,250,000</p>
                   <div className="flex flex-wrap gap-2">
                     {tags.map((tag) => (
                       <TagBadge key={tag} variant="category">{tag}</TagBadge>
@@ -121,29 +121,29 @@ export default function MatchingSection() {
 
           {/* Right - Text Content */}
           <div className="w-full lg:w-[45%]">
-            <p className="matching-text text-xs font-medium uppercase tracking-[0.1em] text-sage mb-3">
+            <p className="matching-text text-xs font-medium uppercase tracking-[0.1em] text-gold mb-3">
               How Matching Works
             </p>
-            <div className="matching-text w-10 h-0.5 bg-sage mb-6" />
-            <h2 className="matching-text text-4xl md:text-5xl font-semibold text-text-primary leading-tight tracking-tight mb-5">
+            <div className="matching-text w-10 h-0.5 bg-gold mb-6" />
+            <h2 className="matching-text text-4xl md:text-5xl font-semibold text-white leading-tight tracking-tight mb-5">
               Swipe Right on Your Dream Home
             </h2>
-            <p className="matching-text text-lg text-text-secondary leading-relaxed mb-8">
+            <p className="matching-text text-lg text-white/60 leading-relaxed mb-8">
               Our intelligent matching algorithm learns what you love. The more you swipe, the smarter it gets. Set your preferences for price, location, bedrooms, and style — then let the magic happen.
             </p>
 
             <ul className="matching-text space-y-4 mb-8">
               {features.map((feature) => (
                 <li key={feature} className="flex items-center gap-3">
-                  <span className="w-5 h-5 rounded-full bg-sage flex items-center justify-center shrink-0">
-                    <Check className="w-3 h-3 text-white" strokeWidth={3} />
+                  <span className="w-5 h-5 rounded-full bg-gold flex items-center justify-center shrink-0">
+                    <Check className="w-3 h-3 text-dark" strokeWidth={3} />
                   </span>
-                  <span className="text-text-primary">{feature}</span>
+                  <span className="text-white/80">{feature}</span>
                 </li>
               ))}
             </ul>
 
-            <button className="matching-text inline-flex items-center px-8 py-3 bg-sage hover:bg-sage-dark text-white font-semibold text-sm rounded-lg transition-all duration-200 hover:shadow-glow-sage">
+            <button className="matching-text inline-flex items-center px-8 py-3 bg-gold hover:bg-gold-light text-dark font-semibold text-sm rounded-lg transition-all duration-200 hover:shadow-glow">
               Start Swiping Now
             </button>
           </div>

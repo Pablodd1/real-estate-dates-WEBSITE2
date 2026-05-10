@@ -115,13 +115,13 @@ export default function TestimonialsSection() {
   }, { scope: sectionRef });
 
   return (
-    <section ref={sectionRef} className="relative w-full py-[120px] bg-warm-white overflow-hidden">
+    <section ref={sectionRef} className="relative w-full py-[120px] bg-dark overflow-hidden">
       {/* Decorative dots pattern */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         {[...Array(6)].map((_, i) => (
           <div
             key={i}
-            className="absolute w-[200px] h-[200px] rounded-full bg-charcoal/[0.02]"
+            className="absolute w-[200px] h-[200px] rounded-full bg-white/[0.02]"
             style={{
               left: `${10 + (i * 18)}%`,
               top: `${15 + (i % 3) * 25}%`,
@@ -136,6 +136,7 @@ export default function TestimonialsSection() {
             eyebrow="Success Stories"
             headline="Love at First Swipe"
             subheadline="Thousands of happy home hunters found their perfect match with Estate Match."
+            theme="dark"
           />
         </div>
 
@@ -143,17 +144,17 @@ export default function TestimonialsSection() {
           {testimonials.map((testimonial) => (
             <div
               key={testimonial.name}
-              className="test-card bg-warm-white rounded-xl p-8 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 border border-beige-dark/50"
+              className="test-card bg-dark-card rounded-xl p-8 hover:border-gold/20 transition-all duration-300 border border-white/10"
             >
               {/* Stars */}
               <div className="flex gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <Star key={i} className="w-4 h-4 text-coral fill-coral" />
+                  <Star key={i} className="w-4 h-4 text-gold fill-gold" />
                 ))}
               </div>
 
               {/* Quote */}
-              <p className="text-lg text-text-primary italic leading-relaxed mb-6">
+              <p className="text-lg text-white/80 italic leading-relaxed mb-6">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
 
@@ -165,8 +166,8 @@ export default function TestimonialsSection() {
                   className="w-10 h-10 rounded-full object-cover"
                 />
                 <div>
-                  <p className="text-base font-medium text-text-primary">{testimonial.name}</p>
-                  <p className="text-xs text-text-secondary uppercase tracking-wide">{testimonial.role}</p>
+                  <p className="text-base font-medium text-white">{testimonial.name}</p>
+                  <p className="text-xs text-white/50 uppercase tracking-wide">{testimonial.role}</p>
                 </div>
               </div>
             </div>
@@ -174,17 +175,17 @@ export default function TestimonialsSection() {
         </div>
 
         {/* Stats Bar */}
-        <div className="stats-bar mt-20 bg-beige rounded-xl p-8 md:p-12">
+        <div className="stats-bar mt-20 bg-dark-card rounded-xl p-8 md:p-12 border border-white/10">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {stats.map((stat) => (
               <div key={stat.label} className="text-center">
                 <p
-                  className="stat-number text-4xl md:text-5xl font-semibold text-text-primary mb-2"
+                  className="stat-number text-4xl md:text-5xl font-semibold text-gold mb-2"
                   data-value={stat.value}
                 >
                   0
                 </p>
-                <p className="text-xs text-text-secondary uppercase tracking-[0.1em]">{stat.label}</p>
+                <p className="text-xs text-white/50 uppercase tracking-[0.1em]">{stat.label}</p>
               </div>
             ))}
           </div>

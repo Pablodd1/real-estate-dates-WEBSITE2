@@ -9,6 +9,11 @@ import HeroSection from '@/sections/HeroSection';
 import DiscoverSection from '@/sections/DiscoverSection';
 import HowItWorksSection from '@/sections/HowItWorksSection';
 import FeaturesSection from '@/sections/FeaturesSection';
+import MatchingSection from '@/sections/MatchingSection';
+import DatesSection from '@/sections/DatesSection';
+import TestimonialsSection from '@/sections/TestimonialsSection';
+import PricingCtaSection from '@/sections/PricingCtaSection';
+import BlogSection from '@/sections/BlogSection';
 import DownloadSection from '@/sections/DownloadSection';
 import { Toaster } from 'sonner';
 
@@ -31,6 +36,11 @@ function App() {
           <DiscoverSection />
           <HowItWorksSection />
           <FeaturesSection />
+          <MatchingSection />
+          <DatesSection />
+          <TestimonialsSection />
+          <PricingCtaSection />
+          <BlogSection />
           <DownloadSection />
         </main>
         <Footer />
