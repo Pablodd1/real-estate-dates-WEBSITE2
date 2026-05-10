@@ -8,6 +8,7 @@ const navLinks = [
   { label: 'Select Browse', href: '#discover' },
   { label: 'Build an Empire', href: '#how-it-works' },
   { label: 'Investment', href: '#features' },
+  { label: 'Protection', href: '#legal' },
   { label: 'Information', href: '#download' },
 ];
 

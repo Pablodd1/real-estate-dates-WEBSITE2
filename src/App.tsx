@@ -15,6 +15,7 @@ import TestimonialsSection from '@/sections/TestimonialsSection';
 import PricingCtaSection from '@/sections/PricingCtaSection';
 import BlogSection from '@/sections/BlogSection';
 import DownloadSection from '@/sections/DownloadSection';
+import { LegalProtectionSection } from '@/sections/LegalProtectionSection';
 import { Toaster } from 'sonner';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -39,6 +40,7 @@ function App() {
           <MatchingSection />
           <DatesSection />
           <TestimonialsSection />
+          <LegalProtectionSection />
           <PricingCtaSection />
           <BlogSection />
           <DownloadSection />
