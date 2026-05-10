@@ -1,5 +1,4 @@
 import React from 'react';
-import { motion } from 'motion/react';
 import { Shield, Scale, FileText, AlertTriangle, CheckCircle, Lock } from 'lucide-react';
 
 export const LegalProtectionSection: React.FC = () => {
@@ -95,13 +94,9 @@ export const LegalProtectionSection: React.FC = () => {
 
         {/* Protection Rules Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 mb-20">
-          {protections.map((item, index) => (
-            <motion.div
+          {protections.map((item) => (
+            <div
               key={item.rule}
-              initial={{ opacity: 0, y: 20 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
               className="group bg-dark-card border border-white/10 rounded-2xl p-6 sm:p-8 hover:border-gold/30 transition-all duration-300"
             >
               <div className="flex items-start justify-between mb-4">
@@ -118,7 +113,7 @@ export const LegalProtectionSection: React.FC = () => {
               <p className="text-sm text-white/50 leading-relaxed">
                 {item.description}
               </p>
-            </motion.div>
+            </div>
           ))}
         </div>
 
@@ -129,13 +124,9 @@ export const LegalProtectionSection: React.FC = () => {
           </h3>
           
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {cases.map((case_, index) => (
-              <motion.div
+            {cases.map((case_) => (
+              <div
                 key={case_.company}
-                initial={{ opacity: 0, scale: 0.95 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
                 className="bg-red-950/20 border border-red-500/20 rounded-xl p-5"
               >
                 <div className="flex items-center justify-between mb-3">
@@ -144,7 +135,7 @@ export const LegalProtectionSection: React.FC = () => {
                 </div>
                 <div className="text-2xl font-bold text-red-400 mb-2">{case_.amount}</div>
                 <p className="text-xs text-white/40 leading-relaxed">{case_.issue}</p>
-              </motion.div>
+              </div>
             ))}
           </div>
         </div>
@@ -186,7 +177,7 @@ export const LegalProtectionSection: React.FC = () => {
                   One-time setup cost for full legal protection vs. $40M-$60M per major settlement.
                 </p>
                 <div className="text-xs text-gold/60 uppercase tracking-widest">
-                  Prevention > Cure
+                  Prevention {'>'} Cure
                 </div>
               </div>
             </div>
