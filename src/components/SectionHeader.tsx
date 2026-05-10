@@ -7,10 +7,10 @@ interface SectionHeaderProps {
 }
 
 export default function SectionHeader({ eyebrow, headline, subheadline, theme = 'light', centered = true }: SectionHeaderProps) {
-  const textPrimary = theme === 'dark' ? 'text-white' : 'text-text-primary';
-  const textSecondary = theme === 'dark' ? 'text-white/70' : 'text-text-secondary';
-  const eyebrowColor = theme === 'dark' ? 'text-sage-light' : 'text-sage';
-  const dividerColor = theme === 'dark' ? 'bg-sage' : 'bg-sage';
+  const textPrimary = theme === 'dark' ? 'text-white' : 'text-dark';
+  const textSecondary = theme === 'dark' ? 'text-white/70' : 'text-dark/70';
+  const eyebrowColor = theme === 'dark' ? 'text-gold' : 'text-gold';
+  const dividerColor = theme === 'dark' ? 'bg-gold' : 'bg-gold';
 
   return (
     <div className={`${centered ? 'text-center' : 'text-left'} mb-16`}>

@@ -8,10 +8,10 @@ interface TagBadgeProps {
 
 export function TagBadge({ children, variant = 'category', className }: TagBadgeProps) {
   const variants = {
-    featured: 'bg-coral text-white',
-    new: 'bg-sky-blue text-white',
-    category: 'bg-beige text-text-secondary',
-    success: 'bg-sage-light text-sage-dark',
+    featured: 'bg-gold text-dark',
+    new: 'bg-gold-light text-dark',
+    category: 'bg-dark-elevated text-white/70',
+    success: 'bg-gold/20 text-gold',
     glass: 'bg-white/10 text-white',
   };
 

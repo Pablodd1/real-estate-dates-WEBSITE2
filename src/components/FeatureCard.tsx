@@ -9,7 +9,7 @@ interface FeatureCardProps {
   variant?: 'default' | 'glass';
 }
 
-export default function FeatureCard({ icon, iconColor = 'text-sage', title, description, tags, variant = 'default' }: FeatureCardProps) {
+export default function FeatureCard({ icon, iconColor = 'text-gold', title, description, tags, variant = 'default' }: FeatureCardProps) {
   if (variant === 'glass') {
     return (
       <div className="bg-white/5 border border-white/10 rounded-xl p-8 hover:-translate-y-1 transition-all duration-300">
@@ -28,10 +28,10 @@ export default function FeatureCard({ icon, iconColor = 'text-sage', title, desc
   }
 
   return (
-    <div className="bg-warm-white border border-beige-dark rounded-xl p-8 hover:-translate-y-1 hover:shadow-md transition-all duration-300">
+    <div className="bg-dark-card border border-white/10 rounded-xl p-8 hover:-translate-y-1 hover:shadow-glow transition-all duration-300">
       <div className={`w-12 h-12 ${iconColor} mb-5`}>{icon}</div>
-      <h4 className="text-xl font-medium text-text-primary mb-3">{title}</h4>
-      <p className="text-text-secondary leading-relaxed">{description}</p>
+      <h4 className="text-xl font-medium text-white mb-3">{title}</h4>
+      <p className="text-white/60 leading-relaxed">{description}</p>
     </div>
   );
 }
