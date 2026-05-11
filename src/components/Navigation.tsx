@@ -1,8 +1,6 @@
 import { useState, useCallback } from 'react';
-import { Menu, X, LogOut, LogIn } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { LogoFull } from './Logo';
-import { useAuth } from '@/hooks/useAuth';
-import AuthModal from '@/components/AuthModal';
 
 const navLinks = [
   { label: 'Select Browse', href: '#discover' },
@@ -14,8 +12,6 @@ const navLinks = [
 
 export default function Navigation() {
   const [mobileOpen, setMobileOpen] = useState(false);
-  const { user, profile, logout } = useAuth();
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
   const scrollToSection = useCallback((href: string) => {
     setMobileOpen(false);
@@ -48,35 +44,14 @@ export default function Navigation() {
             ))}
           </div>
 
-          {/* Desktop Auth CTA */}
+          {/* Desktop CTA - No login */}
           <div className="hidden md:flex items-center gap-4">
-            {user ? (
-              <div className="flex items-center gap-4">
-                <div className="flex flex-col items-end">
-                  <span className="text-[10px] text-gold uppercase tracking-widest font-bold">
-                    {profile?.role || 'Standard'}
-                  </span>
-                  <span className="text-xs text-white/60 lowercase">
-                    {user.displayName?.split(' ')[0] || 'User'}
-                  </span>
-                </div>
-                <button
-                  onClick={logout}
-                  className="p-2 text-white/40 hover:text-gold transition-colors"
-                  title="Logout"
-                >
-                  <LogOut className="w-5 h-5" />
-                </button>
-              </div>
-            ) : (
-              <button
-                onClick={() => setIsAuthModalOpen(true)}
-                className="inline-flex items-center gap-2 px-5 sm:px-6 py-2 sm:py-2.5 bg-gold text-dark text-xs sm:text-sm font-bold rounded-full hover:bg-gold-light transition-colors duration-200 uppercase tracking-wider"
-              >
-                <LogIn className="w-4 h-4" />
-                Login
-              </button>
-            )}
+            <a
+              href="#discover"
+              className="inline-flex items-center gap-2 px-5 sm:px-6 py-2 sm:py-2.5 bg-gold text-dark text-xs sm:text-sm font-bold rounded-full hover:bg-gold-light transition-colors duration-200 uppercase tracking-wider"
+            >
+              Explore
+            </a>
           </div>
 
           {/* Mobile Hamburger */}
@@ -96,17 +71,6 @@ export default function Navigation() {
         }`}
       >
         <div className="flex flex-col items-center justify-center h-full gap-6 sm:gap-8 px-6">
-          {user && (
-            <div className="flex flex-col items-center mb-4">
-              <span className="text-[10px] text-gold uppercase tracking-[0.3em] font-bold mb-1">
-                {profile?.role || 'Standard'}
-              </span>
-              <span className="text-xl text-white font-medium italic">
-                {user.displayName || 'User'}
-              </span>
-            </div>
-          )}
-          
           {navLinks.map((link, i) => (
             <button
               key={link.href}
@@ -123,15 +87,8 @@ export default function Navigation() {
             </button>
           ))}
           
-          <button
-            onClick={() => {
-              if (user) {
-                logout();
-              } else {
-                setMobileOpen(false);
-                setIsAuthModalOpen(true);
-              }
-            }}
+          <a
+            href="#discover"
             className="mt-4 px-8 py-3 bg-gold text-dark text-base sm:text-lg font-semibold rounded-full hover:bg-gold-light transition-all duration-200 uppercase tracking-widest"
             style={{
               transitionDelay: mobileOpen ? `${navLinks.length * 80}ms` : '0ms',
@@ -140,15 +97,10 @@ export default function Navigation() {
               transition: 'opacity 0.5s ease, transform 0.5s ease',
             }}
           >
-            {user ? 'Logout Account' : 'Secure Login'}
-          </button>
+            Explore Profiles
+          </a>
         </div>
       </div>
-
-      <AuthModal 
-        isOpen={isAuthModalOpen} 
-        onClose={() => setIsAuthModalOpen(false)} 
-      />
     </>
   );
 }

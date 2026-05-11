@@ -2,53 +2,57 @@ import { useRef, useState, useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { X, KeyRound, MapPin, Lock } from 'lucide-react';
-import { useAuth } from '@/hooks/useAuth';
-import { useMatching } from '@/hooks/useMatching';
-import AuthModal from '@/components/AuthModal';
-import { db } from '@/lib/firebase';
-import { 
-  collection, 
-  query, 
-  where, 
-  onSnapshot, 
-} from 'firebase/firestore';
+import { X, KeyRound, MapPin } from 'lucide-react';
+
+// Sample profiles data (no auth required)
+const sampleProfiles = [
+  {
+    id: '1',
+    name: 'Valentina Rossi',
+    role: 'Luxury Broker',
+    location: 'Miami / Milan',
+    image: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80&w=600',
+    bio: 'Specializing in waterfront luxury properties. 15 years connecting elite buyers with dream homes across Miami and Europe.',
+    intel: ['Luxury', 'Waterfront'],
+  },
+  {
+    id: '2',
+    name: 'Marcus Chen',
+    role: 'Investment Analyst',
+    location: 'New York / Singapore',
+    image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=600',
+    bio: 'Data-driven real estate investor with $500M+ in transactions. Looking for strategic partnerships in emerging markets.',
+    intel: ['Investment', 'Global'],
+  },
+  {
+    id: '3',
+    name: 'Isabella Santos',
+    role: 'Development Director',
+    location: 'São Paulo / Lisbon',
+    image: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&q=80&w=600',
+    bio: 'Leading mixed-use developments across LATAM and Europe. Passionate about sustainable urban design and community building.',
+    intel: ['Development', 'Sustainable'],
+  },
+  {
+    id: '4',
+    name: 'James Whitfield',
+    role: 'Commercial Broker',
+    location: 'London / Dubai',
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=600',
+    bio: 'Commercial real estate specialist focusing on office and retail spaces. $1B+ in lifetime transactions.',
+    intel: ['Commercial', 'Retail'],
+  },
+];
 
 gsap.registerPlugin(ScrollTrigger);
 
 export default function DiscoverSection() {
   const sectionRef = useRef<HTMLElement>(null);
   const cardRef = useRef<HTMLDivElement>(null);
-  const { user } = useAuth();
-  const [profiles, setProfiles] = useState<any[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [dragDirection, setDragDirection] = useState<'left' | 'right' | null>(null);
-  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false);
 
-  // Fetch profiles from Firestore
-  useEffect(() => {
-    const q = query(collection(db, 'profiles'), where('active', '==', true));
-    
-    const unsubscribe = onSnapshot(q, (snapshot) => {
-      const data = snapshot.docs.map(doc => ({
-        id: doc.id,
-        ...doc.data()
-      }));
-      setProfiles(data);
-    });
-
-    return () => unsubscribe();
-  }, []);
-
-  const current = profiles[currentIndex % profiles.length] || {
-    id: 'placeholder',
-    name: 'Syncing Market...',
-    role: 'Protocol Active',
-    location: 'Searching...',
-    image: 'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&q=80',
-    bio: 'Synchronizing with the global real estate database. Elite synergies are loading...',
-    intel: ['Analyzing', 'Verified'],
-  };
+  const current = sampleProfiles[currentIndex % sampleProfiles.length];
 
   // Touch swipe support
   useEffect(() => {
@@ -60,63 +64,67 @@ export default function DiscoverSection() {
     const isTouchDevice = 'ontouchstart' in window || navigator.maxTouchPoints > 0;
 
     if (!isTouchDevice) {
-      // Desktop: GSAP Draggable
-      // @ts-ignore
-      const Draggable = gsap.core?.globals?.Draggable?.create;
-      if (Draggable) {
-        const dragInstance = Draggable(card, {
-          type: 'x',
-          edgeResistance: 0.65,
-          bounds: { minX: -200, maxX: 200 },
-          inertia: true,
-          onDragStart: () => {},
-          onDrag: function() {
-            const rotation = this.x * 0.08;
-            gsap.set(card, { rotation });
-            if (this.x > 60) setDragDirection('right');
-            else if (this.x < -60) setDragDirection('left');
-            else setDragDirection(null);
-          },
-          onDragEnd: function() {
-            if (this.x > 100) {
-              gsap.to(card, {
-                x: window.innerWidth,
-                rotation: 30,
-                opacity: 0,
-                duration: 0.4,
-                ease: 'power2.out',
-                onComplete: () => {
-                  setCurrentIndex((prev) => prev + 1);
-                  gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
-                  setDragDirection(null);
-                },
-              });
-            } else if (this.x < -100) {
-              gsap.to(card, {
-                x: -window.innerWidth,
-                rotation: -30,
-                opacity: 0,
-                duration: 0.4,
-                ease: 'power2.out',
-                onComplete: () => {
-                  setCurrentIndex((prev) => prev + 1);
-                  gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
-                  setDragDirection(null);
-                },
-              });
-            } else {
-              gsap.to(card, { x: 0, rotation: 0, duration: 0.4, ease: 'elastic.out(1, 0.5)' });
-              setDragDirection(null);
-            }
-          },
-        });
+      // Desktop: Mouse drag
+      const handleMouseDown = (e: MouseEvent) => {
+        startX = e.clientX;
+        document.addEventListener('mousemove', handleMouseMove);
+        document.addEventListener('mouseup', handleMouseUp);
+      };
 
-        return () => {
-          if (dragInstance && dragInstance[0]) {
-            dragInstance[0].kill();
-          }
-        };
-      }
+      const handleMouseMove = (e: MouseEvent) => {
+        currentX = e.clientX - startX;
+        const rotation = currentX * 0.08;
+        gsap.set(card, { x: currentX, rotation });
+        
+        if (currentX > 60) setDragDirection('right');
+        else if (currentX < -60) setDragDirection('left');
+        else setDragDirection(null);
+      };
+
+      const handleMouseUp = () => {
+        document.removeEventListener('mousemove', handleMouseMove);
+        document.removeEventListener('mouseup', handleMouseUp);
+
+        if (currentX > 100) {
+          gsap.to(card, {
+            x: window.innerWidth,
+            rotation: 30,
+            opacity: 0,
+            duration: 0.4,
+            ease: 'power2.out',
+            onComplete: () => {
+              setCurrentIndex((prev) => prev + 1);
+              gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
+              setDragDirection(null);
+            },
+          });
+        } else if (currentX < -100) {
+          gsap.to(card, {
+            x: -window.innerWidth,
+            rotation: -30,
+            opacity: 0,
+            duration: 0.4,
+            ease: 'power2.out',
+            onComplete: () => {
+              setCurrentIndex((prev) => prev + 1);
+              gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
+              setDragDirection(null);
+            },
+          });
+        } else {
+          gsap.to(card, { x: 0, rotation: 0, duration: 0.4, ease: 'elastic.out(1, 0.5)' });
+          setDragDirection(null);
+        }
+        currentX = 0;
+      };
+
+      card.addEventListener('mousedown', handleMouseDown);
+
+      return () => {
+        card.removeEventListener('mousedown', handleMouseDown);
+        document.removeEventListener('mousemove', handleMouseMove);
+        document.removeEventListener('mouseup', handleMouseUp);
+      };
     } else {
       // Mobile: Touch events
       const handleTouchStart = (e: TouchEvent) => {
@@ -197,15 +205,9 @@ export default function DiscoverSection() {
     });
   }, { scope: sectionRef });
 
-  const { submitKey, passProfile, isMatching } = useMatching();
-
-  const handlePass = async () => {
-    if (!user) return setIsAuthModalOpen(true);
-    
+  const handlePass = () => {
     const card = cardRef.current;
     if (!card) return;
-
-    await passProfile(current.id);
 
     gsap.to(card, {
       x: -window.innerWidth,
@@ -220,27 +222,21 @@ export default function DiscoverSection() {
     });
   };
 
-  const handleSubmitKey = async () => {
-    if (!user) return setIsAuthModalOpen(true);
-
+  const handleSubmitKey = () => {
     const card = cardRef.current;
-    if (!card || isMatching) return;
+    if (!card) return;
 
-    const success = await submitKey(current.id);
-
-    if (success) {
-      gsap.to(card, {
-        x: window.innerWidth,
-        rotation: 25,
-        opacity: 0,
-        duration: 0.5,
-        ease: 'power3.out',
-        onComplete: () => {
-          setCurrentIndex((prev) => prev + 1);
-          gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
-        },
-      });
-    }
+    gsap.to(card, {
+      x: window.innerWidth,
+      rotation: 25,
+      opacity: 0,
+      duration: 0.5,
+      ease: 'power3.out',
+      onComplete: () => {
+        setCurrentIndex((prev) => prev + 1);
+        gsap.set(card, { x: 0, rotation: 0, opacity: 1 });
+      },
+    });
   };
 
 
@@ -269,23 +265,7 @@ export default function DiscoverSection() {
 
         {/* Card Stack */}
         <div className="discover-reveal flex justify-center mb-6 sm:mb-8 select-none relative">
-          {!user && (
-            <div className="absolute inset-0 z-20 flex items-center justify-center">
-              <div className="p-8 bg-dark/40 backdrop-blur-xl border border-gold/20 rounded-2xl text-center max-w-[280px]">
-                <Lock className="w-10 h-10 text-gold mx-auto mb-4" />
-                <h4 className="text-white font-bold mb-2">Elite Access Only</h4>
-                <p className="text-white/40 text-xs mb-6">Login to browse verified professionals and submit keys.</p>
-                <button 
-                  onClick={() => setIsAuthModalOpen(true)}
-                  className="w-full py-3 bg-gold text-dark font-bold uppercase tracking-widest text-[10px] rounded-lg hover:bg-gold-light transition-all"
-                >
-                  Secure Login
-                </button>
-              </div>
-            </div>
-          )}
-          
-          <div className={`relative w-full max-w-[320px] sm:max-w-[380px] transition-all duration-700 ${!user ? 'blur-2xl grayscale scale-95 opacity-50 pointer-events-none' : ''}`} style={{ perspective: '1000px' }}>
+          <div className={`relative w-full max-w-[320px] sm:max-w-[380px] transition-all duration-700`} style={{ perspective: '1000px' }}>
             {/* Background cards (stack effect) */}
             <div className="absolute top-2 sm:top-3 left-2 sm:left-3 right-2 sm:right-3 h-full bg-dark-card rounded-2xl border border-white/5 opacity-60" />
             <div className="absolute top-4 sm:top-6 left-4 sm:left-6 right-4 sm:right-6 h-full bg-dark-elevated rounded-2xl border border-white/5 opacity-40" />
@@ -375,11 +355,6 @@ export default function DiscoverSection() {
           Submit a key to express interest. Lock the asset when you are ready to close.
         </p>
       </div>
-      
-      <AuthModal 
-        isOpen={isAuthModalOpen} 
-        onClose={() => setIsAuthModalOpen(false)} 
-      />
     </section>
   );
 }

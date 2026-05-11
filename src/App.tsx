@@ -12,7 +12,6 @@ import FeaturesSection from '@/sections/FeaturesSection';
 import MatchingSection from '@/sections/MatchingSection';
 import DatesSection from '@/sections/DatesSection';
 import TestimonialsSection from '@/sections/TestimonialsSection';
-import PricingCtaSection from '@/sections/PricingCtaSection';
 import BlogSection from '@/sections/BlogSection';
 import DownloadSection from '@/sections/DownloadSection';
 import { LegalProtectionSection } from '@/sections/LegalProtectionSection';
@@ -41,7 +40,6 @@ function App() {
           <DatesSection />
           <TestimonialsSection />
           <LegalProtectionSection />
-          <PricingCtaSection />
           <BlogSection />
           <DownloadSection />
         </main>
