@@ -1,0 +1,23 @@
+{
+    "buildCommand": "echo 'Static site + API routes'",
+    "outputDirectory": ".",
+    "rewrites": [
+        { "source": "/api/health", "destination": "/api/health.js" },
+        { "source": "/api/rag", "destination": "/api/rag.js" },
+        { "source": "/api/dates", "destination": "/api/dates.js" },
+        { "source": "/api/digest", "destination": "/api/digest.js" },
+        { "source": "/api/blog", "destination": "/api/blog.js" },
+        { "source": "/api/realestate-rag", "destination": "/api/realestate-rag.js" },
+        { "source": "/blog", "destination": "/blog.html" }
+    ],
+    "headers": [
+        {
+            "source": "/api/(.*)",
+            "headers": [
+                { "key": "Access-Control-Allow-Origin", "value": "*" },
+                { "key": "Access-Control-Allow-Methods", "value": "GET, POST, OPTIONS" },
+                { "key": "Access-Control-Allow-Headers", "value": "Content-Type" }
+            ]
+        }
+    ]
+}

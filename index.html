@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Dates — AI-Powered Professional Networking</title>
+    <meta name="description" content="Connect, Close, Build Together. Real Estate Dates pairs professionals using AI-powered matchmaking across real estate, medicine, and legal domains.">
+    <style>
+        :root {
+            --bg: #0a0a0f;
+            --bg-card: #13132a;
+            --bg-card-hover: #1a1a3a;
+            --gold: #c9a84c;
+            --gold-light: #e8c97a;
+            --text: #e0e0e0;
+            --text-muted: #8888a0;
+            --border: #1e1e3a;
+            --accent-blue: #4a90d9;
+            --accent-green: #2ecc71;
+            --accent-purple: #9b59b6;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body {
+            font-family: 'Inter', 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+        /* Subtle animated bg */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; width: 100%; height: 100%;
+            background:
+                radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.04) 0%, transparent 50%),
+                radial-gradient(ellipse at 80% 20%, rgba(74,144,217,0.03) 0%, transparent 50%),
+                radial-gradient(ellipse at 50% 80%, rgba(155,89,182,0.03) 0%, transparent 50%);
+            pointer-events: none;
+            z-index: 0;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 24px; position: relative; z-index: 1; }
+
+        /* NAV */
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            background: rgba(10,10,15,0.85);
+            backdrop-filter: blur(20px);
+            border-bottom: 1px solid var(--border);
+        }
+        nav .nav-inner {
+            max-width: 1200px; margin: 0 auto; padding: 0 24px;
+            display: flex; align-items: center; justify-content: space-between; height: 60px;
+        }
+        nav .logo {
+            font-size: 1.25rem; font-weight: 700; color: var(--gold);
+            letter-spacing: -0.5px;
+        }
+        nav .logo span { color: var(--text); font-weight: 400; }
+        nav .nav-links { display: flex; gap: 28px; list-style: none; }
+        nav .nav-links a {
+            color: var(--text-muted); text-decoration: none;
+            font-size: 0.9rem; transition: color 0.2s;
+        }
+        nav .nav-links a:hover { color: var(--gold); }
+        nav .lang-btn {
+            background: transparent; color: var(--text-muted);
+            border: 1px solid var(--border); padding: 4px 10px;
+            border-radius: 6px; font-size: 0.75rem; font-weight: 600;
+            cursor: pointer; transition: all 0.2s; letter-spacing: 0.5px;
+        }
+        nav .lang-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+        /* HERO */
+        .hero {
+            min-height: 100vh; display: flex; align-items: center;
+            padding-top: 80px; padding-bottom: 80px;
+        }
+        .hero .badge {
+            display: inline-block; padding: 6px 16px;
+            background: rgba(201,168,76,0.1); border: 1px solid rgba(201,168,76,0.3);
+            border-radius: 50px; color: var(--gold-light); font-size: 0.85rem;
+            margin-bottom: 24px; letter-spacing: 0.5px;
+        }
+        .hero h1 {
+            font-size: clamp(2.5rem, 6vw, 4rem); font-weight: 800;
+            line-height: 1.15; margin-bottom: 20px; letter-spacing: -1px;
+        }
+        .hero h1 .accent { color: var(--gold); }
+        .hero p {
+            font-size: 1.2rem; color: var(--text-muted); max-width: 580px;
+            margin-bottom: 36px; line-height: 1.6;
+        }
+        .hero .cta-group { display: flex; gap: 14px; flex-wrap: wrap; }
+        .btn {
+            display: inline-flex; align-items: center; gap: 8px;
+            padding: 14px 28px; border-radius: 10px; font-size: 0.95rem;
+            font-weight: 600; border: none; cursor: pointer;
+            text-decoration: none; transition: all 0.25s;
+        }
+        .btn-primary {
+            background: linear-gradient(135deg, #c9a84c, #a67c34);
+            color: #fff; box-shadow: 0 4px 20px rgba(201,168,76,0.25);
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 30px rgba(201,168,76,0.35);
+        }
+        .btn-outline {
+            background: transparent; color: var(--text);
+            border: 1px solid var(--border);
+        }
+        .btn-outline:hover {
+            border-color: var(--gold); color: var(--gold);
+        }
+
+        /* SECTION */
+        section { padding: 100px 0; }
+        .section-label {
+            color: var(--gold); font-size: 0.85rem; font-weight: 600;
+            text-transform: uppercase; letter-spacing: 2px; margin-bottom: 12px;
+        }
+        .section-title {
+            font-size: 2.2rem; font-weight: 700; margin-bottom: 16px;
+            letter-spacing: -0.5px;
+        }
+        .section-desc {
+            color: var(--text-muted); font-size: 1.05rem; max-width: 640px;
+            margin-bottom: 48px;
+        }
+
+        /* PLATFORM CARDS */
+        .platform-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 24px; }
+        .platform-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 32px; position: relative; overflow: hidden;
+            transition: all 0.3s;
+        }
+        .platform-card:hover {
+            background: var(--bg-card-hover);
+            border-color: rgba(201,168,76,0.3);
+            transform: translateY(-4px);
+        }
+        .platform-card .icon {
+            width: 48px; height: 48px; border-radius: 12px;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.5rem; margin-bottom: 20px;
+        }
+        .platform-card .icon.red { background: rgba(201,168,76,0.15); color: var(--gold); }
+        .platform-card .icon.blue { background: rgba(74,144,217,0.15); color: var(--accent-blue); }
+        .platform-card .icon.purple { background: rgba(155,89,182,0.15); color: var(--accent-purple); }
+        .platform-card h3 { font-size: 1.3rem; margin-bottom: 8px; }
+        .platform-card .url {
+            color: var(--gold); font-size: 0.82rem; margin-bottom: 14px;
+            word-break: break-all; font-family: monospace;
+        }
+        .platform-card .features { list-style: none; margin-top: 14px; }
+        .platform-card .features li {
+            color: var(--text-muted); font-size: 0.9rem;
+            padding: 4px 0; padding-left: 20px; position: relative;
+        }
+        .platform-card .features li::before {
+            content: '✓'; position: absolute; left: 0;
+            color: var(--accent-green); font-size: 0.75rem; font-weight: 700;
+        }
+        .platform-card .badge-tag {
+            display: inline-block; padding: 3px 10px; border-radius: 4px;
+            font-size: 0.72rem; font-weight: 600; margin-bottom: 12px;
+        }
+        .badge-tag.live { background: rgba(46,204,113,0.15); color: var(--accent-green); }
+        .badge-tag.local { background: rgba(201,168,76,0.15); color: var(--gold); }
+
+        /* STATS */
+        .stats-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
+        .stat-card {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: 12px; padding: 24px; text-align: center;
+        }
+        .stat-card .num {
+            font-size: 2.4rem; font-weight: 800; color: var(--gold);
+            line-height: 1.2;
+        }
+        .stat-card .label { color: var(--text-muted); font-size: 0.85rem; margin-top: 4px; }
+
+        /* RAG DEMO */
+        .rag-demo {
+            background: var(--bg-card); border: 1px solid var(--border);
+            border-radius: 16px; padding: 36px;
+        }
+        .rag-demo .search-box {
+            display: flex; gap: 10px; margin-bottom: 24px; flex-wrap: wrap;
+        }
+        .rag-demo input {
+            flex: 1; min-width: 240px; padding: 14px 18px;
+            background: var(--bg); border: 1px solid var(--border);
+            border-radius: 10px; color: var(--text); font-size: 0.95rem;
+            outline: none; transition: border-color 0.2s;
+        }
+        .rag-demo input:focus { border-color: var(--gold); }
+        .rag-demo select {
+            padding: 14px 16px; background: var(--bg); border: 1px solid var(--border);
+            border-radius: 10px; color: var(--text); font-size: 0.9rem;
+            outline: none; cursor: pointer;
+        }
+        .rag-demo .search-btn {
+            padding: 14px 28px; background: var(--gold); color: #0a0a0f;
+            border: none; border-radius: 10px; font-size: 0.9rem; font-weight: 600;
+            cursor: pointer; transition: all 0.2s;
+        }
+        .rag-demo .search-btn:hover { background: var(--gold-light); }
+        .rag-demo .search-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+        .rag-result {
+            background: var(--bg); border: 1px solid var(--border);
+            border-radius: 10px; padding: 18px; margin-bottom: 12px;
+            animation: fadeIn 0.3s ease;
+        }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+        .rag-result .domain-tag {
+            display: inline-block; padding: 2px 8px; border-radius: 4px;
+            font-size: 0.7rem; font-weight: 700; text-transform: uppercase;
+            margin-right: 8px;
+        }
+        .domain-tag.medical { background: rgba(74,144,217,0.2); color: var(--accent-blue); }
+        .domain-tag.legal { background: rgba(155,89,182,0.2); color: var(--accent-purple); }
+        .domain-tag.msk { background: rgba(46,204,113,0.2); color: var(--accent-green); }
+        .domain-tag.imaging { background: rgba(201,168,76,0.2); color: var(--gold); }
+        .rag-result .result-title { font-weight: 600; margin: 6px 0; }
+        .rag-result .result-content {
+            color: var(--text-muted); font-size: 0.88rem;
+            line-height: 1.6; margin-top: 6px;
+        }
+        .rag-result .result-source {
+            font-size: 0.78rem; color: rgba(200,168,76,0.6); margin-top: 8px;
+        }
+        .loading { text-align: center; color: var(--text-muted); padding: 20px; }
+
+        /* FOOTER */
+        footer {
+            border-top: 1px solid var(--border); padding: 40px 0;
+            color: var(--text-muted); font-size: 0.85rem;
+        }
+        footer .footer-inner {
+            display: flex; justify-content: space-between; align-items: center;
+            flex-wrap: wrap; gap: 16px;
+        }
+        footer a { color: var(--gold); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+            .section-title { font-size: 1.6rem; }
+            nav .nav-links { display: none; }
+            section { padding: 60px 0; }
+            .platform-grid { grid-template-columns: 1fr; }
+            .rag-demo .search-box { flex-direction: column; }
+            .feature-grid-3 { grid-template-columns: 1fr; }
+        }
+        /* Blog grid */
+        .feature-grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 24px;
+        }
+        .blog-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: transform 0.2s, border-color 0.2s;
+            cursor: pointer;
+        }
+        .blog-card:hover {
+            transform: translateY(-2px);
+            border-color: var(--gold);
+        }
+        .blog-card .blog-domain {
+            display: inline-block;
+            padding: 2px 10px;
+            border-radius: 6px;
+            font-size: 0.72rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+        .blog-card .blog-domain.legal { background: rgba(52,152,219,0.15); color: #3498db; }
+        .blog-card .blog-domain.medical { background: rgba(155,89,182,0.15); color: #9b59b6; }
+        .blog-card .blog-domain.msk { background: rgba(46,204,113,0.15); color: #2ecc71; }
+        .blog-card .blog-domain.imaging { background: rgba(52,73,94,0.15); color: #34495e; }
+        .blog-card .blog-title { font-weight: 600; font-size: 1.05rem; color: var(--text); margin-bottom: 8px; line-height: 1.4; }
+        .blog-card .blog-excerpt { color: var(--text-muted); font-size: 0.9rem; line-height: 1.5; }
+        .blog-card .blog-meta { color: var(--text-muted); font-size: 0.75rem; margin-top: 12px; }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <div class="nav-inner">
+        <div class="logo">RealEstate<span>Dates</span></div>
+        <ul class="nav-links">
+            <li><a href="#platforms" data-i18n="nav.platforms">Platforms</a></li>
+            <li><a href="#rag" data-i18n="nav.ragSearch">RAG Search</a></li>
+            <li><a href="#stats" data-i18n="nav.stats">Stats</a></li>
+            <li><a href="https://realestatedates.realty" target="_blank" data-i18n="nav.launchApp">Launch App →</a></li>
+            <li><button id="langToggle" class="lang-btn" title="Cambiar a Español">ES</button></li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <div class="badge" data-i18n="hero.badge">🟢 All Systems Operational</div>
+        <h1><span data-i18n="hero.line1">Connect. Close.</span><br><span class="accent" data-i18n="hero.line2">Build Together.</span></h1>
+        <p data-i18n="hero.desc">
+            An AI-powered ecosystem matching professionals across real estate,
+            medicine, and legal domains. Three platforms, one unified intelligence layer.
+        </p>
+        <div class="cta-group">
+            <a href="https://realestatedates.realty" class="btn btn-primary" target="_blank" data-i18n="hero.cta1">
+                🏠 Launch Real Estate Dates
+            </a>
+            <a href="#platforms" class="btn btn-outline" data-i18n="hero.cta2">Explore Platforms ↓</a>
+            <a href="#rag" class="btn btn-outline" data-i18n="hero.cta3">🔍 Try RAG Search</a>
+        </div>
+    </div>
+</section>
+
+<!-- Platform Cards -->
+<section id="platforms">
+    <div class="container">
+        <div class="section-label" data-i18n="platforms.label">THE ECOSYSTEM</div>
+        <h2 class="section-title" data-i18n="platforms.title">Three Platforms, One Intelligence Layer</h2>
+        <p class="section-desc" data-i18n="platforms.desc">
+            Each platform runs independently with its own domain expertise. 
+            The unified RAG knowledge base connects them all — 2,300+ expert documents 
+            searchable across every domain.
+        </p>
+        <div class="platform-grid">
+            <!-- Real Estate Dates -->
+            <div class="platform-card">
+                <div class="icon red">🏠</div>
+                <span class="badge-tag live">LIVE</span>
+                <h3>Real Estate Dates</h3>
+                <div class="url">realestatedates.realty</div>
+                <p style="color:var(--text-muted);font-size:0.9rem;" data-i18n="platforms.redesc">
+                    AI-powered professional matchmaking. Pipeline matching, real-time chat,
+                    Happy Hour virtual ballroom, and profile management.
+                </p>
+                <ul class="features">
+                    <li data-i18n="platforms.ref1">Directional Key-Turn matching</li>
+                    <li data-i18n="platforms.ref2">Real-time Firestore chat</li>
+                    <li data-i18n="platforms.ref3">Virtual Ballroom networking</li>
+                    <li data-i18n="platforms.ref4">8 seeded professional profiles</li>
+                    <li data-i18n="platforms.ref5">Firebase Auth + Firestore</li>
+                </ul>
+            </div>
+
+            <!-- AIMS Medical -->
+            <div class="platform-card">
+                <div class="icon blue">🏥</div>
+                <span class="badge-tag live">LIVE</span>
+                <h3>AIMS Medical Platform</h3>
+                <div class="url">aims-final-edition-production.up.railway.app</div>
+                <p style="color:var(--text-muted);font-size:0.9rem;">
+                    AI-driven EHR and telemedicine. Medical scribe with SOAP notes,
+                    lab interpretation, patient management, and remote monitoring.
+                </p>
+                <ul class="features">
+                    <li>AI Medical Scribe (GPT-4o/Gemini)</li>
+                    <li>Telemedicine + WebRTC</li>
+                    <li>Lab Interpreter with AI analysis</li>
+                    <li>Patient Management + Billing</li>
+                    <li>HIPAA-compliant architecture</li>
+                </ul>
+            </div>
+
+            <!-- Attorney Immigration RAG -->
+            <div class="platform-card">
+                <div class="icon purple">⚖️</div>
+                <span class="badge-tag local">RAG SYSTEM</span>
+                <h3>Attorney Immigration RAG</h3>
+                <div class="url">Local Supabase + Ollama (BGE-M3)</div>
+                <p style="color:var(--text-muted);font-size:0.9rem;">
+                    Full-stack RAG system for immigration law. 3-agent critique pipeline,
+                    document generation, credibility assessment, and vector search.
+                </p>
+                <ul class="features">
+                    <li>3-Agent conditional pipeline</li>
+                    <li>1,935 legal knowledge chunks</li>
+                    <li>Document templates (asylum, BIA, FOIA)</li>
+                    <li>Visual credibility framework</li>
+                    <li>pgvector semantic search</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RAG Demo -->
+<section id="rag">
+    <div class="container">
+        <div class="section-label" data-i18n="rag.label">UNIFIED RAG SEARCH</div>
+        <h2 class="section-title" data-i18n="rag.title">Search Across Every Domain</h2>
+        <p class="section-desc" data-i18n="rag.desc">
+            Query 2,300+ knowledge chunks spanning medical protocols, immigration statutes,
+            case law, and real estate practices. Powered by BGE-M3 embeddings at 1024 dimensions.
+        </p>
+        <div class="rag-demo">
+            <div class="search-box">
+                <input type="text" id="ragQuery" placeholder="e.g., asylum persecution standard, SOAP note format, INA 208..." 
+                       onkeydown="if(event.key==='Enter') searchRAG()">
+                <select id="ragDomain">
+                    <option value="">All Domains</option>
+                    <option value="medical">Medical</option>
+                    <option value="legal">Legal</option>
+                    <option value="msk">MSK</option>
+                    <option value="imaging">Imaging</option>
+                </select>
+                <button class="search-btn" onclick="searchRAG()" id="searchBtn">🔍 Search</button>
+            </div>
+            <div id="ragResults" style="min-height:60px;">
+                <p style="color:var(--text-muted);text-align:center;padding:30px;" data-i18n="rag.empty">
+                    Enter a query above to search the unified knowledge base.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Stats -->
+<section id="stats">
+    <div class="container">
+        <div class="section-label" data-i18n="stats.label">PLATFORM STATS</div>
+        <h2 class="section-title" data-i18n="stats.title">By the Numbers</h2>
+        <p class="section-desc" id="statsStatus" data-i18n="stats.status">Loading live stats...</p>
+        <div class="stats-grid" id="statsGrid">
+            <div class="stat-card"><div class="num" id="statTotal">--</div><div class="label">Total RAG Chunks</div></div>
+            <div class="stat-card"><div class="num" id="statLegal">--</div><div class="label">Legal Docs</div></div>
+            <div class="stat-card"><div class="num" id="statMedical">--</div><div class="label">Medical Docs</div></div>
+            <div class="stat-card"><div class="num" id="statMSK">--</div><div class="label">MSK Docs</div></div>
+            <div class="stat-card"><div class="num" id="statImaging">--</div><div class="label">Imaging Docs</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Weekly Digest -->
+<section id="digest" style="margin-top:80px;">
+    <div class="container">
+        <div class="section-label">WEEKLY DIGEST</div>
+        <h2 class="section-title">Platform Pulse</h2>
+        <p class="section-desc" id="digestStatus">Loading latest digest...</p>
+        <div id="digestContent"></div>
+    </div>
+</section>
+
+<!-- Blog -->
+<section id="blog" style="margin-top:80px;">
+    <div class="container">
+        <div class="section-label">KNOWLEDGE BLOG</div>
+        <h2 class="section-title">From Our RAG Engine</h2>
+        <p class="section-desc" id="blogStatus">Loading articles...</p>
+        <div class="feature-grid-3" id="blogGrid"></div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="footer-inner">
+            <div data-i18n="footer.copy">© 2025–2026 Real Estate Dates. All platforms live.</div>
+            <div>
+                <a href="https://realestatedates.realty" target="_blank" data-i18n="footer.app">App</a> ·
+                <a href="https://aims-final-edition-production.up.railway.app" target="_blank">AIMS</a> ·
+                <a href="https://github.com/Pablodd1" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script>
+// === I18N SYSTEM ===
+const i18n = {
+  en: {
+    'nav.platforms': 'Platforms', 'nav.ragSearch': 'RAG Search', 'nav.stats': 'Stats',
+    'nav.launchApp': 'Launch App →',
+    'hero.badge': '🟢 All Systems Operational',
+    'hero.line1': 'Connect. Close.', 'hero.line2': 'Build Together.',
+    'hero.desc': 'An AI-powered ecosystem matching professionals across real estate, medicine, and legal domains. Three platforms, one unified intelligence layer.',
+    'hero.cta1': '🏠 Launch Real Estate Dates', 'hero.cta2': 'Explore Platforms ↓', 'hero.cta3': '🔍 Try RAG Search',
+    'platforms.label': 'THE ECOSYSTEM', 'platforms.title': 'Three Platforms, One Intelligence Layer',
+    'platforms.desc': 'Each platform runs independently with its own domain expertise. The unified RAG knowledge base connects them all — 2,300+ expert documents searchable across every domain.',
+    'platforms.redesc': 'AI-powered professional matchmaking. Pipeline matching, real-time chat, Happy Hour virtual ballroom, and profile management.',
+    'platforms.ref1': 'Directional Key-Turn matching', 'platforms.ref2': 'Real-time Firestore chat',
+    'platforms.ref3': 'Virtual Ballroom networking', 'platforms.ref4': '8 seeded professional profiles',
+    'platforms.ref5': 'Firebase Auth + Firestore',
+    'rag.label': 'UNIFIED RAG SEARCH', 'rag.title': 'Search Across Every Domain',
+    'rag.desc': 'Query 2,300+ knowledge chunks spanning medical protocols, immigration statutes, case law, and real estate practices. Powered by BGE-M3 embeddings at 1024 dimensions.',
+    'rag.placeholder': 'e.g., asylum persecution standard, SOAP note format, INA 208...',
+    'rag.allDomains': 'All Domains', 'rag.search': '🔍 Search', 'rag.empty': 'Enter a query above to search the unified knowledge base.',
+    'rag.noResults': 'No results found', 'rag.tryDifferent': 'Try different keywords.',
+    'stats.label': 'PLATFORM STATS', 'stats.title': 'By the Numbers', 'stats.status': 'Loading live stats...',
+    'stats.unavailable': 'Stats unavailable (expected — RAG runs locally)',
+    'footer.copy': '© 2025–2026 Real Estate Dates. All platforms live.', 'footer.app': 'App'
+  },
+  es: {
+    'nav.platforms': 'Plataformas', 'nav.ragSearch': 'Búsqueda RAG', 'nav.stats': 'Estadísticas',
+    'nav.launchApp': 'Abrir App →',
+    'hero.badge': '🟢 Todos los Sistemas Operativos',
+    'hero.line1': 'Conecta. Cierra.', 'hero.line2': 'Construye Junto.',
+    'hero.desc': 'Un ecosistema impulsado por IA que conecta profesionales de bienes raíces, medicina y derecho. Tres plataformas, una capa de inteligencia unificada.',
+    'hero.cta1': '🏠 Abrir Real Estate Dates', 'hero.cta2': 'Explorar Plataformas ↓', 'hero.cta3': '🔍 Probar Búsqueda RAG',
+    'platforms.label': 'EL ECOSISTEMA', 'platforms.title': 'Tres Plataformas, Una Capa de Inteligencia',
+    'platforms.desc': 'Cada plataforma opera de forma independiente con su propia experiencia de dominio. La base de conocimiento RAG unificada las conecta — más de 2,300 documentos expertos consultables en todos los dominios.',
+    'platforms.redesc': 'Emparejamiento profesional impulsado por IA. Coincidencia de pipeline, chat en tiempo real, salón virtual Happy Hour y gestión de perfiles.',
+    'platforms.ref1': 'Emparejamiento direccional Key-Turn', 'platforms.ref2': 'Chat Firestore en tiempo real',
+    'platforms.ref3': 'Networking en Salón Virtual', 'platforms.ref4': '8 perfiles profesionales iniciales',
+    'platforms.ref5': 'Firebase Auth + Firestore',
+    'rag.label': 'BÚSQUEDA RAG UNIFICADA', 'rag.title': 'Busca en Todos los Dominios',
+    'rag.desc': 'Consulta más de 2,300 fragmentos de conocimiento que abarcan protocolos médicos, estatutos de inmigración, jurisprudencia y prácticas inmobiliarias. Impulsado por embeddings BGE-M3 de 1024 dimensiones.',
+    'rag.placeholder': 'ej., estándar de persecución de asilo, formato nota SOAP, INA 208...',
+    'rag.allDomains': 'Todos los Dominios', 'rag.search': '🔍 Buscar', 'rag.empty': 'Ingresa una consulta arriba para buscar en la base de conocimiento unificada.',
+    'rag.noResults': 'Sin resultados', 'rag.tryDifferent': 'Prueba con otras palabras clave.',
+    'stats.label': 'ESTADÍSTICAS', 'stats.title': 'En Números', 'stats.status': 'Cargando estadísticas...',
+    'stats.unavailable': 'Estadísticas no disponibles (esperado — RAG se ejecuta localmente)',
+    'footer.copy': '© 2025–2026 Real Estate Dates. Todas las plataformas activas.', 'footer.app': 'App'
+  }
+};
+
+let currentLang = localStorage.getItem('lang') || 'en';
+function t(key) { return (i18n[currentLang] && i18n[currentLang][key]) || (i18n.en[key] || key); }
+
+function applyLang() {
+  document.documentElement.lang = currentLang;
+  document.querySelectorAll('[data-i18n]').forEach(el => {
+    const key = el.getAttribute('data-i18n');
+    if (key) el.textContent = t(key);
+  });
+  const searchBtn = document.getElementById('searchBtn');
+  if (searchBtn) searchBtn.textContent = t('rag.search');
+  const ragInput = document.getElementById('ragQuery');
+  if (ragInput) ragInput.placeholder = t('rag.placeholder');
+  const ragDomain = document.getElementById('ragDomain');
+  if (ragDomain) ragDomain.options[0].textContent = t('rag.allDomains');
+  const langBtn = document.getElementById('langToggle');
+  if (langBtn) { langBtn.textContent = currentLang === 'en' ? 'ES' : 'EN'; langBtn.title = currentLang === 'en' ? 'Cambiar a Español' : 'Switch to English'; }
+}
+
+function toggleLang() {
+  currentLang = currentLang === 'en' ? 'es' : 'en';
+  localStorage.setItem('lang', currentLang);
+  applyLang();
+}
+
+document.getElementById('langToggle').addEventListener('click', toggleLang);
+document.addEventListener('DOMContentLoaded', () => { applyLang(); loadStats(); loadDigest(); loadBlog(); });
+
+// RAG Search
+async function searchRAG() {
+    const query = document.getElementById('ragQuery').value.trim();
+    const domain = document.getElementById('ragDomain').value;
+    const resultsDiv = document.getElementById('ragResults');
+    const btn = document.getElementById('searchBtn');
+
+    if (!query) return;
+
+    btn.disabled = true;
+    btn.textContent = t('searching') || 'Searching...';
+    resultsDiv.innerHTML = `<div class="loading">${t('rag.searching') || 'Searching 2,300+ documents...'}</div>`;
+
+    try {
+        const params = new URLSearchParams({ q: query, top: 8 });
+        if (domain) params.set('domain', domain);
+        
+        const resp = await fetch(`/api/rag?${params}`);
+        const data = await resp.json();
+
+        if (data.results_count === 0) {
+            resultsDiv.innerHTML = `<p style="color:var(--text-muted);text-align:center;padding:30px;">
+                ${t('rag.noResults')} "${query}"${domain ? ' in ' + domain : ''}. ${t('rag.tryDifferent')}
+            </p>`;
+        } else {
+            const searchBadge = data.search_mode && data.search_mode.includes('vector')
+                ? '<span style="display:inline-block;background:rgba(46,204,113,0.15);color:#2ecc71;padding:2px 10px;border-radius:6px;font-size:0.72rem;margin-left:8px;vertical-align:middle;">Semantic (BGE-M3)</span>'
+                : '<span style="display:inline-block;background:rgba(201,168,76,0.15);color:#c9a84c;padding:2px 10px;border-radius:6px;font-size:0.72rem;margin-left:8px;vertical-align:middle;">Text (ILIKE)</span>';
+            const noteHtml = data.note ? `<br><small style="color:var(--text-muted);">${data.note}</small>` : '';
+            let html = `<p style="color:var(--text-muted);margin-bottom:16px;font-size:0.85rem;">
+                Found ${data.results_count} result${data.results_count > 1 ? 's' : ''} 
+                in ${data.timing_ms}ms across ${data.total_database} documents
+                ${domain ? ' (domain: ' + domain + ')' : '(all domains)'}${searchBadge}${noteHtml}
+            </p>`;
+            
+            for (const r of data.results) {
+                const content = r.content || '(no content)';
+                html += `
+                <div class="rag-result">
+                    <span class="domain-tag ${r.domain}">${r.domain}</span>
+                    ${r.category ? `<span style="color:var(--text-muted);font-size:0.75rem;">${r.category}</span>` : ''}
+                    <div class="result-title">${escHtml(r.title || 'Untitled')}</div>
+                    <div class="result-content">${escHtml(content)}</div>
+                    ${r.source ? `<div class="result-source">Source: ${escHtml(r.source)}</div>` : ''}
+                </div>`;
+            }
+            resultsDiv.innerHTML = html;
+        }
+    } catch (e) {
+        resultsDiv.innerHTML = `<p style="color:#e74c3c;text-align:center;padding:20px;">
+            Search error: ${escHtml(e.message)}
+    } finally {
+        btn.disabled = false;
+        btn.textContent = t('rag.search');
+    }
+}
+
+function escHtml(s) {
+    const div = document.createElement('div');
+    div.textContent = s;
+    return div.innerHTML;
+}
+
+// Load stats on page load
+async function loadStats() {
+    try {
+        const resp = await fetch('/api/health');
+        const data = await resp.json();
+        
+        document.getElementById('statsStatus').textContent = 
+            `Live from ${data.rag?.embedding_model || 'database'} · ${data.rag?.total_chunks || '?'} total documents`;
+        
+        if (data.rag?.domains) {
+            const d = data.rag.domains;
+            document.getElementById('statTotal').textContent = data.rag.total_chunks || '--';
+            document.getElementById('statLegal').textContent = d.legal || '--';
+            document.getElementById('statMedical').textContent = d.medical || '--';
+            document.getElementById('statMSK').textContent = d.msk || '--';
+            document.getElementById('statImaging').textContent = d.imaging || '--';
+        }
+    } catch (e) {
+        document.getElementById('statsStatus').textContent = t('stats.unavailable');
+        ['statTotal','statLegal','statMedical','statMSK','statImaging'].forEach(id => {
+            document.getElementById(id).textContent = '--';
+        });
+    }
+}
+
+async function loadDigest() {
+    try {
+        const resp = await fetch('/api/digest');
+        const data = await resp.json();
+        if (data.digests && data.digests.length > 0) {
+            const d = data.digests[0];
+            document.getElementById('digestStatus').textContent =
+                `Week of ${new Date(d.week_start).toLocaleDateString('en-US', {month:'short',day:'numeric'})} → ${new Date(d.week_end).toLocaleDateString('en-US', {month:'short',day:'numeric'})}`;
+            let hlHtml = (d.highlights || []).map(h =>
+                `<li style="color:var(--text-secondary);line-height:1.6;margin-bottom:8px;">${escHtml(h)}</li>`
+            ).join('');
+            document.getElementById('digestContent').innerHTML = `
+                <div class="stat-card" style="text-align:left;padding:24px;">
+                    <div style="font-size:1.2rem;font-weight:600;color:var(--accent);margin-bottom:12px;">${escHtml(d.title)}</div>
+                    <p style="color:var(--text-secondary);line-height:1.6;margin-bottom:16px;">${escHtml(d.summary)}</p>
+                    <ul style="padding-left:20px;margin:0;">${hlHtml}</ul>
+                </div>`;
+        } else {
+            document.getElementById('digestStatus').textContent = 'No digest yet — first one coming soon.';
+        }
+    } catch (e) {
+        document.getElementById('digestStatus').textContent = 'Digest unavailable (local LLM generates these weekly)';
+        document.getElementById('digestContent').innerHTML = '';
+    }
+}
+
+async function loadBlog() {
+    try {
+        const resp = await fetch('/api/blog?limit=6');
+        const data = await resp.json();
+        const grid = document.getElementById('blogGrid');
+        if (data.posts && data.posts.length > 0) {
+            document.getElementById('blogStatus').textContent =
+                `${data.posts.length} AI-generated article${data.posts.length > 1 ? 's' : ''} from the RAG knowledge base`;
+            grid.innerHTML = data.posts.map(p => {
+                const date = new Date(p.created_at).toLocaleDateString('en-US', {month:'short',day:'numeric'});
+                const tags = (p.tags || []).slice(0, 2).map(t => `#${t}`).join(' ');
+                return `
+                <div class="blog-card" onclick="window.open('/blog?slug=${p.slug}', '_self')">
+                    <span class="blog-domain ${p.domain}">${p.domain}</span>
+                    <div class="blog-title">${escHtml(p.title)}</div>
+                    <div class="blog-excerpt">${escHtml(p.excerpt)}</div>
+                    <div class="blog-meta">${p.word_count || '?'} words · ${date} · ${tags}</div>
+                </div>`;
+            }).join('');
+        } else {
+            document.getElementById('blogStatus').textContent = 'Articles coming soon — first batch generating now.';
+            grid.innerHTML = '';
+        }
+    } catch (e) {
+        document.getElementById('blogStatus').textContent = 'Blog unavailable — generated by local LLM';
+        document.getElementById('blogGrid').innerHTML = '';
+    }
+}
+
+document.addEventListener('DOMContentLoaded', () => { loadStats(); loadDigest(); loadBlog(); });
+</script>
+
+</body>
+</html>

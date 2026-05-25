@@ -1,0 +1,23 @@
+{
+  "name": "real-estate-dates-website",
+  "version": "2.0.0",
+  "description": "Real Estate Dates Ecosystem — AI-Powered Professional Networking Platform",
+  "scripts": {
+    "start": "echo 'Vercel serverless — no local server needed'",
+    "build": "echo 'Static + API — deployed via Vercel'"
+  },
+  "dependencies": {
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "real-estate",
+    "professional-networking",
+    "ai-matchmaking",
+    "rag",
+    "medical-ehr",
+    "immigration-law"
+  ],
+  "license": "UNLICENSED",
+  "private": true
+}
