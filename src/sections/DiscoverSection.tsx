@@ -92,7 +92,6 @@ export default function DiscoverSection() {
           gsap.to(card, {
             x: window.innerWidth,
             rotation: 30,
-            opacity: 0,
             duration: 0.4,
             ease: 'power2.out',
             onComplete: () => {
@@ -105,7 +104,6 @@ export default function DiscoverSection() {
           gsap.to(card, {
             x: -window.innerWidth,
             rotation: -30,
-            opacity: 0,
             duration: 0.4,
             ease: 'power2.out',
             onComplete: () => {
@@ -149,7 +147,6 @@ export default function DiscoverSection() {
           gsap.to(card, {
             x: window.innerWidth,
             rotation: 30,
-            opacity: 0,
             duration: 0.4,
             ease: 'power2.out',
             onComplete: () => {
@@ -162,7 +159,6 @@ export default function DiscoverSection() {
           gsap.to(card, {
             x: -window.innerWidth,
             rotation: -30,
-            opacity: 0,
             duration: 0.4,
             ease: 'power2.out',
             onComplete: () => {
@@ -196,7 +192,6 @@ export default function DiscoverSection() {
     const els = sectionRef.current.querySelectorAll('.discover-reveal');
     gsap.from(els, {
       y: 40,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.1,
       ease: 'power3.out',
@@ -215,7 +210,6 @@ export default function DiscoverSection() {
     gsap.to(card, {
       x: -window.innerWidth,
       rotation: -25,
-      opacity: 0,
       duration: 0.5,
       ease: 'power3.out',
       onComplete: () => {
@@ -232,7 +226,6 @@ export default function DiscoverSection() {
     gsap.to(card, {
       x: window.innerWidth,
       rotation: 25,
-      opacity: 0,
       duration: 0.5,
       ease: 'power3.out',
       onComplete: () => {

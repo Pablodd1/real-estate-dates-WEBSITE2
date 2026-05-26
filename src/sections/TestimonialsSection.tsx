@@ -48,7 +48,6 @@ export default function TestimonialsSection() {
     const header = sectionRef.current.querySelectorAll('.test-header');
     gsap.from(header, {
       y: 40,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.1,
       ease: 'power3.out',
@@ -62,7 +61,6 @@ export default function TestimonialsSection() {
     const cards = sectionRef.current.querySelectorAll('.test-card');
     gsap.from(cards, {
       y: 30,
-      opacity: 0,
       duration: 0.7,
       stagger: 0.15,
       ease: 'power3.out',
@@ -76,7 +74,6 @@ export default function TestimonialsSection() {
     const statsBar = sectionRef.current.querySelector('.stats-bar');
     gsap.from(statsBar, {
       y: 40,
-      opacity: 0,
       duration: 0.8,
       ease: 'power3.out',
       scrollTrigger: {

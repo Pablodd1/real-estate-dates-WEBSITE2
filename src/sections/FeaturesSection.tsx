@@ -111,7 +111,6 @@ export default function FeaturesSection() {
 
     gsap.from(header, {
       y: 40,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.1,
       ease: 'power3.out',
@@ -124,7 +123,6 @@ export default function FeaturesSection() {
 
     gsap.from(cards, {
       y: 30,
-      opacity: 0,
       duration: 0.6,
       stagger: 0.06,
       ease: 'power3.out',

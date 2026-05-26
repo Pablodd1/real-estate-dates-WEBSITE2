@@ -41,7 +41,6 @@ export default function BlogSection() {
     const header = sectionRef.current.querySelectorAll('.blog-header');
     gsap.from(header, {
       y: 40,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.1,
       ease: 'power3.out',
@@ -55,7 +54,6 @@ export default function BlogSection() {
     const cards = sectionRef.current.querySelectorAll('.blog-card');
     gsap.from(cards, {
       y: 30,
-      opacity: 0,
       duration: 0.7,
       stagger: 0.12,
       ease: 'power3.out',
@@ -69,7 +67,6 @@ export default function BlogSection() {
     const newsletter = sectionRef.current.querySelector('.newsletter');
     gsap.from(newsletter, {
       y: 30,
-      opacity: 0,
       duration: 0.8,
       ease: 'power3.out',
       scrollTrigger: {

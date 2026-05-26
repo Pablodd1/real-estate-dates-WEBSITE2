@@ -21,7 +21,6 @@ export default function PricingCtaSection() {
     const textEls = sectionRef.current.querySelectorAll('.cta-text');
     gsap.from(textEls, {
       y: 30,
-      opacity: 0,
       duration: 0.7,
       stagger: 0.1,
       ease: 'power3.out',
@@ -34,7 +33,6 @@ export default function PricingCtaSection() {
 
     gsap.from('.cta-mockup', {
       x: 60,
-      opacity: 0,
       duration: 1,
       delay: 0.3,
       ease: 'power3.out',

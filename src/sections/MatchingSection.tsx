@@ -24,7 +24,6 @@ export default function MatchingSection() {
     // Left column card
     gsap.from('.matching-card-wrap', {
       x: -50,
-      opacity: 0,
       duration: 1,
       ease: 'power3.out',
       scrollTrigger: {
@@ -38,7 +37,6 @@ export default function MatchingSection() {
     const textEls = sectionRef.current.querySelectorAll('.matching-text');
     gsap.from(textEls, {
       x: 50,
-      opacity: 0,
       duration: 0.7,
       stagger: 0.1,
       ease: 'power3.out',

@@ -52,7 +52,6 @@ export default function SocialSection() {
     const items = sectionRef.current.querySelectorAll('.social-item');
     gsap.from(items, {
       y: 30,
-      opacity: 0,
       duration: 0.6,
       stagger: 0.1,
       ease: 'power3.out',
@@ -65,7 +64,6 @@ export default function SocialSection() {
 
     gsap.from('.social-title', {
       y: 20,
-      opacity: 0,
       duration: 0.6,
       ease: 'power3.out',
       scrollTrigger: {

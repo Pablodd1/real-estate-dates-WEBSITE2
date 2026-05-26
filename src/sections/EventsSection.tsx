@@ -54,7 +54,6 @@ export default function EventsSection() {
     const cards = sectionRef.current.querySelectorAll('.event-card');
     gsap.from(cards, {
       y: 40,
-      opacity: 0,
       duration: 0.7,
       stagger: 0.12,
       ease: 'power3.out',
@@ -67,7 +66,6 @@ export default function EventsSection() {
 
     gsap.from('.event-title', {
       y: 30,
-      opacity: 0,
       duration: 0.6,
       ease: 'power3.out',
       scrollTrigger: {

@@ -40,7 +40,6 @@ export default function DatesSection() {
     // Left image
     gsap.from('.dates-image', {
       x: -60,
-      opacity: 0,
       duration: 1,
       ease: 'power3.out',
       scrollTrigger: {
@@ -54,7 +53,6 @@ export default function DatesSection() {
     const textEls = sectionRef.current.querySelectorAll('.dates-text');
     gsap.from(textEls, {
       y: 30,
-      opacity: 0,
       duration: 0.7,
       stagger: 0.1,
       ease: 'power3.out',
@@ -69,7 +67,6 @@ export default function DatesSection() {
     const cards = sectionRef.current.querySelectorAll('.dates-card');
     gsap.from(cards, {
       y: 40,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.2,
       ease: 'power3.out',

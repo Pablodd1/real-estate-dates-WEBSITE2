@@ -52,7 +52,6 @@ export default function PricingSection() {
     const cards = sectionRef.current.querySelectorAll('.pricing-card');
     gsap.from(cards, {
       y: 50,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.15,
       ease: 'power3.out',
@@ -65,7 +64,6 @@ export default function PricingSection() {
 
     gsap.from('.pricing-title', {
       y: 30,
-      opacity: 0,
       duration: 0.6,
       ease: 'power3.out',
       scrollTrigger: {

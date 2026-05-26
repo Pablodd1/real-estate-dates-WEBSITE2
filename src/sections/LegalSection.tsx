@@ -96,7 +96,6 @@ export default function LegalSection() {
     const items = sectionRef.current.querySelectorAll('.legal-item');
     gsap.from(items, {
       y: 30,
-      opacity: 0,
       duration: 0.6,
       stagger: 0.08,
       ease: 'power3.out',
@@ -109,7 +108,6 @@ export default function LegalSection() {
 
     gsap.from('.legal-title', {
       y: 20,
-      opacity: 0,
       duration: 0.6,
       ease: 'power3.out',
       scrollTrigger: {
@@ -121,7 +119,6 @@ export default function LegalSection() {
 
     gsap.from('.legal-stat', {
       y: 20,
-      opacity: 0,
       duration: 0.5,
       stagger: 0.1,
       ease: 'power3.out',

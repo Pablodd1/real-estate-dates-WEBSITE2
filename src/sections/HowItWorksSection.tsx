@@ -58,7 +58,6 @@ export default function HowItWorksSection() {
     const reveals = sectionRef.current.querySelectorAll('.hiw-reveal');
     gsap.from(reveals, {
       y: 30,
-      opacity: 0,
       duration: 0.8,
       stagger: 0.1,
       ease: 'power3.out',

@@ -33,20 +33,14 @@ function App() {
 
       {/* Main Content */}
       <div className="relative w-full overflow-hidden flex flex-col flex-1">
-        {/* Background Image (Golden Key) with Dynamic Zoom */}
-        <div 
-          className="fixed inset-0 w-full h-full bg-cover bg-center -z-50 pointer-events-none" 
-          style={{ 
-            backgroundImage: 'url(/images/key.png)',
-            animation: 'pulseZoom 20s infinite alternate ease-in-out'
-          }} 
-        />
-        <style>{`
-          @keyframes pulseZoom {
-            0% { transform: scale(1); }
-            100% { transform: scale(1.05); }
-          }
-        `}</style>
+        {/* Background Image (Golden Key) with Spinning Animation */}
+        <div className="fixed inset-0 flex items-center justify-center -z-50 pointer-events-none overflow-hidden">
+          <img 
+            src="/images/key.png" 
+            alt="" 
+            className="w-[150vw] h-[150vw] sm:w-[150vh] sm:h-[150vh] object-cover opacity-10 animate-spin-slow"
+          />
+        </div>
         
         <Navigation />
         <main className="relative z-0 main-content">
