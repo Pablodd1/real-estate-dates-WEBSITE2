@@ -1,0 +1,15 @@
+# Real Estate Dates
+
+> Elite Dating & Networking for Real Estate Professionals
+
+Real Estate Dates is an exclusive dating and networking application designed specifically for real estate professionals (brokers, agents, investors). It focuses on matching individuals with similar professional lifestyles, dealing with late closings and early showings. 
+
+## Key Features
+- Mutual Matching: Users must mutually like each other to unlock full biographies.
+- Anti-Catfishing: Strict ID verification protocols to ensure genuine profiles.
+- Tiered Access: Free, Pro, and Empire tiers.
+- Add-Ons: Text chat, video chat, and online speed dating available as add-ons.
+- Exclusive Events: Online Happy Hour Speed Dating and in-person walk-and-talk property dates.
+
+## Target Audience
+Real estate agents, luxury brokers, investors, and professionals in the real estate industry looking to date, network, and build an empire together.

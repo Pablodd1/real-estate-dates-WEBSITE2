@@ -1,0 +1,627 @@
+{
+  "nav": {
+    "browse": "Explorar",
+    "howItWorks": "Cómo Funciona",
+    "events": "Eventos",
+    "pricing": "Precios",
+    "features": "Características",
+    "safety": "Seguridad",
+    "exploreApp": "Explorar App",
+    "language": "ES"
+  },
+  "hero": {
+    "subtitle": "Real Estate Dates",
+    "tagline": "Coincide · Cita · Construyan una Vida Juntos",
+    "title": "Encuentra Tu Pareja Perfecta",
+    "descriptionPart1": "La aplicación de citas donde los profesionales de bienes raíces se conocen, coinciden y construyen relaciones. Desliza perfiles, encuentra a tu persona y ",
+    "descriptionHighlight": "construyan una vida juntos",
+    "descriptionPart2": ".",
+    "cta": "Explorar Perfiles",
+    "scroll": "Desplaza para conocer solteros",
+    "copyright": "Real Estate Dates © 2025"
+  },
+  "howItWorks": {
+    "journey": "El Viaje",
+    "title": "Del Match al Matrimonio",
+    "subtitle": "Experimenta un camino optimizado para encontrar el amor verdadero, diseñado específicamente para profesionales ocupados.",
+    "step1": {
+      "title": "Crea Tu Perfil Profesional",
+      "desc": "Establece tu pedigrí profesional y marca personal en nuestro registro de élite. Muestra tu nicho de bienes raíces: ya seas agente residencial, corredor comercial, sindicador, desarrollador, constructor o inversor privado activo. Más allá de fotos de alta calidad, escribe sobre tu enfoque de mercado actual, volumen de transacciones, objetivos a largo plazo y lo que buscas en un compañero de vida y negocios."
+    },
+    "step2": {
+      "title": "Explora Profesionales Verificados",
+      "desc": "Navega por un directorio curado y seguro de actores activos de bienes raíces en tu mercado. Eliminamos perdedores de tiempo y perfiles falsos con controles rigurosos de identificación y licencias. Filtra dinámicamente por ubicación geográfica, clase de activos de inversión, volumen de transacciones o años en la industria. Cada perfil se somete a una rigurosa investigación, asegurando que te conectes con pares que comparten tu impulso, estilo de vida y ambición financiera."
+    },
+    "step3": {
+      "title": "Los Matches Mutuos Desbloquean Biografías Profundas",
+      "desc": "Nuestro mecanismo de emparejamiento doble ciego protege tu privacidad y garantiza interacciones de alta intención. Navega de forma libre y discreta. La comunicación solo se desbloquea cuando el interés es completamente mutuo. Una vez que ambos deslizan hacia la derecha, se establece un \"Match Mutuo\". Esto desbloquea instantáneamente biografías detalladas, resúmenes de carteras, estilos arquitectónicos favoritos y antecedentes profesionales."
+    },
+    "step4": {
+      "title": "Sube de Nivel la Conexión (Chat y Videochat)",
+      "desc": "Pasa sin problemas de un match mutuo a la comunicación activa. Comienza con un chat de texto directo, o aprovecha nuestros complementos premium integrados en la aplicación. Salta a un videochat seguro incorporado para comprobar la química sin compartir tu número de teléfono privado. Además, únete a nuestros exclusivos eventos de citas rápidas en línea (Happy Hour) para conocer a varios solteros de bienes raíces cara a cara."
+    },
+    "step5": {
+      "title": "Citas en Persona y Conexiones Reales",
+      "desc": "Transición de esa chispa digital a una sinergia en el mundo real. Omite las configuraciones de citas genéricas e incómodas y reúnanse en entornos donde prosperan. Coordina citas de recorrido al atardecer en casas abiertas activas, reúnanse para tomar un espresso de alta calidad en un café local cerca de un nuevo desarrollo de uso mixto, o tomen un cóctel en una próxima gala de la asociación de bienes raíces."
+    },
+    "step6": {
+      "title": "Hazlo Exclusivo y Construye Tu Imperio",
+      "desc": "Cuando te des cuenta de que has encontrado al cofundador definitivo para tu vida personal y cartera profesional, activa el \"Modo Imperio\" para volverte exclusivo. Volverse exclusivo bloquea tu match, oculta automáticamente ambos perfiles del registro activo y desbloquea funciones personalizadas solo para parejas: comparte listas de deseos de propiedades, coordina horarios ocupados y realiza un seguimiento de los hitos."
+    }
+  },
+  "features": {
+    "sectionTitle": "Características",
+    "mainTitle": "Diseñado para la Industria",
+    "subtitle": "Cada característica habla tu idioma. Reemplazamos los clichés de citas con terminología de bienes raíces que ya conoces.",
+    "items": {
+      "feature1": {
+        "title": "Eliminación de Catfish (Verificación)",
+        "desc": "El catfishing es el enemigo de la conexión auténtica. Requerimos una carga obligatoria de identificación emitida por el gobierno junto con un escaneo de selfie biométrico en tiempo real durante la incorporación. Nuestra validación de antecedentes coincide con tus credenciales de licencia profesional para asegurar que conoces a profesionales activos de la industria. Si no eres real, no entras."
+      },
+      "feature2": {
+        "title": "Emparejamiento Inteligente (Filtros)",
+        "desc": "No solo emparejamos por atributos superficiales. Nuestro algoritmo avanzado considera tu especialización profesional junto con la ubicación, la edad y los objetivos de la relación. Encuentra a alguien que entienda las demandas de una semana laboral de 70 horas, reuniones con clientes y casas abiertas los fines de semana."
+      },
+      "feature3": {
+        "title": "Rompehielos Enfocados en el Mercado",
+        "desc": "Rompe el hielo sin las incómodas charlas triviales. Nuestro sistema inteligente genera automáticamente temas de conversación relevantes basados en tus mercados geográficos compartidos, intereses de inversión o estilos arquitectónicos locales favoritos."
+      },
+      "feature4": {
+        "title": "Planificación de Citas y Lugares",
+        "desc": "Eliminamos la fricción de la programación. Según la disponibilidad compartida en su calendario y preferencias de ubicación, sugerimos lugares para citas seleccionados y diseñados para profesionales ocupados."
+      },
+      "feature5": {
+        "title": "Modo Pareja y Portafolio",
+        "desc": "Cuando encuentres a tu pareja perfecta, haz la transición a un espacio conjunto dedicado. Desbloquea herramientas colaborativas diseñadas para parejas de poder: compartan listas de propiedades deseadas, coordinen horarios ocupados y colaboren en ideas de inversión."
+      },
+      "feature6": {
+        "title": "Video Citas Integradas",
+        "desc": "Prueba la química sin revelar tu número de teléfono privado o redes sociales. Nuestro Video Chat integrado te permite tener citas virtuales de 3 o 5 minutos. Es un sistema diseñado para encajar en tu apretada agenda."
+      },
+      "feature7": {
+        "title": "La Seguridad es Primero (Moderación 24/7)",
+        "desc": "Tu seguridad personal y privacidad son nuestras principales prioridades. Real Estate Dates cuenta con un equipo activo que revisa todos los informes dentro de 24 horas. Empleamos escáneres automatizados para detectar comportamiento fraudulento."
+      },
+      "feature8": {
+        "title": "Sé Exclusivo (Bloqueo de Perfil)",
+        "desc": "¿Listo para dar el paso? Cuando ambos decidan ser exclusivos, activen el bloqueo de perfil. Sus perfiles se ocultarán automáticamente del grupo de emparejamiento activo, protegiendo su relación de distracciones externas."
+      }
+    },
+    "admin": {
+      "sectionTitle": "App Lista",
+      "title": "Más que solo deslizar",
+      "subtitle": "Nuestro ecosistema incluye potentes herramientas para la seguridad y el éxito.",
+      "item1": {
+        "title": "Panel de Administración",
+        "desc": "Nuestro potente panel de administración permite moderación 24/7, verificación manual de usuarios y reportes de seguridad."
+      },
+      "item2": {
+        "title": "Guía de Citas Inmobiliarias",
+        "desc": "Accede a nuestra guía exclusiva sobre cómo dominar tus video citas de 3 minutos, manejar el rechazo profesionalmente y más."
+      }
+    },
+    "compliance": {
+      "sectionTitle": "Cumplimiento y Seguridad",
+      "title": "Lecciones de $136.5M en Demandas",
+      "subtitle": "Estudiamos cada demanda importante de aplicaciones de citas para integrar el cumplimiento en nuestro ADN. Desde discriminación por edad hasta multas biométricas.",
+      "item1": {
+        "title": "Verificación de Edad",
+        "desc": "Solo mayores de 18 años con verificación de múltiples capas. Cumple con COPPA por diseño."
+      },
+      "item2": {
+        "title": "Consentimiento Biométrico",
+        "desc": "Flujo de consentimiento separado para datos faciales con políticas de retención. Cumple con BIPA."
+      },
+      "item3": {
+        "title": "Vivienda Justa",
+        "desc": "El algoritmo utiliza solo preferencias de propiedad. Cero tolerancia al comportamiento discriminatorio. Cumple con FHA."
+      },
+      "item4": {
+        "title": "Precios Transparentes",
+        "desc": "Sin niveles basados en demografía. Cancelación sencilla (máximo 2 clics). Sin cargos ocultos."
+      },
+      "item5": {
+        "title": "Integridad de Notificaciones",
+        "desc": "Solo notificaciones verificadas. Sin alertas de interacción falsas. Cumple con la FTC."
+      },
+      "item6": {
+        "title": "Cumplimiento de 50 Estados",
+        "desc": "Cumple con la Ley de Reembolso de Servicios de Citas en todos los estados. Política de reembolso automático."
+      }
+    }
+  },
+  "legal": {
+    "sectionTitle": "Seguridad y Cumplimiento",
+    "title": "Confianza y Transparencia",
+    "subtitle": "Construimos esta plataforma con la seguridad como prioridad. Cada política está respaldada por investigaciones legales a través de $136.5M+ en acuerdos de litigios de competidores. Aprendimos de sus errores.",
+    "policies": {
+      "policy1": {
+        "title": "Protocolo de Verificación de Edad",
+        "content": "Mantener un ecosistema maduro, seguro y profesional es primordial. Para garantizar el cumplimiento del 100% con las pautas federales, todos los usuarios deben tener 18 años o más. Mantenemos una política de tolerancia cero hacia perfiles de menores."
+      },
+      "policy2": {
+        "title": "Verificación de Identidad y Anti-Catfishing",
+        "content": "La eliminación del catfishing es parte de nuestros protocolos principales. Cada usuario es verificado utilizando una identificación emitida por el gobierno combinada con escaneo biométrico. Los profesionales también pueden conectar sus credenciales NMLS o REALTOR® ID."
+      },
+      "policy3": {
+        "title": "Consentimiento Explícito y Control",
+        "content": "Su comodidad y límites están estrictamente protegidos. Operamos sobre una base de consentimiento explícito. Unirse a la plataforma significa que tiene el control; elige quién puede interactuar con usted."
+      },
+      "policy4": {
+        "title": "Alineación con la Ley de Vivienda Justa",
+        "content": "Estamos totalmente comprometidos con la equidad, la integridad profesional y el respeto. Cumplimos estrictamente con la Ley Federal de Vivienda Justa (FHA). Nunca filtramos perfiles por raza, religión, género, color, discapacidad o estado familiar."
+      },
+      "policy5": {
+        "title": "Privacidad de Datos y Seguridad Criptográfica",
+        "content": "Sus datos personales y financieros le pertenecen a usted. Empleamos encriptación de extremo a extremo AES-256. Somos totalmente compatibles con CCPA y GDPR. Los usuarios conservan derechos absolutos sobre sus datos."
+      },
+      "policy6": {
+        "title": "Métricas de Emparejamiento Transparentes",
+        "content": "Creemos en la total transparencia. Nuestros algoritmos utilizan parámetros objetivos y profesionales que usted elige. No hay variables de sesgo demográfico, penalizaciones ocultas ni prohibiciones encubiertas."
+      },
+      "policy7": {
+        "title": "Política de Tolerancia Cero al Acoso",
+        "content": "Protegemos el calibre élite de nuestra red profesional. Cualquier forma de acoso, intimidación, discurso de odio u comportamiento no profesional resultará en una prohibición inmediata y permanente."
+      },
+      "policy8": {
+        "title": "Moderación Continua y Seguridad de Eventos",
+        "content": "Nuestros equipos de seguridad dedicados trabajan las 24 horas. Cada reporte de usuario es revisado por un moderador en vivo dentro de 24 horas. Utilizamos modelos avanzados de detección para interceptar enlaces no deseados o fraudes."
+      }
+    },
+    "highlights": {
+      "item1": {
+        "label": "COPPA",
+        "value": "Exento",
+        "note": "Solo mayores de 18 = sin niños"
+      },
+      "item2": {
+        "label": "Vivienda Justa",
+        "value": "Cumple",
+        "note": "El algoritmo usa solo criterios profesionales"
+      },
+      "item3": {
+        "label": "CCPA / GDPR",
+        "value": "Cumple",
+        "note": "Derechos plenos de datos + eliminación"
+      },
+      "item4": {
+        "label": "Datos Biométricos",
+        "value": "Protegidos",
+        "note": "Consentimiento separado, sin reventa"
+      },
+      "item5": {
+        "label": "Marketing FTC",
+        "value": "Certificado",
+        "note": "Sin afirmaciones falsas"
+      },
+      "item6": {
+        "label": "Leyes Estatales",
+        "value": "Listo",
+        "note": "Verificación de edad + reembolsos"
+      }
+    },
+    "notice": {
+      "title": "Por Qué Esto Importa",
+      "content": "Las aplicaciones de citas han enfrentado más de $136.5M en demandas desde 2019. Nosotros construimos Real Estate Dates para evitar cada error que ellos cometieron. Nuestro marco legal es primero el cumplimiento, no la recuperación. Mereces una plataforma que tome tu seguridad en serio."
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Precios Simples y Transparentes",
+    "title": "Elige tu Nivel",
+    "subtitle": "Comienza gratis. Sube de nivel cuando estés listo para más conexiones, eventos y acceso exclusivo.",
+    "tiers": {
+      "free": {
+        "name": "Gratis",
+        "price": "$0",
+        "period": "/mes",
+        "desc": "Navega por el registro exclusivo y haz match con profesionales verificados de la industria inmobiliaria sin costo.",
+        "features": [
+          "Construye tu perfil profesional de élite y revisión de credenciales",
+          "Deslizamiento y descubrimiento ilimitado en tu mercado local activo",
+          "Sistema de Match Mutuo para desbloquear biografías completas de parejas",
+          "Estructura de perfil de solo lectura (protege tu privacidad y limita el ruido)",
+          "Complemento: Chat de Texto Directo ($1.99 por desbloqueo de match activo)",
+          "Complemento: Prueba de Química por Video Chat ($2.99 por desbloqueo de llamada)",
+          "Complemento: Acceso a Citas Rápidas Online ($4.99 por boleto de evento)"
+        ],
+        "cta": "EXPLORAR GRATIS"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "period": "/mes",
+        "desc": "Desbloquea comunicación fluida por texto, funciones de video integradas y obtén acceso prioritario a solteros locales.",
+        "features": [
+          "Todas las funciones básicas del nivel Gratis incluidas",
+          "Chat de Texto premium ilimitado con todos los matches mutuos",
+          "Video Citas ilimitadas y de alta eficiencia dentro de la aplicación",
+          "Acceso ilimitado a nuestros eventos semanales de Citas Rápidas Online",
+          "Ve al instante quién deslizó a la derecha en tu perfil",
+          "Colocación avanzada en el algoritmo de coincidencia prioritaria"
+        ],
+        "cta": "EXPLORAR PRO"
+      },
+      "empire": {
+        "name": "Empire",
+        "price": "$79",
+        "period": "/mes",
+        "desc": "Diseñado para líderes de élite de la industria, inversores de alto patrimonio y conectores que buscan asociaciones del más alto calibre.",
+        "features": [
+          "Todas las funciones Pro y comunicación ilimitada incluidas",
+          "Grupo de coincidencia VIP de élite y selecciones curadas",
+          "Planificación de citas verificadas exclusivas 'Caminata y Charla por Propiedades'",
+          "Desbloqueo instantáneo de modo pareja con listas de propiedades compartidas",
+          "Coincidencia de Conserje Personal y recomendaciones de perfil manuales",
+          "Insignia verificada 'Empire' distintiva y de alto perfil",
+          "Acceso a una red exclusiva de intercambio de clientes potenciales",
+          "Línea de soporte prioritario 24/7 y protección de licencia"
+        ],
+        "cta": "EXPLORAR EMPIRE"
+      }
+    },
+    "popularBadge": "Más Popular",
+    "footerNote": "Sin tarifas ocultas. Cancela en cualquier momento. Todas las suscripciones se renuevan automáticamente. Pueden aplicarse impuestos."
+  },
+  "download": {
+    "sectionTitle": "Explora la Web App",
+    "title": "Tu Imperio te Espera",
+    "subtitle": "Únete a miles de profesionales inmobiliarios activos que ya están construyendo conexiones y escalando portafolios. Real Estate Dates es una aplicación web totalmente receptiva, accesible instantáneamente en cualquier dispositivo sin necesidad de instalación o descarga.",
+    "cta": "EXPLORA LA WEB APP AL INSTANTE",
+    "benefitsTitle": "Beneficios de la Web App",
+    "benefits": [
+      "Acceso instantáneo desde el navegador",
+      "No requiere descarga ni configuración",
+      "Totalmente responsiva en todas las pantallas",
+      "Solo profesionales verificados"
+    ],
+    "mockup": {
+      "name": "Jessica, 29",
+      "profession": "Agente de Bienes Raíces",
+      "status": "Buscando a mi pareja perfecta"
+    }
+  },
+  "matching": {
+    "sectionTitle": "Cómo Funciona el Emparejamiento",
+    "title": "Los Matches Mutuos Desbloquean Biografías",
+    "subtitle": "Se trata de reunir a personas que realmente se agradan mutuamente. Una vez que te gusta alguien y tú le gustas, ambos desbloquean biografías completas para conocerse de verdad. Dependiendo de tu nivel de membresía, puedes chatear por texto de manera fluida, programar chats de video y pasar al siguiente nivel.",
+    "features": [
+      "La IA aprende tus preferencias de citas",
+      "Filtra por edad, ubicación y objetivos de relación",
+      "Guarda matches en tus favoritos",
+      "Recibe notificaciones cuando a alguien le gustas"
+    ],
+    "cta": "EXPLORAR LA WEB APP",
+    "mockup": {
+      "name": "Jessica, 31",
+      "profession": "Corredora de Lujo · Miami Beach",
+      "status": "Busco a alguien que entienda cierres tardíos y muestras tempranas. Me encantan los paseos por la playa y las propiedades de inversión."
+    }
+  },
+  "dates": {
+    "sectionTitle": "Experimenta Propiedades",
+    "title": "Citas de Juego y Citas Rápidas",
+    "subtitle": "Creemos que encontrar un hogar debe ser una experiencia, no una tarea.",
+    "features": {
+      "feature1": {
+        "title": "Citas Reales en Casas Abiertas",
+        "description": "¡Convierte la búsqueda de casas en una cita! Explora las casas abiertas de este fin de semana, confirma tu asistencia con tu pareja y exploren hermosos espacios juntos. Vino gratis, buena conversación y tal vez su futuro hogar.",
+        "tags": [
+          "Parejas Bienvenidas",
+          "Entrada Gratis",
+          "Vino y Bocadillos"
+        ]
+      },
+      "feature2": {
+        "title": "Video Citas Antes de Conocerse",
+        "description": "¿Nervioso por esa primera cita en persona? Comienza con una videollamada de 5 minutos. Ve su sonrisa, escucha su risa, siente la química, todo desde la seguridad de tu sofá.",
+        "tags": [
+          "Video de 5 Min",
+          "Sin Intercambio de Teléfono",
+          "Seguro y Fácil"
+        ]
+      }
+    },
+    "cta": "Reserva Tu Primera Cita de Juego"
+  },
+  "discover": {
+    "sectionTitle": "Descubrir",
+    "title": "Diseño Listo para App",
+    "subtitle": "Desliza entre profesionales verificados. Encuentra el amor y asegura tu futuro con citas rápidas virtuales.",
+    "instruction": "Arrastra la tarjeta a izquierda o derecha, o haz clic en los botones. Haz match con parejas potenciales a través de video citas rápidas.",
+    "pass": "Pasar",
+    "match": "Conectar",
+    "eliteBadge": "Élite",
+    "profiles": {
+      "p1": {
+        "name": "Valentina y Marco",
+        "role": "Pareja Poderosa",
+        "location": "Miami Beach",
+        "bio": "Nos conocimos en una casa abierta hace 3 años. ¡Ahora renovamos condominios de lujo juntos y buscamos otra pareja para una cita doble!",
+        "intel": [
+          "Parejas",
+          "Renovación"
+        ]
+      },
+      "p2": {
+        "name": "James, 34",
+        "role": "Buscando el Amor",
+        "location": "Nueva York",
+        "bio": "Corredor comercial de día, romántico empedernido de noche. Busco a alguien que entienda de cierres tardíos y muestras tempranas.",
+        "intel": [
+          "Soltero",
+          "NYC"
+        ]
+      },
+      "p3": {
+        "name": "Isabella, 29",
+        "role": "Buscando Pareja",
+        "location": "Los Ángeles",
+        "bio": "Diseñadora de interiores que ama montar casas y las cenas románticas. ¡Desliza a la derecha si quieres recorrer casas abiertas juntos!",
+        "intel": [
+          "Diseño",
+          "Comida"
+        ]
+      },
+      "p4": {
+        "name": "David y Sarah",
+        "role": "Casados 5 Años",
+        "location": "Austin",
+        "bio": "¡Nos conocimos en Real Estate Dates en 2020! Invertimos juntos en propiedades de alquiler. Estamos aquí para guiar a nuevas parejas en la comunidad.",
+        "intel": [
+          "Mentores",
+          "Inversores"
+        ]
+      }
+    }
+  },
+  "events": {
+    "sectionTitle": "Conexiones Reales, Lugares Reales",
+    "title": "Eventos y Happy Hours",
+    "subtitle": "Organizamos reuniones seleccionadas donde te encuentras cara a cara. Desde happy hours en terrazas hasta recorridos por propiedades, cada evento está diseñado para una conexión natural.",
+    "list": {
+      "event1": {
+        "title": "Citas Rápidas Online en Happy Hour",
+        "desc": "Experimenta nuestras nuevas y originales Citas Rápidas Online en Happy Hour. ¡Nadie más tiene esto! Evita el tráfico y conoce a múltiples solteros del sector inmobiliario cara a cara en sesiones de video rápidas y emocionantes directamente desde tu sala de estar.",
+        "time": "Jueves, 6:00–9:00 PM",
+        "location": "Brickell y South Beach",
+        "attendees": "20–40 solteros"
+      },
+      "event2": {
+        "title": "Video Citas Rápidas",
+        "desc": "Video citas uno a uno de 5 minutos desde tu sofá. Sin presión, sin arreglarse: solo conversación y química reales.",
+        "time": "Martes y Sábados",
+        "location": "Salas de video en la app",
+        "attendees": "10–15 por sesión"
+      },
+      "event3": {
+        "title": "Citas en Casas Abiertas",
+        "desc": "Recorran hermosos listados juntos. Es como una cita en el museo, pero con mejores temas de conversación y bocadillos gratis.",
+        "time": "Fines de semana, 11:00 AM",
+        "location": "Listados destacados",
+        "attendees": "Parejas y solteros"
+      },
+      "event4": {
+        "title": "Brunch para Parejas",
+        "desc": "¿Ya hiciste match? Trae a tu pareja a nuestro brunch mensual. Conoce a otras parejas de bienes raíces y amplía tu círculo.",
+        "time": "Domingos, 11:00 AM",
+        "location": "Terrazas exclusivas",
+        "attendees": "Solo parejas"
+      }
+    },
+    "disclaimer": "Todos los eventos incluyen verificación de identidad y protocolos de seguridad",
+    "viewPolicies": "Ver Políticas de Eventos"
+  },
+  "testimonials": {
+    "sectionTitle": "Historias de Éxito",
+    "title": "Amor a Primer Deslizamiento",
+    "subtitle": "Miles de felices buscadores de casas encontraron su pareja perfecta con Estate Match.",
+    "list": {
+      "t1": {
+        "quote": "Ambos trabajábamos en bienes raíces pero nunca nos cruzamos. Estate Match cambió eso. Nos unió nuestro amor por las renovaciones históricas, tuvimos nuestra primera cita en una casa abierta, ¡y ahora estamos comprometidos!",
+        "name": "Sarah y Tom",
+        "role": "Hicieron match en 2023 · Comprometidos para 2025"
+      },
+      "t2": {
+        "quote": "Estaba cansado de las aplicaciones de citas donde nadie entendía mi horario. En Estate Match, todos entienden la naturaleza 24/7 de los bienes raíces. ¡Conocí a mi novia en un happy hour de corredores organizado por la app!",
+        "name": "Michael R.",
+        "role": "Corredor Comercial · Saliendo hace 8 meses"
+      },
+      "t3": {
+        "quote": "Como madre soltera y agente, pensé que tener citas era imposible. Estate Match me conectó con otro padre soltero en la industria. Compartimos la crianza, listamos juntos y somos genuinamente felices.",
+        "name": "Priya K.",
+        "role": "Agente Residencial · En una Relación"
+      }
+    },
+    "stats": {
+      "s1": {
+        "value": "12,500+",
+        "label": "Matches Felices"
+      },
+      "s2": {
+        "value": "8,200+",
+        "label": "Citas de Juego Reservadas"
+      },
+      "s3": {
+        "value": "15,000+",
+        "label": "Video Citas Rápidas"
+      },
+      "s4": {
+        "value": "4.9",
+        "label": "Calificación en App Store"
+      }
+    }
+  },
+  "pricingCta": {
+    "sectionTitle": "Explora la Web App",
+    "title": "Tu Pareja Perfecta Está a un Deslizamiento",
+    "subtitle": "Únete a más de 50,000 solteros de bienes raíces. Accesible instantáneamente en cualquier dispositivo sin necesidad de instalación o descarga.",
+    "cta": "EXPLORAR LA WEB APP",
+    "indicators": [
+      "Acceso instantáneo desde el navegador",
+      "Sin tarifas ocultas",
+      "Cancela en cualquier momento"
+    ]
+  },
+  "legalProtection": {
+    "sectionTitle": "Protección Legal",
+    "title": "Construido Diferente",
+    "subtitle": "Estudiamos todas las demandas importantes contra aplicaciones de citas. Luego construimos una plataforma que evita cada uno de los problemas.",
+    "rules": {
+      "r1": {
+        "title": "Neutralidad de Precios",
+        "description": "Nunca usamos niveles de precios basados en la demografía. Todos los usuarios pagan lo mismo, independientemente de su edad, género o antecedentes.",
+        "rule": "REGLA #1"
+      },
+      "r2": {
+        "title": "Integridad de Notificaciones",
+        "description": "Cada notificación de interacción se verifica antes de enviarla. Cero mensajes falsos de 'le gustas a alguien'.",
+        "rule": "REGLA #2"
+      },
+      "r3": {
+        "title": "Transparencia de Garantía",
+        "description": "Todas las garantías de éxito tienen condiciones claras y visibles. Sin términos ocultos o promesas engañosas.",
+        "rule": "REGLA #3"
+      },
+      "r4": {
+        "title": "Simplicidad de Cancelación",
+        "description": "Cancela en 2 clics máximo. Sin encuestas, sin llamadas de retención, sin patrones oscuros.",
+        "rule": "REGLA #4"
+      },
+      "r5": {
+        "title": "Neutralidad de Género",
+        "description": "Sin restricciones de funciones basadas en el género. Acceso igualitario a la plataforma para todos los usuarios.",
+        "rule": "REGLA #5"
+      },
+      "r6": {
+        "title": "Política de Tolerancia Cero",
+        "description": "Prohibición inmediata para profesionales discriminatorios. Reportamos las violaciones a las juntas de licencias.",
+        "rule": "REGLA #6"
+      }
+    },
+    "litigation": {
+      "titlePrefix": "Lo que Aprendimos de",
+      "titleAmount": "$136.5M+",
+      "titleSuffix": "en Acuerdos",
+      "cases": {
+        "c1": {
+          "company": "Tinder",
+          "amount": "$60.5M",
+          "issue": "Discriminación de edad en los precios (Candelore v. Tinder, Ley Unruh)",
+          "year": "2018"
+        },
+        "c2": {
+          "company": "Match Group",
+          "amount": "$14M",
+          "issue": "Acuerdo con la FTC por notificaciones falsas y garantías falsas",
+          "year": "2019"
+        },
+        "c3": {
+          "company": "Bumble",
+          "amount": "$40M+",
+          "issue": "Demandas de privacidad biométrica BIPA + discriminación de género",
+          "year": "2021-2024"
+        },
+        "c4": {
+          "company": "OkCupid/Match",
+          "amount": "No revelado",
+          "issue": "Engaño de privacidad de la FTC: compartir datos de 3 millones de usuarios sin consentimiento",
+          "year": "2019"
+        }
+      }
+    },
+    "framework": {
+      "title": "Nuestro Marco de Cumplimiento",
+      "items": {
+        "i1": {
+          "label": "Cumple con COPPA",
+          "desc": "Edad mínima de 18+ SIN excepciones"
+        },
+        "i2": {
+          "label": "Listo para CCPA",
+          "desc": "Transparencia total de datos y derechos de eliminación"
+        },
+        "i3": {
+          "label": "Seguro para BIPA",
+          "desc": "No hay recopilación biométrica sin consentimiento explícito"
+        },
+        "i4": {
+          "label": "Cumple con la FHA",
+          "desc": "El algoritmo solo utiliza las preferencias de propiedad, nunca datos demográficos"
+        },
+        "i5": {
+          "label": "Limpio de la FTC",
+          "desc": "Sin notificaciones falsas, ni garantías falsas, ni marketing engañoso"
+        },
+        "i6": {
+          "label": "Alineado con SOC 2",
+          "desc": "Seguridad y manejo de datos de nivel empresarial"
+        }
+      },
+      "costTitle": "$78K-$173K para Cumplir",
+      "costDesc": "Costo de configuración único para protección legal completa frente a $40M-$60M por cada gran acuerdo.",
+      "prevention": "Prevenir > Curar"
+    },
+    "footer": "Real Estate Dates se basa en las lecciones de 6 documentos de investigación legal importantes que analizan litigios de competidores, marcos de privacidad, leyes de verificación de edad, discriminación de vivienda justa, reglas de marketing de la FTC y listas de verificación de implementación."
+  },
+  "social": {
+    "sectionTitle": "Más Que Citas",
+    "title": "Construye Tu Círculo",
+    "subtitle": "Real Estate Dates está diseñado para conexiones en todas sus formas. Algunos miembros encuentran el amor. La mayoría encuentra amigos, coinversores, mentores y socios comerciales.",
+    "points": {
+      "p1": {
+        "title": "Encuentra a Tu Persona",
+        "desc": "Esta es una aplicación de citas en primer lugar. Explora solteros, parejas y personas abiertas al romance que también aman los bienes raíces."
+      },
+      "p2": {
+        "title": "Parejas Bienvenidas",
+        "desc": "¿Ya estás en una relación? Únete como pareja buscando otras parejas para citas dobles, coinvertir o socializar."
+      },
+      "p3": {
+        "title": "Citas Reales",
+        "desc": "Café en ese nuevo café del centro. Un paseo por una casa abierta. Cena en un restaurante que descubriste mostrando propiedades. Citas reales para personas reales."
+      },
+      "p4": {
+        "title": "Citas e Inversión",
+        "desc": "Muchas parejas en Estate Match compran su primera propiedad de inversión juntas. Encuentra a alguien que comparta tu ambición Y tu corazón."
+      },
+      "p5": {
+        "title": "Chat de Parejas",
+        "desc": "¿Ya hicieron match? Únete a salas de chat solo para parejas. Compartan ideas para citas, clientes potenciales o simplemente desahóguense sobre clientes difíciles juntos."
+      },
+      "p6": {
+        "title": "También Amigos",
+        "desc": "¿No sientes vibraciones románticas? Cambia al modo amistad. Amplía tu círculo profesional mientras mantienes la puerta abierta para algo más."
+      }
+    }
+  },
+  "blog": {
+    "sectionTitle": "Ideas y Consejos",
+    "title": "Historias de Amor y Consejos",
+    "viewAll": "Ver Todos los Artículos",
+    "readMore": "Leer Más",
+    "posts": {
+      "p1": {
+        "category": "Consejos de Citas",
+        "title": "Citas en el Mundo Inmobiliario: Cómo Encontrar Tiempo para el Amor",
+        "excerpt": "Entre exhibiciones, cierres y casas abiertas: ¿cómo hacen tiempo para las relaciones los agentes exitosos? Le preguntamos a 50 parejas que se conocieron en Real Estate Dates."
+      },
+      "p2": {
+        "category": "Historias de Parejas",
+        "title": "Desde el Primer Deslizamiento hasta el Primer Cierre: Cómo Construimos una Vida Juntos",
+        "excerpt": "Sarah y Mike hicieron match en Real Estate Dates en 2024. Hoy están casados, dirigen una agencia juntos y esperan su primer hijo."
+      },
+      "p3": {
+        "category": "Ideas para Citas",
+        "title": "10 Ideas para Citas que Toda Pareja Inmobiliaria Amará",
+        "excerpt": "Desde recorrer casas históricas hasta caminatas al atardecer en nuevos desarrollos: ideas creativas para citas que combinan tu pasión por las propiedades con el romance."
+      }
+    },
+    "newsletter": {
+      "title": "Recibe Consejos para Citas",
+      "subtitle": "Consejos de relaciones semanales, ideas para citas e historias de éxito de parejas de bienes raíces. Sin spam, solo amor.",
+      "placeholder": "Ingresa tu correo electrónico",
+      "button": "Suscribirse",
+      "disclaimer": "Al suscribirte, aceptas nuestra Política de Privacidad."
+    }
+  }
+}

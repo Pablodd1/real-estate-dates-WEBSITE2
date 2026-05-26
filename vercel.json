@@ -1,6 +1,5 @@
 {
-    "buildCommand": "echo 'Static site + API routes'",
-    "outputDirectory": ".",
+    "framework": "vite",
     "rewrites": [
         { "source": "/api/health", "destination": "/api/health.js" },
         { "source": "/api/rag", "destination": "/api/rag.js" },
@@ -8,7 +7,7 @@
         { "source": "/api/digest", "destination": "/api/digest.js" },
         { "source": "/api/blog", "destination": "/api/blog.js" },
         { "source": "/api/realestate-rag", "destination": "/api/realestate-rag.js" },
-        { "source": "/blog", "destination": "/blog.html" }
+        { "source": "/(.*)", "destination": "/index.html" }
     ],
     "headers": [
         {

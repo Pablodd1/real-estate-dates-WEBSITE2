@@ -1,0 +1,627 @@
+{
+  "nav": {
+    "browse": "Browse",
+    "howItWorks": "How It Works",
+    "events": "Events",
+    "pricing": "Pricing",
+    "features": "Features",
+    "safety": "Safety",
+    "exploreApp": "Explore App",
+    "language": "EN"
+  },
+  "hero": {
+    "subtitle": "Real Estate Dates",
+    "tagline": "Match · Date · Build a Life Together",
+    "title": "Find Your Perfect Match",
+    "descriptionPart1": "The dating app where real estate professionals meet, match, and build relationships. Swipe through profiles, find your person, and ",
+    "descriptionHighlight": "build a life together",
+    "descriptionPart2": ".",
+    "cta": "Explore Profiles",
+    "scroll": "Scroll to meet singles",
+    "copyright": "Real Estate Dates © 2025"
+  },
+  "howItWorks": {
+    "journey": "The Journey",
+    "title": "From Match to Marriage",
+    "subtitle": "Experience a streamlined path to finding true love, designed specifically for busy professionals.",
+    "step1": {
+      "title": "Create Your Professional Profile",
+      "desc": "Establish your professional pedigree and personal brand in our elite registry. Showcase your real estate niche—whether you are a residential agent, commercial broker, syndicator, developer, builder, or active private investor. Beyond high-quality photos, write about your current market focus, transaction volume, long-term empire-building goals, and what you seek in a life and business partner. Your profile acts as your premier digital handshake in the industry."
+    },
+    "step2": {
+      "title": "Browse Verified Professionals",
+      "desc": "Navigate a curated, secure directory of active real estate players in your market. We eliminate time-wasters and fake profiles with rigorous ID and licensing checks. Filter dynamically by geographic location, investment asset class (multifamily, commercial, land), transactional volume, or years in the industry. Every profile undergoes rigorous vetting, ensuring you swipe through peers who share your drive, lifestyle, and financial ambition."
+    },
+    "step3": {
+      "title": "Mutual Matches Unlock Deep Bios",
+      "desc": "Our double-blind matching mechanism protects your privacy and ensures high-intent interactions. Browse freely and discreetly. Communication is only unlocked when interest is fully mutual. Once you both swipe right, a \"Mutual Match\" is established. This instantly unlocks deep-dive biographies, portfolio summaries, favorite architectural styles, and detailed professional backgrounds so you can truly know each other before chatting."
+    },
+    "step4": {
+      "title": "Level Up Connection (Chat & Video Chat)",
+      "desc": "Move seamlessly from a mutual match to active communication. Start with direct, high-intent text chat, or leverage our premium in-app Add-Ons to fast-track your connection. Jump into a secure, built-in Video Chat to check chemistry without sharing your private phone number or social handles. Plus, join our exclusive Online Happy Hour Speed Dating events to meet multiple real estate singles face-to-face in rapid, exciting 3-minute video rounds right from your phone."
+    },
+    "step5": {
+      "title": "In-Person Dates & Real Connections",
+      "desc": "Transition that digital spark into real-world synergy. Skip the awkward, generic dating setups and meet in environments where you thrive. Coordinate twilight walkthrough dates at active open houses, meet for high-grade espresso at a local cafe near a new mixed-use development, or grab a cocktail at an upcoming real estate association gala. Build romantic chemistry while sharing ideas on the active property market."
+    },
+    "step6": {
+      "title": "Go Exclusive & Build Your Empire",
+      "desc": "When you realize you have found the ultimate co-founder for your personal life and professional portfolio, activate \"Empire Mode\" to go exclusive. Going exclusive locks your match, automatically hides both of your profiles from the active matching registry, and unlocks custom couples-only features: share collaborative local property wishlists, coordinate busy professional schedules with a shared calendar integration, and track relationship milestones."
+    }
+  },
+  "features": {
+    "sectionTitle": "Features",
+    "mainTitle": "Built for the Industry",
+    "subtitle": "Every feature speaks your language. We replaced dating clichés with real estate terminology you already know.",
+    "items": {
+      "feature1": {
+        "title": "Dumping Catfish (Verification)",
+        "desc": "Catfishing is the enemy of authentic connection. We require a mandatory government-issued ID upload coupled with a real-time biometric selfie scan during onboarding. Our background validation matches your professional licensing credentials (NMLS, REALTOR® ID, or active corporate registries) to ensure you are meeting verified, licensed, active real estate industry professionals. If you aren't real, you don't get in."
+      },
+      "feature2": {
+        "title": "Smart Matching (Filters)",
+        "desc": "We don't just match on superficial attributes. Our advanced matching algorithm factors in your professional specialization (e.g., commercial development, residential sales, property management, wholesaling, or passive syndication) alongside location, age, and relationship goals. Find someone who understands the demands of a 70-hour work week, client meetings, and weekend open houses."
+      },
+      "feature3": {
+        "title": "Market-Focused Icebreakers",
+        "desc": "Break the ice without the awkward small talk. Our intelligent system automatically generates relevant, market-focused conversation starters based on your shared geographical markets, investment interests, or favorite local architectural styles. Spark conversations that naturally bridge the professional and the personal."
+      },
+      "feature4": {
+        "title": "Date Planning & Spots",
+        "desc": "We take the friction out of scheduling. Based on your shared calendar availability and location preferences, we suggest curated date spots designed for busy professionals. From quiet coffee shops next to new developments to upscale rooftop bars perfect for celebrating a closed deal, we help you plan seamless, sophisticated in-person meetups."
+      },
+      "feature5": {
+        "title": "Couples Mode & Portfolio",
+        "desc": "When you find your perfect match, transition into a dedicated joint space. Unlock collaborative tools tailored for power couples: share local property wishlists, coordinate busy professional schedules with a shared calendar, track relationship milestones, and collaborate on investment ideas. It's the ultimate toolkit for building your empire together."
+      },
+      "feature6": {
+        "title": "In-App Video Dates",
+        "desc": "Pre-screen chemistry without giving away your private phone number or social media handles. Our fully integrated, secure in-app Video Chat lets you hop on 3-minute or 5-minute virtual dates. It's high-efficiency dating designed to fit into your busy schedule—perfect for a quick lunch break or in between showings."
+      },
+      "feature7": {
+        "title": "Safety First (24/7 Moderation)",
+        "desc": "Your personal safety and privacy are our top priorities. Real Estate Dates features an active, round-the-clock moderation team that reviews all reports within 24 hours. We employ state-of-the-art automated scanners to detect offensive content, scam behavior, or licensing fraud, maintaining an ultra-premium, respectful community."
+      },
+      "feature8": {
+        "title": "Go Exclusive (Profile Lock)",
+        "desc": "Ready to take the plunge? When you both decide to go exclusive, activate the profile lock. Your profiles will be automatically hidden from the active matching pool, protecting your relationship from external distractions. Focus 100% of your energy on co-authoring your personal and professional future."
+      }
+    },
+    "admin": {
+      "sectionTitle": "App Ready",
+      "title": "More Than Just Swiping",
+      "subtitle": "Our ecosystem includes powerful tools for safety and success.",
+      "item1": {
+        "title": "Admin Dashboard",
+        "desc": "Our powerful admin panel allows for 24/7 moderation, manual user verification, and safety reporting to keep the community elite and secure."
+      },
+      "item2": {
+        "title": "Real Estate Dating Guide",
+        "desc": "Access our exclusive guide on how to ace your 3-minute video dates, handle rejection professionally, and transition to in-person meetups."
+      }
+    },
+    "compliance": {
+      "sectionTitle": "Compliance & Safety",
+      "title": "Lessons from $136.5M in Lawsuits",
+      "subtitle": "We studied every major dating app lawsuit to build compliance into our DNA. From Tinder's $60.5M age discrimination to Bumble's $40M biometric fine.",
+      "item1": {
+        "title": "Age Verification",
+        "desc": "18+ only with multi-layer verification. COPPA compliant by design."
+      },
+      "item2": {
+        "title": "Biometric Consent",
+        "desc": "Separate consent flow for facial data with retention/destruction policies. BIPA compliant."
+      },
+      "item3": {
+        "title": "Fair Housing",
+        "desc": "Algorithm uses property preferences only. Zero tolerance for discriminatory behavior. FHA compliant."
+      },
+      "item4": {
+        "title": "Transparent Pricing",
+        "desc": "No demographic-based tiers. Simple cancellation (2 clicks max). No hidden fees."
+      },
+      "item5": {
+        "title": "Notification Integrity",
+        "desc": "Verified notifications only. No fake engagement alerts. FTC compliant marketing."
+      },
+      "item6": {
+        "title": "50-State Compliance",
+        "desc": "Dating Service Refund Act compliant in all states. Automatic refund policy."
+      }
+    }
+  },
+  "legal": {
+    "sectionTitle": "Safety & Compliance",
+    "title": "Trust & Transparency",
+    "subtitle": "We built this platform with safety first. Every policy is backed by legal research across $136.5M+ in competitor litigation settlements. We learned from their mistakes.",
+    "policies": {
+      "policy1": {
+        "title": "Age Verification Protocol",
+        "content": "Maintaining a mature, safe, and professional ecosystem is paramount. To ensure 100% compliance with federal age-restriction guidelines (including COPPA), every user onboarding on Real Estate Dates must be strictly 18 years of age or older. During the initial webapp registration, we require third-party identity age-checks utilizing modern secure databases. We maintain a zero-tolerance policy towards underage profiles, ensuring all connections are built on mature, adult business and romantic partnerships."
+      },
+      "policy2": {
+        "title": "Identity Verification & Anti-Catfishing",
+        "content": "Dumping catfishing is built into our core protocols. Every user who registers is verified using government-issued identification (such as a Driver's License or Passport) combined with real-time biometric facial-matching scanning. This process ensures that the person you see on screen is precisely the person you are communicating with. Real estate professionals can also connect their NMLS, REALTOR® ID, or corporate broker credentials to receive a verified elite badge, confirming their professional status to the entire community."
+      },
+      "policy3": {
+        "title": "Explicit Consent & Communication Control",
+        "content": "Your comfort and boundaries are strictly protected. We operate on a foundation of explicit consent. Joining the platform means you are under your own control; you choose who can interact with you. In-app features like Text Chat, Video Chat, and Location Sharing require clear, proactive double-opt-in agreements from both matched parties. No features are ever turned on automatically, and consent can be immediately revoked at any time with a single click, putting you in absolute control of your digital footprint."
+      },
+      "policy4": {
+        "title": "Anti-Discrimination & Fair Housing Act Alignment",
+        "content": "We are fully committed to equity, professional integrity, and respect. Real Estate Dates complies strictly with the federal Fair Housing Act (FHA) and all applicable state-level anti-discrimination legislation. Our proprietary matchmaking and recommendation algorithms operate entirely on professional criteria, including investment portfolios, transactional specializations, location preferences, and shared industry networking interests. We never match or filter profiles based on race, religion, gender, color, disability, familial status, or national origin. We support a diverse and thriving community of industry leaders."
+      },
+      "policy5": {
+        "title": "Data Privacy & Cryptographic Security",
+        "content": "Your personal and financial data belongs to you. We employ state-of-the-art AES-256 end-to-end encryption for all in-app communications, text logs, and virtual date streams. Real Estate Dates will never sell, lease, or distribute your private contact details or profile history to third-party advertisers or lead-aggregators. We are fully CCPA and GDPR compliant. Users retain absolute data rights, including the ability to request a complete and permanent deletion of their account history and biometric data directly from the settings panel."
+      },
+      "policy6": {
+        "title": "Transparent Matching Metrics",
+        "content": "We believe in complete transparency. Our matching algorithms utilize objective, professional parameters that you choose—such as geographical market coordinates, commercial or residential focus, preferred investment models (e.g., BRRRR, wholesaling, passive syndication), and calendar availability for local events. There are no demographic bias variables, hidden penalties, or shadow-bans. If you feel a matching decision or algorithm placement is incorrect, you can request an instant review from our technical support team."
+      },
+      "policy7": {
+        "title": "Zero Tolerance Harassment Policy",
+        "content": "We protect the elite caliber of our professional network. Any form of harassment, intimidation, hate speech, unsolicited explicit content, or unprofessional behavior will result in an immediate, permanent, non-refundable ban. In addition, because our community consists of licensed brokers, realtors, NMLS lenders, and corporate investors, we reserve the right to report severe harassment or fraudulent behavior to relevant state licensing boards, professional ethics committees (such as local NAR boards), and local law enforcement."
+      },
+      "policy8": {
+        "title": "Continuous Moderation & Event Safety",
+        "content": "Our dedicated safety teams work round-the-clock to maintain the community's integrity. Every user report or flag is reviewed by a live moderator within 24 hours. We use advanced, privacy-respecting automated detection models to intercept spam links, financial scams, or fraudulent broker profiles. Additionally, all organizers of our in-person networking mixers, twilight walkthroughs, and speed-dating happy hours undergo comprehensive professional background screening to guarantee secure, elite physical meeting spaces."
+      }
+    },
+    "highlights": {
+      "item1": {
+        "label": "COPPA",
+        "value": "Fully Exempt",
+        "note": "18+ only = no child users"
+      },
+      "item2": {
+        "label": "Fair Housing Act",
+        "value": "Compliant",
+        "note": "Algorithm uses only professional criteria"
+      },
+      "item3": {
+        "label": "CCPA / GDPR",
+        "value": "Compliant",
+        "note": "Full data rights + deletion"
+      },
+      "item4": {
+        "label": "Biometric Data",
+        "value": "Protected",
+        "note": "Separate consent, no resale"
+      },
+      "item5": {
+        "label": "FTC Marketing",
+        "value": "SAFE Certified",
+        "note": "No false claims or deceptive language"
+      },
+      "item6": {
+        "label": "State Laws",
+        "value": "50-State Ready",
+        "note": "Age verification + refund compliance"
+      }
+    },
+    "notice": {
+      "title": "Why This Matters",
+      "content": "Dating apps have faced $136.5M+ in settlements since 2019. Tinder paid $60.5M for age discrimination. Bumble paid $40M for biometric privacy violations. Match Group paid $14M to the FTC for fake notifications. We built Real Estate Dates to avoid every mistake they made. Our legal framework is compliance-first, not catch-up. You deserve a platform that takes your safety seriously from day one."
+    }
+  },
+  "pricing": {
+    "sectionTitle": "Simple, Transparent Pricing",
+    "title": "Choose Your Tier",
+    "subtitle": "Start free. Upgrade when you're ready for more connections, events, and exclusive access.",
+    "tiers": {
+      "free": {
+        "name": "Free",
+        "price": "$0",
+        "period": "/month",
+        "desc": "Browse the exclusive registry and mutually match with verified real estate industry professionals at no cost.",
+        "features": [
+          "Build your elite professional profile & licensing credentials check",
+          "Unlimited swiping and discovery in your local active market",
+          "Mutual Match system to unlock comprehensive partner biographies",
+          "Read-only profile structure (protects your privacy & limits noise)",
+          "Add-On: Direct Text Chat ($1.99 per active match unlock)",
+          "Add-On: Video Chat Chemistry Pre-Screen ($2.99 per call unlock)",
+          "Add-On: Online Happy Hour Speed Dating Access ($4.99 per event ticket)"
+        ],
+        "cta": "EXPLORE FREE"
+      },
+      "pro": {
+        "name": "Pro",
+        "price": "$29",
+        "period": "/month",
+        "desc": "Unlock seamless text communication, integrated video features, and gain priority access to local real estate singles.",
+        "features": [
+          "All Core Free tier features included",
+          "Unlimited premium Text Chat with all mutual matches",
+          "Unlimited high-efficiency in-app Video Dates",
+          "Unlimited access to our weekly Online Happy Hour Speed Dating events",
+          "Instantly see who swiped right on your profile",
+          "Advanced priority matching algorithm placement"
+        ],
+        "cta": "EXPLORE PRO"
+      },
+      "empire": {
+        "name": "Empire",
+        "price": "$79",
+        "period": "/month",
+        "desc": "Designed for elite industry leaders, high-net-worth investors, and power networkers seeking the highest caliber partnerships.",
+        "features": [
+          "All Pro features & unlimited communication included",
+          "Elite VIP matching pool & dedicated curated selections",
+          "Exclusive 'Property Walk & Talk' verified date planning",
+          "Instant couples mode unlock with shared property wishlists",
+          "Personal Concierge Matching & manual profile recommendations",
+          "Distinctive, high-profile verified 'Empire' badge",
+          "Access to exclusive closed-door lead-sharing network",
+          "24/7 Priority support hotline & license protection"
+        ],
+        "cta": "EXPLORE EMPIRE"
+      }
+    },
+    "popularBadge": "Most Popular",
+    "footerNote": "No hidden fees. Cancel anytime. All subscriptions auto-renew. Taxes may apply."
+  },
+  "download": {
+    "sectionTitle": "Explore the Web App",
+    "title": "Your Empire Awaits",
+    "subtitle": "Join thousands of active real estate professionals who are already building connections and scaling portfolios. Real Estate Dates is a fully responsive web application, accessible instantly on any device with zero installation or download required.",
+    "cta": "EXPLORE THE WEB APP INSTANTLY",
+    "benefitsTitle": "Web App Benefits",
+    "benefits": [
+      "Instant browser access",
+      "Zero download or setup required",
+      "Fully responsive on all screens",
+      "Verified professionals only"
+    ],
+    "mockup": {
+      "name": "Jessica, 29",
+      "profession": "Real Estate Agent",
+      "status": "Looking for my perfect match"
+    }
+  },
+  "matching": {
+    "sectionTitle": "How Matching Works",
+    "title": "Mutual Matches Unlock Biographies",
+    "subtitle": "It is all about bringing people together who actually like each other. Once you like someone and they like you back, you both unlock full biographies to really know each other. Depending on your membership tier, you can seamlessly text chat, schedule video chats, and move to the next level.",
+    "features": [
+      "AI learns your dating preferences",
+      "Filter by age, location, and relationship goals",
+      "Save matches to your favorites",
+      "Get notified when someone likes you back"
+    ],
+    "cta": "EXPLORE THE WEB APP",
+    "mockup": {
+      "name": "Jessica, 31",
+      "profession": "Luxury Broker · Miami Beach",
+      "status": "Looking for someone who understands late closings and early showings. Love beach walks and investment properties."
+    }
+  },
+  "dates": {
+    "sectionTitle": "Experience Properties",
+    "title": "Play Dates & Speed Dates",
+    "subtitle": "We believe finding a home should be an experience, not a chore.",
+    "features": {
+      "feature1": {
+        "title": "Real Dates at Open Houses",
+        "description": "Turn house hunting into a date! Browse open homes happening this weekend, RSVP with your match, and explore beautiful spaces together. Free wine, great conversation, and maybe your future home.",
+        "tags": [
+          "Couples Welcome",
+          "Free Entry",
+          "Wine & Snacks"
+        ]
+      },
+      "feature2": {
+        "title": "Video Dates Before You Meet",
+        "description": "Nervous about that first in-person date? Start with a 5-minute video call. See their smile, hear their laugh, feel the chemistry — all from the safety of your couch.",
+        "tags": [
+          "5-Min Video",
+          "No Phone Exchange",
+          "Safe & Easy"
+        ]
+      }
+    },
+    "cta": "Book Your First Play Date"
+  },
+  "discover": {
+    "sectionTitle": "Discover",
+    "title": "App Ready Design",
+    "subtitle": "Swipe through verified professionals. Find love and secure your future with virtual speed dating.",
+    "instruction": "Drag the card left or right, or click the buttons. Match with potential partners via fast video speed dates.",
+    "pass": "Pass",
+    "match": "Match",
+    "eliteBadge": "Elite",
+    "profiles": {
+      "p1": {
+        "name": "Valentina & Marco",
+        "role": "Power Couple",
+        "location": "Miami Beach",
+        "bio": "We met at an open house 3 years ago. Now we flip luxury condos together and are looking for another couple to double date with!",
+        "intel": [
+          "Couples",
+          "Flipping"
+        ]
+      },
+      "p2": {
+        "name": "James, 34",
+        "role": "Looking for Love",
+        "location": "New York",
+        "bio": "Commercial broker by day, hopeless romantic by night. Looking for someone who understands late closings and early showings.",
+        "intel": [
+          "Single",
+          "NYC"
+        ]
+      },
+      "p3": {
+        "name": "Isabella, 29",
+        "role": "Seeking Partner",
+        "location": "Los Angeles",
+        "bio": "Interior designer who loves staging homes and romantic dinners. Swipe right if you want to tour open houses together!",
+        "intel": [
+          "Design",
+          "Foodie"
+        ]
+      },
+      "p4": {
+        "name": "David & Sarah",
+        "role": "Married 5 Years",
+        "location": "Austin",
+        "bio": "Met on Real Estate Dates in 2020! We invest in rental properties together. Here to mentor new couples in the community.",
+        "intel": [
+          "Mentors",
+          "Investors"
+        ]
+      }
+    }
+  },
+  "events": {
+    "sectionTitle": "Real Connections, Real Venues",
+    "title": "Events & Happy Hours",
+    "subtitle": "We host curated mixers where you meet face-to-face. From rooftop happy hours to property walk-throughs — every event is designed for natural connection.",
+    "list": {
+      "event1": {
+        "title": "Online Happy Hour Speed Dating",
+        "desc": "Experience our original, brand-new Online Happy Hour Speed Dating. Nobody else has this! Skip the commute and meet multiple real estate singles face-to-face in rapid, exciting video sessions right from your living room.",
+        "time": "Thursdays, 6:00–9:00 PM",
+        "location": "Brickell & South Beach",
+        "attendees": "20–40 singles"
+      },
+      "event2": {
+        "title": "Video Speed Dates",
+        "desc": "5-minute one-on-one video dates from your couch. No pressure, no dressing up — just real conversation and real chemistry.",
+        "time": "Tuesdays & Saturdays",
+        "location": "In-app video rooms",
+        "attendees": "10–15 per session"
+      },
+      "event3": {
+        "title": "Open House Dates",
+        "desc": "Tour beautiful listings together. It is like a museum date, but with better conversation starters and free snacks.",
+        "time": "Weekends, 11:00 AM",
+        "location": "Featured listings",
+        "attendees": "Couples & singles"
+      },
+      "event4": {
+        "title": "Couples Brunch",
+        "desc": "Already matched? Bring your partner to our monthly couples brunch. Meet other real estate couples and build your circle.",
+        "time": "Sundays, 11:00 AM",
+        "location": "Rooftop venues",
+        "attendees": "Couples only"
+      }
+    },
+    "disclaimer": "All events include ID verification and safety protocols",
+    "viewPolicies": "View Event Policies"
+  },
+  "testimonials": {
+    "sectionTitle": "Success Stories",
+    "title": "Love at First Swipe",
+    "subtitle": "Thousands of happy home hunters found their perfect match with Estate Match.",
+    "list": {
+      "t1": {
+        "quote": "We both worked in real estate but never crossed paths. Estate Match changed that. We bonded over our love for historic renovations, had our first date at an open house, and now we are engaged!",
+        "name": "Sarah & Tom",
+        "role": "Matched 2023 · Engaged 2025"
+      },
+      "t2": {
+        "quote": "I was tired of dating apps where no one understood my schedule. On Estate Match, everyone gets the 24/7 nature of real estate. I met my girlfriend at a broker happy hour the app organized!",
+        "name": "Michael R.",
+        "role": "Commercial Broker · Dating 8 months"
+      },
+      "t3": {
+        "quote": "As a single mom and agent, I thought dating was impossible. Estate Match connected me with another single parent in the industry. We co-parent, co-list, and are genuinely happy.",
+        "name": "Priya K.",
+        "role": "Residential Agent · In a Relationship"
+      }
+    },
+    "stats": {
+      "s1": {
+        "value": "12,500+",
+        "label": "Happy Matches"
+      },
+      "s2": {
+        "value": "8,200+",
+        "label": "Play Dates Booked"
+      },
+      "s3": {
+        "value": "15,000+",
+        "label": "Video Speed Dates"
+      },
+      "s4": {
+        "value": "4.9",
+        "label": "App Store Rating"
+      }
+    }
+  },
+  "pricingCta": {
+    "sectionTitle": "Explore the Web App",
+    "title": "Your Perfect Match Is One Swipe Away",
+    "subtitle": "Join over 50,000 real estate singles. Accessible instantly on any device with zero installation or download required.",
+    "cta": "EXPLORE THE WEB APP",
+    "indicators": [
+      "Instant browser access",
+      "No hidden fees",
+      "Cancel anytime"
+    ]
+  },
+  "legalProtection": {
+    "sectionTitle": "Legal Protection",
+    "title": "Built Different",
+    "subtitle": "We studied every major dating app lawsuit. Then we built a platform that avoids every single pitfall.",
+    "rules": {
+      "r1": {
+        "title": "Pricing Neutrality",
+        "description": "We never use demographic-based pricing tiers. All users pay the same regardless of age, gender, or background.",
+        "rule": "RULE #1"
+      },
+      "r2": {
+        "title": "Notification Integrity",
+        "description": "Every engagement notification is verified before sending. No fake 'someone liked you' messages.",
+        "rule": "RULE #2"
+      },
+      "r3": {
+        "title": "Guarantee Transparency",
+        "description": "All success guarantees have clear, conspicuous conditions. No hidden terms or misleading promises.",
+        "rule": "RULE #3"
+      },
+      "r4": {
+        "title": "Cancellation Simplicity",
+        "description": "Cancel in 2 clicks maximum. No surveys, no retention calls, no dark patterns.",
+        "rule": "RULE #4"
+      },
+      "r5": {
+        "title": "Gender Neutrality",
+        "description": "No gender-based feature restrictions. Equal platform access for all users.",
+        "rule": "RULE #5"
+      },
+      "r6": {
+        "title": "Zero Tolerance Policy",
+        "description": "Immediate ban for discriminatory professionals. We report violations to licensing boards.",
+        "rule": "RULE #6"
+      }
+    },
+    "litigation": {
+      "titlePrefix": "What We Learned From",
+      "titleAmount": "$136.5M+",
+      "titleSuffix": "in Settlements",
+      "cases": {
+        "c1": {
+          "company": "Tinder",
+          "amount": "$60.5M",
+          "issue": "Age discrimination in pricing (Candelore v. Tinder, Unruh Act)",
+          "year": "2018"
+        },
+        "c2": {
+          "company": "Match Group",
+          "amount": "$14M",
+          "issue": "FTC settlement for fake notifications and false guarantees",
+          "year": "2019"
+        },
+        "c3": {
+          "company": "Bumble",
+          "amount": "$40M+",
+          "issue": "BIPA biometric privacy + gender discrimination lawsuits",
+          "year": "2021-2024"
+        },
+        "c4": {
+          "company": "OkCupid/Match",
+          "amount": "Undisclosed",
+          "issue": "FTC privacy deception - sharing 3M users' data without consent",
+          "year": "2019"
+        }
+      }
+    },
+    "framework": {
+      "title": "Our Compliance Framework",
+      "items": {
+        "i1": {
+          "label": "COPPA Compliant",
+          "desc": "Minimum age 18+ with NO exceptions"
+        },
+        "i2": {
+          "label": "CCPA Ready",
+          "desc": "Full data transparency and deletion rights"
+        },
+        "i3": {
+          "label": "BIPA Safe",
+          "desc": "No biometric collection without explicit consent"
+        },
+        "i4": {
+          "label": "FHA Compliant",
+          "desc": "Algorithm only uses property preferences, never demographics"
+        },
+        "i5": {
+          "label": "FTC Clean",
+          "desc": "No fake notifications, no false guarantees, no deceptive marketing"
+        },
+        "i6": {
+          "label": "SOC 2 Aligned",
+          "desc": "Enterprise-grade security and data handling"
+        }
+      },
+      "costTitle": "$78K-$173K to Comply",
+      "costDesc": "One-time setup cost for full legal protection vs. $40M-$60M per major settlement.",
+      "prevention": "Prevention > Cure"
+    },
+    "footer": "Real Estate Dates is built on the lessons from 6 major legal research documents analyzing competitor litigation, privacy frameworks, age verification laws, fair housing discrimination, FTC marketing rules, and implementation checklists."
+  },
+  "social": {
+    "sectionTitle": "More Than Dating",
+    "title": "Build Your Circle",
+    "subtitle": "Real Estate Dates is built for connection in all its forms. Some members find love. Most find friends, co-investors, mentors, and deal partners.",
+    "points": {
+      "p1": {
+        "title": "Find Your Person",
+        "desc": "This is a dating app first. Browse singles, couples, and people open to romance who also happen to love real estate."
+      },
+      "p2": {
+        "title": "Couples Welcome",
+        "desc": "Already in a relationship? Join as a couple looking for other couples to double-date, co-invest, or socialize with."
+      },
+      "p3": {
+        "title": "Real Dates",
+        "desc": "Coffee at that new café downtown. A walk through an open house. Dinner at a restaurant you discovered while showing properties. Real dates for real people."
+      },
+      "p4": {
+        "title": "Date & Invest",
+        "desc": "Many couples on Estate Match buy their first investment property together. Find someone who shares your ambition AND your heart."
+      },
+      "p5": {
+        "title": "Couples Chat",
+        "desc": "Already matched? Join couples-only chat rooms. Share date ideas, property leads, or just vent about difficult clients together."
+      },
+      "p6": {
+        "title": "Friends Too",
+        "desc": "Not feeling romantic vibes? Toggle to friendship mode. Expand your professional circle while keeping the door open for something more."
+      }
+    }
+  },
+  "blog": {
+    "sectionTitle": "Insights & Tips",
+    "title": "Love Stories & Tips",
+    "viewAll": "View All Articles",
+    "readMore": "Read More",
+    "posts": {
+      "p1": {
+        "category": "Dating Tips",
+        "title": "Dating in the Real Estate World: How to Find Time for Love",
+        "excerpt": "Between showings, closings, and open houses — how do successful agents make time for relationships? We asked 50 couples who met on Real Estate Dates."
+      },
+      "p2": {
+        "category": "Couple Stories",
+        "title": "From First Swipe to First Closing: How We Built a Life Together",
+        "excerpt": "Sarah and Mike matched on Real Estate Dates in 2024. Today they are married, running a brokerage together, and expecting their first child."
+      },
+      "p3": {
+        "category": "Date Ideas",
+        "title": "10 Date Ideas Every Real Estate Couple Will Love",
+        "excerpt": "From touring historic homes to sunset walks at new developments — creative date ideas that combine your passion for properties with romance."
+      }
+    },
+    "newsletter": {
+      "title": "Get Dating Tips Delivered",
+      "subtitle": "Weekly relationship advice, date ideas, and success stories from real estate couples. No spam, just love.",
+      "placeholder": "Enter your email address",
+      "button": "Subscribe",
+      "disclaimer": "By subscribing, you agree to our Privacy Policy."
+    }
+  }
+}
