@@ -35,7 +35,7 @@
   body {
     font-family: 'Geist', 'Inter', system-ui, sans-serif;
     color: #FFFFFF;
-    background-color: transparent;
+    background-color: #0A0A0A;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
