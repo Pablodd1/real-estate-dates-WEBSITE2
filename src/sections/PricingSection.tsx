@@ -145,7 +145,7 @@ export default function PricingSection() {
               </ul>
 
               <a
-                href="https://www.realestatedates.realty"
+                href="https://realestatedates.realty"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`block w-full py-3 text-center rounded-xl text-sm font-semibold transition-all duration-200 ${

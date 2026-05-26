@@ -76,7 +76,7 @@ export default function Navigation() {
               {t('nav.language')}
             </button>
             <a
-              href="https://www.realestatedates.realty"
+              href="https://realestatedates.realty"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-5 sm:px-6 py-2 sm:py-2.5 bg-gold text-dark text-xs sm:text-sm font-bold rounded-full hover:bg-gold-light transition-colors duration-200 uppercase tracking-wider"
@@ -148,7 +148,7 @@ export default function Navigation() {
           })}
           
           <a
-            href="https://www.realestatedates.realty"
+            href="https://realestatedates.realty"
             target="_blank"
             rel="noopener noreferrer"
             onClick={() => setMobileOpen(false)}

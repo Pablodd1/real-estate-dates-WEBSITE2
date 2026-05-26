@@ -21,32 +21,32 @@
     "copyright": "Real Estate Dates © 2025"
   },
   "howItWorks": {
-    "journey": "El Viaje",
-    "title": "Del Match al Matrimonio",
-    "subtitle": "Experimenta un camino optimizado para encontrar el amor verdadero, diseñado específicamente para profesionales ocupados.",
+    "journey": "El Cierre Perfecto",
+    "title": "De Casa Abierta, a Llave Girada, a Matrimonio (o Amigos para Siempre)",
+    "subtitle": "Olvídate de las apps genéricas. Experimenta un pipeline optimizado para encontrar a tu co-inversor ideal en la vida y los negocios.",
     "step1": {
-      "title": "Crea Tu Perfil Profesional",
-      "desc": "Establece tu pedigrí profesional y marca personal en nuestro registro de élite. Muestra tu nicho de bienes raíces: ya seas agente residencial, corredor comercial, sindicador, desarrollador, constructor o inversor privado activo. Más allá de fotos de alta calidad, escribe sobre tu enfoque de mercado actual, volumen de transacciones, objetivos a largo plazo y lo que buscas en un compañero de vida y negocios."
+      "title": "Anuncia tu Perfil Profesional",
+      "desc": "Pon tu mejor activo en el mercado. Muestra tu nicho en bienes raíces, ya sea que cierres tratos comerciales, remodeles residencias o sindiques multifamiliares. Establece tu \"cap rate\" de lo que buscas en una pareja y deja que tu perfil sea tu apretón de manos digital."
     },
     "step2": {
-      "title": "Explora Profesionales Verificados",
-      "desc": "Navega por un directorio curado y seguro de actores activos de bienes raíces en tu mercado. Eliminamos perdedores de tiempo y perfiles falsos con controles rigurosos de identificación y licencias. Filtra dinámicamente por ubicación geográfica, clase de activos de inversión, volumen de transacciones o años en la industria. Cada perfil se somete a una rigurosa investigación, asegurando que te conectes con pares que comparten tu impulso, estilo de vida y ambición financiera."
+      "title": "Recorre Prospectos Verificados",
+      "desc": "Navega por un MLS curado y seguro de profesionales activos en la industria. Filtramos a los curiosos con controles de identidad rigurosos. Revisa perfiles, evalúa el ROI de conexiones potenciales y mira quién cumple con tus estrictos criterios de suscripción para estilo de vida y ambición."
     },
     "step3": {
-      "title": "Los Matches Mutuos Desbloquean Biografías Profundas",
-      "desc": "Nuestro mecanismo de emparejamiento doble ciego protege tu privacidad y garantiza interacciones de alta intención. Navega de forma libre y discreta. La comunicación solo se desbloquea cuando el interés es completamente mutuo. Una vez que ambos deslizan hacia la derecha, se establece un \"Match Mutuo\". Esto desbloquea instantáneamente biografías detalladas, resúmenes de carteras, estilos arquitectónicos favoritos y antecedentes profesionales."
+      "title": "Gira la Llave (Match) y Desbloquea Biografías",
+      "desc": "Olvídate de los swipes genéricos; aquí \"Giras la Llave\" para mostrar interés. Si no estás seguro, ponlos en \"Pendiente\", o dales \"Rechazar\" para descartar la propiedad. ¡Cuando ambos Giran la Llave, es un Match Mutuo! Esto desbloquea biografías profundas para que hagas tu due diligence antes de hablar."
     },
     "step4": {
-      "title": "Sube de Nivel la Conexión (Chat y Videochat)",
-      "desc": "Pasa sin problemas de un match mutuo a la comunicación activa. Comienza con un chat de texto directo, o aprovecha nuestros complementos premium integrados en la aplicación. Salta a un videochat seguro incorporado para comprobar la química sin compartir tu número de teléfono privado. Además, únete a nuestros exclusivos eventos de citas rápidas en línea (Happy Hour) para conocer a varios solteros de bienes raíces cara a cara."
+      "title": "Entra al Periodo de Opción (Chat y Video)",
+      "desc": "Pasa sin problemas de un Match Mutuo a negociaciones activas. Comienza con chat de texto directo o usa Video Chat integrado para revisar la integridad estructural de su química. Además, únete a nuestro Speed Dating en línea para conocer prospectos cara a cara en rápidos recorridos virtuales de 3 minutos."
     },
     "step5": {
-      "title": "Citas en Persona y Conexiones Reales",
-      "desc": "Transición de esa chispa digital a una sinergia en el mundo real. Omite las configuraciones de citas genéricas e incómodas y reúnanse en entornos donde prosperan. Coordina citas de recorrido al atardecer en casas abiertas activas, reúnanse para tomar un espresso de alta calidad en un café local cerca de un nuevo desarrollo de uso mixto, o tomen un cóctel en una próxima gala de la asociación de bienes raíces."
+      "title": "Recorridos en Persona (Citas Reales)",
+      "desc": "Lleva la conexión de lo digital a lo físico. Evita las citas incómodas y reúnanse donde prosperan: coordinen recorridos al atardecer en propiedades activas, tomen un espresso cerca de un nuevo desarrollo o véanse en una gala de la industria para ver si la base es sólida."
     },
     "step6": {
-      "title": "Hazlo Exclusivo y Construye Tu Imperio",
-      "desc": "Cuando te des cuenta de que has encontrado al cofundador definitivo para tu vida personal y cartera profesional, activa el \"Modo Imperio\" para volverte exclusivo. Volverse exclusivo bloquea tu match, oculta automáticamente ambos perfiles del registro activo y desbloquea funciones personalizadas solo para parejas: comparte listas de deseos de propiedades, coordina horarios ocupados y realiza un seguimiento de los hitos."
+      "title": "Cierra el Trato (Exclusividad)",
+      "desc": "Cuando hayas encontrado al co-fundador definitivo para tu vida personal, sáquense del mercado. Ser exclusivos oculta ambos perfiles del registro y desbloquea funciones para parejas: compartan listas de propiedades colaborativas, integren sus horarios de recorridos y construyan su imperio juntos."
     }
   },
   "features": {

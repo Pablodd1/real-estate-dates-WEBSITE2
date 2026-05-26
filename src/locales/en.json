@@ -21,32 +21,32 @@
     "copyright": "Real Estate Dates © 2025"
   },
   "howItWorks": {
-    "journey": "The Journey",
-    "title": "From Match to Marriage",
-    "subtitle": "Experience a streamlined path to finding true love, designed specifically for busy professionals.",
+    "journey": "The Escrow of Love",
+    "title": "From Open House, to Key Turned, to Marriage (or Friends Forever)",
+    "subtitle": "Skip the generic apps. Experience a streamlined pipeline to finding your ultimate co-investor in life and business.",
     "step1": {
-      "title": "Create Your Professional Profile",
-      "desc": "Establish your professional pedigree and personal brand in our elite registry. Showcase your real estate niche—whether you are a residential agent, commercial broker, syndicator, developer, builder, or active private investor. Beyond high-quality photos, write about your current market focus, transaction volume, long-term empire-building goals, and what you seek in a life and business partner. Your profile acts as your premier digital handshake in the industry."
+      "title": "List Your Professional Profile",
+      "desc": "Put your best asset on the market. Showcase your real estate niche—whether you are closing commercial deals, flipping residential, or syndicating multifamily. Set your \"cap rate\" for what you are looking for in a partner, and let your profile be your premier digital handshake."
     },
     "step2": {
-      "title": "Browse Verified Professionals",
-      "desc": "Navigate a curated, secure directory of active real estate players in your market. We eliminate time-wasters and fake profiles with rigorous ID and licensing checks. Filter dynamically by geographic location, investment asset class (multifamily, commercial, land), transactional volume, or years in the industry. Every profile undergoes rigorous vetting, ensuring you swipe through peers who share your drive, lifestyle, and financial ambition."
+      "title": "Tour Verified Prospects",
+      "desc": "Navigate a curated, secure MLS of active industry players. We filter out the window-shoppers with rigorous ID checks. Browse profiles, assess the ROI of potential connections, and see who meets your strict underwriting criteria for lifestyle and ambition."
     },
     "step3": {
-      "title": "Mutual Matches Unlock Deep Bios",
-      "desc": "Our double-blind matching mechanism protects your privacy and ensures high-intent interactions. Browse freely and discreetly. Communication is only unlocked when interest is fully mutual. Once you both swipe right, a \"Mutual Match\" is established. This instantly unlocks deep-dive biographies, portfolio summaries, favorite architectural styles, and detailed professional backgrounds so you can truly know each other before chatting."
+      "title": "Turn the Key (Match) & Unlock Bios",
+      "desc": "Forget generic swiping—here, you \"Turn Key\" to show interest. If you are unsure, hold them in \"Pending\", or \"Reject\" to pass on the listing. When both parties Turn Key, it is a Mutual Match! This instantly unlocks deep-dive biographies so you can run your due diligence before chatting."
     },
     "step4": {
-      "title": "Level Up Connection (Chat & Video Chat)",
-      "desc": "Move seamlessly from a mutual match to active communication. Start with direct, high-intent text chat, or leverage our premium in-app Add-Ons to fast-track your connection. Jump into a secure, built-in Video Chat to check chemistry without sharing your private phone number or social handles. Plus, join our exclusive Online Happy Hour Speed Dating events to meet multiple real estate singles face-to-face in rapid, exciting 3-minute video rounds right from your phone."
+      "title": "Enter the Option Period (Chat & Video)",
+      "desc": "Move seamlessly from a Mutual Match into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 3-minute virtual showings."
     },
     "step5": {
-      "title": "In-Person Dates & Real Connections",
-      "desc": "Transition that digital spark into real-world synergy. Skip the awkward, generic dating setups and meet in environments where you thrive. Coordinate twilight walkthrough dates at active open houses, meet for high-grade espresso at a local cafe near a new mixed-use development, or grab a cocktail at an upcoming real estate association gala. Build romantic chemistry while sharing ideas on the active property market."
+      "title": "In-Person Walkthroughs (Real Dates)",
+      "desc": "Take the connection from digital to physical. Skip the awkward setups and meet where you thrive—coordinate twilight walkthrough dates at active listings, grab espresso near a new development, or meet at an industry gala to see if the foundation is solid."
     },
     "step6": {
-      "title": "Go Exclusive & Build Your Empire",
-      "desc": "When you realize you have found the ultimate co-founder for your personal life and professional portfolio, activate \"Empire Mode\" to go exclusive. Going exclusive locks your match, automatically hides both of your profiles from the active matching registry, and unlocks custom couples-only features: share collaborative local property wishlists, coordinate busy professional schedules with a shared calendar integration, and track relationship milestones."
+      "title": "Close the Deal (Go Exclusive)",
+      "desc": "When you have found the ultimate co-founder for your personal life, take yourselves off the market. Going exclusive hides both your profiles from the registry and unlocks couples-only features: share collaborative property wishlists, integrate your showing schedules, and build your empire together."
     }
   },
   "features": {

@@ -87,7 +87,7 @@ export default function DownloadSection() {
             {/* Web App CTA */}
             <div className="dl-reveal w-full mb-6 sm:mb-8">
               <a
-                href="https://www.realestatedates.realty"
+                href="https://realestatedates.realty"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-3 px-8 py-4 bg-gold text-dark text-sm sm:text-base font-bold rounded-xl hover:bg-gold-light hover:shadow-glow transition-all duration-200 group uppercase tracking-wider"

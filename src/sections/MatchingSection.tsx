@@ -141,7 +141,7 @@ export default function MatchingSection() {
             </ul>
 
             <a
-              href="https://www.realestatedates.realty"
+              href="https://realestatedates.realty"
               target="_blank"
               rel="noopener noreferrer"
               className="matching-text inline-flex items-center px-8 py-3 bg-gold hover:bg-gold-light text-dark font-semibold text-sm rounded-lg transition-all duration-200 hover:shadow-glow"

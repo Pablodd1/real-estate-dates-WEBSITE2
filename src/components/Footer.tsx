@@ -21,7 +21,7 @@ export default function Footer() {
             </a>
           ))}
           <a
-            href="https://realestatedates.net"
+            href="https://realestatedates.realty"
             target="_blank"
             rel="noopener noreferrer"
             className="text-[9px] sm:text-[10px] uppercase tracking-[0.15em] text-gold/50 hover:text-gold transition-colors"

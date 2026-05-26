@@ -86,7 +86,7 @@ export default function PricingCtaSection() {
             {/* Web App CTA */}
             <div className="cta-text flex flex-wrap gap-4 mb-6">
               <a
-                href="https://www.realestatedates.realty"
+                href="https://realestatedates.realty"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center justify-center gap-3 px-8 py-4 bg-gold text-dark text-sm font-bold rounded-xl hover:bg-gold-light hover:shadow-glow transition-all duration-200 group uppercase tracking-wider"
