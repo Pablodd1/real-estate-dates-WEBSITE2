@@ -1,7 +1,7 @@
+import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router';
 import { getPostBySlug } from '@/data/blogPosts';
 import { ArrowLeft, Clock, Calendar, User } from 'lucide-react';
-import { useEffect } from 'react';
 
 export default function BlogPost() {
   const { slug } = useParams();
@@ -23,44 +23,204 @@ export default function BlogPost() {
     );
   }
 
-  // A very simple markdown-to-html converter just for the basic structure in the content
+  // A robust markdown-to-html converter supporting tables, lists, inline formatting, code blocks, and links
   const renderContent = (content: string) => {
-    return content.split('\n').map((line, index) => {
+    const lines = content.split('\n');
+    const elements: React.ReactNode[] = [];
+    let i = 0;
+
+    const parseInlineStyles = (text: string): React.ReactNode[] => {
+      const boldSplit = text.split('**');
+      
+      return boldSplit.map((part, index) => {
+        if (index % 2 === 1) {
+          return <strong key={index} className="text-white font-semibold">{part}</strong>;
+        } else {
+          // Parse links within the non-bold part: [text](url)
+          const subParts: React.ReactNode[] = [];
+          let lastIndex = 0;
+          let match;
+          const localLinkRegex = /\[([^\]]+)\]\(([^)]+)\)/g;
+          
+          while ((match = localLinkRegex.exec(part)) !== null) {
+            if (match.index > lastIndex) {
+              subParts.push(part.substring(lastIndex, match.index));
+            }
+            const linkText = match[1];
+            const linkUrl = match[2];
+            subParts.push(
+              <a 
+                key={match.index} 
+                href={linkUrl} 
+                className="text-gold hover:text-gold-light underline transition-colors font-medium"
+                target={linkUrl.startsWith('http') ? '_blank' : undefined}
+                rel={linkUrl.startsWith('http') ? 'noopener noreferrer' : undefined}
+              >
+                {linkText}
+              </a>
+            );
+            lastIndex = localLinkRegex.lastIndex;
+          }
+          if (lastIndex < part.length) {
+            subParts.push(part.substring(lastIndex));
+          }
+          return <span key={index}>{subParts}</span>;
+        }
+      });
+    };
+
+    while (i < lines.length) {
+      const line = lines[i];
+
+      // 1. Horizontal Separator
+      if (line.trim() === '---') {
+        elements.push(<hr key={i} className="border-white/10 my-8 sm:my-12" />);
+        i++;
+        continue;
+      }
+
+      // 2. Headings
       if (line.startsWith('## ')) {
-        return <h2 key={index} className="text-3xl font-script text-gold italic mt-12 mb-6">{line.replace('## ', '')}</h2>;
+        elements.push(
+          <h2 key={i} className="text-2xl sm:text-3xl font-script text-gold italic mt-12 mb-6 leading-tight">
+            {line.replace('## ', '')}
+          </h2>
+        );
+        i++;
+        continue;
       }
       if (line.startsWith('### ')) {
-        return <h3 key={index} className="text-2xl font-bold text-white mt-10 mb-4">{line.replace('### ', '')}</h3>;
+        elements.push(
+          <h3 key={i} className="text-xl sm:text-2xl font-bold text-white mt-10 mb-4 leading-snug">
+            {line.replace('### ', '')}
+          </h3>
+        );
+        i++;
+        continue;
       }
-      if (line.startsWith('- **')) {
-        const parts = line.replace('- **', '').split('**: ');
-        if (parts.length > 1) {
-          return <li key={index} className="ml-6 mb-3 text-white/80 leading-relaxed"><strong className="text-white">{parts[0]}:</strong> {parts.slice(1).join('**: ')}</li>;
+
+      // 3. Code Blocks
+      if (line.trim().startsWith('```')) {
+        const codeLines: string[] = [];
+        i++; // skip opening ```
+        while (i < lines.length && !lines[i].trim().startsWith('```')) {
+          codeLines.push(lines[i]);
+          i++;
         }
+        elements.push(
+          <pre key={i} className="bg-white/[0.02] border border-white/10 rounded-xl p-5 overflow-x-auto text-sm text-gold/90 font-mono my-6 leading-relaxed shadow-inner">
+            <code>{codeLines.join('\n')}</code>
+          </pre>
+        );
+        i++; // skip closing ```
+        continue;
       }
-      if (line.startsWith('1. **') || line.startsWith('2. **') || line.startsWith('3. **') || line.startsWith('4. **')) {
-        const parts = line.split('**');
-        if (parts.length > 2) {
-          return <p key={index} className="ml-6 mb-4 text-white/80 leading-relaxed"><strong className="text-white">{parts[1]}</strong>{parts[2]}</p>;
+
+      // 4. Tables
+      if (line.trim().startsWith('|')) {
+        const tableRows: string[][] = [];
+        
+        while (i < lines.length && lines[i].trim().startsWith('|')) {
+          const rawRow = lines[i].trim();
+          // Skip divider lines e.g. | :--- | :---: |
+          if (rawRow.includes('---')) {
+            i++;
+            continue;
+          }
+          const cells = rawRow
+            .split('|')
+            .map(c => c.trim())
+            .filter((_, idx, arr) => idx > 0 && idx < arr.length - 1); // remove outer empty strings
+          
+          tableRows.push(cells);
+          i++;
         }
+
+        if (tableRows.length > 0) {
+          const headers = tableRows[0];
+          const bodyRows = tableRows.slice(1);
+          elements.push(
+            <div key={i} className="w-full overflow-x-auto my-8 rounded-xl border border-white/10 shadow-lg">
+              <table className="w-full border-collapse text-left text-sm text-white/80">
+                <thead className="bg-white/[0.04] text-white border-b border-white/10 font-semibold uppercase tracking-wider text-xs">
+                  <tr>
+                    {headers.map((h, idx) => (
+                      <th key={idx} className="px-6 py-4 border-r border-white/5 last:border-r-0">
+                        {h}
+                      </th>
+                    ))}
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-white/5 bg-transparent">
+                  {bodyRows.map((row, rowIdx) => (
+                    <tr key={rowIdx} className="hover:bg-white/[0.01] transition-colors">
+                      {row.map((cell, cellIdx) => (
+                        <td key={cellIdx} className="px-6 py-4 border-r border-white/5 last:border-r-0 font-medium">
+                          {parseInlineStyles(cell)}
+                        </td>
+                      ))}
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          );
+        }
+        continue;
       }
-      if (line.startsWith('**') && line.endsWith('**')) {
-        return <p key={index} className="font-bold text-white mb-4 text-lg">{line.replace(/\*\*/g, '')}</p>;
+
+      // 5. Bullet Lists
+      if (line.trim().startsWith('* ') || line.trim().startsWith('- ')) {
+        const listItems: string[] = [];
+        while (i < lines.length && (lines[i].trim().startsWith('* ') || lines[i].trim().startsWith('- '))) {
+          const cleanItem = lines[i].trim().substring(2);
+          listItems.push(cleanItem);
+          i++;
+        }
+        elements.push(
+          <ul key={i} className="list-disc ml-6 mb-6 space-y-2.5 text-lg text-white/80">
+            {listItems.map((item, idx) => (
+              <li key={idx} className="leading-relaxed">
+                {parseInlineStyles(item)}
+              </li>
+            ))}
+          </ul>
+        );
+        continue;
       }
+
+      // 6. Ordered Lists
+      if (/^\d+\.\s/.test(line.trim())) {
+        const listItems: string[] = [];
+        while (i < lines.length && /^\d+\.\s/.test(lines[i].trim())) {
+          const cleanItem = lines[i].trim().replace(/^\d+\.\s/, '');
+          listItems.push(cleanItem);
+          i++;
+        }
+        elements.push(
+          <ol key={i} className="list-decimal ml-6 mb-6 space-y-2.5 text-lg text-white/80">
+            {listItems.map((item, idx) => (
+              <li key={idx} className="leading-relaxed">
+                {parseInlineStyles(item)}
+              </li>
+            ))}
+          </ol>
+        );
+        continue;
+      }
+
+      // 7. Paragraphs
       if (line.trim().length > 0) {
-        // Handle bolding within text
-        const boldSplit = line.split('**');
-        if (boldSplit.length > 1) {
-           return (
-             <p key={index} className="text-white/80 leading-relaxed mb-6 text-lg">
-                {boldSplit.map((part, i) => i % 2 === 1 ? <strong key={i} className="text-white">{part}</strong> : part)}
-             </p>
-           )
-        }
-        return <p key={index} className="text-white/80 leading-relaxed mb-6 text-lg">{line}</p>;
+        elements.push(
+          <p key={i} className="text-white/85 leading-relaxed mb-6 text-lg">
+            {parseInlineStyles(line)}
+          </p>
+        );
       }
-      return null;
-    });
+      i++;
+    }
+
+    return elements;
   };
 
   return (
