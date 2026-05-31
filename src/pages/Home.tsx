@@ -1,20 +1,33 @@
-import { useState } from 'react'
-import '../App.css'
+import HeroSection from '@/sections/HeroSection';
+import DiscoverSection from '@/sections/DiscoverSection';
+import HowItWorksSection from '@/sections/HowItWorksSection';
+import FeaturesSection from '@/sections/FeaturesSection';
+import MatchingSection from '@/sections/MatchingSection';
+import DatesSection from '@/sections/DatesSection';
+import EventsSection from '@/sections/EventsSection';
+import PricingSection from '@/sections/PricingSection';
+import SocialSection from '@/sections/SocialSection';
+import TestimonialsSection from '@/sections/TestimonialsSection';
+import { LegalProtectionSection } from '@/sections/LegalProtectionSection';
+import BlogSection from '@/sections/BlogSection';
+import PricingCtaSection from '@/sections/PricingCtaSection';
 
 export default function Home() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-    </>
-  )
+    <main className="relative z-0 main-content">
+      <HeroSection />
+      <DiscoverSection />
+      <HowItWorksSection />
+      <FeaturesSection />
+      <MatchingSection />
+      <DatesSection />
+      <EventsSection />
+      <SocialSection />
+      <PricingSection />
+      <TestimonialsSection />
+      <LegalProtectionSection />
+      <BlogSection />
+      <PricingCtaSection />
+    </main>
+  );
 }

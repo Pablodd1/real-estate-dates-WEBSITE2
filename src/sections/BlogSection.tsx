@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 gsap.registerPlugin(ScrollTrigger);
 
 // Data moved inside component for translation hooks
+import { Link } from 'react-router';
 
 export default function BlogSection() {
   const sectionRef = useRef<HTMLElement>(null);
@@ -16,18 +17,21 @@ export default function BlogSection() {
 
   const blogPosts = [
     {
+      slug: 'why-real-estate-professionals-need-their-own-dating-app',
       image: '/images/key.png',
       category: t('blog.posts.p1.category'),
       title: t('blog.posts.p1.title'),
       excerpt: t('blog.posts.p1.excerpt'),
     },
     {
+      slug: 'how-ai-is-transforming-professional-matchmaking',
       image: '/images/coffee.png',
       category: t('blog.posts.p2.category'),
       title: t('blog.posts.p2.title'),
       excerpt: t('blog.posts.p2.excerpt'),
     },
     {
+      slug: 'from-cold-calls-to-warm-introductions',
       image: '/images/app.png',
       category: t('blog.posts.p3.category'),
       title: t('blog.posts.p3.title'),
@@ -105,9 +109,10 @@ export default function BlogSection() {
         {/* Blog Grid */}
         <div className="blog-grid grid grid-cols-1 md:grid-cols-3 gap-8">
           {blogPosts.map((post) => (
-            <article
+            <Link
+              to={`/blog/${post.slug}`}
               key={post.title}
-              className="blog-card group liquid-glass rounded-xl hover:border-gold/20 transition-all duration-300  cursor-pointer"
+              className="blog-card block group liquid-glass rounded-xl hover:border-gold/20 transition-all duration-300 cursor-pointer"
             >
               <div className="aspect-video">
                 <img
@@ -129,7 +134,7 @@ export default function BlogSection() {
                   <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-200" />
                 </span>
               </div>
-            </article>
+            </Link>
           ))}
         </div>
 

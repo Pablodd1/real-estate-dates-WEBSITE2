@@ -1,3 +1,4 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -5,26 +6,15 @@ import Navigation from '@/components/Navigation';
 import Footer from '@/components/Footer';
 import GoldParticles from '@/components/GoldParticles';
 import CustomCursor from '@/components/CustomCursor';
-import HeroSection from '@/sections/HeroSection';
-import DiscoverSection from '@/sections/DiscoverSection';
-import HowItWorksSection from '@/sections/HowItWorksSection';
-import FeaturesSection from '@/sections/FeaturesSection';
-import MatchingSection from '@/sections/MatchingSection';
-import DatesSection from '@/sections/DatesSection';
-import EventsSection from '@/sections/EventsSection';
-import PricingSection from '@/sections/PricingSection';
-import SocialSection from '@/sections/SocialSection';
-import TestimonialsSection from '@/sections/TestimonialsSection';
-import { LegalProtectionSection } from '@/sections/LegalProtectionSection';
-import BlogSection from '@/sections/BlogSection';
-import PricingCtaSection from '@/sections/PricingCtaSection';
+import Home from '@/pages/Home';
+import BlogPost from '@/pages/BlogPost';
 import { Toaster } from 'sonner';
 
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
   return (
-    <>
+    <Router>
       {/* Custom Cursor */}
       <CustomCursor />
 
@@ -32,7 +22,7 @@ function App() {
       <GoldParticles />
 
       {/* Main Content */}
-      <div className="relative w-full overflow-hidden flex flex-col flex-1">
+      <div className="relative w-full overflow-hidden flex flex-col flex-1 min-h-screen">
         {/* Background Image (Golden Key) with Spinning Animation */}
         <div className="fixed inset-0 flex items-center justify-center -z-50 pointer-events-none overflow-hidden">
           <img 
@@ -43,25 +33,16 @@ function App() {
         </div>
         
         <Navigation />
-        <main className="relative z-0 main-content">
-          <HeroSection />
-          <DiscoverSection />
-          <HowItWorksSection />
-          <FeaturesSection />
-          <MatchingSection />
-          <DatesSection />
-          <EventsSection />
-          <SocialSection />
-          <PricingSection />
-          <TestimonialsSection />
-          <LegalProtectionSection />
-          <BlogSection />
-          <PricingCtaSection />
-        </main>
+        
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/blog/:slug" element={<BlogPost />} />
+        </Routes>
+
         <Footer />
       </div>
       <Toaster theme="dark" position="top-center" />
-    </>
+    </Router>
   );
 }
 
