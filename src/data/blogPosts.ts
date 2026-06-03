@@ -39,7 +39,7 @@ This unique rhythm of life makes dating incredibly challenging. Standard dating 
 
 Real Estate Dates was built specifically to solve these problems. By connecting you exclusively with other professionals in the industry—agents, brokers, developers, architects, and investors—we ensure a baseline level of understanding before you even say hello.
 
-When you match with someone on Real Estate Dates, you already know they respect the hustle. You share a common language (no need to explain what "escrow" or "cap rate" means). And most importantly, even if the romantic connection isn't there, the professional connection often is. 
+When you connect with someone on Real Estate Dates, you already know they respect the hustle. You share a common language (no need to explain what "escrow" or "cap rate" means). And most importantly, even if the romantic connection isn't there, the professional connection often is. 
 
 **Data shows that 87% of real estate deals involve personal relationships.** Why separate your romantic life from your professional network when combining them yields significantly better results for both? It's time to delete the generic apps and join a platform built for the way you actually live and work.
     `
@@ -69,10 +69,10 @@ Our AI doesn't just look at who you swipe on. It conducts a deep analysis of you
 
 ### How the AI Pipeline Works
 
-1. **Role Complementarity:** The AI understands the nuances of the industry. It knows that a high-volume residential broker and a mortgage loan officer have immense synergistic potential. It understands that a flipper and a hard-money lender might be a perfect match.
+1. **Role Complementarity:** The AI understands the nuances of the industry. It knows that a high-volume residential broker and a mortgage loan officer have immense synergistic potential. It understands that a flipper and a hard-money lender might be a perfect connect.
 2. **Territory Overlap:** The algorithm analyzes geographic data not just for proximity, but for market relevance. 
-3. **Deal Size & Ambition:** We match users who operate on similar wavelengths. If you're dealing in $5M+ commercial properties, the AI factors this in to find partners with similar risk profiles and financial ambitions.
-4. **Instant Match Summaries:** When two users "Turn the Key" and create a Mutual Match, the AI instantly generates a warm, 2-3 sentence summary explaining *why* they are a great fit, serving as the perfect icebreaker.
+3. **Deal Size & Ambition:** We connect users who operate on similar wavelengths. If you're dealing in $5M+ commercial properties, the AI factors this in to find partners with similar risk profiles and financial ambitions.
+4. **Instant Connect Summaries:** When two users "Turn the Key" and create a Mutual Connect, the AI instantly generates a warm, 2-3 sentence summary explaining *why* they are a great fit, serving as the perfect icebreaker.
 
 ### Cost Efficiency Meets High Performance
 
@@ -108,7 +108,7 @@ When you connect with someone on our app, the ice is already broken. The AI has 
 
 One of our most popular features is the **Virtual Happy Hour Speed Dating**. Instead of driving across town to a networking event, you can join from your living room. 
 
-During these events, you are placed in rapid, 3-minute video rotations with other professionals who match your AI compatibility criteria. In just 30 minutes, you can meet 10 highly qualified individuals. 
+During these events, you are placed in rapid, 3-minute video rotations with other professionals who fit your AI compatibility criteria. In just 30 minutes, you can meet 10 highly qualified individuals. 
 
 - **For Romance:** It's the fastest way to check for chemistry without committing to a full dinner date.
 - **For Business:** It's the most efficient way to source off-market deals, find capital partners, or build your referral network.
@@ -135,7 +135,7 @@ The real estate industry thrives on trust, and trust is built face-to-face. Stop
 
 Dating apps in 2026 have become major financial commitments. What used to be a simple, affordable way to meet local singles has turned into a system of heavily gated paywalls, tiered memberships, and constant microtransactions. For ambitious professionals, who value both their time and capital, selecting the right platform is no longer just a lifestyle decision—it is a financial one.
 
-If you are paying for Tinder Gold, Bumble Premium, or HingeX, you are likely spending hundreds of dollars annually for generic matching systems that do not respect your career path, your schedule, or your business ambitions. 
+If you are paying for Tinder Gold, Bumble Premium, or HingeX, you are likely spending hundreds of dollars annually for generic connecting systems that do not respect your career path, your schedule, or your business ambitions. 
 
 Below is an exhaustive, side-by-side pricing and feature comparison detailing why **Real Estate Dates** represents the most cost-efficient, high-value alternative on the market.
 
@@ -152,7 +152,7 @@ Let's look at how the top tier memberships compare across the leading platforms:
 | **See Who Liked You** | Yes | Yes | Yes | **Yes (Full Unblurred)** |
 | **Daily Swipes** | Unlimited | Unlimited | Unlimited | **Unlimited** |
 | **AI Compatibility Score** | No | No | No | **Yes (DeepSeek API 0-100)** |
-| **AI Match Summaries** | No | No | No | **Yes (Warm explanations)** |
+| **AI Connect Summaries** | No | No | No | **Yes (Warm explanations)** |
 | **Built-in Video Calls** | Paid / Gated | Paid / Gated | No | **Yes (Unlimited Free)** |
 | **Live Speed Dating** | No | No | No | **Yes (Happy Hour Unlimited)** |
 | **Passport (Multi-City)** | Yes | Yes | No | **Yes (Unlimited)** |
@@ -177,7 +177,7 @@ At **$14.99/mo** (recently reduced from $19.99 to offer even greater market valu
 Despite the much lower subscription fee, Elite offers a list of high-value tools that general apps cannot provide:
 
 1. **Integrated Video Calling & Speed Dating:** Standard apps charge per minute or bundle video calling as a costly add-on. Elite provides 100% free, unlimited Virtual Tours (video intros) and Happy Hour Speed Dating.
-2. **DeepSeek-Powered Artificial Intelligence:** Our 0-100 scoring system does not just match you based on age or location. It evaluates role complementarity (e.g., matching a commercial broker with an active equity investor) and territory coverage.
+2. **DeepSeek-Powered Artificial Intelligence:** Our 0-100 scoring system does not just connect you based on age or location. It evaluates role complementarity (e.g., connecting a commercial broker with an active equity investor) and territory coverage.
 3. **Hyper-Targeted Demographics:** You are paying to access a pre-filtered sandbox. There are no bots, spam accounts, or low-intent swipers. Every person on the platform is a verified professional who understands deal cycles, market shifts, and high-level strategy.
 
 ### Calculating the Return on Investment
@@ -213,7 +213,7 @@ The Standard membership is designed for professionals who are new to the platfor
 
 * **Daily Swipes:** Limited to 30 submissions per day.
 * **See Who Liked You:** Blurred photos only. You can see that someone turned the key on your profile, but the details are hidden unless you upgrade or buy an unlock.
-* **Communication:** Standard chat and video are locked. To speak with a match, you must consume à la carte credits (Message Packs or Video Passes) or upgrade.
+* **Communication:** Standard chat and video are locked. To speak with a connection, you must consume à la carte credits (Message Packs or Video Passes) or upgrade.
 * **Best For:** Young residential agents, part-time real estate assistants, or local professionals who want to test the water and build out their initial profiles.
 
 ---
@@ -222,9 +222,9 @@ The Standard membership is designed for professionals who are new to the platfor
 The Premium tier is the sweet spot for active real estate professionals who are actively dating and networking, but do not require complex, cross-border capabilities.
 
 * **Daily Swipes:** Unlimited. You can clear your queue as often as you like.
-* **See Who Liked You:** Fully unblurred. See exactly who turned the key on your profile and match instantly.
+* **See Who Liked You:** Fully unblurred. See exactly who turned the key on your profile and connect instantly.
 * **Communication:** Unlimited direct text chatting is fully unlocked. You also receive 3 free video calls (Virtual Tours) per month.
-* **AI Compatibility Tools:** Displays the raw 0-100 compatibility percentage score on profiles, along with written AI-generated match summaries.
+* **AI Compatibility Tools:** Displays the raw 0-100 compatibility percentage score on profiles, along with written AI-generated connect summaries.
 * **Profile Boosts:** 1 free profile boost per month to place your profile at the top of the local deck.
 * **Best For:** Full-time real estate agents, loan officers, escrow officers, and residential brokers who want to build both romantic and professional connections without swipe caps or communication blocks.
 
@@ -237,7 +237,7 @@ Elite is our ultimate, institutional-grade membership. It unlocks every single f
 * **Communication:** Unlimited direct text chatting and 100% unlimited, free built-in Video Calls.
 * **Live Events:** Unlimited free entry into all Virtual Happy Hour Speed Dating events (a $4.99 savings per event).
 * **AI Compatibility Tools:** Full matching diagnostics. You see the 0-100 score, the specific logic explanation, and a customized one-liner summary of your compatibility.
-* **Premium Features:** Incognito Mode (browse profiles invisibly), Passport (change locations to match with professionals in Miami, Chicago, New York, or LA), and See Profile Views (see exactly who visited your page).
+* **Premium Features:** Incognito Mode (browse profiles invisibly), Passport (change locations to connect with professionals in Miami, Chicago, New York, or LA), and See Profile Views (see exactly who visited your page).
 * **Profile Boosts:** 3 free profile boosts per month to dominate your local territory.
 * **Verified Badge:** A premium Shield badge added to your profile to build instant trust.
 * **Best For:** Commercial developers, high-volume real estate investors, syndicators, firm founders, and top-tier luxury brokers who want to maximize deal flow, cross-border investment matching, and save massive amounts of time.
@@ -248,10 +248,10 @@ Elite is our ultimate, institutional-grade membership. It unlocks every single f
 
 For users who prefer a pay-as-you-go model rather than a monthly subscription, we offer simple, flexible add-ons:
 
-* **Message Pack ($2.99):** Provides 3 direct message credits. Standard (Free) tier users consume 1 credit per message sent to a match.
+* **Message Pack ($2.99):** Provides 3 direct message credits. Standard (Free) tier users consume 1 credit per message sent to a connection.
 * **Video Pass ($5.99):** Unlocks 3 Virtual Tour video calls (up to 15 minutes each). Perfect for Free or Premium users who want to jump on a face-to-face call.
 * **Speed Date Pass ($4.99):** Grants a single entry ticket to our highly popular weekly Happy Hour Speed Dating event.
-* **Chat Unlock ($2.99):** Permanently unlocks direct messaging with one specific, mutual match. Great for Free users who want to talk to a single key partner without upgrading.
+* **Chat Unlock ($2.99):** Permanently unlocks direct messaging with one specific, mutual connect. Great for Free users who want to talk to a single key partner without upgrading.
 
 ### Which Tier is Right for Your Business and Personal Life?
 
@@ -323,8 +323,8 @@ Investing in a dedicated, secure platform like Real Estate Dates is a simple dec
   {
     id: "7",
     slug: "what-is-ai-compatibility-scoring-real-estate-dates",
-    title: "What Is AI Compatibility Scoring? How Real Estate Dates Finds Your Perfect Match",
-    excerpt: "Take a deep-dive look at the technical architecture behind our DeepSeek-powered matching system. Learn how we evaluate 33 data points to match partners on a chemical and commercial level.",
+    title: "What Is AI Compatibility Scoring? How Real Estate Dates Finds Your Perfect Connection",
+    excerpt: "Take a deep-dive look at the technical architecture behind our DeepSeek-powered connecting system. Learn how we evaluate 33 data points to connect partners on a chemical and commercial level.",
     category: "AI Technology",
     readTime: "8 min read",
     author: "Tech & Product Team",
@@ -333,7 +333,7 @@ Investing in a dedicated, secure platform like Real Estate Dates is a simple dec
     content: `
 ## The Science of Synergy: Beyond Basic Filters
 
-If you have ever used a standard dating app, you know how limited their matching systems are. You specify an age range, a maximum distance, and perhaps a few generic interests like "travel" or "cooking." 
+If you have ever used a standard dating app, you know how limited their connecting systems are. You specify an age range, a maximum distance, and perhaps a few generic interests like "travel" or "cooking." 
 
 While those basic filters can tell you if someone is nearby, they tell you absolutely nothing about their personality, their life goals, their career drive, or their long-term compatibility.
 
@@ -347,7 +347,7 @@ When you complete onboarding on Real Estate Dates, our system constructs a highl
 
 1. **Role Complementarity (Synergy Scoring):** The system evaluates how well your careers align. For example, a real estate developer looking to raise equity has a high natural synergy score with active real estate investors or commercial brokers. An architect has direct complementarity with active developers.
 2. **Territory & Market Overlap:** Rather than simple GPS distance, the AI analyzes market alignment. Are you both active in the luxury Miami condo space? Do you both operate in commercial retail? Shared market expertise is a powerful foundation for both romance and business.
-3. **Deal Velocity & Ambition Index:** Real estate is a highly ambitious career. The AI evaluates your professional goals, risk tolerance, and career focus to ensure you match with partners who operate on a similar wavelength.
+3. **Deal Velocity & Ambition Index:** Real estate is a highly ambitious career. The AI evaluates your professional goals, risk tolerance, and career focus to ensure you connect with partners who operate on a similar wavelength.
 4. **Lifestyle & Schedule Sync:** We analyze your typical working rhythm. Are you hosting open houses on weekends? Do you travel heavily for property acquisitions? The AI pairs users with complementary schedules to minimize calendar conflicts.
 
 ---
@@ -375,7 +375,7 @@ Here is the exact technical path our system takes to evaluate compatibility:
 [AI Pipeline Ranking (Score-banded Swipe Deck)]
        │
        ▼
-[Mutual Match Trigger -> Warm Match Explanation]
+[Mutual Connect Trigger -> Warm Connect Explanation]
 \`\`\`
 
 1. **Profile Creation:** The user completes onboarding, detailing their role, asset classes, current market territories, and personal interest profiles.
@@ -384,7 +384,7 @@ Here is the exact technical path our system takes to evaluate compatibility:
 4. **Data Generation:** DeepSeek calculates a precise 0-100 score, lists 3 specific reasons for compatibility, and provides a customized, one-sentence icebreaker.
 5. **Storage:** The data is stored in Firebase Firestore as a secure map on the user's private profile.
 6. **Pipeline Ranking:** Your swipe deck is sorted dynamically. High-compatibility matches are prioritized and organized in 10-point bands, ensuring your queue is always packed with prime prospects.
-7. **Match Explanation:** When a mutual match occurs, the AI displays a warm, personalized summary explaining exactly why you two are a perfect fit.
+7. **Connect Explanation:** When a mutual connect occurs, the AI displays a warm, personalized summary explaining exactly why you two are a perfect fit.
 
 ---
 
@@ -432,7 +432,7 @@ Our weekly Virtual Happy Hour takes place every Thursday evening. Here is how th
 2. **AI Pairing:** The matching engine groups participants based on territory, role complementarity, and AI compatibility scores.
 3. **The Rounds:** Starting at 7:00 PM, you are automatically placed into a series of timed, **3-minute video rotations**. 
 4. **The Interaction:** You have three minutes to introduce yourself, share your current asset focus, and check for personal chemistry. It is long enough to assess if a connection exists, but short enough to keep things moving.
-5. **The Verdict:** After each round, you quietly select "Key Turn" (Mutual Interest) or "Pass." If both users turn the key, a "Deal in Escrow" (Mutual Match) is instantly created, permanently unlocking their chat and contact details.
+5. **The Verdict:** After each round, you quietly select "Key Turn" (Mutual Interest) or "Pass." If both users turn the key, a "Deal in Escrow" (Mutual Connect) is instantly created, permanently unlocking their chat and contact details.
 
 ---
 
@@ -450,7 +450,7 @@ We maintain a high-quality community by gating access to our Happy Hour events:
 Data collected from our Happy Hour events shows incredible networking and dating outcomes:
 
 * **12+ Connections Average:** The typical participant makes over a dozen qualified personal and professional connections per 30-minute session.
-* **94% Match Satisfaction:** Because our AI pre-screens participants, users report a highly professional, respectful, and engaging atmosphere.
+* **94% Connect Satisfaction:** Because our AI pre-screens participants, users report a highly professional, respectful, and engaging atmosphere.
 * **From Escrow to Closed Deals:** Dozens of active joint ventures, property listings, and investment syndications have originated directly from our 3-minute video rotations.
 
 ### Pro-Tips for Your Next Happy Hour
@@ -489,7 +489,7 @@ Here is why video dating is the absolute future of professional networking and r
 
 Our platform features a highly unique dual-video architecture:
 
-1. **Virtual Tours (1-Min Video Intros):** When you match with someone, you can initiate a "Virtual Tour." This is a highly focused, 1-minute video introduction. It is designed to act as a quick chemistry check. It allows you to say a quick hello, verify that the profile is authentic, and see if you vibe. It removes the pressure of a long video call.
+1. **Virtual Tours (1-Min Video Intros):** When you connect with someone, you can initiate a "Virtual Tour." This is a highly focused, 1-minute video introduction. It is designed to act as a quick chemistry check. It allows you to say a quick hello, verify that the profile is authentic, and see if you vibe. It removes the pressure of a long video call.
 2. **Video Calls (Full Calls):** Once the Virtual Tour is complete and both users want to keep talking, you can transition to a full, unmetered video call. This is your virtual coffee date, where you can deeply discuss life, business, and everything in between.
 
 ---
@@ -586,7 +586,7 @@ Whether you are based in Brickell, Medellin, Buenos Aires, or Madrid, **Real Est
 
 For years, the dating app market was dominated by a few massive, generalized platforms. Tinder, Bumble, and Hinge promised a simple solution: put everyone in a single pool and let them swipe it out. 
 
-But as these platforms grew, they ran into a fundamental structural problem: **when you try to match everyone, you match no one**. 
+But as these platforms grew, they ran into a fundamental structural problem: **when you try to connect everyone, you connect no one**. 
 
 In 2026, we are witnessing a massive cultural shift. Busy, ambitious professionals are suffering from extreme "swipe-fatigue." They are tired of filtering through thousands of low-intent profiles, dodging bot accounts, and going on dates with people who do not share their values, schedules, or drive. The result? Ambitious singles are deleting consumer apps and flocking to **niche, industry-specific walled gardens**.
 

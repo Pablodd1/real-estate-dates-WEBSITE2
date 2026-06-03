@@ -340,7 +340,7 @@ export default function DiscoverSection() {
                       className="flex-1 flex items-center justify-center gap-2 py-3 bg-gold/10 backdrop-blur-md rounded-xl text-gold hover:bg-gold/20 transition-all duration-200 border border-gold/30 hover:shadow-glow group"
                     >
                       <Heart className="w-4 h-4 sm:w-5 sm:h-5 group-hover:scale-110 transition-transform fill-current" />
-                      <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest">{t('discover.match')}</span>
+                      <span className="text-[10px] sm:text-[11px] font-bold uppercase tracking-widest">{t('discover.connect')}</span>
                     </button>
                   </div>
                 </div>

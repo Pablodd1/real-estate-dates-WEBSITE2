@@ -29,7 +29,7 @@ export function useMatching() {
     const snapshot = await getDocs(q);
     
     if (!snapshot.empty) {
-      // It's a match! (Inspection Period)
+      // It's a connect! (Inspection Period)
       await addDoc(collection(db, 'matches'), {
         users: [senderId, receiverId],
         createdAt: serverTimestamp(),
@@ -66,7 +66,7 @@ export function useMatching() {
         keysUsedToday: increment(1)
       });
 
-      // 3. Check for mutual match
+      // 3. Check for mutual connect
       const isMatch = await checkAndCreateMatch(user.uid, receiverId);
       
       if (isMatch) {
@@ -74,7 +74,7 @@ export function useMatching() {
           duration: 5000,
           icon: '🤝'
         });
-        // Here we could trigger a specific UI animation for a match
+        // Here we could trigger a specific UI animation for a connect
       } else {
         toast.success("Key submitted successfully.");
       }
