@@ -8,7 +8,6 @@ import EventsSection from '@/sections/EventsSection';
 import PricingSection from '@/sections/PricingSection';
 import SocialSection from '@/sections/SocialSection';
 import TestimonialsSection from '@/sections/TestimonialsSection';
-import { LegalProtectionSection } from '@/sections/LegalProtectionSection';
 import BlogSection from '@/sections/BlogSection';
 import PricingCtaSection from '@/sections/PricingCtaSection';
 
@@ -25,7 +24,6 @@ export default function Home() {
       <SocialSection />
       <PricingSection />
       <TestimonialsSection />
-      <LegalProtectionSection />
       <BlogSection />
       <PricingCtaSection />
     </main>
