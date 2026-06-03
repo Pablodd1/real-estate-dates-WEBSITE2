@@ -284,7 +284,7 @@
       "status": "Looking for my perfect connection"
     }
   },
-  "connecting": {
+  "matching": {
     "sectionTitle": "How Connecting Works",
     "title": "Mutual Connects Unlock Biographies",
     "subtitle": "It is all about bringing people together who actually like each other. Once you like someone and they like you back, you both unlock full biographies to really know each other. Depending on your membership tier, you can seamlessly text chat, schedule video chats, and move to the next level.",
@@ -333,7 +333,6 @@
     "subtitle": "Swipe through verified professionals. Find love and secure your future with virtual speed dating.",
     "instruction": "Drag the card left or right, or click the buttons. Connect with potential partners via fast video speed dates.",
     "pass": "Pass",
-    "match": "Connect",
     "eliteBadge": "Elite",
     "profiles": {
       "p1": {
@@ -376,7 +375,8 @@
           "Investors"
         ]
       }
-    }
+    },
+    "connect": "Connect"
   },
   "events": {
     "sectionTitle": "Real Connections, Real Venues",
