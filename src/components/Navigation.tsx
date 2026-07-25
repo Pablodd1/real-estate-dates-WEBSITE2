@@ -31,7 +31,7 @@ export default function Navigation() {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 right-0 z-[100] h-[60px] sm:h-[72px] flex items-center bg-transparent/80 backdrop-blur-xl border-b ">
+      <nav className="fixed top-0 left-0 right-0 z-[100] h-[60px] sm:h-[72px] flex items-center bg-black/80 backdrop-blur-xl border-b border-white/5">
         <div className="w-full max-w-[1280px] mx-auto px-4 sm:px-6 flex items-center justify-between">
           {/* Logo */}
           <button onClick={() => scrollToSection('#hero')} className="shrink-0">
@@ -106,7 +106,7 @@ export default function Navigation() {
 
       {/* Mobile Menu Overlay */}
       <div
-        className={`fixed inset-0 z-[999] bg-transparent/98 backdrop-blur-xl transition-all duration-500 md:hidden ${
+        className={`fixed inset-0 z-[999] bg-black/98 backdrop-blur-xl transition-all duration-500 md:hidden ${
           mobileOpen ? 'opacity-100 visible' : 'opacity-0 invisible pointer-events-none'
         }`}
       >

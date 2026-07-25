@@ -11,7 +11,7 @@
   },
   "hero": {
     "subtitle": "Real Estate Dates",
-    "tagline": "Conecta \u00b7 Cita \u00b7 Construye una Vida Juntos",
+    "tagline": "OFERTA ENVIADA \u00b7 CITA \u00b7 CONSTRUYE UNA VIDA JUNTOS",
     "title": "Encuentra tu Conexi\u00f3n Perfecta",
     "descriptionPart1": "La app de citas donde profesionales inmobiliarios se conocen, conectan y construyen relaciones. ",
     "descriptionHighlight": "construyan una vida juntos",
@@ -330,6 +330,7 @@
     "instruction": "Arrastra la tarjeta a izquierda o derecha, o haz clic en los botones. Haz match con parejas potenciales a trav\u00e9s de video citas r\u00e1pidas.",
     "pass": "Pasar",
     "match": "Conectar",
+    "connect": "OFERTA ENVIADA",
     "eliteBadge": "\u00c9lite",
     "profiles": {
       "p1": {

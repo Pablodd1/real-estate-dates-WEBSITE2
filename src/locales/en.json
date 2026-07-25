@@ -11,7 +11,7 @@
   },
   "hero": {
     "subtitle": "Real Estate Dates",
-    "tagline": "Connect \u00b7 Date \u00b7 Build a Life Together",
+    "tagline": "OFFER SENT \u00b7 DATE \u00b7 BUILD A LIFE TOGETHER",
     "title": "Find Your Perfect Connection",
     "descriptionPart1": "The dating app where real estate professionals meet, connect, and build relationships. Swipe through profiles, find your person, and ",
     "descriptionHighlight": "build a life together",
@@ -33,12 +33,12 @@
       "desc": "Navigate a curated, secure MLS of active industry players. We filter out the window-shoppers with rigorous ID checks. Browse profiles, assess the ROI of potential connections, and see who meets your strict underwriting criteria for lifestyle and ambition."
     },
     "step3": {
-      "title": "Turn the Key (Connect) & Unlock Bios",
-      "desc": "Forget generic swiping\u2014here, you \"Turn Key\" to show interest. If you are unsure, hold them in \"Pending\", or \"Reject\" to pass on the listing. When both parties Turn Key, it is a Mutual Connect! This instantly unlocks deep-dive biographies so you can run your due diligence before chatting."
+      "title": "Turn the Key (OFFER SENT) & Unlock Bios",
+      "desc": "Forget generic swiping\u2014here, you \"Turn Key\" to show interest. If you are unsure, hold them in \"Pending\", or \"Reject\" to pass on the listing. When both parties Turn Key, it is an OFFER SENT! This instantly unlocks deep-dive biographies so you can run your due diligence before chatting."
     },
     "step4": {
       "title": "Enter the Option Period (Chat & Video)",
-      "desc": "Move seamlessly from a Mutual Connect into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 3-minute virtual showings."
+      "desc": "Move seamlessly from an OFFER SENT into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 3-minute virtual showings."
     },
     "step5": {
       "title": "In-Person Walkthroughs (Real Dates)",
@@ -211,12 +211,12 @@
     "subtitle": "Start free. Upgrade when you're ready for unlimited connections, video calls, and AI-powered insights.",
     "tiers": {
       "free": {
-        "name": "Standard",
+        "name": "Free",
         "price": "Free",
         "period": "",
         "desc": "Browse profiles, send Key-Turns, and discover professionals in your market. Add-ons available \u00e0 la carte.",
         "features": [
-          "30 swipes per day",
+          "50 keys per day",
           "Blurred profile views (privacy protection)",
           "Professional profile creation & verification",
           "Key-Turn interest system",
@@ -232,14 +232,14 @@
         "period": "/month",
         "desc": "Unlimited swipes, direct chat, and AI compatibility scores. The most popular choice for active professionals.",
         "features": [
-          "All Standard features included",
-          "Unlimited daily swipes",
+          "All Free features included",
+          "Unlimited daily keys",
           "Direct text chat with all mutual connects",
-          "3 free video calls per month",
+          "See who liked you",
           "1 profile boost per month",
           "Basic AI compatibility scores (%)",
-          "See who turned the key on your profile",
-          "Happy Hour access ($4.99 per pass)"
+          "3 video date tokens ($5.99 add-on)",
+          "Video dates (add-on purchase)"
         ],
         "cta": "CHOOSE PREMIUM"
       },
@@ -376,7 +376,7 @@
         ]
       }
     },
-    "connect": "Connect"
+    "connect": "OFFER SENT"
   },
   "events": {
     "sectionTitle": "Real Connections, Real Venues",

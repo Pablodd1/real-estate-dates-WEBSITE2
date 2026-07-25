@@ -270,7 +270,7 @@ export default function DiscoverSection() {
             </div>
 
             {/* Main card (Swipeable) */}
-            <div className="pt-14 pb-20 px-2 h-[650px] sm:h-[700px] flex items-center justify-center relative">
+            <div className="pt-14 pb-20 px-2 h-[480px] sm:h-[700px] flex items-center justify-center relative">
               <div
                 ref={cardRef}
                 className={`relative w-full h-full liquid-glass rounded-2xl  shadow-card cursor-grab active:cursor-grabbing transition-shadow ${
