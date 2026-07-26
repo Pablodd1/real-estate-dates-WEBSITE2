@@ -25,14 +25,14 @@ export default function BlogSection() {
     },
     {
       slug: 'how-ai-is-transforming-professional-matchmaking',
-      image: '/images/coffee.png',
+      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=600&fit=crop&crop=face',
       category: t('blog.posts.p2.category'),
       title: t('blog.posts.p2.title'),
       excerpt: t('blog.posts.p2.excerpt'),
     },
     {
       slug: 'from-cold-calls-to-warm-introductions',
-      image: '/images/app.png',
+      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face',
       category: t('blog.posts.p3.category'),
       title: t('blog.posts.p3.title'),
       excerpt: t('blog.posts.p3.excerpt'),
