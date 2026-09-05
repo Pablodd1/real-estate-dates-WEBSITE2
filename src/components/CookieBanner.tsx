@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import { X, Cookie } from 'lucide-react';
+import { loadAnalytics } from '@/lib/analytics';
 
 export default function CookieBanner() {
   const [visible, setVisible] = useState(false);
@@ -13,6 +14,9 @@ export default function CookieBanner() {
 
   const accept = (type: 'all' | 'essential') => {
     localStorage.setItem('cookieConsent', type);
+    if (type === 'all') {
+      loadAnalytics();
+    }
     setVisible(false);
   };
 

@@ -9,7 +9,17 @@ Real Estate Dates is an exclusive dating and networking application designed spe
 - Anti-Catfishing: Strict ID verification protocols to ensure genuine profiles.
 - Tiered Access: Free, Pro, and Empire tiers.
 - Add-Ons: Text chat, video chat, and online speed dating available as add-ons.
-- Exclusive Events: Online Happy Hour Speed Dating and in-person walk-and-talk property dates.
+- Exclusive Events: Online Happy Hour Speed Dating (see schedule below) and in-person walk-and-talk property dates.
+
+## Happy Hour — Scheduled Online Speed Dating (Live)
+Happy Hour is a real scheduled event, not a permanent room:
+- Schedule: Mondays, Wednesdays, Fridays and Sundays — 5:00 PM Miami time (ET), DST-safe year-round.
+- Lobby ("the Ballroom"): opens 4:45 PM; attendees join and see the waitlist.
+- Event: 5:00–5:30 PM — ten 3-minute video date rotations, auto-paired; the engine never pairs the same two people twice in one night.
+- Consent gate: first-time joiners accept the Event Code of Conduct — private, never recorded, respectful conduct.
+- Keys: after each date, both people privately "turn a key" to keep talking. The other person never knows unless the key is mutual.
+- Results: at 5:30, every mutual-key match is listed on the Tonight's Results screen with chat and unlimited video between just the two of them. No mutual key = no channel, by design.
+- Privacy: cameras optional, dates never recorded, report/block always one tap away.
 
 ## Target Audience
 Real estate agents, luxury brokers, investors, and professionals in the real estate industry looking to date, network, and build an empire together.

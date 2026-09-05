@@ -11,14 +11,14 @@
   },
   "hero": {
     "subtitle": "Real Estate Dates",
-    "tagline": "OFFER SENT \u00b7 DATE \u00b7 BUILD A LIFE TOGETHER",
+    "tagline": "OFFER SENT · DATE · BUILD A LIFE TOGETHER",
     "title": "Find Your Perfect Connection",
     "descriptionPart1": "The dating app where real estate professionals meet, connect, and build relationships. Swipe through profiles, find your person, and ",
     "descriptionHighlight": "build a life together",
     "descriptionPart2": ".",
     "cta": "Explore Profiles",
     "scroll": "Scroll to meet singles",
-    "copyright": "Real Estate Dates \u00a9 2025"
+    "copyright": "Real Estate Dates © 2025"
   },
   "howItWorks": {
     "journey": "The Escrow of Love",
@@ -26,7 +26,7 @@
     "subtitle": "Skip the generic apps. Experience a streamlined pipeline to finding your ultimate co-investor in life and business.",
     "step1": {
       "title": "List Your Professional Profile",
-      "desc": "Put your best asset on the market. Showcase your real estate niche\u2014whether you are closing commercial deals, flipping residential, or syndicating multifamily. Set your \"cap rate\" for what you are looking for in a partner, and let your profile be your premier digital handshake."
+      "desc": "Put your best asset on the market. Showcase your real estate niche—whether you are closing commercial deals, flipping residential, or syndicating multifamily. Set your \"cap rate\" for what you are looking for in a partner, and let your profile be your premier digital handshake."
     },
     "step2": {
       "title": "Tour Verified Prospects",
@@ -34,7 +34,7 @@
     },
     "step3": {
       "title": "Turn the Key (OFFER SENT) & Unlock Bios",
-      "desc": "Forget generic swiping\u2014here, you \"Turn Key\" to show interest. If you are unsure, hold them in \"Pending\", or \"Reject\" to pass on the listing. When both parties Turn Key, it is an OFFER SENT! This instantly unlocks deep-dive biographies so you can run your due diligence before chatting."
+      "desc": "Forget generic swiping—here, you \"Turn Key\" to show interest. If you are unsure, hold them in \"Pending\", or \"Reject\" to pass on the listing. When both parties Turn Key, it is an OFFER SENT! This instantly unlocks deep-dive biographies so you can run your due diligence before chatting."
     },
     "step4": {
       "title": "Enter the Option Period (Chat & Video)",
@@ -42,7 +42,7 @@
     },
     "step5": {
       "title": "In-Person Walkthroughs (Real Dates)",
-      "desc": "Take the connection from digital to physical. Skip the awkward setups and meet where you thrive\u2014coordinate twilight walkthrough dates at active listings, grab espresso near a new development, or meet at an industry gala to see if the foundation is solid."
+      "desc": "Take the connection from digital to physical. Skip the awkward setups and meet where you thrive—coordinate twilight walkthrough dates at active listings, grab espresso near a new development, or meet at an industry gala to see if the foundation is solid."
     },
     "step6": {
       "title": "Close the Deal (Go Exclusive)",
@@ -52,11 +52,11 @@
   "features": {
     "sectionTitle": "Features",
     "mainTitle": "Built for the Industry",
-    "subtitle": "Every feature speaks your language. We replaced dating clich\u00e9s with real estate terminology you already know.",
+    "subtitle": "Every feature speaks your language. We replaced dating clichés with real estate terminology you already know.",
     "items": {
       "feature1": {
         "title": "Dumping Catfish (Verification)",
-        "desc": "Catfishing is the enemy of authentic connection. We require a mandatory government-issued ID upload coupled with a real-time biometric selfie scan during onboarding. Our background validation verifies your professional licensing credentials (NMLS, REALTOR\u00ae ID, or active corporate registries) to ensure you are meeting verified, licensed, active real estate industry professionals. If you aren't real, you don't get in."
+        "desc": "Catfishing is the enemy of authentic connection. We require a mandatory government-issued ID upload coupled with a real-time biometric selfie scan during onboarding. Our background validation verifies your professional licensing credentials (NMLS, REALTOR® ID, or active corporate registries) to ensure you are meeting verified, licensed, active real estate industry professionals. If you aren't real, you don't get in."
       },
       "feature2": {
         "title": "Smart Connecting (Filters)",
@@ -76,7 +76,7 @@
       },
       "feature6": {
         "title": "In-App Video Dates",
-        "desc": "Pre-screen chemistry without giving away your private phone number or social media handles. Our fully integrated, secure in-app Video Chat lets you hop on 3-minute or 5-minute virtual dates. It's high-efficiency dating designed to fit into your busy schedule\u2014perfect for a quick lunch break or in between showings."
+        "desc": "Pre-screen chemistry without giving away your private phone number or social media handles. Our fully integrated, secure in-app Video Chat lets you hop on 3-minute or 5-minute virtual dates. It's high-efficiency dating designed to fit into your busy schedule—perfect for a quick lunch break or in between showings."
       },
       "feature7": {
         "title": "Safety First (24/7 Moderation)",
@@ -141,7 +141,7 @@
       },
       "policy2": {
         "title": "Identity Verification & Anti-Catfishing",
-        "content": "Dumping catfishing is built into our core protocols. Every user who registers is verified using government-issued identification (such as a Driver's License or Passport) combined with real-time biometric facial-verification scanning. This process ensures that the person you see on screen is precisely the person you are communicating with. Real estate professionals can also connect their NMLS, REALTOR\u00ae ID, or corporate broker credentials to receive a verified elite badge, confirming their professional status to the entire community."
+        "content": "Dumping catfishing is built into our core protocols. Every user who registers is verified using government-issued identification (such as a Driver's License or Passport) combined with real-time biometric facial-verification scanning. This process ensures that the person you see on screen is precisely the person you are communicating with. Real estate professionals can also connect their NMLS, REALTOR® ID, or corporate broker credentials to receive a verified elite badge, confirming their professional status to the entire community."
       },
       "policy3": {
         "title": "Explicit Consent & Communication Control",
@@ -157,7 +157,7 @@
       },
       "policy6": {
         "title": "Transparent Connecting Metrics",
-        "content": "We believe in complete transparency. Our connecting algorithms utilize objective, professional parameters that you choose\u2014such as geographical market coordinates, commercial or residential focus, preferred investment models (e.g., BRRRR, wholesaling, passive syndication), and calendar availability for local events. There are no demographic bias variables, hidden penalties, or shadow-bans. If you feel a connecting decision or algorithm placement is incorrect, you can request an instant review from our technical support team."
+        "content": "We believe in complete transparency. Our connecting algorithms utilize objective, professional parameters that you choose—such as geographical market coordinates, commercial or residential focus, preferred investment models (e.g., BRRRR, wholesaling, passive syndication), and calendar availability for local events. There are no demographic bias variables, hidden penalties, or shadow-bans. If you feel a connecting decision or algorithm placement is incorrect, you can request an instant review from our technical support team."
       },
       "policy7": {
         "title": "Zero Tolerance Harassment Policy",
@@ -214,7 +214,7 @@
         "name": "Free",
         "price": "Free",
         "period": "",
-        "desc": "Browse profiles, send Key-Turns, and discover professionals in your market. Add-ons available \u00e0 la carte.",
+        "desc": "Browse profiles, send Key-Turns, and discover professionals in your market. Add-ons available à la carte.",
         "features": [
           "50 keys per day",
           "Blurred profile views (privacy protection)",
@@ -251,7 +251,7 @@
         "features": [
           "All Premium features included",
           "Unlimited video calls & speed dating",
-          "Top \u00d75 profile visibility",
+          "Top ×5 profile visibility",
           "3 profile boosts per month",
           "Full AI scores + personalized summaries",
           "Verified Elite badge",
@@ -297,7 +297,7 @@
     "cta": "EXPLORE THE WEB APP",
     "mockup": {
       "name": "Jessica, 31",
-      "profession": "Luxury Broker \u00b7 Miami Beach",
+      "profession": "Luxury Broker · Miami Beach",
       "status": "Looking for someone who understands late closings and early showings. Love beach walks and investment properties."
     }
   },
@@ -317,7 +317,7 @@
       },
       "feature2": {
         "title": "Video Dates Before You Meet",
-        "description": "Nervous about that first in-person date? Start with a 5-minute video call. See their smile, hear their laugh, feel the chemistry \u2014 all from the safety of your couch.",
+        "description": "Nervous about that first in-person date? Start with a 5-minute video call. See their smile, hear their laugh, feel the chemistry — all from the safety of your couch.",
         "tags": [
           "5-Min Video",
           "No Phone Exchange",
@@ -379,24 +379,74 @@
     "connect": "OFFER SENT"
   },
   "events": {
-    "sectionTitle": "Real Connections, Real Venues",
+    "sectionTitle": "Real Connections, Real Time",
     "title": "Events & Happy Hours",
-    "subtitle": "We host curated mixers where you meet face-to-face. From rooftop happy hours to property walk-throughs \u2014 every event is designed for natural connection.",
+    "subtitle": "Happy Hour is a real scheduled event — four nights a week, online, auto-paired. Plus curated in-person mixers for when you want to meet face-to-face.",
+    "happyHour": {
+      "badge": "Now Live",
+      "title": "Happy Hour",
+      "tagline": "Online speed dating on a real schedule — no test rooms, no guesswork",
+      "description": "When the clock hits 5:00, the pairings start and the evening flows — ten 3-minute video dates, then your results. Nobody taps anything.",
+      "specs": {
+        "schedule": {
+          "label": "Schedule",
+          "value": "Mon · Wed · Fri · Sun — 5:00 PM Miami time, DST-safe year-round"
+        },
+        "lobby": {
+          "label": "Lobby",
+          "value": "Opens 4:45 PM — attendees join and see the waitlist"
+        },
+        "event": {
+          "label": "Event",
+          "value": "5:00–5:30 PM — ten 3-minute rotations, auto-paired"
+        },
+        "consent": {
+          "label": "Consent gate",
+          "value": "First-time joiners accept the Event Code of Conduct — private, never recorded, respectful conduct"
+        },
+        "noRepeats": {
+          "label": "No repeats",
+          "value": "The engine never pairs you with the same person twice in one night"
+        }
+      },
+      "cta": "Enter the Ballroom",
+      "footerLine": "Mon · Wed · Fri · Sun — 5:00 PM ET · 3-minute dates · never recorded.",
+      "next": {
+        "today": "Today — lobby opens 4:45 PM ET",
+        "liveNow": "Live now — join the Ballroom",
+        "upcoming": "Next: {{day}} — lobby 4:45 PM ET"
+      }
+    },
+    "howItWorks": {
+      "title": "How Happy Hour Works",
+      "steps": {
+        "step1": {
+          "title": "Mark your calendar",
+          "desc": "Events run Mondays, Wednesdays, Fridays & Sundays at 5:00 PM ET."
+        },
+        "step2": {
+          "title": "Arrive early",
+          "desc": "The Ballroom lobby opens at 4:45 PM. Accept the Code of Conduct and see who else is attending."
+        },
+        "step3": {
+          "title": "Ten dates, three minutes each",
+          "desc": "We pair you automatically into private video rotations. Never the same partner twice in one night."
+        },
+        "step4": {
+          "title": "Turn your key",
+          "desc": "After each date, privately submit a key if you'd like to keep talking. They never know unless they key you back."
+        },
+        "step5": {
+          "title": "See your results",
+          "desc": "At 5:30, your mutual matches unlock instantly with chat and unlimited video."
+        },
+        "step6": {
+          "title": "No pressure",
+          "desc": "No match, no trace. Cameras optional, dates never recorded, report/block always one tap away."
+        }
+      }
+    },
     "list": {
-      "event1": {
-        "title": "Online Happy Hour Speed Dating",
-        "desc": "Experience our original, brand-new Online Happy Hour Speed Dating. Nobody else has this! Skip the commute and meet multiple real estate singles face-to-face in rapid, exciting video sessions right from your living room.",
-        "time": "Thursdays, 6:00\u20139:00 PM",
-        "location": "Brickell & South Beach",
-        "attendees": "20\u201340 singles"
-      },
-      "event2": {
-        "title": "Video Speed Dates",
-        "desc": "5-minute one-on-one video dates from your couch. No pressure, no dressing up \u2014 just real conversation and real chemistry.",
-        "time": "Tuesdays & Saturdays",
-        "location": "In-app video rooms",
-        "attendees": "10\u201315 per session"
-      },
       "event3": {
         "title": "Open House Dates",
         "desc": "Tour beautiful listings together. It is like a museum date, but with better conversation starters and free snacks.",
@@ -412,7 +462,7 @@
         "attendees": "Couples only"
       }
     },
-    "disclaimer": "All events include ID verification and safety protocols",
+    "disclaimer": "All events include ID verification and safety protocols. Happy Hour dates are never recorded.",
     "viewPolicies": "View Event Policies"
   },
   "testimonials": {
@@ -423,17 +473,17 @@
       "t1": {
         "quote": "We both worked in real estate but never crossed paths. Real Estate Dates changed that. We bonded over our love for historic renovations, had our first date at an open house, and now we are engaged!",
         "name": "Sarah & Tom",
-        "role": "Connected 2023 \u00b7 Engaged 2025"
+        "role": "Connected 2023 · Engaged 2025"
       },
       "t2": {
         "quote": "I was tired of dating apps where no one understood my schedule. On Real Estate Dates, everyone gets the 24/7 nature of real estate. I met my girlfriend at a broker happy hour the app organized!",
         "name": "Michael R.",
-        "role": "Commercial Broker \u00b7 Dating 8 months"
+        "role": "Commercial Broker · Dating 8 months"
       },
       "t3": {
         "quote": "As a single mom and agent, I thought dating was impossible. Real Estate Dates connected me with another single parent in the industry. We co-parent, co-list, and are genuinely happy.",
         "name": "Priya K.",
-        "role": "Residential Agent \u00b7 In a Relationship"
+        "role": "Residential Agent · In a Relationship"
       }
     },
     "stats": {
@@ -582,7 +632,7 @@
       },
       "p3": {
         "title": "Real Dates",
-        "desc": "Coffee at that new caf\u00e9 downtown. A walk through an open house. Dinner at a restaurant you discovered while showing properties. Real dates for real people."
+        "desc": "Coffee at that new café downtown. A walk through an open house. Dinner at a restaurant you discovered while showing properties. Real dates for real people."
       },
       "p4": {
         "title": "Date & Invest",
@@ -607,7 +657,7 @@
       "p1": {
         "category": "Dating Tips",
         "title": "Dating in the Real Estate World: How to Find Time for Love",
-        "excerpt": "Between showings, closings, and open houses \u2014 how do successful agents make time for relationships? We asked 50 couples who met on Real Estate Dates."
+        "excerpt": "Between showings, closings, and open houses — how do successful agents make time for relationships? We asked 50 couples who met on Real Estate Dates."
       },
       "p2": {
         "category": "Couple Stories",
@@ -617,7 +667,7 @@
       "p3": {
         "category": "Date Ideas",
         "title": "10 Date Ideas Every Real Estate Couple Will Love",
-        "excerpt": "From touring historic homes to sunset walks at new developments \u2014 creative date ideas that combine your passion for properties with romance."
+        "excerpt": "From touring historic homes to sunset walks at new developments — creative date ideas that combine your passion for properties with romance."
       }
     },
     "newsletter": {

@@ -12,6 +12,7 @@ import CookieBanner from '@/components/CookieBanner';
 import Home from '@/pages/Home';
 import BlogPost from '@/pages/BlogPost';
 import { Toaster } from 'sonner';
+import { initAnalytics } from '@/lib/analytics';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -24,6 +25,7 @@ function App() {
     if (verified === 'true') {
       setAgeVerified(true);
     }
+    initAnalytics();
   }, []);
 
   if (!ageVerified) {
