@@ -407,32 +407,33 @@ It is modern tech built for modern professionals who want to build a legacy, tog
     id: "8",
     slug: "happy-hour-speed-dating-for-real-estate-how-it-works",
     title: "Happy Hour Speed Dating for Real Estate: How It Works",
-    excerpt: "Get the full scoop on our weekly Virtual Happy Hour events. Discover how 3-minute video rotations can unlock 12+ pre-vetted professional connections in a single night.",
+    excerpt: "Happy Hour is a real scheduled event — Mondays, Wednesdays, Fridays & Sundays at 5:00 PM ET. Here's exactly how the lobby, the ten 3-minute rotations, and the key system work.",
     category: "Networking Strategy",
     readTime: "6 min read",
     author: "Events & Operations Team",
-    date: "June 05, 2026",
+    date: "September 05, 2026",
     image: "/images/key.png",
     content: `
 ## Reimagining the Mixer: High-Speed Professional Connections
 
 In the property business, everyone knows that a great contact is worth their weight in gold. But getting in front of qualified brokers, busy investors, or active commercial developers usually requires hours of travel, expensive conference tickets, or endless LinkedIn outreach.
 
-That is why we created **Virtual Happy Hour Speed Dating** inside Real Estate Dates. It is a weekly, high-energy virtual networking event that allows you to meet, pitch, and connect with dozens of pre-vetted property professionals in a fraction of the time.
+That is why we created **Happy Hour** inside Real Estate Dates. It is a real, scheduled event — not a permanent room you wander into, but a fixed appointment on the industry's social calendar — that lets you meet, pitch, and connect with pre-vetted property professionals in a fraction of the time.
 
 Whether you are looking for a romantic connection with someone who shares your career drive, or searching for a strategic business partner, Happy Hour is the most efficient networking event in the industry.
 
 ---
 
-### The Format: Timed Video Rotations
+### The Schedule: Four Nights a Week, DST-Safe
 
-Our weekly Virtual Happy Hour takes place every Thursday evening. Here is how the event operates:
+Happy Hour runs **Mondays, Wednesdays, Fridays and Sundays at 5:00 PM Miami time (ET)** — the same wall-clock time year-round, so daylight saving never moves your date. Here is how the event operates:
 
-1. **Check-In:** Users join the live lobby between 6:30 PM and 7:00 PM. The system validates your location and verifies your profile parameters.
-2. **AI Pairing:** The matching engine groups participants based on territory, role complementarity, and AI compatibility scores.
-3. **The Rounds:** Starting at 7:00 PM, you are automatically placed into a series of timed, **3-minute video rotations**. 
-4. **The Interaction:** You have three minutes to introduce yourself, share your current asset focus, and check for personal chemistry. It is long enough to assess if a connection exists, but short enough to keep things moving.
-5. **The Verdict:** After each round, you quietly select "Key Turn" (Mutual Interest) or "Pass." If both users turn the key, a "Deal in Escrow" (Mutual Connect) is instantly created, permanently unlocking their chat and contact details.
+1. **Arrive Early — The Ballroom Opens at 4:45 PM:** Join the lobby, see who else is attending on the waitlist, and get settled. First-time joiners accept the Event Code of Conduct — private, never recorded, respectful conduct.
+2. **5:00 PM — Pairing Starts Automatically:** The engine drops you straight into your first **3-minute video rotation**. No taps, no host, no waiting.
+3. **Ten Dates, Three Minutes Each:** When the timer hits zero, the call closes itself, you return to the Ballroom, and within seconds the next round pairs automatically. The engine **never pairs you with the same person twice in one night**.
+4. **The Interaction:** Each three-minute date is long enough to introduce yourself, share your current asset focus, and check for personal chemistry — and short enough to keep the whole event inside 5:00–5:30 PM.
+5. **Turn Your Key — Privately:** After each date, you quietly submit a key if you'd like to keep talking. They never know unless they key you back.
+6. **5:30 PM — Tonight's Results:** Everyone lands on the results screen together. Every **mutual-key match** is listed with one tap to open chat and unlimited video between just the two of you. No mutual key means no channel — that's the consent model. No match, no trace.
 
 ---
 
@@ -440,28 +441,28 @@ Our weekly Virtual Happy Hour takes place every Thursday evening. Here is how th
 
 We maintain a high-quality community by gating access to our Happy Hour events:
 
-* **Elite Members:** 100% free, unlimited entry to all weekly events is included in your membership.
+* **Elite Members:** 100% free, unlimited entry to all scheduled events is included in your membership.
 * **Premium & Standard Users:** Can join any event by purchasing a **Speed Date Pass ($4.99)** à la carte. This low cost ensures that every participant has skin in the game, completely eliminating bots, flakers, and low-intent profiles.
 
 ---
 
-### Real-World Success Metrics
+### What One Night Gets You
 
-Data collected from our Happy Hour events shows incredible networking and dating outcomes:
+The math of the format is the whole point:
 
-* **12+ Connections Average:** The typical participant makes over a dozen qualified personal and professional connections per 30-minute session.
-* **94% Connect Satisfaction:** Because our AI pre-screens participants, users report a highly professional, respectful, and engaging atmosphere.
-* **From Escrow to Closed Deals:** Dozens of active joint ventures, property listings, and investment syndications have originated directly from our 3-minute video rotations.
+* **Ten Dates in Thirty Minutes:** Ten auto-paired 3-minute rotations between 5:00 and 5:30 PM — up to ten new professionals, pre-screened, in the time it takes to sit through one listing presentation.
+* **Up to Ten Mutual Matches:** Turn your key on every date you enjoy; at 5:30 each mutual match unlocks instantly with chat and unlimited video between just the two of you.
+* **Privacy by Default:** Cameras are optional, dates are never recorded, and report/block is always one tap away. No match, no trace — nobody ever learns you passed.
 
 ### Pro-Tips for Your Next Happy Hour
 
-To make the absolute most of your Virtual Happy Hour, follow these simple guidelines:
+To make the absolute most of your Happy Hour, follow these simple guidelines:
 
 1. **Perfect Your One-Sentence Hook:** You only have three minutes. Introduce yourself with a clear, engaging statement about your property focus (e.g., *"I'm a residential broker specializing in modern design in North Miami."*)
 2. **Optimize Your Lighting:** Real estate is all about presentation. Ensure your camera is at eye level, your lighting is warm, and you are in a quiet space with stable internet.
 3. **Be Open to Hybrid Outcomes:** Some matches will lead to romantic chemistry; others will lead to professional deal flow. Treat every rotation as a win-win scenario.
 
-Stop spending your Thursday nights scrolling alone. Buy your pass or upgrade to Elite, and join the next Happy Hour to unlock your local market.
+Mark your calendar — Mondays, Wednesdays, Fridays and Sundays. Be in the Ballroom at 4:45 PM ET, turn your key at 5:30, and see who keyed you back.
     `
   },
   {
@@ -688,6 +689,171 @@ Top-tier professionals no longer separate their personal lives from their career
 The market is moving faster than ever. If you are still relying on cold calls, chamber mixers, and generic dating apps, you are operating with an obsolete toolkit. 
 
 Step into the future of social proptech. Upgrade to Elite, turn the key on compatible profiles, and build both your legacy and your love life on a platform built for the way you close.
+    `
+  },
+  {
+    id: "14",
+    slug: "legend-of-the-key-real-estate-dates-terminology-guide",
+    title: "The Legend of the Key: Every Real Estate Dates Term, Explained",
+    excerpt: "Turn the Key, OFFER SENT, the Ballroom, the Option Period, the Escrow of Love — the complete guide to the language of Real Estate Dates, and why each term exists.",
+    category: "Inside the App",
+    readTime: "7 min read",
+    author: "Real Estate Dates Editorial",
+    date: "September 05, 2026",
+    image: "/images/key.png",
+    content: `
+## Why an App Needs Its Own Language
+
+Every industry has its dialect. Real estate arguably has the richest one in American business: you don't buy a home, you *close* on it. You don't fall in love with a listing, you *put it under contract*. And nothing in that process is more symbolic than the moment the agent hands over the key.
+
+When we built Real Estate Dates, we made a deliberate design decision: instead of inventing dating-app vocabulary (swipes, super-likes, boosts), we would borrow yours. The result is a platform where the mechanics of courtship are described in the language of deals — because for the people using it, that language is already the language of trust, commitment, and due diligence.
+
+Think of this post as the map legend. Here is every term, and the thinking behind it.
+
+---
+
+### The Key — and Turning It
+
+The heart of the platform. On Real Estate Dates, you don't "like" someone — you **Turn the Key**.
+
+Why a key? Because a like costs nothing and signals less. A key is what you give when you've walked the property, read the disclosures, and you're ready to make an offer. Turning the Key on a profile is private interest with intent: *I've seen enough to want a conversation.*
+
+And just like in real life, keys stay private until they open something. The other person never knows you turned your key — unless they turn theirs on you.
+
+### OFFER SENT
+
+When two people Turn the Key on each other, the result is an **OFFER SENT**. Both sides have signaled, the interest is mutual, and full biographies unlock instantly for due diligence. It's the app's equivalent of attorney review: nobody is committed yet, but both parties are now negotiating in good faith.
+
+### Pending
+
+Not sure about a profile? Hold it in **Pending** — the listing isn't gone, it's just not moving. Perfect for the "intriguing, but let me think" pile that every agent maintains.
+
+### Pass
+
+The polite decline. A **Pass** is silent and traceless: the other person is never notified. No rejection, no awkwardness — the listing simply leaves your rotation.
+
+### Mutual Connect
+
+The formal name for what an OFFER SENT creates: a two-way channel between two verified professionals, with full biographies unlocked on both sides. From a Mutual Connect you can move to chat, video, and real dates.
+
+### The MLS of People
+
+Our verified pool. Just as the MLS curates legitimate, listing-ready inventory, Real Estate Dates curates ID-verified, license-checked professionals. No window-shoppers, no fake listings, no catfish. If you aren't real, you don't get in.
+
+### The Ballroom
+
+Where every Happy Hour begins. The **Ballroom** is the event lobby — it opens at **4:45 PM ET**, fifteen minutes before showtime. You join, you accept the Event Code of Conduct (first time only), and you see who else is attending on the waitlist. Think of it as the coat-check line before the open house.
+
+### Happy Hour
+
+Our flagship scheduled event — and it is a *real* scheduled event, not a permanent room. **Mondays, Wednesdays, Fridays and Sundays at 5:00 PM ET**, the Ballroom's pairings begin: ten auto-paired 3-minute private video dates, flowing automatically until 5:30. The engine never pairs you with the same person twice in one night. After each date you privately Turn the Key — and at 5:30, the Tonight's Results screen lists every mutual match with one tap to open chat and unlimited video.
+
+### The Option Period
+
+In a contract, the option period is the window for inspection before full commitment. In the app, it's the chat-and-video stage after a Mutual Connect: you text, you take a video call, you inspect the foundation and check for structural issues in the chemistry — before anyone goes exclusive.
+
+### Due Diligence
+
+Reading the unlocked biography. Once you're mutually connected, full profiles open up: specializations, markets, ambitions, relationship goals. Run your due diligence the way you would on any asset.
+
+### The Escrow of Love
+
+Where a promising connection is held safely while both sides decide. Neutral, protected, no pressure — the deal closes only when both parties sign.
+
+### Go Exclusive (Off the Market)
+
+The closing table. When you both decide to stop seeing other people, you **Go Exclusive**: both profiles are pulled from the active pool, and couples-only features unlock — shared property wishlists, joint calendars, and the tools for building an empire together. You're no longer on the market. The listing is sold.
+
+### Cap Rate (for Love)
+
+Every investor sets criteria before they buy. Your **cap rate** on Real Estate Dates is your filter set — age range, markets, specializations, relationship goals — the yield you require from a partner before you'll tour the property.
+
+---
+
+## The Point of the Legend
+
+None of this vocabulary is decoration. Each term maps a dating mechanic to a step you already trust: inspection, offer, escrow, closing. That's why industry professionals feel at home here within minutes — the app speaks the language of the biggest financial and emotional transactions of your life.
+
+So the next time someone tells you they *turned the key* on a luxury broker and the *offer was sent* after the *Ballroom* on Friday — you'll know exactly what happened. And more importantly, how to make it happen for yourself.
+    `
+  },
+  {
+    id: "15",
+    slug: "real-estate-dates-app-explained-complete-walkthrough",
+    title: "Real Estate Dates, Explained: The Complete App Walkthrough",
+    excerpt: "From ID verification to the closing table — every stage of the app in order: the MLS of people, keys, mutual connects, Happy Hour, real dates, and going exclusive.",
+    category: "Inside the App",
+    readTime: "9 min read",
+    author: "Real Estate Dates Editorial",
+    date: "September 05, 2026",
+    image: "/images/app.png",
+    content: `
+## The Whole Pipeline, Start to Finish
+
+You know how to run a transaction: qualify the buyer, list the property, manage the showing, write the offer, close the deal. Real Estate Dates runs courtship on the same pipeline — deliberately. This walkthrough covers every stage of the app in order, so you know exactly what happens from the moment you sign up to the moment you go exclusive.
+
+---
+
+### Stage 1: Verification — No Catfish, Ever
+
+Before you can browse, you prove you're real. Onboarding requires a government-issued ID, a real-time biometric selfie match, and validation of your professional credentials — REALTOR® ID, NMLS number, or active corporate registration. The result is the **MLS of People**: a pool where every profile belongs to a verified, licensed, active industry professional. If you aren't real, you don't get in.
+
+### Stage 2: List Your Professional Profile
+
+Your profile is your premier digital handshake. You choose your niche — residential sales, commercial development, flipping, syndication, property management — your markets, and your goals. You also set your **cap rate**: the filters (age, location, specialization, relationship goals) that define what you're shopping for. The more precise your listing, the better your showings.
+
+### Stage 3: Tour the Market
+
+Browse verified prospects with filters that actually matter to your life: territory overlap, specialization, deal size, ambition. The AI surfaces compatibility scores (0–100) based on 33 data points — role complementarity, market relevance, risk profile — so the inventory you see is pre-underwritten.
+
+### Stage 4: Turn the Key
+
+Found a listing worth touring? **Turn the Key.** Your key is private: the other person never knows you turned it unless they turn theirs on you. Not sure yet? Hold them in **Pending**. Not for you? **Pass** — silent and traceless, they are never notified.
+
+### Stage 5: OFFER SENT — Biographies Unlock
+
+When keys are mutual, it's an **OFFER SENT**: full biographies unlock on both sides, and the AI generates a short summary of *why* you two fit — the perfect first icebreaker. You're now in the **Option Period**.
+
+### Stage 6: The Option Period — Chat & Video
+
+Run your due diligence the way you would on any asset. Text chat when it's convenient; in-app video dates when you're ready to check the structural integrity of the chemistry. Video happens inside the app — no phone numbers exchanged until you decide to.
+
+### Stage 7: Happy Hour — The Scheduled Event
+
+Once a connection pipeline is warm, accelerate it at **Happy Hour** — our real, scheduled speed-dating event:
+
+* **When:** Mondays, Wednesdays, Fridays and Sundays. The Ballroom (lobby) opens **4:45 PM ET**; the event runs **5:00–5:30 PM ET**, the same wall-clock time year-round (DST-safe).
+* **The flow:** first-time joiners accept the Event Code of Conduct once. At 5:00 sharp, pairing starts automatically: ten 3-minute private video dates. The timer hits zero, the call closes itself, you return to the Ballroom, and seconds later the next round drops you into your next date. Nobody taps anything.
+* **No repeats:** the engine never pairs you with the same person twice in one night.
+* **Keys:** after each date, privately Turn the Key if you'd like to keep talking. They never know unless they key you back.
+* **Results:** at 5:30, the Tonight's Results screen lists every mutual-key match — one tap opens chat and unlimited video between just the two of you. No mutual key, no channel. That's the consent model.
+* **Privacy:** cameras optional, dates never recorded, report/block always one tap away.
+
+Ten dates in thirty minutes, from your couch, with the schedule published in advance — it's the fastest qualifying round in the industry.
+
+### Stage 8: Real Dates — In Person
+
+The connection moves from digital to physical wherever you thrive: a twilight walkthrough of an active listing, espresso near a new development, an industry gala. Browse open houses happening this weekend and RSVP together — the app turns house hunting into the date itself.
+
+### Stage 9: Go Exclusive — Off the Market
+
+When you've found your co-founder for life, take yourselves off the market. **Going Exclusive** pulls both profiles from the active pool and unlocks couples mode: shared property wishlists, integrated showing schedules, and tools for building the portfolio — and the life — together.
+
+---
+
+## What It Costs
+
+* **Free:** browse, verify, and send key-turns daily; add-ons à la carte (including a $4.99 Speed Date Pass for Happy Hour).
+* **Premium ($9.99/mo):** unlimited daily keys, direct chat with mutual connects, see who liked you, AI compatibility scores.
+* **Elite ($14.99/mo):** unlimited video calls and speed dating, full AI insights, verified badge, incognito mode, priority ranking.
+
+No demographic pricing, no hidden fees, cancel in two clicks.
+
+---
+
+## The Short Version
+
+Verify, list, tour, key, unlock, video, meet, close. A pipeline you already trust, applied to the most important deal of your life. Mark your calendar for the next Happy Hour — Mondays, Wednesdays, Fridays and Sundays, Ballroom at 4:45 PM ET — and see how many offers get sent.
     `
   }
 ];

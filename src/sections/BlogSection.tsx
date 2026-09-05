@@ -24,18 +24,18 @@ export default function BlogSection() {
       excerpt: t('blog.posts.p1.excerpt'),
     },
     {
-      slug: 'how-ai-is-transforming-professional-matchmaking',
-      image: 'https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=600&fit=crop&crop=face',
-      category: t('blog.posts.p2.category'),
-      title: t('blog.posts.p2.title'),
-      excerpt: t('blog.posts.p2.excerpt'),
+      slug: 'real-estate-dates-app-explained-complete-walkthrough',
+      image: '/images/app.png',
+      category: t('blog.posts.p4.category'),
+      title: t('blog.posts.p4.title'),
+      excerpt: t('blog.posts.p4.excerpt'),
     },
     {
-      slug: 'from-cold-calls-to-warm-introductions',
-      image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=600&fit=crop&crop=face',
-      category: t('blog.posts.p3.category'),
-      title: t('blog.posts.p3.title'),
-      excerpt: t('blog.posts.p3.excerpt'),
+      slug: 'legend-of-the-key-real-estate-dates-terminology-guide',
+      image: '/images/key.png',
+      category: t('blog.posts.p5.category'),
+      title: t('blog.posts.p5.title'),
+      excerpt: t('blog.posts.p5.excerpt'),
     },
   ];
 
