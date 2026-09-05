@@ -288,6 +288,36 @@
   }
 }
 
+/* Self-rotating 3D gold key */
+@keyframes key3d-spin {
+  from { transform: rotateX(-16deg) rotateY(0deg); }
+  to { transform: rotateX(-16deg) rotateY(360deg); }
+}
+@keyframes key3d-float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+@keyframes key3d-shadow {
+  0%, 100% { transform: translateX(-50%) scaleX(1); opacity: 0.55; }
+  50% { transform: translateX(-50%) scaleX(0.8); opacity: 0.3; }
+}
+.key3d-stage { perspective: 900px; }
+.key3d-float {
+  animation: key3d-float 5s ease-in-out infinite;
+  transform-style: preserve-3d;
+}
+.key3d {
+  transform-style: preserve-3d;
+  animation: key3d-spin 9s linear infinite;
+  will-change: transform;
+}
+.key3d-shadow { animation: key3d-shadow 5s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .key3d, .key3d-float, .key3d-shadow { animation: none; }
+  .key3d { transform: rotateX(-16deg) rotateY(28deg); }
+}
+
 .hero-container, .pricing-container {
   padding-top: clamp(80px, 15vh, 150px) !important;
   padding-bottom: clamp(40px, 10vh, 100px) !important;

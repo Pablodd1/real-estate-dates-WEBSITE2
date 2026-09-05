@@ -4,6 +4,7 @@ import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { Check, Globe, ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import GoldKey3D from '@/components/GoldKey3D';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -108,18 +109,9 @@ export default function PricingCtaSection() {
             </div>
           </div>
 
-          {/* Right - App Mockup */}
+          {/* Right - Rotating 3D gold key */}
           <div className="cta-mockup w-full lg:w-[45%] flex justify-center" style={{ perspective: '1000px' }}>
-            <div
-              className="relative rounded-3xl shadow-2xl hover:scale-[1.02] transition-all duration-400"
-              style={{ transform: 'rotateY(-8deg)' }}
-            >
-              <img
-                src="/images/app.png"
-                alt="Happy couple using dating app"
-                className="w-full max-w-[350px] rounded-3xl"
-              />
-            </div>
+            <GoldKey3D className="w-[220px] sm:w-[260px] py-8" />
           </div>
         </div>
       </div>
