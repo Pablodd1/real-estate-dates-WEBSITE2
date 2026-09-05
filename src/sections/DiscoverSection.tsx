@@ -49,7 +49,7 @@ export default function DiscoverSection() {
       name: t('discover.profiles.p4.name'),
       role: t('discover.profiles.p4.role'),
       location: t('discover.profiles.p4.location'),
-      image: '/images/app.png',
+      image: '/images/discover-p4.jpg',
       bio: t('discover.profiles.p4.bio'),
       intel: t('discover.profiles.p4.intel', { returnObjects: true }) as string[],
     },

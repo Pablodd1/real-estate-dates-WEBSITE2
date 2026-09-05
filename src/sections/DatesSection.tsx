@@ -92,7 +92,7 @@ export default function DatesSection() {
           <div className="dates-image w-full lg:w-1/2">
             <div className="rounded-xl shadow-xl hover:scale-[1.02] transition-transform duration-400">
               <img
-                src="/images/coffee.png"
+                src="/images/dates-open-house.jpg"
                 alt="Happy couple at open house date"
                 className="w-full aspect-[4/3] object-cover"
               />

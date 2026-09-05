@@ -18,21 +18,21 @@ export default function BlogSection() {
   const blogPosts = [
     {
       slug: 'why-real-estate-professionals-need-their-own-dating-app',
-      image: '/images/key.png',
+      image: '/images/blog-time-for-love.jpg',
       category: t('blog.posts.p1.category'),
       title: t('blog.posts.p1.title'),
       excerpt: t('blog.posts.p1.excerpt'),
     },
     {
       slug: 'real-estate-dates-app-explained-complete-walkthrough',
-      image: '/images/app.png',
+      image: '/images/blog-app-walkthrough.jpg',
       category: t('blog.posts.p4.category'),
       title: t('blog.posts.p4.title'),
       excerpt: t('blog.posts.p4.excerpt'),
     },
     {
       slug: 'legend-of-the-key-real-estate-dates-terminology-guide',
-      image: '/images/key.png',
+      image: '/images/blog-legend-key.jpg',
       category: t('blog.posts.p5.category'),
       title: t('blog.posts.p5.title'),
       excerpt: t('blog.posts.p5.excerpt'),

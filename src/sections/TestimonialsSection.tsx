@@ -17,20 +17,17 @@ export default function TestimonialsSection() {
   const testimonials = [
     {
       quote: t('testimonials.list.t1.quote'),
-      avatar: '/images/coffee.png',
-      name: t('testimonials.list.t1.name'),
+      avatar: '/images/avatar-story-1.jpg',
       role: t('testimonials.list.t1.role'),
     },
     {
       quote: t('testimonials.list.t2.quote'),
-      avatar: '/images/couple.png',
-      name: t('testimonials.list.t2.name'),
+      avatar: '/images/avatar-story-2.jpg',
       role: t('testimonials.list.t2.role'),
     },
     {
       quote: t('testimonials.list.t3.quote'),
-      avatar: '/images/couple.png',
-      name: t('testimonials.list.t3.name'),
+      avatar: '/images/avatar-story-3.jpg',
       role: t('testimonials.list.t3.role'),
     },
   ];
@@ -137,7 +134,7 @@ export default function TestimonialsSection() {
         <div className="test-grid grid grid-cols-1 md:grid-cols-3 gap-8">
           {testimonials.map((testimonial) => (
             <div
-              key={testimonial.name}
+              key={testimonial.role}
               className="test-card liquid-glass rounded-xl p-8 hover:border-gold/20 transition-all duration-300 "
             >
               {/* Stars */}
@@ -145,24 +142,22 @@ export default function TestimonialsSection() {
                 {[...Array(5)].map((_, i) => (
                   <Star key={i} className="w-4 h-4 text-gold fill-gold" />
                 ))}
-              </div>
+                </div>
 
               {/* Quote */}
               <p className="text-lg text-white/80 italic leading-relaxed mb-6">
                 &ldquo;{testimonial.quote}&rdquo;
               </p>
 
-              {/* Attribution */}
+              {/* Attribution — anonymous by design */}
               <div className="flex items-center gap-3">
                 <img
                   src={testimonial.avatar}
-                  alt={testimonial.name}
+                  alt=""
+                  aria-hidden="true"
                   className="w-10 h-10 rounded-full object-cover"
                 />
-                <div>
-                  <p className="text-base font-medium text-white">{testimonial.name}</p>
-                  <p className="text-xs text-white/80 uppercase tracking-wide">{testimonial.role}</p>
-                </div>
+                <p className="text-xs text-white/80 uppercase tracking-wide">{testimonial.role}</p>
               </div>
             </div>
           ))}

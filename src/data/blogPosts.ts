@@ -21,7 +21,7 @@ export const blogPosts: BlogPostData[] = [
     readTime: "6 min read",
     author: "Real Estate Dates Editorial",
     date: "May 25, 2026",
-    image: "/images/couple.png",
+    image: "/images/blog-time-for-love.jpg",
     content: `
 ## The Reality of the Real Estate Lifestyle
 
@@ -700,7 +700,7 @@ Step into the future of social proptech. Upgrade to Elite, turn the key on compa
     readTime: "7 min read",
     author: "Real Estate Dates Editorial",
     date: "September 05, 2026",
-    image: "/images/key.png",
+    image: "/images/blog-legend-key.jpg",
     content: `
 ## Why an App Needs Its Own Language
 
@@ -786,7 +786,7 @@ So the next time someone tells you they *turned the key* on a luxury broker and 
     readTime: "9 min read",
     author: "Real Estate Dates Editorial",
     date: "September 05, 2026",
-    image: "/images/app.png",
+    image: "/images/blog-app-walkthrough.jpg",
     content: `
 ## The Whole Pipeline, Start to Finish
 

@@ -88,8 +88,8 @@ export default function MatchingSection() {
                 {/* Image area */}
                 <div className="relative aspect-[4/5]">
                   <img
-                    src="/images/app.png"
-                    alt="Happy couple"
+                    src="/images/matching-jessica.jpg"
+                    alt="Jessica, luxury broker"
                     className="w-full h-full object-cover"
                   />
                   <div className="absolute inset-0 -z-10 bg-gradient-to-t from-black/40 to-transparent" />
