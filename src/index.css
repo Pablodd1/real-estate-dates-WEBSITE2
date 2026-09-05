@@ -263,6 +263,31 @@
   }
 
 /* -- START USER CSS FIXES -- */
+
+/* Premium sticker medallion effects */
+@keyframes sticker-shine {
+  0% { transform: translateX(-160%) skewX(-20deg); }
+  60%, 100% { transform: translateX(260%) skewX(-20deg); }
+}
+@keyframes sticker-burst {
+  0% { transform: scale(0.92); opacity: 0.7; }
+  100% { transform: scale(1.7); opacity: 0; }
+}
+@keyframes sticker-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.07); }
+}
+.sticker-shine { animation: sticker-shine 3.2s ease-in-out infinite; }
+.sticker-burst { animation: sticker-burst 3.2s ease-out infinite; }
+.sticker-burst-delay { animation: sticker-burst 3.2s ease-out 0.4s infinite; }
+.sticker-breathe { animation: sticker-breathe 3s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  .sticker-shine, .sticker-burst, .sticker-burst-delay, .sticker-breathe {
+    animation: none;
+  }
+}
+
 .hero-container, .pricing-container {
   padding-top: clamp(80px, 15vh, 150px) !important;
   padding-bottom: clamp(40px, 10vh, 100px) !important;

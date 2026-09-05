@@ -3,6 +3,7 @@ import DiscoverSection from '@/sections/DiscoverSection';
 import HowItWorksSection from '@/sections/HowItWorksSection';
 import FeaturesSection from '@/sections/FeaturesSection';
 import MatchingSection from '@/sections/MatchingSection';
+import StickersSection from '@/sections/StickersSection';
 import DatesSection from '@/sections/DatesSection';
 import EventsSection from '@/sections/EventsSection';
 import PricingSection from '@/sections/PricingSection';
@@ -19,6 +20,7 @@ export default function Home() {
       <HowItWorksSection />
       <FeaturesSection />
       <MatchingSection />
+      <StickersSection />
       <DatesSection />
       <EventsSection />
       <SocialSection />

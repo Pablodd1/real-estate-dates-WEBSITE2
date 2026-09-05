@@ -681,5 +681,69 @@
       "button": "Suscribirse",
       "disclaimer": "Al suscribirte, aceptas nuestra Política de Privacidad."
     }
+  },
+  "stickers": {
+    "sectionTitle": "Stickers Premium",
+    "title": "Dilo Con Más Que Palabras",
+    "subtitle": "Los Stickers de Real Estate Dates convierten un mensaje simple en un momento que vale la pena enviar. Cuando las palabras no bastan — o cuando quieres destacar — envía un sticker premium en el chat de cualquier conexión.",
+    "chat": {
+      "header": "Conexión Mutua · Chat",
+      "credits": "5 créditos",
+      "incoming": "Todavía pienso en nuestros tres minutos…",
+      "outgoing": "La llave ha sido girada.",
+      "sentLabel": "Enviado",
+      "deliveredLabel": "Entregado"
+    },
+    "tray": {
+      "title": "La Colección",
+      "names": [
+        "Flores",
+        "Beso",
+        "Abrazo",
+        "Sonrisa",
+        "WOW",
+        "Corazón",
+        "Salud",
+        "Osito",
+        "Fuego",
+        "Destellos",
+        "Llave Dorada",
+        "Casa de Ensueño",
+        "Trato",
+        "Corona"
+      ]
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "steps": {
+        "step1": {
+          "title": "Toca el botón de stickers",
+          "desc": "Abre el chat de cualquier conexión y toca el botón de stickers."
+        },
+        "step2": {
+          "title": "Envía una medalla",
+          "desc": "Elige tu sticker — llega como una medalla animada con marco dorado y un destello que no pueden pasar por alto."
+        },
+        "step3": {
+          "title": "Notificación instantánea",
+          "desc": "Enviar cuesta $1 — recibir siempre es gratis."
+        },
+        "step4": {
+          "title": "Nunca te quedes sin",
+          "desc": "¿Sin créditos? Consigue un paquete de 5 por $5 directamente en el chat."
+        }
+      }
+    },
+    "romance": {
+      "title": "Hecho para el Romance Inmobiliario",
+      "desc": "Nuestros stickers exclusivos hablan tu idioma: gira una Llave Dorada, ofrece una Casa de Ensueño o cierra el Trato — a veces la propiedad correcta ES la persona correcta.",
+      "highlights": [
+        "🔑 Llave Dorada",
+        "🏡 Casa de Ensueño",
+        "🤝 Trato"
+      ]
+    },
+    "secure": "Seguro por diseño: las compras de stickers se procesan con Stripe y cada envío se verifica en el servidor.",
+    "priceLine": "$1 por enviar · Recibir es gratis · Paquete de 5 por $5"
   }
 }

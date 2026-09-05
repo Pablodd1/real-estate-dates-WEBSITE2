@@ -684,5 +684,69 @@
       "button": "Subscribe",
       "disclaimer": "By subscribing, you agree to our Privacy Policy."
     }
+  },
+  "stickers": {
+    "sectionTitle": "Premium Stickers",
+    "title": "Say It With More Than Words",
+    "subtitle": "Real Estate Dates Stickers turn a simple message into a moment worth sending. When words aren't enough — or when you want to stand out — send a premium sticker in any match's chat.",
+    "chat": {
+      "header": "Mutual Connect · Chat",
+      "credits": "5 credits",
+      "incoming": "Still thinking about our three minutes…",
+      "outgoing": "The key has been turned.",
+      "sentLabel": "Sent",
+      "deliveredLabel": "Delivered"
+    },
+    "tray": {
+      "title": "The Collection",
+      "names": [
+        "Flowers",
+        "Kiss",
+        "Hug",
+        "Smile",
+        "WOW",
+        "Heart",
+        "Cheers",
+        "Teddy",
+        "Fire",
+        "Sparkles",
+        "Golden Key",
+        "Dream Home",
+        "Deal",
+        "Crown"
+      ]
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "steps": {
+        "step1": {
+          "title": "Tap the sticker button",
+          "desc": "Open any match's chat and tap the sticker button."
+        },
+        "step2": {
+          "title": "Send a medallion",
+          "desc": "Pick your sticker — it arrives as an animated, gold-framed medallion with a shine sweep they can't miss."
+        },
+        "step3": {
+          "title": "They're notified instantly",
+          "desc": "Sending costs $1 — receiving is always free."
+        },
+        "step4": {
+          "title": "Never run dry",
+          "desc": "Out of credits? Grab a pack of 5 for $5 right in the chat."
+        }
+      }
+    },
+    "romance": {
+      "title": "Made for Real Estate Romance",
+      "desc": "Our exclusive stickers speak your language: turn a Golden Key, offer a Dream Home, or seal the Deal — sometimes the right property IS the right person.",
+      "highlights": [
+        "🔑 Golden Key",
+        "🏡 Dream Home",
+        "🤝 Deal"
+      ]
+    },
+    "secure": "Secure by design: sticker purchases are processed by Stripe, and every send is verified server-side.",
+    "priceLine": "$1 to send · Free to receive · Pack of 5 for $5"
   }
 }
