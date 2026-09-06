@@ -154,12 +154,70 @@
     }
     </script>
 
+    <!-- Agentic Protocol: Organization + WebSite identity -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Real Estate Dates",
+      "url": "https://realestatedates.com/",
+      "logo": "https://realestatedates.com/images/key.png",
+      "description": "The dating app where real estate professionals meet, connect, and build relationships. ID-verified agents, brokers, and investors. Happy Hour speed dating four nights a week.",
+      "sameAs": ["https://realestatedates.realty"]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Real Estate Dates",
+      "url": "https://realestatedates.com/",
+      "inLanguage": ["en", "es"]
+    }
+    </script>
+
+    <!-- Agentic Protocol: HowTo schema — How Happy Hour Works -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "HowTo",
+      "name": "How Happy Hour Speed Dating Works",
+      "description": "Attend Real Estate Dates Happy Hour: ten auto-paired 3-minute private video dates, Mondays, Wednesdays, Fridays and Sundays, 5:00–5:30 PM ET.",
+      "totalTime": "PT45M",
+      "step": [
+        { "@type": "HowToStep", "name": "Mark your calendar", "text": "Events run Mondays, Wednesdays, Fridays and Sundays at 5:00 PM ET." },
+        { "@type": "HowToStep", "name": "Arrive early", "text": "The Ballroom lobby opens at 4:45 PM. Accept the Code of Conduct and see who else is attending." },
+        { "@type": "HowToStep", "name": "Ten dates, three minutes each", "text": "You are paired automatically into private video rotations — never the same partner twice in one night." },
+        { "@type": "HowToStep", "name": "Turn your key", "text": "After each date, privately submit a key if you'd like to keep talking. They never know unless they key you back." },
+        { "@type": "HowToStep", "name": "See your results", "text": "At 5:30, mutual matches unlock instantly with chat and unlimited video." },
+        { "@type": "HowToStep", "name": "No pressure", "text": "No match, no trace. Cameras optional, dates never recorded, report/block always one tap away." }
+      ]
+    }
+    </script>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <div id="root"></div>
+    <noscript>
+      <div style="max-width:720px;margin:40px auto;padding:0 20px;font-family:Georgia,serif;color:#F5F0E6;background:#0A0A0A;">
+        <h1 style="color:#FFD700;">Real Estate Dates — Dating for Real Estate Professionals</h1>
+        <p>The dating app where real estate professionals meet, connect, and build relationships. ID-verified agents, brokers, and investors — 50,000+ real estate singles. AI compatibility scoring, video dates, and Happy Hour speed dating. 25–60% cheaper than Tinder/Bumble.</p>
+        <h2 style="color:#FFD700;">Happy Hour — a real scheduled event</h2>
+        <p>Mondays, Wednesdays, Fridays &amp; Sundays at 5:00 PM ET (Miami time, DST-safe year-round). The Ballroom lobby opens at 4:45 PM; the event runs 5:00–5:30 PM — ten auto-paired 3-minute private video dates, never the same partner twice in one night. Turn your key after each date; at 5:30 every mutual match unlocks with chat and unlimited video. Cameras optional, dates never recorded.</p>
+        <h2 style="color:#FFD700;">Pricing</h2>
+        <ul>
+          <li>Free — browse, verify, and send key-turns daily</li>
+          <li>Premium — $9.99/month: unlimited keys, direct chat, AI compatibility scores</li>
+          <li>Elite — $14.99/month: unlimited video calls and speed dating, verified badge, incognito mode</li>
+        </ul>
+        <p>Premium stickers ($1 to send, free to receive) in every match chat — processed by Stripe, verified server-side.</p>
+        <p><a href="https://realestatedates.realty" style="color:#FFD700;">Explore the web app</a> · <a href="https://realestatedates.com/blog/legend-of-the-key-real-estate-dates-terminology-guide" style="color:#FFD700;">The Legend of the Key — every term explained</a></p>
+        <p><em>JavaScript is required for the full interactive experience. This site is for adults 18+.</em></p>
+      </div>
+    </noscript>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

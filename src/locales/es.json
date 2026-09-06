@@ -18,7 +18,12 @@
     "descriptionPart2": ".",
     "cta": "Explorar Perfiles",
     "scroll": "Desplaza para conocer solteros",
-    "copyright": "Real Estate Dates © 2025"
+    "copyright": "Real Estate Dates © 2025",
+    "trust": {
+      "members": "Más de 50,000 solteros del sector",
+      "verified": "Profesionales con ID verificado",
+      "private": "Citas nunca grabadas"
+    }
   },
   "howItWorks": {
     "journey": "El Cierre Perfecto",

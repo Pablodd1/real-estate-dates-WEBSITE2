@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router';
-import { useState, useEffect } from 'react';
+import { useState, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
@@ -17,27 +17,40 @@ import { initAnalytics } from '@/lib/analytics';
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
-  const [ageVerified, setAgeVerified] = useState(false);
+  // Start verified:true so the full site content mounts in the DOM on first
+  // render — crawlers and no-JS fetchers always see the real content. The
+  // gate then covers it as an overlay (pre-paint via useLayoutEffect) for
+  // unverified human visitors.
+  const [ageVerified, setAgeVerified] = useState(true);
 
-  useEffect(() => {
-    // ponytail: check localStorage on mount — skip age gate if already verified
+  useLayoutEffect(() => {
+    // ponytail: check localStorage before first paint — skip age gate if already verified
     const verified = localStorage.getItem('ageVerified');
-    if (verified === 'true') {
-      setAgeVerified(true);
+    if (verified !== 'true') {
+      setAgeVerified(false);
+      document.body.style.overflow = 'hidden';
+    } else {
+      initAnalytics();
     }
-    initAnalytics();
   }, []);
 
-  if (!ageVerified) {
-    return <AgeGate onVerified={() => setAgeVerified(true)} />;
-  }
+  const handleVerified = () => {
+    localStorage.setItem('ageVerified', 'true');
+    localStorage.setItem('ageVerifiedAt', new Date().toISOString());
+    setAgeVerified(true);
+    document.body.style.overflow = '';
+    initAnalytics();
+  };
 
   return (
     <Router>
       <CustomCursor />
       <GoldParticles />
 
-      <div className="relative w-full overflow-x-hidden flex flex-col flex-1 min-h-screen">
+      <div
+        className="relative w-full overflow-x-hidden flex flex-col flex-1 min-h-screen"
+        inert={!ageVerified ? true : undefined}
+      >
         <div className="fixed inset-0 flex items-center justify-center -z-50 pointer-events-none overflow-hidden">
           <img
             src="/images/key.png"
@@ -55,6 +68,10 @@ function App() {
 
         <Footer />
       </div>
+
+      {/* Age gate renders as an overlay — site content stays in the DOM
+          underneath so search engines and AI crawlers can read it. */}
+      {!ageVerified && <AgeGate onVerified={handleVerified} />}
 
       <CookieBanner />
       <Toaster theme="dark" position="top-center" />

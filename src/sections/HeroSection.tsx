@@ -1,13 +1,19 @@
 import { useRef } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
-import { Globe, ArrowDown } from 'lucide-react';
+import { Globe, ArrowDown, Users, ShieldCheck, VideoOff } from 'lucide-react';
 import { LogoIcon } from '@/components/Logo';
 import { useTranslation } from 'react-i18next';
 
 export default function HeroSection() {
   const sectionRef = useRef<HTMLElement>(null);
   const { t } = useTranslation();
+
+  const trustItems = [
+    { icon: <Users className="w-3.5 h-3.5" />, label: t('hero.trust.members') },
+    { icon: <ShieldCheck className="w-3.5 h-3.5" />, label: t('hero.trust.verified') },
+    { icon: <VideoOff className="w-3.5 h-3.5" />, label: t('hero.trust.private') },
+  ];
 
   useGSAP(() => {
     if (!sectionRef.current) return;
@@ -64,6 +70,16 @@ export default function HeroSection() {
           <Globe className="w-4 h-4 sm:w-5 sm:h-5 relative z-10 transition-transform group-hover:rotate-12" />
           <span className="relative z-10">{t('hero.cta')}</span>
         </a>
+
+        {/* Trust strip — social proof above the fold */}
+        <div className="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 px-4">
+          {trustItems.map((item, i) => (
+            <span key={i} className="flex items-center gap-1.5 text-[10px] sm:text-[11px] uppercase tracking-[0.14em] text-white/75">
+              <span className="text-gold">{item.icon}</span>
+              {item.label}
+            </span>
+          ))}
+        </div>
         </div>
 
         {/* Scroll indicator */}
