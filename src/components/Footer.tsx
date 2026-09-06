@@ -1,12 +1,33 @@
 import { LogoIcon } from './Logo';
 import { useTranslation } from 'react-i18next';
 
+interface LegendItem {
+  term: string;
+  def: string;
+}
+
 export default function Footer() {
   const { t } = useTranslation();
+  const legend = t('footer.legend', { returnObjects: true }) as LegendItem[];
 
   return (
     <footer className="w-full py-6 sm:py-8 border-t ">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 flex flex-col gap-4 sm:gap-5">
+        {/* Legend / glossary */}
+        <div className="border-b border-white/[0.06] pb-5">
+          <p className="text-center text-[9px] sm:text-[10px] uppercase tracking-[0.25em] text-gold/70 font-semibold mb-3">
+            {t('footer.legendTitle')}
+          </p>
+          <p className="flex flex-wrap justify-center gap-x-4 gap-y-1.5 max-w-[900px] mx-auto text-[10px] sm:text-[11px] text-white/60 leading-relaxed">
+            {legend.map((item, i) => (
+              <span key={i}>
+                <span className="text-gold/80 font-medium">{item.term}</span>
+                <span className="text-white/40"> — {item.def}</span>
+              </span>
+            ))}
+          </p>
+        </div>
+
         {/* Happy Hour schedule strip */}
         <div className="flex justify-center">
           <a

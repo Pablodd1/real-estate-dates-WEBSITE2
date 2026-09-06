@@ -160,6 +160,23 @@ export default function PricingSection() {
           ))}
         </div>
 
+        {/* Add-ons */}
+        <div className="max-w-[900px] mx-auto mt-10 sm:mt-12">
+          <p className="text-center text-[10px] uppercase tracking-[0.25em] text-gold font-semibold mb-5">
+            {t('pricing.addOnsTitle')}
+          </p>
+          <div className="flex flex-wrap justify-center gap-3">
+            {(t('pricing.addOns', { returnObjects: true }) as string[]).map((addon, i) => (
+              <span
+                key={i}
+                className="px-4 py-2 rounded-full border border-gold/20 bg-gold/[0.05] text-white/80 text-xs sm:text-sm"
+              >
+                {addon}
+              </span>
+            ))}
+          </div>
+        </div>
+
         {/* Bottom note */}
         <p className="text-center text-xs text-white/70 mt-10 sm:mt-12">
           {t('pricing.footerNote')}

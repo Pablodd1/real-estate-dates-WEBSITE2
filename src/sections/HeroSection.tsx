@@ -80,6 +80,11 @@ export default function HeroSection() {
             </span>
           ))}
         </div>
+
+        {/* Happy Hour teaser */}
+        <p className="mt-4 px-6 text-[11px] sm:text-xs italic font-script text-gold/80">
+          {t('hero.teaser')}
+        </p>
         </div>
 
         {/* Scroll indicator */}

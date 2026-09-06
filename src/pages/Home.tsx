@@ -4,6 +4,7 @@ import HowItWorksSection from '@/sections/HowItWorksSection';
 import FeaturesSection from '@/sections/FeaturesSection';
 import MatchingSection from '@/sections/MatchingSection';
 import StickersSection from '@/sections/StickersSection';
+import VideoMinutesSection from '@/sections/VideoMinutesSection';
 import DatesSection from '@/sections/DatesSection';
 import EventsSection from '@/sections/EventsSection';
 import PricingSection from '@/sections/PricingSection';
@@ -21,6 +22,7 @@ export default function Home() {
       <FeaturesSection />
       <MatchingSection />
       <StickersSection />
+      <VideoMinutesSection />
       <DatesSection />
       <EventsSection />
       <SocialSection />

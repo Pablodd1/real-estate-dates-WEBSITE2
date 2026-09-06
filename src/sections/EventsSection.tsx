@@ -14,16 +14,20 @@ import {
   LockOpen,
   ShieldCheck,
   ArrowRight,
+  Ticket,
+  ClipboardList,
+  RefreshCw,
+  BatteryCharging,
 } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Happy Hour runs Sun(0) · Mon(1) · Wed(3) · Fri(5) — lobby 4:45 PM, event 5:00–5:30 PM, all in America/New_York so DST is handled by the timezone itself.
+// Happy Hour runs Sun(0) · Mon(1) · Wed(3) · Fri(5) — countdown opens 6:00 PM, event 7:00–7:30 PM, all in America/New_York so DST is handled by the timezone itself.
 const EVENT_DAYS = [0, 1, 3, 5];
-const LOBBY_HOUR = 16;
-const LOBBY_MINUTE = 45;
-const END_HOUR = 17;
+const COUNTDOWN_HOUR = 18;
+const COUNTDOWN_MINUTE = 0;
+const END_HOUR = 19;
 const END_MINUTE = 30;
 
 function nowInMiami(): Date {
@@ -38,7 +42,7 @@ function getNextHappyHour(
   const minutes = now.getHours() * 60 + now.getMinutes();
 
   if (EVENT_DAYS.includes(day)) {
-    if (minutes < LOBBY_HOUR * 60 + LOBBY_MINUTE) {
+    if (minutes < COUNTDOWN_HOUR * 60 + COUNTDOWN_MINUTE) {
       return t('events.happyHour.next.today');
     }
     if (minutes < END_HOUR * 60 + END_MINUTE) {
@@ -83,18 +87,18 @@ export default function EventsSection() {
 
   const specs = [
     { icon: <Calendar className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.schedule.label'), value: t('events.happyHour.specs.schedule.value') },
-    { icon: <DoorOpen className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.lobby.label'), value: t('events.happyHour.specs.lobby.value') },
-    { icon: <Timer className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.event.label'), value: t('events.happyHour.specs.event.value') },
-    { icon: <ShieldCheck className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.consent.label'), value: t('events.happyHour.specs.consent.value') },
-    { icon: <Users className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.noRepeats.label'), value: t('events.happyHour.specs.noRepeats.value') },
+    { icon: <DoorOpen className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.countdown.label'), value: t('events.happyHour.specs.countdown.value') },
+    { icon: <Timer className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.rounds.label'), value: t('events.happyHour.specs.rounds.value') },
+    { icon: <Ticket className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.entry.label'), value: t('events.happyHour.specs.entry.value') },
+    { icon: <ClipboardList className="w-3.5 h-3.5" />, label: t('events.happyHour.specs.scorecard.label'), value: t('events.happyHour.specs.scorecard.value') },
   ];
 
   const steps = [
-    { icon: <Calendar className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step1.title'), desc: t('events.howItWorks.steps.step1.desc') },
-    { icon: <DoorOpen className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step2.title'), desc: t('events.howItWorks.steps.step2.desc') },
-    { icon: <Timer className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step3.title'), desc: t('events.howItWorks.steps.step3.desc') },
-    { icon: <KeyRound className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step4.title'), desc: t('events.howItWorks.steps.step4.desc') },
-    { icon: <LockOpen className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step5.title'), desc: t('events.howItWorks.steps.step5.desc') },
+    { icon: <DoorOpen className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step1.title'), desc: t('events.howItWorks.steps.step1.desc') },
+    { icon: <Timer className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step2.title'), desc: t('events.howItWorks.steps.step2.desc') },
+    { icon: <ClipboardList className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step3.title'), desc: t('events.howItWorks.steps.step3.desc') },
+    { icon: <LockOpen className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step4.title'), desc: t('events.howItWorks.steps.step4.desc') },
+    { icon: <RefreshCw className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step5.title'), desc: t('events.howItWorks.steps.step5.desc') },
     { icon: <ShieldCheck className="w-5 h-5" strokeWidth={1.5} />, title: t('events.howItWorks.steps.step6.title'), desc: t('events.howItWorks.steps.step6.desc') },
   ];
 
@@ -212,8 +216,9 @@ export default function EventsSection() {
                   {t('events.happyHour.cta')}
                   <ArrowRight className="w-4 h-4" />
                 </a>
-                <span className="text-[11px] text-white/55 leading-snug">
-                  {t('events.happyHour.footerLine')}
+                <span className="flex items-center gap-1.5 text-[11px] text-white/55 leading-snug">
+                  <BatteryCharging className="w-3.5 h-3.5 text-gold/60 shrink-0" />
+                  {t('events.happyHour.freeNote')}
                 </span>
               </div>
             </div>

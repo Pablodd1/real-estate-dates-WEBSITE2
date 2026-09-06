@@ -23,7 +23,8 @@
       "members": "Más de 50,000 solteros del sector",
       "verified": "Profesionales con ID verificado",
       "private": "Citas nunca grabadas"
-    }
+    },
+    "teaser": "Domingos, lunes, miércoles y viernes a las 7PM — el Ballroom abre. Cinco minutos, un profesional, cero swiping."
   },
   "howItWorks": {
     "journey": "El Cierre Perfecto",
@@ -43,7 +44,7 @@
     },
     "step4": {
       "title": "Entra al Periodo de Opción (Chat y Video)",
-      "desc": "Pasa sin problemas de un Match Mutuo a negociaciones activas. Comienza con chat de texto directo o usa Video Chat integrado para revisar la integridad estructural de su química. Además, únete a nuestro Speed Dating en línea para conocer prospectos cara a cara en rápidos recorridos virtuales de 3 minutos."
+      "desc": "Pasa sin problemas de un Match Mutuo a negociaciones activas. Comienza con chat de texto directo o usa Video Chat integrado para revisar la integridad estructural de su química. Además, únete a nuestro Speed Dating en línea para conocer prospectos cara a cara en rápidos recorridos virtuales de 5 minutos en el Ballroom, todos los domingos, lunes, miércoles y viernes a las 7 PM ET."
     },
     "step5": {
       "title": "Recorridos en Persona (Citas Reales)",
@@ -102,7 +103,7 @@
       },
       "item2": {
         "title": "Guía de Citas Inmobiliarias",
-        "desc": "Accede a nuestra guía exclusiva sobre cómo dominar tus video citas de 3 minutos, manejar el rechazo profesionalmente y más."
+        "desc": "Accede a nuestra guía exclusiva sobre cómo dominar tus video citas de 5 minutos en el Ballroom, manejar el rechazo profesionalmente y más."
       }
     },
     "compliance": {
@@ -219,15 +220,11 @@
         "name": "Gratis",
         "price": "$0",
         "period": "/mes",
-        "desc": "Navega por el registro exclusivo y haz match con profesionales verificados de la industria inmobiliaria sin costo.",
+        "desc": "Explora y desliza el mazo, conoce el mercado — sube de plan solo cuando estés listo.",
         "features": [
-          "Construye tu perfil profesional de élite y revisión de credenciales",
-          "Deslizamiento y descubrimiento ilimitado en tu mercado local activo",
-          "Sistema de Match Mutuo para desbloquear biografías completas de parejas",
-          "Estructura de perfil de solo lectura (protege tu privacidad y limita el ruido)",
-          "Complemento: Chat de Texto Directo ($1.99 por desbloqueo de match activo)",
-          "Complemento: Prueba de Química por Video Chat ($2.99 por desbloqueo de llamada)",
-          "Complemento: Acceso a Citas Rápidas Online ($4.99 por boleto de evento)"
+          "Explorar y deslizar el mazo",
+          "5 mensajes de chat por match",
+          "Compra stickers y complementos cuando quieras"
         ],
         "cta": "EXPLORAR GRATIS"
       },
@@ -235,14 +232,13 @@
         "name": "Pro",
         "price": "$29",
         "period": "/mes",
-        "desc": "Desbloquea comunicación fluida por texto, funciones de video integradas y obtén acceso prioritario a solteros locales.",
+        "desc": "Llaves ilimitadas, galerías completas y chat ilimitado — videollamadas con paquetes de minutos.",
         "features": [
-          "Todas las funciones básicas del nivel Gratis incluidas",
-          "Chat de Texto premium ilimitado con todos los matches mutuos",
-          "Video Citas ilimitadas y de alta eficiencia dentro de la aplicación",
-          "Acceso ilimitado a nuestros eventos semanales de Citas Rápidas Online",
-          "Ve al instante quién deslizó a la derecha en tu perfil",
-          "Colocación avanzada en el algoritmo de coincidencia prioritaria"
+          "Llaves ilimitadas",
+          "Galerías de fotos completas",
+          "Chat ilimitado",
+          "Videollamadas con paquetes de minutos",
+          "Stickers ($1 cada uno)"
         ],
         "cta": "EXPLORAR PRO"
       },
@@ -250,22 +246,26 @@
         "name": "Empire",
         "price": "$79",
         "period": "/mes",
-        "desc": "Diseñado para líderes de élite de la industria, inversores de alto patrimonio y conectores que buscan asociaciones del más alto calibre.",
+        "desc": "Todo lo de Premium, más 1,000 minutos de video mensuales y citas rápidas ilimitadas en el Ballroom.",
         "features": [
-          "Todas las funciones Pro y comunicación ilimitada incluidas",
-          "Grupo de coincidencia VIP de élite y selecciones curadas",
-          "Planificación de citas verificadas exclusivas 'Caminata y Charla por Propiedades'",
-          "Desbloqueo instantáneo de modo pareja con listas de propiedades compartidas",
-          "Coincidencia de Conserje Personal y recomendaciones de perfil manuales",
-          "Insignia verificada 'Empire' distintiva y de alto perfil",
-          "Acceso a una red exclusiva de intercambio de clientes potenciales",
-          "Línea de soporte prioritario 24/7 y protección de licencia"
+          "Todo lo de Premium",
+          "1,000 minutos de video mensuales",
+          "Citas rápidas ilimitadas en el Ballroom (Dom/Lun/Mié/Vie 7PM ET)",
+          "Posición prioritaria en el mazo",
+          "Insignia verificada"
         ],
         "cta": "EXPLORAR EMPIRE"
       }
     },
     "popularBadge": "Más Popular",
-    "footerNote": "Sin tarifas ocultas. Cancela en cualquier momento. Todas las suscripciones se renuevan automáticamente. Pueden aplicarse impuestos."
+    "footerNote": "Sin tarifas ocultas. Cancela en cualquier momento. Todas las suscripciones se renuevan automáticamente. Pueden aplicarse impuestos.",
+    "addOnsTitle": "Complementos",
+    "addOns": [
+      "100 Minutos de Video — $5.99 (única vez, se acumula)",
+      "Pase de Happy Hour — $4.99",
+      "5 Créditos de Stickers — $5 ($1 por envío)",
+      "3 Créditos de Mensajes — $2.99"
+    ]
   },
   "download": {
     "sectionTitle": "Explora la Web App",
@@ -383,68 +383,69 @@
   "events": {
     "sectionTitle": "Conexiones Reales, en Tiempo Real",
     "title": "Eventos y Happy Hours",
-    "subtitle": "Happy Hour es un evento real con horario fijo — cuatro noches por semana, en línea, con parejas automáticas. Además, reuniones presenciales curadas para cuando quieras conocer cara a cara.",
+    "subtitle": "Happy Hour es un evento real con horario fijo — el Ballroom, nuestra pista de citas rápidas, donde el interés se convierte en conversación real, de cinco minutos a la vez.",
     "happyHour": {
       "badge": "Activo Ahora",
-      "title": "Happy Hour",
-      "tagline": "Citas rápidas en línea con horario real — sin salas de prueba, sin adivinanzas",
-      "description": "Cuando el reloj marca las 5:00, los emparejamientos comienzan y la noche fluye — diez citas de video de 3 minutos y luego tus resultados. Nadie toca nada.",
+      "title": "Happy Hour — El Ballroom",
+      "tagline": "La sala de espera para todos los que quieren conocerse",
+      "description": "Cuando la cuenta regresiva llega a cero, los emparejamientos comienzan y la noche fluye — citas de video de 5 minutos, tu tarjeta de puntuación privada y la revelación a las 7:30. Nadie toca nada.",
       "specs": {
         "schedule": {
           "label": "Horario",
-          "value": "Lun · Mié · Vie · Dom — 5:00 PM hora de Miami, sin cambios por horario de verano"
+          "value": "Todos los domingos, lunes, miércoles y viernes — 7:00 PM ET"
         },
-        "lobby": {
-          "label": "Sala de espera",
-          "value": "Abre 4:45 PM — los asistentes entran y ven la lista de espera"
+        "countdown": {
+          "label": "Cuenta regresiva",
+          "value": "Abre a las 6:00 PM — llega temprano, instálate, mira quién más viene"
         },
-        "event": {
-          "label": "Evento",
-          "value": "5:00–5:30 PM — diez rondas de 3 minutos, parejas automáticas"
+        "rounds": {
+          "label": "Rondas",
+          "value": "Citas de video de 5 minutos, emparejadas al azar y con justicia — nunca la misma pareja dos veces, nunca alguien que marcaste “no es para mí”"
         },
-        "consent": {
-          "label": "Puerta de consentimiento",
-          "value": "Quienes entran por primera vez aceptan el Código de Conducta del Evento — privado, nunca grabado, conducta respetuosa"
+        "entry": {
+          "label": "Entrada",
+          "value": "Los miembros Elite siempre entran; otros la desbloquean con un pase de $4.99"
         },
-        "noRepeats": {
-          "label": "Sin repeticiones",
-          "value": "El motor nunca te empareja con la misma persona dos veces en una noche"
+        "scorecard": {
+          "label": "Tu tarjeta",
+          "value": "Marca ❤ Me gusta o ✖ No es para mí en cada cita, en privado — nadie ve tus marcas, solo los gustos mutuos se revelan"
         }
       },
       "cta": "Entrar al Ballroom",
-      "footerLine": "Lun · Mié · Vie · Dom — 5:00 PM ET · citas de 3 minutos · nunca grabadas.",
+      "footerLine": "Happy Hour: Dom · Lun · Mié · Vie · 7PM ET · citas de 5 minutos · revelación a las 7:30 · siempre gratis.",
+      "freeNote": "Siempre gratis en minutos: las citas rápidas del Ballroom nunca consumen tus minutos de video.",
       "next": {
-        "today": "Hoy — la sala abre 4:45 PM ET",
+        "today": "Hoy — la cuenta regresiva abre 6:00 PM ET",
         "liveNow": "En vivo — entra al Ballroom",
-        "upcoming": "Próximo: {{day}} — sala 4:45 PM ET"
+        "upcoming": "Próximo: {{day}} — cuenta regresiva 6:00 PM ET"
       }
     },
     "howItWorks": {
-      "title": "Cómo Funciona el Happy Hour",
+      "title": "Cómo Funciona la Noche",
       "steps": {
         "step1": {
-          "title": "Marca tu calendario",
-          "desc": "Los eventos son los lunes, miércoles, viernes y domingos a las 5:00 PM ET."
+          "title": "Entra al Ballroom",
+          "desc": "Únete a la lista de espera antes de las 7:00. Los miembros Elite siempre entran; otros la desbloquean con un pase de $4.99."
         },
         "step2": {
-          "title": "Llega temprano",
-          "desc": "La sala de espera (Ballroom) abre a las 4:45 PM. Acepta el Código de Conducta y mira quién más asistirá."
+          "title": "Emparejamiento instantáneo",
+          "desc": "La plataforma te empareja en citas de video de 5 minutos, al azar y con justicia. Nunca la misma pareja dos veces en una noche — y nunca alguien que marcaste “no es para mí”."
         },
         "step3": {
-          "title": "Diez citas de tres minutos cada una",
-          "desc": "Te emparejamos automáticamente en rondas de video privadas. Nunca la misma pareja dos veces en una noche."
+          "title": "Marca tu tarjeta",
+          "desc": "Durante cada cita, marca en privado ❤ Me gusta o ✖ No es para mí. Tus marcas permanecen en secreto hasta el final."
         },
         "step4": {
-          "title": "Gira tu llave",
-          "desc": "Después de cada cita, envía privadamente una llave si quieres seguir hablando. Nunca lo sabrán, a menos que también te den llave."
+          "title": "La revelación a las 7:30",
+          "desc": "Cuando terminan las rondas, la plataforma suma todas las tarjetas. Los gustos mutuos se convierten en matches al instante — el chat se abre en el momento, listo para mensajes, stickers y videollamadas según tu plan."
         },
         "step5": {
-          "title": "Mira tus resultados",
-          "desc": "A las 5:30, tus coincidencias mutuas se desbloquean al instante con chat y video ilimitado."
+          "title": "Entre rondas",
+          "desc": "Quédate en el Ballroom — tu próxima cita comienza automáticamente. Sin toques, sin buscar."
         },
         "step6": {
-          "title": "Sin presión",
-          "desc": "Sin coincidencia, sin rastro. Cámaras opcionales, citas nunca grabadas, reportar/bloquear a un toque de distancia."
+          "title": "Tu tarjeta es tuya",
+          "desc": "Nadie ve tus marcas — ni tus citas, ni otros miembros. Solo los gustos mutuos se revelan, y solo a las dos personas involucradas."
         }
       }
     },
@@ -464,7 +465,7 @@
         "attendees": "Solo parejas"
       }
     },
-    "disclaimer": "Todos los eventos incluyen verificación de identidad y protocolos de seguridad. Las citas de Happy Hour nunca se graban.",
+    "disclaimer": "Todos los eventos incluyen verificación de identidad y protocolos de seguridad. Las citas del Ballroom nunca se graban.",
     "viewPolicies": "Ver Políticas de Eventos"
   },
   "testimonials": {
@@ -750,5 +751,72 @@
     },
     "secure": "Seguro por diseño: las compras de stickers se procesan con Stripe y cada envío se verifica en el servidor.",
     "priceLine": "$1 por enviar · Recibir es gratis · Paquete de 5 por $5"
+  },
+  "videoMinutes": {
+    "sectionTitle": "Videollamadas",
+    "title": "Minutos Simples, Sin Sorpresas",
+    "subtitle": "Cada match puede convertirse en una llamada cara a cara, directamente desde tu chat. Los minutos se cuentan con transparencia — siempre sabes dónde estás.",
+    "plans": [
+      {
+        "name": "Miembros Elite",
+        "value": "1,000 minutos cada mes",
+        "note": "Más de 16 horas de video. Se renuevan el día 1."
+      },
+      {
+        "name": "Complemento de Video (cualquier plan)",
+        "value": "100 minutos por $5.99",
+        "note": "Compra única, nunca expira, se acumula. Compra dos paquetes, tienes 200."
+      }
+    ],
+    "rulesTitle": "Las reglas, en palabras simples",
+    "rules": [
+      "Los minutos del complemento se usan primero — tu asignación mensual está protegida.",
+      "Tus minutos restantes se muestran dentro de cada llamada y en tu perfil.",
+      "Un aviso claro a los 5 minutos restantes; la llamada termina con elegancia al llegar a cero.",
+      "¿Sin minutos? Consigue otro paquete de 100 en segundos.",
+      "Las citas rápidas del Happy Hour nunca usan minutos. Nunca."
+    ],
+    "privacy": "Todas las llamadas son privadas, cifradas y requieren que ambos miembros tengan match. El permiso de cámara se pide con cortesía — nada comienza sin tu sí."
+  },
+  "footer": {
+    "legend": [
+      {
+        "term": "Llave 🔑",
+        "def": "un me gusta, enviado desde el mazo"
+      },
+      {
+        "term": "Período de Inspección",
+        "def": "la primera videollamada después de un match"
+      },
+      {
+        "term": "Ballroom",
+        "def": "la pista de citas rápidas del Happy Hour"
+      },
+      {
+        "term": "Ronda",
+        "def": "una cita de 5 minutos en el ballroom"
+      },
+      {
+        "term": "Marca",
+        "def": "tu ❤/✖ privado en una cita del ballroom"
+      },
+      {
+        "term": "Tarjeta",
+        "def": "tus marcas privadas, sumadas a las 7:30"
+      },
+      {
+        "term": "Revelación",
+        "def": "cuando los gustos mutuos se convierten en matches"
+      },
+      {
+        "term": "Índice %",
+        "def": "puntuación de compatibilidad con IA"
+      },
+      {
+        "term": "Minutos",
+        "def": "tu saldo de video (1,000/mes Elite · 100/paquete · ballroom siempre gratis)"
+      }
+    ],
+    "legendTitle": "La Leyenda — Real Estate Dates, Decodificado"
   }
 }
