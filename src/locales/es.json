@@ -220,10 +220,13 @@
         "name": "Gratis",
         "price": "$0",
         "period": "/mes",
-        "desc": "Explora y desliza el mazo, conoce el mercado — sube de plan solo cuando estés listo.",
+        "desc": "Explora y desliza el mazo, conoce el mercado — sube de plan solo cuando estés listo. Complementos disponibles a la carta.",
         "features": [
           "Explorar y deslizar el mazo",
           "5 mensajes de chat por match",
+          "Creación de perfil y verificación de identidad",
+          "Vistas de perfil borrosas (protección de privacidad)",
+          "Llaves diarias desde el mazo (50 por día)",
           "Compra stickers y complementos cuando quieras"
         ],
         "cta": "EXPLORAR GRATIS"
@@ -232,11 +235,14 @@
         "name": "Pro",
         "price": "$29",
         "period": "/mes",
-        "desc": "Llaves ilimitadas, galerías completas y chat ilimitado — videollamadas con paquetes de minutos.",
+        "desc": "Llaves ilimitadas, galerías completas, chat ilimitado y puntuaciones de compatibilidad con IA — videollamadas con paquetes de minutos. La elección más popular.",
         "features": [
           "Llaves ilimitadas",
           "Galerías de fotos completas",
           "Chat ilimitado",
+          "Ver quién te dio me gusta",
+          "1 impulso de perfil al mes",
+          "Puntuaciones básicas de compatibilidad con IA (Índice %)",
           "Videollamadas con paquetes de minutos",
           "Stickers ($1 cada uno)"
         ],
@@ -246,13 +252,19 @@
         "name": "Empire",
         "price": "$79",
         "period": "/mes",
-        "desc": "Todo lo de Premium, más 1,000 minutos de video mensuales y citas rápidas ilimitadas en el Ballroom.",
+        "desc": "La experiencia completa: todo lo de Premium, más 1,000 minutos de video mensuales, citas rápidas ilimitadas en el Ballroom, IA completa, insignia verificada y modo incógnito.",
         "features": [
           "Todo lo de Premium",
           "1,000 minutos de video mensuales",
           "Citas rápidas ilimitadas en el Ballroom (Dom/Lun/Mié/Vie 7PM ET)",
-          "Posición prioritaria en el mazo",
-          "Insignia verificada"
+          "Visibilidad de perfil ×5",
+          "3 impulsos de perfil al mes",
+          "Puntuaciones completas del Índice IA + resúmenes personalizados",
+          "Insignia Elite verificada",
+          "Modo de navegación incógnito",
+          "Pasaporte multi-ciudad",
+          "Ver quién vio tu perfil",
+          "Posición prioritaria en el mazo"
         ],
         "cta": "EXPLORAR EMPIRE"
       }

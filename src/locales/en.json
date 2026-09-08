@@ -220,10 +220,13 @@
         "name": "Free",
         "price": "Free",
         "period": "",
-        "desc": "Browse and swipe the deck, meet the market — upgrade only when you're ready.",
+        "desc": "Browse and swipe the deck, meet the market — upgrade only when you're ready. Add-ons available à la carte.",
         "features": [
           "Browse and swipe the deck",
           "5 chat messages per match",
+          "Professional profile creation & ID verification",
+          "Blurred profile views (privacy protection)",
+          "Daily key-turns from the deck (50 per day)",
           "Buy stickers & add-ons anytime"
         ],
         "cta": "GET STARTED FREE"
@@ -232,11 +235,14 @@
         "name": "Premium",
         "price": "$9.99",
         "period": "/month",
-        "desc": "Unlimited keys, full galleries, and unlimited chat — video calls with minute packs.",
+        "desc": "Unlimited keys, full galleries, unlimited chat, and AI compatibility scores — video calls with minute packs. The most popular choice for active professionals.",
         "features": [
           "Unlimited keys",
           "Full photo galleries",
           "Unlimited chat",
+          "See who liked you",
+          "1 profile boost per month",
+          "Basic AI compatibility scores (Index %)",
           "Video calls with minute packs",
           "Stickers ($1 each)"
         ],
@@ -246,13 +252,19 @@
         "name": "Elite",
         "price": "$14.99",
         "period": "/month",
-        "desc": "Everything in Premium, plus 1,000 video minutes monthly and unlimited Ballroom speed dating.",
+        "desc": "The complete experience: everything in Premium, plus 1,000 video minutes monthly, unlimited Ballroom speed dating, full AI insights, verified badge, and incognito mode.",
         "features": [
           "Everything in Premium",
           "1,000 video minutes monthly",
           "Unlimited Ballroom speed dating (Sun/Mon/Wed/Fri 7PM ET)",
-          "Priority placement in the deck",
-          "Verified badge"
+          "Top ×5 profile visibility",
+          "3 profile boosts per month",
+          "Full AI Index scores + personalized summaries",
+          "Verified Elite badge",
+          "Incognito browsing mode",
+          "Multi-city Passport",
+          "See who viewed your profile",
+          "Priority placement in the deck"
         ],
         "cta": "GO ELITE"
       }
