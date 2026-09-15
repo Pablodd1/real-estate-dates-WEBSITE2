@@ -24,7 +24,7 @@
       "verified": "ID-verified professionals",
       "private": "Dates never recorded"
     },
-    "teaser": "Sundays, Mondays, Wednesdays & Fridays at 7PM — the Ballroom opens. Five minutes, one professional, zero swiping."
+    "teaser": "Sundays, Mondays, Wednesdays & Fridays at 1:30 PM ET — the Ballroom opens. Four minutes, one professional, zero swiping."
   },
   "howItWorks": {
     "journey": "The Escrow of Love",
@@ -44,7 +44,7 @@
     },
     "step4": {
       "title": "Enter the Option Period (Chat & Video)",
-      "desc": "Move seamlessly from an OFFER SENT into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 5-minute virtual showings in the Ballroom, every Sunday, Monday, Wednesday and Friday at 7 PM ET."
+      "desc": "Move seamlessly from an OFFER SENT into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 4-minute virtual rounds in the Ballroom, every Sunday, Monday, Wednesday and Friday at 1:30 PM ET."
     },
     "step5": {
       "title": "In-Person Walkthroughs (Real Dates)",
@@ -103,7 +103,7 @@
       },
       "item2": {
         "title": "Real Estate Dating Guide",
-        "desc": "Access our exclusive guide on how to ace your 5-minute Ballroom video dates, handle rejection professionally, and transition to in-person meetups."
+        "desc": "Access our exclusive guide on how to ace your 4-minute Ballroom video dates, handle rejection professionally, and transition to in-person meetups."
       }
     },
     "compliance": {
@@ -147,7 +147,7 @@
       },
       "policy2": {
         "title": "Identity Verification & Anti-Catfishing",
-        "content": "Dumping catfishing is built into our core protocols. Every user who registers is verified using government-issued identification (such as a Driver's License or Passport) combined with real-time biometric facial-verification scanning. This process ensures that the person you see on screen is precisely the person you are communicating with. Real estate professionals can also connect their NMLS, REALTOR® ID, or corporate broker credentials to receive a verified elite badge, confirming their professional status to the entire community."
+        "content": "We keep the community honest in practical ways: profiles are reviewed before professional details are marked as reviewed, members control what they share, and blocking and reporting are built into every conversation. Real estate professionals can list their role, market and focus so the community knows exactly who they are dealing with — and our AI Index shows, on every profile, how well two people actually align."
       },
       "policy3": {
         "title": "Explicit Consent & Communication Control",
@@ -223,10 +223,11 @@
         "desc": "Browse and swipe the deck, meet the market — upgrade only when you're ready. Add-ons available à la carte.",
         "features": [
           "Browse and swipe the deck",
-          "5 chat messages per match",
-          "Professional profile creation & ID verification",
+          "5 chat message credits to start",
+          "Professional profile creation & review",
           "Blurred profile views (privacy protection)",
           "Daily key-turns from the deck (50 per day)",
+          "AI Index % on every profile",
           "Buy stickers & add-ons anytime"
         ],
         "cta": "GET STARTED FREE"
@@ -235,16 +236,15 @@
         "name": "Premium",
         "price": "$9.99",
         "period": "/month",
-        "desc": "Unlimited keys, full galleries, unlimited chat, and AI compatibility scores — video calls with minute packs. The most popular choice for active professionals.",
+        "desc": "Unlimited keys, full galleries, unlimited chat, and Video Dates with token packs. The most popular choice for active professionals.",
         "features": [
           "Unlimited keys",
           "Full photo galleries",
           "Unlimited chat",
-          "See who liked you",
-          "1 profile boost per month",
-          "Basic AI compatibility scores (Index %)",
-          "Video calls with minute packs",
-          "Stickers ($1 each)"
+          "AI Index % match scores",
+          "Video Dates — 3 five-minute dates for $5.99",
+          "Happy Hour Ballroom pass ($4.99)",
+          "Stickers ($5 per 5-pack)"
         ],
         "cta": "CHOOSE PREMIUM"
       },
@@ -252,19 +252,13 @@
         "name": "Elite",
         "price": "$14.99",
         "period": "/month",
-        "desc": "The complete experience: everything in Premium, plus 1,000 video minutes monthly, unlimited Ballroom speed dating, full AI insights, verified badge, and incognito mode.",
+        "desc": "The complete experience: everything in Premium, plus unlimited Video Dates, unlimited stickers, and Ballroom admission always included.",
         "features": [
           "Everything in Premium",
-          "1,000 video minutes monthly",
-          "Unlimited Ballroom speed dating (Sun/Mon/Wed/Fri 7PM ET)",
-          "Top ×5 profile visibility",
-          "3 profile boosts per month",
-          "Full AI Index scores + personalized summaries",
-          "Verified Elite badge",
-          "Incognito browsing mode",
-          "Multi-city Passport",
-          "See who viewed your profile",
-          "Priority placement in the deck"
+          "Unlimited Video Dates",
+          "Unlimited stickers",
+          "Ballroom admission always included (Sun/Mon/Wed/Fri 1:30 PM ET)",
+          "AI Index % match scores"
         ],
         "cta": "GO ELITE"
       }
@@ -273,7 +267,7 @@
     "footerNote": "No hidden fees. Cancel anytime. All subscriptions auto-renew. Taxes may apply.",
     "addOnsTitle": "Add-ons",
     "addOns": [
-      "100 Video Minutes — $5.99 (one-time, stacks)",
+      "3 Video Dates (5 min each) — $5.99 (Premium, one-time)",
       "Happy Hour Pass — $4.99",
       "5 Sticker Credits — $5 ($1 per send)",
       "3 Message Credits — $2.99"
@@ -330,7 +324,7 @@
       },
       "feature2": {
         "title": "Video Dates Before You Meet",
-        "description": "Nervous about that first in-person date? Start with a 5-minute video call. See their smile, hear their laugh, feel the chemistry — all from the safety of your couch.",
+        "description": "Nervous about that first in-person date? Start with a video call. See their smile, hear their laugh, feel the chemistry — all from the safety of your couch.",
         "tags": [
           "5-Min Video",
           "No Phone Exchange",
@@ -394,41 +388,41 @@
   "events": {
     "sectionTitle": "Real Connections, Real Time",
     "title": "Events & Happy Hours",
-    "subtitle": "Happy Hour is a real scheduled event — The Ballroom, our speed-dating floor, where interest turns into real conversation, five minutes at a time.",
+    "subtitle": "Happy Hour is a real scheduled event — The Ballroom, our speed-dating floor, where interest turns into real conversation, four minutes at a time.",
     "happyHour": {
       "badge": "Now Live",
       "title": "Happy Hour — The Ballroom",
       "tagline": "The waiting room for everyone ready to meet",
-      "description": "When the countdown hits zero, the pairings start and the night flows — 5-minute video dates, your private scorecard, and the reveal at 7:30. Nobody taps anything.",
+      "description": "When the countdown hits zero, the pairings start — 4-minute video dates, your private Keys, and results right after the final round. Nobody taps anything.",
       "specs": {
         "schedule": {
           "label": "Schedule",
-          "value": "Every Sunday, Monday, Wednesday & Friday — 7:00 PM ET"
+          "value": "Every Sunday, Monday, Wednesday & Friday — 1:30 PM ET"
         },
         "countdown": {
           "label": "Countdown",
-          "value": "Opens at 6:00 PM — arrive early, settle in, see who else is coming"
+          "value": "Lobby opens at 1:15 PM — arrive early, settle in, see who else is coming"
         },
         "rounds": {
           "label": "Rounds",
-          "value": "5-minute video dates, paired randomly and fairly — never the same partner twice, never someone you marked “not for me”"
+          "value": "Seven 4-minute video dates, paired randomly and fairly — never the same partner twice, never someone you passed on"
         },
         "entry": {
           "label": "Entry",
           "value": "Elite members always in; others unlock with a $4.99 pass"
         },
         "scorecard": {
-          "label": "Your scorecard",
-          "value": "Privately tap ❤ Like or ✖ Not for me on every date — no one sees your marks, only mutual likes are ever revealed"
+          "label": "Your Keys",
+          "value": "Privately send a Key during any date — no one sees your Keys, only mutual Keys are ever revealed"
         }
       },
       "cta": "Enter the Ballroom",
-      "footerLine": "Happy Hour: Sun · Mon · Wed · Fri · 7PM ET · 5-minute dates · scorecard reveal at 7:30 · always free.",
+      "footerLine": "Happy Hour: Sun · Mon · Wed · Fri · 1:30 PM ET · 4-minute dates · mutual Keys connect instantly · always free.",
       "freeNote": "Always free minutes-wise: Ballroom speed dating never consumes your video minutes.",
       "next": {
-        "today": "Today — countdown opens 6:00 PM ET",
+        "today": "Today — lobby opens 1:15 PM ET",
         "liveNow": "Live now — join the Ballroom",
-        "upcoming": "Next: {{day}} — countdown 6:00 PM ET"
+        "upcoming": "Next: {{day}} — lobby 1:15 PM ET"
       }
     },
     "howItWorks": {
@@ -436,27 +430,27 @@
       "steps": {
         "step1": {
           "title": "Enter the Ballroom",
-          "desc": "Join the waitlist before 7:00. Elite members are always in; others unlock with a $4.99 pass."
+          "desc": "Join the lobby before 1:30. Elite members are always in; others unlock with a $4.99 pass."
         },
         "step2": {
           "title": "Get paired instantly",
-          "desc": "The platform matches you into 5-minute video dates, randomly and fairly. Never the same partner twice in one night — and never someone you marked “not for me.”"
+          "desc": "The platform matches you into 4-minute video dates, randomly and fairly. Never the same partner twice in one night."
         },
         "step3": {
-          "title": "Mark your scorecard",
-          "desc": "During every date, privately tap ❤ Like or ✖ Not for me. Your marks stay secret until the end."
+          "title": "Send your Keys",
+          "desc": "During every date, privately send a Key to the people you click with. Your Keys stay secret."
         },
         "step4": {
-          "title": "The reveal at 7:30",
-          "desc": "When the rounds finish, the platform tallies every scorecard. Mutual Likes become matches instantly — chat opens on the spot, ready for messaging, stickers, and video calls under your plan."
+          "title": "Mutual Keys connect instantly",
+          "desc": "When both people send Keys, the match happens on the spot — chat opens immediately, and final results appear right after the last round, ready for messaging, stickers, and video calls under your plan."
         },
         "step5": {
           "title": "Between rounds",
           "desc": "Stay in the Ballroom — your next date starts automatically. No tapping, no hunting."
         },
         "step6": {
-          "title": "Your scorecard is yours",
-          "desc": "No one sees your marks — not your dates, not other members. Only mutual likes are ever revealed, only to the two people involved."
+          "title": "Your Keys are yours",
+          "desc": "No one sees your Keys — not your dates, not other members. Only mutual Keys are ever revealed, only to the two people involved."
         }
       }
     },
@@ -476,7 +470,7 @@
         "attendees": "Couples only"
       }
     },
-    "disclaimer": "All events include ID verification and safety protocols. Ballroom dates are never recorded.",
+    "disclaimer": "All events include professional review and safety protocols. Ballroom dates are never recorded.",
     "viewPolicies": "View Event Policies"
   },
   "testimonials": {
@@ -683,7 +677,7 @@
       "p4": {
         "category": "Inside the App",
         "title": "Real Estate Dates, Explained: The Complete Walkthrough",
-        "excerpt": "From ID verification to the closing table — every stage of the app in order: keys, mutual connects, Happy Hour, real dates, and going exclusive."
+        "excerpt": "From profile review to the closing table — every stage of the app in order: keys, mutual connects, Happy Hour, real dates, and going exclusive."
       },
       "p5": {
         "category": "Inside the App",
@@ -765,27 +759,27 @@
   },
   "videoMinutes": {
     "sectionTitle": "Video Calls",
-    "title": "Simple Minutes, No Surprises",
-    "subtitle": "Every match can become a face-to-face call, straight from your chat. Minutes are counted transparently — you always know where you stand.",
+    "title": "Video Dates, No Surprises",
+    "subtitle": "Every Connection can become a face-to-face call, straight from your chat. Premium uses Video Date tokens; Elite calls as much as it likes.",
     "plans": [
       {
         "name": "Elite members",
-        "value": "1,000 minutes every month",
-        "note": "Over 16 hours of video. Resets on the 1st."
+        "value": "Unlimited Video Dates",
+        "note": "Every call, every Connection, no tokens, no counting."
       },
       {
-        "name": "Video Add-on (any plan)",
-        "value": "100 minutes for $5.99",
-        "note": "One-time purchase, never expires, stacks. Buy two packs, have 200."
+        "name": "Video Add-on (Premium)",
+        "value": "3 Video Dates for $5.99",
+        "note": "Each date lasts up to 5 minutes. One-time purchase, never expires, stacks."
       }
     ],
     "rulesTitle": "The rules, in plain English",
     "rules": [
-      "Add-on minutes are used first — your monthly allowance is protected.",
-      "Your remaining minutes show inside every call and on your profile.",
-      "A clear warning at 5 minutes left; the call ends gracefully at zero.",
-      "Out of minutes? Grab another 100-minute pack in seconds.",
-      "Happy Hour speed dating never uses minutes. Ever."
+      "Premium spends one token per attended call; if the other member never shows, the token comes back.",
+      "Joining an invitation is always free — only the starter spends a token.",
+      "Existing purchased minutes keep working for members who bought them; new purchases come as 5-minute dates.",
+      "Out of dates? Grab another pack in seconds.",
+      "Happy Hour speed dating never uses minutes or tokens. Ever."
     ],
     "privacy": "All calls are private, encrypted, and require both members to be matched. Camera permission is asked politely — nothing starts without your yes."
   },
@@ -796,36 +790,32 @@
         "def": "a like, sent from the deck"
       },
       {
-        "term": "Inspection Period",
-        "def": "the first video call after a match"
-      },
-      {
         "term": "Ballroom",
         "def": "the Happy Hour speed-dating floor"
       },
       {
         "term": "Round",
-        "def": "one 5-minute ballroom date"
+        "def": "one 4-minute Ballroom date"
       },
       {
-        "term": "Mark",
-        "def": "your private ❤/✖ on a ballroom date"
+        "term": "Key Back",
+        "def": "returning a Key during a Ballroom round"
       },
       {
-        "term": "Scorecard",
-        "def": "your private marks, tallied at 7:30"
+        "term": "Connection",
+        "def": "what mutual Keys create, with chat, stickers and video"
       },
       {
         "term": "Reveal",
-        "def": "when mutual likes become matches"
+        "def": "final Ballroom results, right after the last round"
       },
       {
         "term": "Index %",
-        "def": "AI compatibility score"
+        "def": "AI compatibility score, shown on every profile for every tier"
       },
       {
-        "term": "Minutes",
-        "def": "your video balance (1,000/mo Elite · 100/pack add-on · ballroom always free)"
+        "term": "Video Date",
+        "def": "a private call in a Connection (unlimited Elite · 3×5-minute pack for Premium · Ballroom always free)"
       }
     ],
     "legendTitle": "The Legend — Real Estate Dates, Decoded"

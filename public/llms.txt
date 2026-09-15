@@ -7,25 +7,25 @@ Real Estate Dates is an exclusive dating and networking application designed spe
 ## Key Features
 - Mutual Matching: Users must mutually like each other to unlock full biographies.
 - Anti-Catfishing: Strict ID verification protocols to ensure genuine profiles.
-- Tiered Access: Free ($0 — browse/swipe the deck, 5 chat messages per match), Premium ($9.99/mo — unlimited keys, full galleries, unlimited chat), Elite ($14.99/mo — 1,000 video minutes monthly, unlimited Ballroom speed dating, priority placement, verified badge).
+- Tiered Access: Free ($0 — browse/swipe the deck, 5 chat message credits to start, AI Index % on every profile), Premium ($9.99/mo — unlimited keys, full galleries, unlimited chat, AI Index %, Video Date packs), Elite ($14.99/mo — everything in Premium plus unlimited Video Dates, unlimited stickers, Ballroom admission always included).
 - Add-Ons: Text chat, video chat, and online speed dating available as add-ons.
-- Add-ons: 100 Video Minutes ($5.99, one-time, stacks), Happy Hour Pass ($4.99), 5 Sticker Credits ($5), 3 Message Credits ($2.99).
+- Add-ons: 3 Video Dates of 5 minutes ($5.99, Premium, one-time), Happy Hour Pass ($4.99), 5 Sticker Credits ($5), 3 Message Credits ($2.99).
 - Premium Stickers: animated gold-medallion stickers (Flowers, Kiss, Hug, Smile, WOW, Heart, Cheers, Teddy, Fire, Sparkles, Golden Key, Dream Home, Deal, Crown) sendable in any match's chat for $1 each — free to receive, packs of 5 for $5, processed by Stripe and verified server-side.
 - Exclusive Events: Online Happy Hour Speed Dating (see schedule below) and in-person walk-and-talk property dates.
 
 ## Happy Hour — The Ballroom (Live)
 Happy Hour is a real scheduled event in the Ballroom, the speed-dating floor:
-- Schedule: every Sunday, Monday, Wednesday and Friday — 7:00 PM ET (Miami time), DST-safe year-round.
+- Schedule: every Sunday, Monday, Wednesday and Friday — 1:30 PM ET (Miami time), DST-safe year-round.
 - Countdown: opens at 6:00 PM — arrive early, settle in, see who else is coming.
-- Rounds: 5-minute video dates, paired randomly and fairly. Never the same partner twice in one night, and never someone you marked "not for me."
+- Rounds: seven 4-minute video dates, paired randomly and fairly. Never the same partner twice in one night.
 - Entry: Elite members always in; others unlock with a $4.99 pass.
 - Scorecard: during every date, privately tap Like or Not-for-me. No one sees your marks — not your dates, not other members.
-- Reveal at 7:30: the platform tallies every scorecard. Mutual Likes become matches instantly — chat opens on the spot with messaging, stickers, and video calls under your plan.
+- Results: mutual Keys connect instantly during the event — chat opens on the spot with messaging, stickers, and video calls under your plan; final results appear right after the last round.
 - Between rounds, the next date starts automatically. No tapping, no hunting.
 - Always free minutes-wise: Ballroom speed dating never consumes video minutes.
 
 ## Video Calls & Minutes
-- Elite members: 1,000 minutes every month (over 16 hours), resets on the 1st.
+- Elite members: unlimited Video Dates.
 - Video Add-on (any plan): 100 minutes for $5.99 — one-time, never expires, stacks.
 - Add-on minutes are used first; remaining minutes show inside every call; warning at 5 minutes left.
 - All calls are private, encrypted, and require both members to be matched.
