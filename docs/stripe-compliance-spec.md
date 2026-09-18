@@ -100,3 +100,32 @@ Moderation rules:
 - Counsel review of final Terms (state auto-renewal, dating-service, and consumer laws exceed Stripe's baseline).
 - Confirm the legal entity name + support contact shown to users.
 - Keep this spec and the Stripe folder in sync on every pricing change.
+
+---
+
+## Product facts — single source of truth (read before proposing app changes)
+
+The web app at realestatedates.realty is the source of truth for what the
+product IS. Verified live on 2026-09-17:
+
+- **Ballroom:** Sun/Mon/Wed/Fri at **1:30 PM ET** (lobby 1:15 PM, event ends
+  1:58 PM), **seven 4-minute rounds**, members send **Keys** (not scorecards),
+  mutual Keys connect instantly, final results after the last round, random
+  generic pairing with blocks and no-repeat enforcement. The 1:30 PM time is a
+  deliberate owner decision while live testing continues.
+- **Video:** Elite has **unlimited Video Dates** (no 1,000-minute allowance);
+  the add-on is **3 five-minute dates for $5.99** (Premium only); no-show
+  tokens return; joining an invitation is free; legacy minute balances are
+  honored. Ballroom never consumes minutes or tokens.
+- **Tiers:** Free = 50 keys/day, **5 message credits total per account**
+  (not per match), blurred photos, AI Index %. Premium = $9.99/mo. Elite =
+  $14.99/mo. There are **no boosts, no incognito, no passport, no profile
+  views, no verified-badge product, no per-tier AI gating** — these were
+  removed by owner decision; do not re-add them to copy or specs.
+- **Consent/compliance items in sections 2-4 above are implemented in the app**
+  as of 2026-09-17 (signup consent checkboxes + consent_events ledger with
+  ip/user-agent, recurring-billing consent at activation, checkout
+  disclosures, structured report reasons incl. suspected minors). Do not
+  re-spec them for the app.
+
+Anything the website says that contradicts this list is a website bug.
