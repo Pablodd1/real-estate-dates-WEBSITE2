@@ -177,8 +177,13 @@ export default function PricingSection() {
           </div>
         </div>
 
+        {/* Payments clarification (Stripe compliance) */}
+        <p className="text-center text-xs text-white/55 max-w-[640px] mx-auto mt-8 leading-relaxed">
+          {t('pricing.paymentsNote')}
+        </p>
+
         {/* Bottom note */}
-        <p className="text-center text-xs text-white/70 mt-10 sm:mt-12">
+        <p className="text-center text-xs text-white/70 mt-4 sm:mt-5">
           {t('pricing.footerNote')}
         </p>
       </div>

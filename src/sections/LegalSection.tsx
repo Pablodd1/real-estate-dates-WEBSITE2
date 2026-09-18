@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { Shield, Scale, Eye, UserCheck, Lock, FileText, AlertTriangle, Ban, CheckCircle } from 'lucide-react';
+import { Shield, Scale, Eye, UserCheck, Lock, FileText, AlertTriangle, Ban, CheckCircle, CreditCard } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
@@ -54,6 +54,16 @@ export default function LegalSection() {
       icon: <CheckCircle className="w-5 h-5" strokeWidth={1.5} />,
       title: t('legal.policies.policy8.title'),
       content: t('legal.policies.policy8.content'),
+    },
+    {
+      icon: <Ban className="w-5 h-5" strokeWidth={1.5} />,
+      title: t('legal.policies.policy9.title'),
+      content: t('legal.policies.policy9.content'),
+    },
+    {
+      icon: <CreditCard className="w-5 h-5" strokeWidth={1.5} />,
+      title: t('legal.policies.policy10.title'),
+      content: t('legal.policies.policy10.content'),
     },
   ];
 

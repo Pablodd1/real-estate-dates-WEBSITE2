@@ -4,6 +4,7 @@ export default function AgeGate({ onVerified }: { onVerified: () => void }) {
   const [month, setMonth] = useState('');
   const [day, setDay] = useState('');
   const [year, setYear] = useState('');
+  const [agreed, setAgreed] = useState(false);
   const [error, setError] = useState('');
 
   const handleVerify = () => {
@@ -67,8 +68,25 @@ export default function AgeGate({ onVerified }: { onVerified: () => void }) {
 
         {error && <p className="text-red-400 text-xs mb-3">{error}</p>}
 
+        {/* Consent — required before entry (18+ / Terms / Privacy / Guidelines) */}
+        <label className="flex items-start gap-2.5 text-left mb-4 cursor-pointer select-none">
+          <input
+            type="checkbox"
+            checked={agreed}
+            onChange={e => setAgreed(e.target.checked)}
+            className="mt-0.5 w-4 h-4 shrink-0 accent-[#FFD700]"
+          />
+          <span className="text-xs text-zinc-400 leading-relaxed">
+            I am 18 years of age or older and I agree to the{' '}
+            <a href="#legal" className="text-gold underline">Terms of Service</a>,{' '}
+            <a href="#legal" className="text-gold underline">Privacy Policy</a>, and{' '}
+            <a href="#legal" className="text-gold underline">Community Guidelines</a>.
+          </span>
+        </label>
+
         <button onClick={handleVerify}
-          className="w-full py-3 bg-gold hover:bg-gold-light text-dark font-bold rounded-xl transition-all duration-200 mb-3">
+          disabled={!agreed}
+          className="w-full py-3 bg-gold hover:bg-gold-light disabled:opacity-40 disabled:cursor-not-allowed text-dark font-bold rounded-xl transition-all duration-200 mb-3">
           I am 18+
         </button>
 

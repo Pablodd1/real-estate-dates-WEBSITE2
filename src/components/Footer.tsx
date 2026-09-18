@@ -50,7 +50,7 @@ export default function Footer() {
             </span>
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
-            {['about', 'contact', 'terms', 'privacy'].map((id) => (
+            {['about', 'contact'].map((id) => (
               <a
                 key={id}
                 href={`#${id}`}
@@ -59,6 +59,12 @@ export default function Footer() {
                 {id}
               </a>
             ))}
+            <a
+              href="#legal"
+              className="text-[9px] sm:text-[10px] uppercase tracking-[0.15em] text-white/75 hover:text-gold transition-colors"
+            >
+              terms & privacy
+            </a>
             <a
               href="https://realestatedates.realty"
               target="_blank"

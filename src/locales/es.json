@@ -172,6 +172,14 @@
       "policy8": {
         "title": "Moderación Continua y Seguridad de Eventos",
         "content": "Nuestros equipos de seguridad dedicados trabajan las 24 horas. Cada reporte de usuario es revisado por un moderador en vivo dentro de 24 horas. Utilizamos modelos avanzados de detección para interceptar enlaces no deseados o fraudes."
+      },
+      "policy9": {
+        "title": "Servicios Comerciales y para Adultos Prohibidos",
+        "content": "La plataforma está destinada a citas y emparejamiento lícitos entre adultos. Los usuarios no pueden usar el servicio para anunciar, solicitar, organizar, comprar o vender prostitución, servicios de acompañantes, citas compensadas, servicios sexuales, pornografía, trata de personas u otros servicios comerciales para adultos. Los pagos realizados a la plataforma son únicamente por el acceso a membresías y funciones de la plataforma, y no son pagos a otros usuarios por encuentros, citas, compañía o actividad sexual. El pago de usuario a usuario por citas, compañía o actividad sexual está estrictamente prohibido. Las violaciones provocan la eliminación inmediata de la cuenta."
+      },
+      "policy10": {
+        "title": "Pagos, Suscripciones, Cancelación y Reembolsos",
+        "content": "Todas las compras — membresías, paquetes de minutos de video, pases de Happy Hour, créditos de stickers y créditos de mensajes — son pagos a Real Estate Dates por acceso a funciones de la plataforma, procesados de forma segura por Stripe. Las suscripciones (Premium $9.99/mes, Elite $14.99/mes) se renuevan automáticamente cada mes hasta que las canceles; los complementos son compras únicas que nunca se renuevan solas. Puedes cancelar en cualquier momento con dos clics desde la configuración de tu cuenta; la cancelación es efectiva de inmediato y conservas el acceso hasta el final del período pagado. Se otorgan reembolsos por cargos duplicados accidentales y por períodos de facturación completos no utilizados cuando la suscripción se canceló por error — contacta a soporte dentro de 7 días. Sin pruebas ocultas ni cargos recurrentes ocultos: el precio exacto, la frecuencia de facturación y lo incluido se muestran siempre antes de pagar."
       }
     },
     "highlights": {
@@ -264,14 +272,15 @@
       }
     },
     "popularBadge": "Más Popular",
-    "footerNote": "Sin tarifas ocultas. Cancela en cualquier momento. Todas las suscripciones se renuevan automáticamente. Pueden aplicarse impuestos.",
+    "footerNote": "Las suscripciones se renuevan automáticamente cada mes hasta que las canceles. Cancela en cualquier momento con dos clics — conservas el acceso hasta el final del período pagado. Los complementos son compras únicas que nunca se renuevan solas. Condiciones de reembolso en nuestra política de Pagos y Reembolsos. Impuestos pueden aplicar.",
     "addOnsTitle": "Complementos",
     "addOns": [
       "3 Citas de Video (5 min cada una) — $5.99 (Premium, única vez)",
       "Pase de Happy Hour — $4.99",
       "5 Créditos de Stickers — $5 ($1 por envío)",
       "3 Créditos de Mensajes — $2.99"
-    ]
+    ],
+    "paymentsNote": "Todos los pagos van a Real Estate Dates por membresías y funciones de la plataforma — nunca a otros usuarios por citas, compañía o cualquier servicio comercial. Procesado de forma segura por Stripe."
   },
   "download": {
     "sectionTitle": "Explora la Web App",
