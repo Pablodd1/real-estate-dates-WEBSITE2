@@ -179,7 +179,7 @@
       },
       "policy10": {
         "title": "Payments, Subscriptions, Cancellation & Refunds",
-        "content": "All purchases — memberships, video-minute packs, Happy Hour passes, sticker credits, and message credits — are payments to Real Estate Dates for access to platform features, processed securely by Stripe. Subscriptions (Premium $9.99/mo, Elite $14.99/mo) renew automatically each month until cancelled; add-on packs are one-time purchases that never auto-renew. You can cancel anytime in two clicks from your account settings; cancellation is effective immediately and you keep access until the end of the paid period. Refunds are granted for accidental duplicate charges and for unused full billing periods when a subscription was cancelled in error — contact support within 7 days. No hidden trials, no hidden recurring charges: the exact price, billing frequency, and what's included are always shown before you pay."
+        "content": "All purchases — memberships, Video Date packs, Happy Hour passes, and sticker credits — are payments to Real Estate Dates for access to platform features, processed securely by Stripe. Subscriptions (Premium $9.99/mo, Elite $14.99/mo) renew automatically each month until cancelled; add-on packs are one-time purchases that never auto-renew. You can cancel anytime in two clicks from your account settings; cancellation is effective immediately and you keep access until the end of the paid period. Refunds are granted for accidental duplicate charges and for unused full billing periods when a subscription was cancelled in error — contact support within 7 days. No hidden trials, no hidden recurring charges: the exact price, billing frequency, and what's included are always shown before you pay."
       }
     },
     "highlights": {
@@ -277,8 +277,7 @@
     "addOns": [
       "3 Video Dates (5 min each) — $5.99 (Premium, one-time)",
       "Happy Hour Pass — $4.99",
-      "5 Sticker Credits — $5 ($1 per send)",
-      "3 Message Credits — $2.99"
+      "5 Sticker Credits — $5 ($1 per send)"
     ],
     "paymentsNote": "All payments go to Real Estate Dates for platform memberships and features — never to other users for dates, companionship, or any commercial service. Processed securely by Stripe."
   },

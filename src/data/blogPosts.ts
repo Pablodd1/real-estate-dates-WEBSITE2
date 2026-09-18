@@ -213,7 +213,7 @@ The Standard membership is designed for professionals who are new to the platfor
 
 * **Daily Swipes:** Limited to 30 submissions per day.
 * **See Who Liked You:** Blurred photos only. You can see that someone turned the key on your profile, but the details are hidden unless you upgrade or buy an unlock.
-* **Communication:** Standard chat and video are locked. To speak with a connection, you must consume à la carte credits (Message Packs or Video Passes) or upgrade.
+* **Communication:** Free members start with 5 message credits; video dates need Premium tokens. Unlimited chat comes with Premium.
 * **Best For:** Young residential agents, part-time real estate assistants, or local professionals who want to test the water and build out their initial profiles.
 
 ---
@@ -248,10 +248,10 @@ Elite is our ultimate, institutional-grade membership. It unlocks every single f
 
 For users who prefer a pay-as-you-go model rather than a monthly subscription, we offer simple, flexible add-ons:
 
-* **Message Pack ($2.99):** Provides 3 direct message credits. Standard (Free) tier users consume 1 credit per message sent to a connection.
+* **Video Date packs ($5.99):** Three 5-minute video dates for Premium members. Elite includes unlimited video dates.
 * **Video Pass ($5.99):** Unlocks 3 Virtual Tour video calls (up to 15 minutes each). Perfect for Free or Premium users who want to jump on a face-to-face call.
 * **Speed Date Pass ($4.99):** Grants a single entry ticket to our highly popular weekly Happy Hour Speed Dating event.
-* **Chat Unlock ($2.99):** Permanently unlocks direct messaging with one specific, mutual connect. Great for Free users who want to talk to a single key partner without upgrading.
+* **Happy Hour Pass ($4.99):** One-time entry to a live Ballroom speed-dating event. Elite members are always in, included.
 
 ### Which Tier is Right for Your Business and Personal Life?
 
@@ -865,10 +865,10 @@ When you've found your co-founder for life, take yourselves off the market. **Go
 
 ## What It Costs
 
-* **Free ($0):** browse and swipe the deck, 5 chat message credits to start, AI Index % on every profile, buy stickers & add-ons anytime.
+* **Free ($0):** browse and swipe the deck, 5 chat message credits to start, AI Index % on every profile, buy stickers & add-ons anytime. Message credit packs are no longer sold — unlimited chat comes with Premium.
 * **Premium ($9.99/mo):** unlimited keys, full photo galleries, unlimited chat, video calls with minute packs, stickers ($1 each).
 * **Elite ($14.99/mo):** everything in Premium, plus unlimited Video Dates, unlimited stickers, and Ballroom admission always included (Sun/Mon/Wed/Fri 1:30 PM ET).
-* **Add-ons:** 3 Video Dates (5 min each) — $5.99 (Premium, one-time) · Happy Hour Pass — $4.99 · 5 Sticker Credits — $5 · 3 Message Credits — $2.99.
+* **Add-ons:** 3 Video Dates (5 min each) — $5.99 (Premium, one-time) · Happy Hour Pass — $4.99 · 5 Sticker Credits — $5.
 
 No demographic pricing, no hidden fees, cancel in two clicks.
 
