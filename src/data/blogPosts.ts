@@ -76,7 +76,7 @@ Our AI doesn't just look at who you swipe on. It conducts a deep analysis of you
 
 ### Cost Efficiency Meets High Performance
 
-Traditional executive matchmakers can charge upwards of $5,000 to $10,000 per year. By leveraging the DeepSeek API, we can execute this same level of deep-dive psychological and professional matching for fractions of a penny per profile. This allows us to offer our Elite tier at just $14.99/month—democratizing access to high-end matchmaking.
+Traditional executive matchmakers can charge upwards of $5,000 to $10,000 per year. By leveraging the DeepSeek API, we can execute this same level of deep-dive psychological and professional matching for fractions of a penny per profile. This allows us to offer our Elite tier at just $19.99/month—democratizing access to high-end matchmaking.
 
 The result? Less time wasted on dead-end dates, and more time building relationships that actually matter, both in life and in business.
     `
@@ -147,7 +147,7 @@ Let's look at how the top tier memberships compare across the leading platforms:
 
 | Feature | Tinder Gold | Bumble Premium | HingeX | Real Estate Dates Elite |
 | :--- | :---: | :---: | :---: | :---: |
-| **Monthly Subscription** | $24.99 | $39.99 | $24.99 | **$14.99** |
+| **Monthly Subscription** | $24.99 | $39.99 | $24.99 | **$19.99** |
 | **Industry Specialization** | General (None) | General (None) | General (None) | **Real Estate Only** |
 | **See Who Liked You** | Yes | Yes | Yes | **Yes (Full Unblurred)** |
 | **Daily Swipes** | Unlimited | Unlimited | Unlimited | **Unlimited** |
@@ -170,9 +170,9 @@ General dating platforms operate under a massive mass-market model. Because thei
 * **Tinder Gold ($24.99/mo):** Tinder charges a premium but still lacks built-in real-time video features or advanced artificial intelligence tools. It relies on basic, physical-first filtering that provides no business context or professional utility.
 * **HingeX ($24.99/mo):** Hinge is designed to be deleted, but its pricing model is designed to drain your wallet. It prioritizes your profile in the queue but offers no specialized filters for career compatibility, schedule sync, or investment goals.
 
-### The Real Estate Dates Elite Advantage: $14.99/mo
+### The Real Estate Dates Elite Advantage: $19.99/mo
 
-At **$14.99/mo** (recently reduced from $19.99 to offer even greater market value), Real Estate Dates Elite is **40% cheaper than Tinder Gold, 40% cheaper than HingeX, and 62% cheaper than Bumble Premium**.
+At **$19.99/mo**, Real Estate Dates Elite is priced **below Bumble Premium ($39.99/mo) and head-to-head with Tinder Gold and HingeX ($24.99/mo)** — while including what those apps charge extra for: unlimited video dates and Happy Hour Speed Dating in the Ballroom.
 
 Despite the much lower subscription fee, Elite offers a list of high-value tools that general apps cannot provide:
 
@@ -184,7 +184,7 @@ Despite the much lower subscription fee, Elite offers a list of high-value tools
 
 If you close a single real estate transaction, buy a property, or source a local deal through a connection made on our app, the commission or investment returns will instantly cover **10 to 20 years of an Elite subscription**. 
 
-Paying $39.99/month on a general dating app is a pure consumer expense. Paying $14.99/month on Real Estate Dates is a tax-deductible professional networking tool that also happens to find you a life partner who understands the hustle. The choice is simple.
+Paying $39.99/month on a general dating app is a pure consumer expense. Paying $19.99/month on Real Estate Dates is a tax-deductible professional networking tool that also happens to find you a life partner who understands the hustle. The choice is simple.
     `
   },
   {
@@ -218,7 +218,7 @@ The Standard membership is designed for professionals who are new to the platfor
 
 ---
 
-### 2. The Premium Tier — $9.99/mo (or $99/yr)
+### 2. The Premium Tier — $14.99/mo (or $99/yr)
 The Premium tier is the sweet spot for active real estate professionals who are actively dating and networking, but do not require complex, cross-border capabilities.
 
 * **Daily Swipes:** Unlimited. You can clear your queue as often as you like.
@@ -230,7 +230,7 @@ The Premium tier is the sweet spot for active real estate professionals who are 
 
 ---
 
-### 3. The Elite Tier — $14.99/mo (or $149/yr)
+### 3. The Elite Tier — $19.99/mo (or $149/yr)
 Elite is our ultimate, institutional-grade membership. It unlocks every single feature of the platform, removes all restrictions, and provides maximum priority visibility.
 
 * **Daily Swipes & Visibility:** Unlimited swipes + 5x priority profile visibility (placing you at the very front of the local deck).
@@ -257,9 +257,9 @@ For users who prefer a pay-as-you-go model rather than a monthly subscription, w
 
 To choose the right tier, ask yourself one question: **What is the value of your time?**
 
-If you are highly busy, managing active deals, and looking to meet a serious partner who shares your lifestyle, **Elite is the obvious choice**. At just $14.99/mo, it costs less than a single coffee and pastry in most urban centers, yet it gives you the absolute best tools, maximum visibility, and saves you hours of swiping through priority AI matching.
+If you are highly busy, managing active deals, and looking to meet a serious partner who shares your lifestyle, **Elite is the obvious choice**. At just $19.99/mo, it costs less than a single coffee and pastry in most urban centers, yet it gives you the absolute best tools, maximum visibility, and saves you hours of swiping through priority AI matching.
 
-If you are an agent looking to grow your local referral circle and find a great date, **Premium ($9.99/mo)** offers incredible value. And if you are just starting out, the **Standard Free** option lets you join the world's premier real estate community at zero cost.
+If you are an agent looking to grow your local referral circle and find a great date, **Premium ($14.99/mo)** offers incredible value. And if you are just starting out, the **Standard Free** option lets you join the world's premier real estate community at zero cost.
     `
   },
   {
@@ -866,8 +866,8 @@ When you've found your co-founder for life, take yourselves off the market. **Go
 ## What It Costs
 
 * **Free ($0):** browse and swipe the deck, 5 chat message credits to start, AI Index % on every profile, buy stickers & add-ons anytime. Message credit packs are no longer sold — unlimited chat comes with Premium.
-* **Premium ($9.99/mo):** unlimited keys, full photo galleries, unlimited chat, video calls with minute packs, stickers ($1 each).
-* **Elite ($14.99/mo):** everything in Premium, plus unlimited Video Dates, unlimited stickers, and Ballroom admission always included (Sun/Mon/Wed/Fri 1:30 PM ET).
+* **Premium ($14.99/mo):** unlimited keys, full photo galleries, unlimited chat, video calls with minute packs, stickers ($1 each).
+* **Elite ($19.99/mo):** everything in Premium, plus unlimited Video Dates, unlimited stickers, and Ballroom admission always included (Sun/Mon/Wed/Fri 1:30 PM ET).
 * **Add-ons:** 3 Video Dates (5 min each) — $5.99 (Premium, one-time) · Happy Hour Pass — $4.99 · 5 Sticker Credits — $5.
 
 No demographic pricing, no hidden fees, cancel in two clicks.

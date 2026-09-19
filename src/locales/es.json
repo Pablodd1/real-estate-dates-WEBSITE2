@@ -179,7 +179,7 @@
       },
       "policy10": {
         "title": "Pagos, Suscripciones, Cancelación y Reembolsos",
-        "content": "Todas las compras — membresías, paquetes de Citas de Video, pases de Happy Hour y créditos de stickers — son pagos a Real Estate Dates por acceso a funciones de la plataforma, procesados de forma segura por Stripe. Las suscripciones (Premium $9.99/mes, Elite $14.99/mes) se renuevan automáticamente cada mes hasta que las canceles; los complementos son compras únicas que nunca se renuevan solas. Puedes cancelar en cualquier momento con dos clics desde la configuración de tu cuenta; la cancelación es efectiva de inmediato y conservas el acceso hasta el final del período pagado. Se otorgan reembolsos por cargos duplicados accidentales y por períodos de facturación completos no utilizados cuando la suscripción se canceló por error — contacta a soporte dentro de 7 días. Sin pruebas ocultas ni cargos recurrentes ocultos: el precio exacto, la frecuencia de facturación y lo incluido se muestran siempre antes de pagar."
+        "content": "Todas las compras — membresías, paquetes de Citas de Video, pases de Happy Hour y créditos de stickers — son pagos a Real Estate Dates por acceso a funciones de la plataforma, procesados de forma segura por Stripe. Las suscripciones (Premium $14.99/mes, Elite $19.99/mes) se renuevan automáticamente cada mes hasta que las canceles; los complementos son compras únicas que nunca se renuevan solas. Puedes cancelar en cualquier momento con dos clics desde la configuración de tu cuenta; la cancelación es efectiva de inmediato y conservas el acceso hasta el final del período pagado. Se otorgan reembolsos por cargos duplicados accidentales y por períodos de facturación completos no utilizados cuando la suscripción se canceló por error — contacta a soporte dentro de 7 días. Sin pruebas ocultas ni cargos recurrentes ocultos: el precio exacto, la frecuencia de facturación y lo incluido se muestran siempre antes de pagar."
       }
     },
     "highlights": {
@@ -242,7 +242,7 @@
       },
       "pro": {
         "name": "Premium",
-        "price": "$9.99",
+        "price": "$14.99",
         "period": "/mes",
         "desc": "Llaves ilimitadas, galerías completas, chat ilimitado y Citas de Video con paquetes de tokens. La elección más popular.",
         "features": [
@@ -258,7 +258,7 @@
       },
       "empire": {
         "name": "Elite",
-        "price": "$14.99",
+        "price": "$19.99",
         "period": "/mes",
         "desc": "La experiencia completa: todo lo de Premium, más Citas de Video ilimitadas, stickers ilimitados y entrada al Ballroom siempre incluida.",
         "features": [

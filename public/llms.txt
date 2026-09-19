@@ -7,7 +7,7 @@ Real Estate Dates is an exclusive dating and networking application designed spe
 ## Key Features
 - Mutual Matching: Users must mutually like each other to unlock full biographies.
 - Anti-Catfishing: Strict ID verification protocols to ensure genuine profiles.
-- Tiered Access: Free ($0 — browse/swipe the deck, 5 chat message credits to start, AI Index % on every profile), Premium ($9.99/mo — unlimited keys, full galleries, unlimited chat, AI Index %, Video Date packs), Elite ($14.99/mo — everything in Premium plus unlimited Video Dates, unlimited stickers, Ballroom admission always included).
+- Tiered Access: Free ($0 - browse/swipe the deck, 5 chat messages per match), Premium ($14.99/mo - unlimited keys, full galleries, unlimited chat, AI Index %, video calls with minute packs), Elite ($19.99/mo - everything in Premium, 1,000 video minutes monthly, unlimited Ballroom speed dating, priority placement, verified badge).
 - Add-Ons: Text chat, video chat, and online speed dating available as add-ons.
 - Add-ons: 3 Video Dates of 5 minutes ($5.99, Premium, one-time), Happy Hour Pass ($4.99), 5 Sticker Credits ($5). Message credit packs are no longer sold (Stripe prohibits pay-per-message processing); Free members start with 5 message credits and Premium includes unlimited chat.
 - Premium Stickers: animated gold-medallion stickers (Flowers, Kiss, Hug, Smile, WOW, Heart, Cheers, Teddy, Fire, Sparkles, Golden Key, Dream Home, Deal, Crown) sendable in any match's chat for $1 each — free to receive, packs of 5 for $5, processed by Stripe and verified server-side.
