@@ -55,7 +55,7 @@ function getNextHappyHour(
     probe.setDate(now.getDate() + i);
     if (EVENT_DAYS.includes(probe.getDay())) {
       return t('events.happyHour.next.upcoming', {
-        day: probe.toLocaleDateString('en-US', { weekday: 'long' }),
+        day: probe.toLocaleDateString('en-US', { weekday: 'long', timeZone: 'America/New_York' }),
       });
     }
   }
