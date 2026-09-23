@@ -21,4 +21,4 @@ async function sendTelegramFromMonitor(htmlLines) {
   return { ok: true };
 }
 
-module.exports = { sendTelegramFromMonitor };
+export { sendTelegramFromMonitor };

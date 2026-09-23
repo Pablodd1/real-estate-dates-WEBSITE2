@@ -2,8 +2,9 @@
 // Checks vector cache (query_cache) first for BGE-M3 semantic results,
 // falls back to ILIKE text search, and inserts pending queries for
 // the local vector search service to process.
-const { Pool } = require('pg');
-const crypto = require('crypto');
+import pg from 'pg';
+const { Pool } = pg;
+import crypto from 'crypto';
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL || 'postgres://postgres.vodhhauwowkalvaxzqyv:RiPGkp2IwchYiY54@aws-1-us-west-2.pooler.supabase.com:6543/postgres',
@@ -20,7 +21,7 @@ function makeHash(queryText, domain) {
     .digest('hex');
 }
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type');
@@ -193,4 +194,4 @@ module.exports = async (req, res) => {
       search_mode: 'text (fallback)',
     });
   }
-};
+}

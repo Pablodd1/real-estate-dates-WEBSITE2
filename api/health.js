@@ -1,5 +1,6 @@
 // Health check + RAG stats endpoint
-const { Pool } = require('pg');
+import pg from 'pg';
+const { Pool } = pg;
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL || 'postgres://postgres.vodhhauwowkalvaxzqyv:RiPGkp2IwchYiY54@aws-1-us-west-2.pooler.supabase.com:6543/postgres',
@@ -8,7 +9,7 @@ const pool = new Pool({
   idleTimeoutMillis: 30000,
 });
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   // CORS
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
@@ -98,4 +99,4 @@ module.exports = async (req, res) => {
       }
     });
   }
-};
+}

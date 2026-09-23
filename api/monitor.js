@@ -9,7 +9,7 @@
 // Called as GET /api/monitor — the shared ALERT_SECRET can be required for
 // manual runs via ?secret=... but Vercel cron calls are exempt by user-agent.
 
-const { sendTelegramFromMonitor } = require('./_telegram.cjs');
+import { sendTelegramFromMonitor } from './_telegram.js';
 
 const CHECKS = [
   { name: 'Website', url: 'https://realestatedates.com/' },
@@ -17,7 +17,7 @@ const CHECKS = [
   { name: 'API health', url: 'https://realestatedates.com/api/health' },
 ];
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   if (req.method === 'OPTIONS') return res.status(200).end();
 
@@ -76,4 +76,4 @@ module.exports = async (req, res) => {
 
   const telegram = await sendTelegramFromMonitor(lines.join('\n'));
   res.status(200).json({ results, sentry: sentryLines, telegramSent: telegram });
-};
+}

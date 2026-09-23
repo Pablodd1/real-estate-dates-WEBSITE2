@@ -1,7 +1,8 @@
 // Real Estate RAG API — serves real estate knowledge to the dating app
 // Queries the unified knowledge_chunks via ILIKE + vector cache check
-const { Pool } = require('pg');
-const crypto = require('crypto');
+import pg from 'pg';
+const { Pool } = pg;
+import crypto from 'crypto';
 
 const pool = new Pool({
   connectionString: process.env.DATABASE_URL || 'postgres://postgres.vodhhauwowkalvaxzqyv:RiPGkp2IwchYiY54@aws-1-us-west-2.pooler.supabase.com:6543/postgres',
@@ -17,7 +18,7 @@ function makeHash(queryText, domain) {
     .digest('hex');
 }
 
-module.exports = async (req, res) => {
+export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS');
   res.setHeader('Access-Control-Allow-Headers', 'Content-Type, Authorization');
@@ -128,4 +129,4 @@ module.exports = async (req, res) => {
       error: error.message,
     });
   }
-};
+}
