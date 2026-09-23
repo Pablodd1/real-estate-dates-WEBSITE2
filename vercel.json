@@ -2,12 +2,17 @@
     "framework": "vite",
     "rewrites": [
         { "source": "/api/health", "destination": "/api/health.js" },
+        { "source": "/api/alert", "destination": "/api/alert.js" },
+        { "source": "/api/monitor", "destination": "/api/monitor.js" },
         { "source": "/api/rag", "destination": "/api/rag.js" },
         { "source": "/api/dates", "destination": "/api/dates.js" },
         { "source": "/api/digest", "destination": "/api/digest.js" },
         { "source": "/api/blog", "destination": "/api/blog.js" },
         { "source": "/api/realestate-rag", "destination": "/api/realestate-rag.js" },
         { "source": "/(.*)", "destination": "/index.html" }
+    ],
+    "crons": [
+        { "path": "/api/monitor", "schedule": "0 13 * * *" }
     ],
     "headers": [
         {

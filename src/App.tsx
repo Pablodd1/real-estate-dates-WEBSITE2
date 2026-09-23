@@ -13,6 +13,8 @@ import Home from '@/pages/Home';
 import BlogPost from '@/pages/BlogPost';
 import { Toaster } from 'sonner';
 import { initAnalytics } from '@/lib/analytics';
+import { initMonitoring } from '@/lib/monitoring';
+import ErrorBoundary from '@/components/ErrorBoundary';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -32,6 +34,7 @@ function App() {
     } else {
       initAnalytics();
     }
+    initMonitoring();
   }, []);
 
   const handleVerified = () => {
@@ -43,6 +46,7 @@ function App() {
   };
 
   return (
+    <ErrorBoundary>
     <Router>
       <CustomCursor />
       <GoldParticles />
@@ -76,6 +80,7 @@ function App() {
       <CookieBanner />
       <Toaster theme="dark" position="top-center" />
     </Router>
+    </ErrorBoundary>
   );
 }
 
