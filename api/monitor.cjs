@@ -9,7 +9,7 @@
 // Called as GET /api/monitor — the shared ALERT_SECRET can be required for
 // manual runs via ?secret=... but Vercel cron calls are exempt by user-agent.
 
-const { sendTelegramFromMonitor } = require('./_telegram.js');
+const { sendTelegramFromMonitor } = require('./_telegram.cjs');
 
 const CHECKS = [
   { name: 'Website', url: 'https://realestatedates.com/' },
