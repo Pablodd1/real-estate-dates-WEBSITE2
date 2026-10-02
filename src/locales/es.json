@@ -24,7 +24,7 @@
       "verified": "Profesionales con ID verificado",
       "private": "Citas nunca grabadas"
     },
-    "teaser": "Domingos, lunes, miércoles y viernes a la 1:30 PM ET — el Ballroom abre. Cuatro minutos, un profesional, cero swiping."
+    "teaser": "Domingos, lunes, miércoles y viernes a la 7:00 PM ET — el Ballroom abre. Cuatro minutos, un profesional, cero swiping."
   },
   "howItWorks": {
     "journey": "El Cierre Perfecto",
@@ -44,7 +44,7 @@
     },
     "step4": {
       "title": "Entra al Periodo de Opción (Chat y Video)",
-      "desc": "Pasa sin problemas de un Match Mutuo a negociaciones activas. Comienza con chat de texto directo o usa Video Chat integrado para revisar la integridad estructural de su química. Además, únete a nuestro Speed Dating en línea para conocer prospectos cara a cara en rápidos rondas virtuales de 4 minutos en el Ballroom, todos los domingos, lunes, miércoles y viernes a la 1:30 PM ET."
+      "desc": "Pasa sin problemas de un Match Mutuo a negociaciones activas. Comienza con chat de texto directo o usa Video Chat integrado para revisar la integridad estructural de su química. Además, únete a nuestro Speed Dating en línea para conocer prospectos cara a cara en rápidos rondas virtuales de 4 minutos en el Ballroom, todos los domingos, lunes, miércoles y viernes a la 7:00 PM ET."
     },
     "step5": {
       "title": "Recorridos en Persona (Citas Reales)",
@@ -265,7 +265,7 @@
           "Todo lo de Premium",
           "Citas de Video ilimitadas",
           "Stickers ilimitados",
-          "Entrada al Ballroom siempre incluida (Dom/Lun/Mié/Vie 1:30 PM ET)",
+          "Entrada al Ballroom siempre incluida (Dom/Lun/Mié/Vie 7:00 PM ET)",
           "Índice IA % de compatibilidad"
         ],
         "cta": "HAZTE ELITE"
@@ -406,11 +406,11 @@
       "specs": {
         "schedule": {
           "label": "Horario",
-          "value": "Todos los domingos, lunes, miércoles y viernes — 1:30 PM ET"
+          "value": "Todos los domingos, lunes, miércoles y viernes — 7:00 PM ET"
         },
         "countdown": {
           "label": "Cuenta regresiva",
-          "value": "El lobby abre a la 1:15 PM — llega temprano, instálate, mira quién más viene"
+          "value": "El lobby abre a las 6:45 PM — llega temprano, instálate, mira quién más viene"
         },
         "rounds": {
           "label": "Rondas",
@@ -426,12 +426,12 @@
         }
       },
       "cta": "Entrar al Ballroom",
-      "footerLine": "Happy Hour: Dom · Lun · Mié · Vie · 1:30 PM ET · citas de 4 minutos · Llaves mutuas conectan al instante · siempre gratis.",
+      "footerLine": "Happy Hour: Dom · Lun · Mié · Vie · 7:00 PM ET · citas de 4 minutos · Llaves mutuas conectan al instante · siempre gratis.",
       "freeNote": "Siempre gratis en minutos: las citas rápidas del Ballroom nunca consumen tus minutos de video.",
       "next": {
-        "today": "Hoy — el lobby abre 1:15 PM ET",
+        "today": "Hoy — el lobby abre 6:45 PM ET",
         "liveNow": "En vivo — entra al Ballroom",
-        "upcoming": "Próximo: {{day}} — lobby 1:15 PM ET"
+        "upcoming": "Próximo: {{day}} — lobby 6:45 PM ET"
       }
     },
     "howItWorks": {
@@ -439,7 +439,7 @@
       "steps": {
         "step1": {
           "title": "Entra al Ballroom",
-          "desc": "Únete al lobby antes de la 1:30. Los miembros Elite siempre entran; otros la desbloquean con un pase de $4.99."
+          "desc": "Únete al lobby antes de las 7:00. Los miembros Elite siempre entran; otros la desbloquean con un pase de $4.99."
         },
         "step2": {
           "title": "Emparejamiento instantáneo",

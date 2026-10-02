@@ -108,7 +108,7 @@ When you connect with someone on our app, the ice is already broken. The AI has 
 
 One of our most popular features is the **Virtual Happy Hour Speed Dating** in the Ballroom. Instead of driving across town to a networking event, you can join from your living room. 
 
-During these events — every Sunday, Monday, Wednesday and Friday at 1:30 PM ET — you are placed in rapid, 4-minute video rotations with other professionals. In under half an hour, you can meet a room full of highly qualified individuals, and the AI Index shows how well you align with each one. 
+During these events — every Sunday, Monday, Wednesday and Friday at 7:00 PM ET — you are placed in rapid, 4-minute video rotations with other professionals. In under half an hour, you can meet a room full of highly qualified individuals, and the AI Index shows how well you align with each one. 
 
 - **For Romance:** It's the fastest way to check for chemistry without committing to a full dinner date.
 - **For Business:** It's the most efficient way to source off-market deals, find capital partners, or build your referral network.
@@ -407,7 +407,7 @@ It is modern tech built for modern professionals who want to build a legacy, tog
     id: "8",
     slug: "happy-hour-speed-dating-for-real-estate-how-it-works",
     title: "Happy Hour Speed Dating for Real Estate: How It Works",
-    excerpt: "Happy Hour is a real scheduled event — Sundays, Mondays, Wednesdays & Fridays at 1:30 PM ET. Here's exactly how the Ballroom lobby, the 4-minute rounds, and the private Keys work.",
+    excerpt: "Happy Hour is a real scheduled event — Sundays, Mondays, Wednesdays & Fridays at 7:00 PM ET. Here's exactly how the Ballroom lobby, the 4-minute rounds, and the private Keys work.",
     category: "Networking Strategy",
     readTime: "6 min read",
     author: "Events & Operations Team",
@@ -426,9 +426,9 @@ Whether you are looking for a romantic connection with someone who shares your c
 
 ### The Schedule: Four Nights a Week, DST-Safe
 
-Happy Hour runs **every Sunday, Monday, Wednesday and Friday at 1:30 PM Miami time (ET)** — the same wall-clock time year-round, so daylight saving never moves your date. The Ballroom lobby opens at **1:15 PM**. Here is how it works:
+Happy Hour runs **every Sunday, Monday, Wednesday and Friday at 7:00 PM Miami time (ET)** — the same wall-clock time year-round, so daylight saving never moves your date. The Ballroom lobby opens at **6:45 PM**. Here is how it works:
 
-1. **Enter the Ballroom:** Join the lobby before 1:30. Elite members are always in; others unlock with a $4.99 pass.
+1. **Enter the Ballroom:** Join the lobby before 7:00. Elite members are always in; others unlock with a $4.99 pass.
 2. **Get paired instantly:** The platform matches you into **4-minute video dates**, randomly and fairly. Never the same partner twice in one night.
 3. **Send your Keys:** During every date, privately send a **Key** to the people you click with. Your Keys stay secret.
 4. **Mutual Keys connect instantly:** When both people send Keys, **the connection happens on the spot** — chat opens immediately, ready for messaging, stickers, and video calls under your plan, and final results appear right after the last round.
@@ -451,7 +451,7 @@ We maintain a high-quality community by gating access to our Happy Hour events:
 
 The math of the format is the whole point:
 
-* **Rounds of four, all inside the half hour:** Auto-paired 4-minute video dates between 1:30 and 1:58 — one professional after another.
+* **Rounds of four, all inside the half hour:** Auto-paired 4-minute video dates between 7:00 and 7:28 — one professional after another.
 * **Your private Keys:** Send a Key on any date — no one ever sees them, so there is zero rejection exposure.
 * **The 7:30 reveal:** Mutual Likes become matches instantly, with chat open on the spot.
 * **Privacy by default:** Cameras are optional, dates are never recorded, and report/block is always one tap away. No match, no trace.
@@ -464,7 +464,7 @@ To make the absolute most of your Happy Hour, follow these simple guidelines:
 2. **Optimize Your Lighting:** Real estate is all about presentation. Ensure your camera is at eye level, your lighting is warm, and you are in a quiet space with stable internet.
 3. **Be Open to Hybrid Outcomes:** Some matches will lead to romantic chemistry; others will lead to professional deal flow. Treat every rotation as a win-win scenario.
 
-Mark your calendar — Sundays, Mondays, Wednesdays and Fridays. Be in the Ballroom before 1:30 PM ET, send your Keys all event, and see your results right after the final round.
+Mark your calendar — Sundays, Mondays, Wednesdays and Fridays. Be in the Ballroom before 7:00 PM ET, send your Keys all event, and see your results right after the final round.
     `
   },
   {
@@ -744,7 +744,7 @@ Our verified pool. Just as the MLS curates legitimate, listing-ready inventory, 
 
 ### The Ballroom
 
-The Happy Hour speed-dating floor — a dedicated section of the app where interest turns into real conversation, four minutes at a time. The lobby opens at **1:15 PM ET**, the rounds run **1:30–1:58 PM ET** every Sunday, Monday, Wednesday and Friday. Join the lobby, settle in, and see who else is coming.
+The Happy Hour speed-dating floor — a dedicated section of the app where interest turns into real conversation, four minutes at a time. The lobby opens at **6:45 PM ET**, the rounds run **7:00–7:28 PM ET** every Sunday, Monday, Wednesday and Friday. Join the lobby, settle in, and see who else is coming.
 
 ### Round
 
@@ -768,7 +768,7 @@ Your video-call entitlement: unlimited on Elite, a 3×5-minute pack per add-on p
 
 ### Happy Hour
 
-Our flagship scheduled event — and it is a *real* scheduled event, not a permanent room. **Every Sunday, Monday, Wednesday and Friday at 1:30 PM ET**, the Ballroom's pairings begin: auto-paired **4-minute** private video dates, flowing automatically until 1:58. The engine never pairs you with the same person twice in one night. See **Round**, **Key Back**, and **Reveal** below for the full mechanic. Ballroom speed dating never consumes your video minutes or tokens.
+Our flagship scheduled event — and it is a *real* scheduled event, not a permanent room. **Every Sunday, Monday, Wednesday and Friday at 7:00 PM ET**, the Ballroom's pairings begin: auto-paired **4-minute** private video dates, flowing automatically until 7:28. The engine never pairs you with the same person twice in one night. See **Round**, **Key Back**, and **Reveal** below for the full mechanic. Ballroom speed dating never consumes your video minutes or tokens.
 
 ### The Option Period
 
@@ -844,9 +844,9 @@ Run your due diligence the way you would on any asset. Text chat when it's conve
 
 Once a connection pipeline is warm, accelerate it at **Happy Hour** — our real, scheduled speed-dating event in the Ballroom:
 
-* **When:** Every Sunday, Monday, Wednesday and Friday. The lobby opens **1:15 PM ET**; rounds run **1:30–1:58 PM ET**, the same wall-clock time year-round (DST-safe).
-* **Entry:** Join the lobby before 1:30. Elite members are always in; others unlock with a $4.99 pass.
-* **The flow:** At 1:30 sharp, pairing starts — auto-paired **4-minute private video dates**. Between rounds, your next date starts automatically. No tapping, no hunting.
+* **When:** Every Sunday, Monday, Wednesday and Friday. The lobby opens **6:45 PM ET**; rounds run **7:00–7:28 PM ET**, the same wall-clock time year-round (DST-safe).
+* **Entry:** Join the lobby before 7:00. Elite members are always in; others unlock with a $4.99 pass.
+* **The flow:** At 7:00 sharp, pairing starts — auto-paired **4-minute private video dates**. Between rounds, your next date starts automatically. No tapping, no hunting.
 * **Fair pairing:** Never the same partner twice in one night.
 * **Scorecard:** During every date, privately tap ❤ Like or ✖ Not for me. Your marks stay secret — no one sees them, ever.
 * **Instant results:** Mutual Keys connect instantly — chat opens on the spot, ready for messaging, stickers, and video calls under your plan, with final results right after the last round.
@@ -867,7 +867,7 @@ When you've found your co-founder for life, take yourselves off the market. **Go
 
 * **Free ($0):** browse and swipe the deck, 5 chat message credits to start, AI Index % on every profile, buy stickers & add-ons anytime. Message credit packs are no longer sold — unlimited chat comes with Premium.
 * **Premium ($14.99/mo):** unlimited keys, full photo galleries, unlimited chat, video calls with minute packs, stickers ($1 each).
-* **Elite ($19.99/mo):** everything in Premium, plus unlimited Video Dates, unlimited stickers, and Ballroom admission always included (Sun/Mon/Wed/Fri 1:30 PM ET).
+* **Elite ($19.99/mo):** everything in Premium, plus unlimited Video Dates, unlimited stickers, and Ballroom admission always included (Sun/Mon/Wed/Fri 7:00 PM ET).
 * **Add-ons:** 3 Video Dates (5 min each) — $5.99 (Premium, one-time) · Happy Hour Pass — $4.99 · 5 Sticker Credits — $5.
 
 No demographic pricing, no hidden fees, cancel in two clicks.
@@ -876,7 +876,7 @@ No demographic pricing, no hidden fees, cancel in two clicks.
 
 ## The Short Version
 
-Verify, list, tour, key, unlock, video, meet, close. A pipeline you already trust, applied to the most important deal of your life. Mark your calendar for the next Happy Hour — Sundays, Mondays, Wednesdays and Fridays, Ballroom before 1:30 PM ET — and see your results right after the final round.
+Verify, list, tour, key, unlock, video, meet, close. A pipeline you already trust, applied to the most important deal of your life. Mark your calendar for the next Happy Hour — Sundays, Mondays, Wednesdays and Fridays, Ballroom before 7:00 PM ET — and see your results right after the final round.
     `
   }
 ];

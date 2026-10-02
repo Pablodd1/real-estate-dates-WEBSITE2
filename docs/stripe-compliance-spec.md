@@ -108,8 +108,8 @@ Moderation rules:
 The web app at realestatedates.realty is the source of truth for what the
 product IS. Verified live on 2026-09-17:
 
-- **Ballroom:** Sun/Mon/Wed/Fri at **1:30 PM ET** (lobby 1:15 PM, event ends
-  1:58 PM), **seven 4-minute rounds**, members send **Keys** (not scorecards),
+- **Ballroom:** Sun/Mon/Wed/Fri at **7:00 PM ET** (lobby 6:45 PM, event ends
+  7:28 PM), **seven 4-minute rounds**, members send **Keys** (not scorecards),
   mutual Keys connect instantly, final results after the last round, random
   generic pairing with blocks and no-repeat enforcement. The 1:30 PM time is a
   deliberate owner decision while live testing continues.

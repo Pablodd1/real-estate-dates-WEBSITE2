@@ -15,7 +15,7 @@ Real Estate Dates is an exclusive dating and networking application designed spe
 
 ## Happy Hour — The Ballroom (Live)
 Happy Hour is a real scheduled event in the Ballroom, the speed-dating floor:
-- Schedule: every Sunday, Monday, Wednesday and Friday — 1:30 PM ET (Miami time), DST-safe year-round.
+- Schedule: every Sunday, Monday, Wednesday and Friday — 7:00 PM ET (Miami time), DST-safe year-round.
 - Countdown: opens at 6:00 PM — arrive early, settle in, see who else is coming.
 - Rounds: seven 4-minute video dates, paired randomly and fairly. Never the same partner twice in one night.
 - Entry: Elite members always in; others unlock with a $4.99 pass.

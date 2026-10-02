@@ -24,7 +24,7 @@
       "verified": "ID-verified professionals",
       "private": "Dates never recorded"
     },
-    "teaser": "Sundays, Mondays, Wednesdays & Fridays at 1:30 PM ET — the Ballroom opens. Four minutes, one professional, zero swiping."
+    "teaser": "Sundays, Mondays, Wednesdays & Fridays at 7:00 PM ET — the Ballroom opens. Four minutes, one professional, zero swiping."
   },
   "howItWorks": {
     "journey": "The Escrow of Love",
@@ -44,7 +44,7 @@
     },
     "step4": {
       "title": "Enter the Option Period (Chat & Video)",
-      "desc": "Move seamlessly from an OFFER SENT into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 4-minute virtual rounds in the Ballroom, every Sunday, Monday, Wednesday and Friday at 1:30 PM ET."
+      "desc": "Move seamlessly from an OFFER SENT into active negotiations. Start with direct text chat or leverage built-in Video Chat to check the structural integrity of your chemistry. Plus, join our exclusive Online Happy Hour Speed Dating to meet multiple prospects face-to-face in rapid 4-minute virtual rounds in the Ballroom, every Sunday, Monday, Wednesday and Friday at 7:00 PM ET."
     },
     "step5": {
       "title": "In-Person Walkthroughs (Real Dates)",
@@ -265,7 +265,7 @@
           "Everything in Premium",
           "Unlimited Video Dates",
           "Unlimited stickers",
-          "Ballroom admission always included (Sun/Mon/Wed/Fri 1:30 PM ET)",
+          "Ballroom admission always included (Sun/Mon/Wed/Fri 7:00 PM ET)",
           "AI Index % match scores"
         ],
         "cta": "GO ELITE"
@@ -405,11 +405,11 @@
       "specs": {
         "schedule": {
           "label": "Schedule",
-          "value": "Every Sunday, Monday, Wednesday & Friday — 1:30 PM ET"
+          "value": "Every Sunday, Monday, Wednesday & Friday — 7:00 PM ET"
         },
         "countdown": {
           "label": "Countdown",
-          "value": "Lobby opens at 1:15 PM — arrive early, settle in, see who else is coming"
+          "value": "Lobby opens at 6:45 PM — arrive early, settle in, see who else is coming"
         },
         "rounds": {
           "label": "Rounds",
@@ -425,12 +425,12 @@
         }
       },
       "cta": "Enter the Ballroom",
-      "footerLine": "Happy Hour: Sun · Mon · Wed · Fri · 1:30 PM ET · 4-minute dates · mutual Keys connect instantly · always free.",
+      "footerLine": "Happy Hour: Sun · Mon · Wed · Fri · 7:00 PM ET · 4-minute dates · mutual Keys connect instantly · always free.",
       "freeNote": "Always free minutes-wise: Ballroom speed dating never consumes your video minutes.",
       "next": {
-        "today": "Today — lobby opens 1:15 PM ET",
+        "today": "Today — lobby opens 6:45 PM ET",
         "liveNow": "Live now — join the Ballroom",
-        "upcoming": "Next: {{day}} — lobby 1:15 PM ET"
+        "upcoming": "Next: {{day}} — lobby 6:45 PM ET"
       }
     },
     "howItWorks": {
@@ -438,7 +438,7 @@
       "steps": {
         "step1": {
           "title": "Enter the Ballroom",
-          "desc": "Join the lobby before 1:30. Elite members are always in; others unlock with a $4.99 pass."
+          "desc": "Join the lobby before 7:00. Elite members are always in; others unlock with a $4.99 pass."
         },
         "step2": {
           "title": "Get paired instantly",

@@ -23,12 +23,12 @@ import { useTranslation } from 'react-i18next';
 
 gsap.registerPlugin(ScrollTrigger);
 
-// Happy Hour runs Sun(0) · Mon(1) · Wed(3) · Fri(5) — lobby opens 1:15 PM, event 1:30–1:58 PM, all in America/New_York so DST is handled by the timezone itself.
+// Happy Hour runs Sun(0) · Mon(1) · Wed(3) · Fri(5) — lobby opens 6:45 PM, event 7:00–7:28 PM, all in America/New_York so DST is handled by the timezone itself.
 const EVENT_DAYS = [0, 1, 3, 5];
-const START_HOUR = 13;
-const START_MINUTE = 30;
-const END_HOUR = 13;
-const END_MINUTE = 58;
+const START_HOUR = 19;
+const START_MINUTE = 0;
+const END_HOUR = 19;
+const END_MINUTE = 28;
 
 function nowInMiami(): Date {
   return new Date(new Date().toLocaleString('en-US', { timeZone: 'America/New_York' }));
