@@ -427,7 +427,7 @@
       },
       "cta": "Entrar al Ballroom",
       "footerLine": "Happy Hour: Dom · Lun · Mié · Vie · 7:00 PM ET · citas de 4 minutos · Llaves mutuas conectan al instante · siempre gratis.",
-      "freeNote": "Siempre gratis en minutos: las citas rápidas del Ballroom nunca consumen tus minutos de video.",
+      "freeNote": "Siempre gratis: las citas rápidas del Ballroom nunca consumen tus tokens de Citas de Video.",
       "next": {
         "today": "Hoy — el lobby abre 6:45 PM ET",
         "liveNow": "En vivo — entra al Ballroom",
@@ -844,5 +844,44 @@
       "ShieldPro Insurance"
     ],
     "note": "Espacios de socios — no son respaldos afiliados."
+  },
+  "faq": {
+    "sectionTitle": "Centro de Ayuda",
+    "title": "Preguntas, Respondidas",
+    "subtitle": "Todo lo que necesitas saber sobre Real Estate Dates — directamente de cómo funciona la app.",
+    "items": {
+      "q1": {
+        "q": "¿Qué es una Llave y quién puede verla?",
+        "a": "Una Llave es un me gusta privado, enviado desde el mazo o durante una cita del Ballroom. Nadie ve tus Llaves — ni la otra persona, ni otros miembros. Solo cuando dos personas se dan Llave mutuamente la conexión se desbloquea al instante, con chat y biografías completas."
+      },
+      "q2": {
+        "q": "¿Cómo funcionan las Citas de Video?",
+        "a": "Cada conexión puede convertirse en una llamada cara a cara desde tu chat. Premium gasta un token de Cita de Video por llamada atendida (3 citas por $5.99 — compra única, nunca expira, se acumula); si la otra persona no aparece, el token se devuelve. Unirse a una invitación siempre es gratis — solo quien inicia gasta un token. Los miembros Elite llaman sin límite, sin tokens."
+      },
+      "q3": {
+        "q": "¿El Happy Hour usa mis tokens de Citas de Video?",
+        "a": "Nunca. El Ballroom es su propia experiencia — las citas rápidas nunca consumen tokens ni nada más. Los miembros Elite siempre entran; otros se unen con un Pase de Happy Hour de $4.99."
+      },
+      "q4": {
+        "q": "¿Cuándo es el Happy Hour y cómo me uno?",
+        "a": "Todos los domingos, lunes, miércoles y viernes. El lobby abre a las 6:45 PM ET — llega temprano y mira quién más viene. El emparejamiento comienza a las 7:00 PM en punto: siete citas de video de 4 minutos emparejadas automáticamente, nunca la misma pareja dos veces y nunca alguien que hayas descartado. Las Llaves mutuas conectan al instante; los resultados finales aparecen justo después de la última ronda."
+      },
+      "q5": {
+        "q": "¿Se graban las citas o llamadas?",
+        "a": "No. Las citas y llamadas nunca se graban, las cámaras son opcionales, y reportar/bloquear está siempre a un toque en cada chat, perfil y cita del Ballroom."
+      },
+      "q6": {
+        "q": "¿Cómo cancelo mi suscripción?",
+        "a": "Dos clics: Configuración → Suscripción → Cancelar. La cancelación es efectiva de inmediato y conservas el acceso hasta el final del período ya pagado. Los complementos son compras únicas y nunca se renuevan solos."
+      },
+      "q7": {
+        "q": "¿Qué es el Índice IA %?",
+        "a": "El Índice es tu puntuación de compatibilidad (0–100). Evalúa el ajuste profesional — complementariedad de roles, superposición de mercados, objetivos — además de lo básico, para que el mazo llegue pre-evaluado para ti."
+      },
+      "q8": {
+        "q": "¿Cómo funciona la verificación?",
+        "a": "Al registrarte verificamos tu identidad (identificación oficial + selfie en vivo) y tus credenciales profesionales — ID de REALTOR®, número NMLS o registro corporativo activo. Si no eres real, no entras."
+      }
+    }
   }
 }

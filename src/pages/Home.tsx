@@ -12,6 +12,7 @@ import SocialSection from '@/sections/SocialSection';
 import TestimonialsSection from '@/sections/TestimonialsSection';
 import PartnersStrip from '@/sections/PartnersStrip';
 import LegalSection from '@/sections/LegalSection';
+import FaqSection from '@/sections/FaqSection';
 import BlogSection from '@/sections/BlogSection';
 import PricingCtaSection from '@/sections/PricingCtaSection';
 
@@ -32,6 +33,7 @@ export default function Home() {
       <TestimonialsSection />
       <PartnersStrip />
       <LegalSection />
+      <FaqSection />
       <BlogSection />
       <PricingCtaSection />
     </main>

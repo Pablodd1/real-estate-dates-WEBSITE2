@@ -26,7 +26,6 @@ Happy Hour is a real scheduled event in the Ballroom, the speed-dating floor:
 
 ## Video Calls & Minutes
 - Elite members: unlimited Video Dates.
-- Video Add-on (any plan): 100 minutes for $5.99 — one-time, never expires, stacks.
 - Add-on minutes are used first; remaining minutes show inside every call; warning at 5 minutes left.
 - All calls are private, encrypted, and require both members to be matched.
 

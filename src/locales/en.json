@@ -426,7 +426,7 @@
       },
       "cta": "Enter the Ballroom",
       "footerLine": "Happy Hour: Sun · Mon · Wed · Fri · 7:00 PM ET · 4-minute dates · mutual Keys connect instantly · always free.",
-      "freeNote": "Always free minutes-wise: Ballroom speed dating never consumes your video minutes.",
+      "freeNote": "Always free: Ballroom speed dating never consumes your Video Date tokens.",
       "next": {
         "today": "Today — lobby opens 6:45 PM ET",
         "liveNow": "Live now — join the Ballroom",
@@ -839,5 +839,44 @@
       "ShieldPro Insurance"
     ],
     "note": "Partner placements — not affiliated endorsements."
+  },
+  "faq": {
+    "sectionTitle": "Help Center",
+    "title": "Questions, Answered",
+    "subtitle": "Everything you need to know about using Real Estate Dates — straight from how the app actually works.",
+    "items": {
+      "q1": {
+        "q": "What is a Key, and who can see mine?",
+        "a": "A Key is a private like, sent from the deck or during a Ballroom date. No one sees your Keys — not the other person, not other members. Only when two people Key each other does the connection unlock instantly, with chat and full biographies."
+      },
+      "q2": {
+        "q": "How do Video Dates work?",
+        "a": "Every connection can become a face-to-face call from your chat. Premium spends one Video Date token per attended call (3 dates for $5.99 — one-time, never expires, stacks); if the other member never shows, the token comes back. Joining an invitation is always free — only the starter spends a token. Elite members call as much as they like, no tokens."
+      },
+      "q3": {
+        "q": "Does Happy Hour use my Video Date tokens?",
+        "a": "Never. The Ballroom is its own experience — speed dating never consumes tokens or anything else. Elite members are always in; others join with a $4.99 Happy Hour Pass."
+      },
+      "q4": {
+        "q": "When is Happy Hour and how do I join?",
+        "a": "Every Sunday, Monday, Wednesday and Friday. The lobby opens at 6:45 PM ET — arrive early and see who else is coming. Pairing starts at 7:00 PM sharp: seven auto-paired 4-minute video dates, never the same partner twice and never someone you passed on. Mutual Keys connect instantly; final results appear right after the last round."
+      },
+      "q5": {
+        "q": "Are video dates or calls recorded?",
+        "a": "No. Dates and calls are never recorded, cameras are optional, and report/block is always one tap away in every chat, profile, and Ballroom date."
+      },
+      "q6": {
+        "q": "How do I cancel my subscription?",
+        "a": "Two clicks: Settings → Subscription → Cancel. Cancellation is effective immediately and you keep access until the end of the period you already paid for. Add-on packs are one-time purchases and never auto-renew."
+      },
+      "q7": {
+        "q": "What is the AI Index %?",
+        "a": "The Index is your compatibility score (0–100). It evaluates professional fit — role complementarity, market overlap, goals — alongside the usual basics, so the deck is pre-underwritten for you."
+      },
+      "q8": {
+        "q": "How does verification work?",
+        "a": "At signup we verify your identity (government ID + live selfie match) and your professional credentials — REALTOR® ID, NMLS number, or active corporate registration. If you aren't real, you don't get in."
+      }
+    }
   }
 }
