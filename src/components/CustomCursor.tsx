@@ -1,95 +1,55 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { KeyRound } from 'lucide-react';
 
+/**
+ * Key-only cursor. No trailing ring, no lerp loop, no transitions on
+ * movement — the key is pinned to the pointer on every mousemove, so it
+ * feels instant. Hover feedback is a quick scale, not a follow animation.
+ */
 export default function CustomCursor() {
   const cursorRef = useRef<HTMLDivElement>(null);
-  const ringRef = useRef<HTMLDivElement>(null);
-  const [isHovering, setIsHovering] = useState(false);
-  const [isTouchDevice, setIsTouchDevice] = useState(false);
+  const hoverRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    // Detect touch device
-    if ('ontouchstart' in window || navigator.maxTouchPoints > 0) {
-      setIsTouchDevice(true);
-      return;
-    }
+    // Touch devices keep the native cursor
+    if ('ontouchstart' in window || navigator.maxTouchPoints > 0) return;
 
     const cursor = cursorRef.current;
-    const ring = ringRef.current;
-    if (!cursor || !ring) return;
-
-    let mouseX = 0;
-    let mouseY = 0;
-    let ringX = 0;
-    let ringY = 0;
+    const hover = hoverRef.current;
+    if (!cursor || !hover) return;
 
     const handleMouseMove = (e: MouseEvent) => {
-      mouseX = e.clientX;
-      mouseY = e.clientY;
-      cursor.style.transform = `translate(${mouseX}px, ${mouseY}px)`;
+      cursor.style.transform = `translate(${e.clientX}px, ${e.clientY}px)`;
     };
 
-    const animateRing = () => {
-      ringX += (mouseX - ringX) * 0.15;
-      ringY += (mouseY - ringY) * 0.15;
-      ring.style.transform = `translate(${ringX}px, ${ringY}px)`;
-      requestAnimationFrame(animateRing);
+    const handleOver = (e: MouseEvent) => {
+      const target = e.target as HTMLElement | null;
+      const interactive = target?.closest('a, button, [role="button"], input, textarea, select, label');
+      hover.dataset.hovering = interactive ? 'true' : 'false';
     };
 
-    const handleMouseEnterInteractive = () => setIsHovering(true);
-    const handleMouseLeaveInteractive = () => setIsHovering(false);
-
-    // Attach listeners
-    window.addEventListener('mousemove', handleMouseMove);
-    requestAnimationFrame(animateRing);
-
-    // Watch for interactive elements
-    const interactiveElements = document.querySelectorAll('a, button, [role="button"], input, textarea, select');
-    interactiveElements.forEach((el) => {
-      el.addEventListener('mouseenter', handleMouseEnterInteractive);
-      el.addEventListener('mouseleave', handleMouseLeaveInteractive);
-    });
+    window.addEventListener('mousemove', handleMouseMove, { passive: true });
+    document.addEventListener('mouseover', handleOver, { passive: true });
 
     return () => {
       window.removeEventListener('mousemove', handleMouseMove);
-      interactiveElements.forEach((el) => {
-        el.removeEventListener('mouseenter', handleMouseEnterInteractive);
-        el.removeEventListener('mouseleave', handleMouseLeaveInteractive);
-      });
+      document.removeEventListener('mouseover', handleOver);
     };
   }, []);
 
-  if (isTouchDevice) return null;
-
   return (
-    <>
-      {/* Inner Key */}
+    <div
+      ref={cursorRef}
+      className="fixed top-0 left-0 z-[9998] pointer-events-none hidden sm:block"
+      style={{ willChange: 'transform' }}
+    >
       <div
-        ref={cursorRef}
-        className="fixed top-0 left-0 z-[9998] pointer-events-none"
-        style={{ willChange: 'transform' }}
+        ref={hoverRef}
+        data-hovering="false"
+        className="-translate-x-1/2 -translate-y-1/2 cursor-key"
       >
-        <div
-          className={`transition-all duration-200 -translate-x-1/2 -translate-y-1/2 ${
-            isHovering ? 'scale-75 opacity-50' : 'scale-100 opacity-100'
-          }`}
-        >
-          <KeyRound className="w-5 h-5 text-gold" strokeWidth={2.5} />
-        </div>
+        <KeyRound className="w-5 h-5 text-gold drop-shadow-[0_1px_3px_rgba(0,0,0,0.6)]" strokeWidth={2.5} />
       </div>
-
-      {/* Outer ring */}
-      <div
-        ref={ringRef}
-        className="fixed top-0 left-0 z-[9997] pointer-events-none"
-        style={{ willChange: 'transform' }}
-      >
-        <div
-          className={`rounded-full border border-gold/50 transition-all duration-300 -translate-x-1/2 -translate-y-1/2 ${
-            isHovering ? 'w-12 h-12 border-gold bg-gold/10' : 'w-10 h-10'
-          }`}
-        />
-      </div>
-    </>
+    </div>
   );
 }
