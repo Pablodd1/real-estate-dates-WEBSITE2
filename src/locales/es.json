@@ -832,5 +832,17 @@
       }
     ],
     "legendTitle": "La Leyenda — Real Estate Dates, Decodificado"
+  },
+  "partners": {
+    "sectionTitle": "Con el respaldo de la industria",
+    "list": [
+      "Meridian Title & Escrow",
+      "Coastal Mortgage Co.",
+      "TrueNorth Home Inspection",
+      "Belleza Staging & Design",
+      "LensHouse Photography",
+      "ShieldPro Insurance"
+    ],
+    "note": "Espacios de socios — no son respaldos afiliados."
   }
 }
