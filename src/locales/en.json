@@ -826,19 +826,9 @@
         "def": "a private call in a Connection (unlimited Elite · 3×5-minute pack for Premium · Ballroom always free)"
       }
     ],
-    "legendTitle": "The Legend — Real Estate Dates, Decoded"
-  },
-  "partners": {
-    "sectionTitle": "Trusted by the industry",
-    "list": [
-      "Meridian Title & Escrow",
-      "Coastal Mortgage Co.",
-      "TrueNorth Home Inspection",
-      "Belleza Staging & Design",
-      "LensHouse Photography",
-      "ShieldPro Insurance"
-    ],
-    "note": "Partner placements — not affiliated endorsements."
+    "legendTitle": "The Legend — Real Estate Dates, Decoded",
+    "ecosystemTitle": "Connected Innovation Ecosystem",
+    "ecosystemNote": "Cross-industry ventures, one network"
   },
   "faq": {
     "sectionTitle": "Help Center",

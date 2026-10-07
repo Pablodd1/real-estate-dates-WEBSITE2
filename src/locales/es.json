@@ -831,19 +831,9 @@
         "def": "una llamada privada en una Conexión (ilimitada en Elite · paquete de 3×5 minutos en Premium · Ballroom siempre gratis)"
       }
     ],
-    "legendTitle": "La Leyenda — Real Estate Dates, Decodificado"
-  },
-  "partners": {
-    "sectionTitle": "Con el respaldo de la industria",
-    "list": [
-      "Meridian Title & Escrow",
-      "Coastal Mortgage Co.",
-      "TrueNorth Home Inspection",
-      "Belleza Staging & Design",
-      "LensHouse Photography",
-      "ShieldPro Insurance"
-    ],
-    "note": "Espacios de socios — no son respaldos afiliados."
+    "legendTitle": "La Leyenda — Real Estate Dates, Decodificado",
+    "ecosystemTitle": "Ecosistema de Innovación Conectado",
+    "ecosystemNote": "Emprendimientos multi-industria, una sola red"
   },
   "faq": {
     "sectionTitle": "Centro de Ayuda",

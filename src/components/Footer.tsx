@@ -1,5 +1,6 @@
 import { LogoIcon } from './Logo';
 import { useTranslation } from 'react-i18next';
+import { ecosystemLinks, UTM } from '@/data/ecosystem';
 
 interface LegendItem {
   term: string;
@@ -13,6 +14,31 @@ export default function Footer() {
   return (
     <footer className="w-full py-6 sm:py-8 border-t ">
       <div className="max-w-[1280px] mx-auto px-4 sm:px-6 flex flex-col gap-4 sm:gap-5">
+        {/* Innovation ecosystem — our other ventures, on every page */}
+        <div className="border-b border-white/[0.06] pb-5">
+          <p className="flex items-center justify-center gap-2 text-[9px] sm:text-[10px] uppercase tracking-[0.25em] text-gold/70 font-semibold mb-3">
+            <span className="w-1.5 h-1.5 rounded-full bg-gold/70 animate-pulse" aria-hidden="true" />
+            {t('footer.ecosystemTitle')}
+          </p>
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 max-w-[900px] mx-auto">
+            {ecosystemLinks('realestatedates.com').map((p) => (
+              <a
+                key={p.url}
+                href={`${p.url}${p.url.includes('?') ? '&' : '?'}${UTM}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group inline-flex items-baseline gap-1.5 text-[10px] sm:text-[11px] text-white/45 hover:text-gold transition-colors"
+              >
+                <span className="font-semibold">{p.short}</span>
+                <span className="text-white/25 group-hover:text-gold/60 transition-colors">{p.category}</span>
+              </a>
+            ))}
+          </div>
+          <p className="text-center text-[9px] text-white/25 mt-3">
+            {t('footer.ecosystemNote')} · realestatedates.com/ecosystem.json
+          </p>
+        </div>
+
         {/* Legend / glossary */}
         <div className="border-b border-white/[0.06] pb-5">
           <p className="text-center text-[9px] sm:text-[10px] uppercase tracking-[0.25em] text-gold/70 font-semibold mb-3">

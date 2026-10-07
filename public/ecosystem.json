@@ -1,0 +1,47 @@
+{
+  "network": "Connected Innovation Ecosystem",
+  "updated": "2026-10-07",
+  "utm": "utm_source=ecosystem_network&utm_medium=cross_promo&utm_campaign=shared_network",
+  "platforms": [
+    {
+      "name": "AI Dynamic Pro",
+      "category": "Enterprise AI",
+      "url": "https://www.aidynamic.pro/"
+    },
+    {
+      "name": "Chat Building Innovation",
+      "category": "AEC Tech",
+      "url": "https://www.chatbuildinginnovation.us/"
+    },
+    {
+      "name": "PocketScribe",
+      "category": "Clinical AI",
+      "url": "https://pocketscribe.online/"
+    },
+    {
+      "name": "Real Estate Dates",
+      "category": "PropTech",
+      "url": "https://realestatedates.com/"
+    },
+    {
+      "name": "JAS Miami Method",
+      "category": "Human Performance",
+      "url": "https://jasmiamimethod.fit/"
+    },
+    {
+      "name": "Unitec USA Design",
+      "category": "Architectural 3D",
+      "url": "https://www.unitecusadesign.com/"
+    },
+    {
+      "name": "305business",
+      "category": "Business Advisory",
+      "url": "https://305business-llc.vercel.app/"
+    },
+    {
+      "name": "Medical Billing Miami Beach",
+      "category": "Healthcare RevOps",
+      "url": "https://medicalbillingmb.com/"
+    }
+  ]
+}
